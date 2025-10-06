@@ -188,6 +188,10 @@ npm run preview
 
 Outputs to `dist/` directory.
 
+## 🚀 Deployment
+
+- **GitHub Pages (Vite + Actions):** [docs/deployment/github-pages.md](docs/deployment/github-pages.md)
+
 ## 🎨 Prompt Seeds
 
 The `_prompt seeds/` directory contains detailed guides for generating visual assets that maintain brand consistency:
