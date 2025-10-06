@@ -52,6 +52,7 @@ export const GlossaryTerm = ({ term, children, className = '' }: GlossaryTermPro
 export const wrapGlossaryTerms = (html: string): string => {
   // List of terms to auto-wrap (case-insensitive)
   const termsToWrap = [
+    // Graph Theory
     'adjacent',
     'vertex',
     'vertices',
@@ -59,13 +60,28 @@ export const wrapGlossaryTerms = (html: string): string => {
     'planar',
     'chromatic',
     'Hamiltonian path',
+    // Topology
     'topology',
     'orientable',
     'non-orientable',
     'manifold',
+    // Number Theory
+    'modular arithmetic',
+    'number theory',
+    'divisibility',
+    'abstract algebra',
+    'hash functions',
     'prime',
     'factorial',
     'combinatorics',
+    // Logic & CS
+    'logical deduction',
+    'Boolean logic',
+    'conditionals',
+    'logic gates',
+    'cryptography',
+    'formal logic',
+    // Geometry & General
     'Euclidean',
     'theorem',
     'conjecture',

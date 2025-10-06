@@ -11,8 +11,6 @@ interface FeedbackPanelProps {
   onDismiss?: () => void
   onTryAgain?: () => void
   showActions?: boolean
-  xpEarned?: number
-  onComplete?: () => void
 }
 
 export const FeedbackPanel = ({
@@ -20,8 +18,6 @@ export const FeedbackPanel = ({
   onDismiss,
   onTryAgain,
   showActions = true,
-  xpEarned,
-  onComplete,
 }: FeedbackPanelProps) => {
   const contentRef = useRef<HTMLDivElement>(null)
 
@@ -41,13 +37,6 @@ export const FeedbackPanel = ({
 
     return () => clearTimeout(timer)
   }, [result])
-
-  // Trigger completion callback when result becomes correct
-  useEffect(() => {
-    if (result?.isCorrect && onComplete) {
-      onComplete()
-    }
-  }, [result?.isCorrect, onComplete])
 
   if (!result) return null
 
@@ -94,31 +83,14 @@ export const FeedbackPanel = ({
               )}
             </div>
           </div>
-          <div className="flex items-center gap-4">
-            {xpEarned !== undefined && result.isCorrect && xpEarned > 0 && (
-              <motion.div
-                initial={{ scale: 0, rotate: -180 }}
-                animate={{ scale: 1, rotate: 0 }}
-                transition={{ type: 'spring', stiffness: 200 }}
-                className="px-4 py-2 rounded-lg bg-gradient-to-r from-cabinet-yellow to-orange-500 font-bold text-white shadow-lg"
-              >
-                +{xpEarned} XP
-              </motion.div>
-            )}
-            {xpEarned === 0 && result.isCorrect && (
-              <div className="px-4 py-2 rounded-lg bg-slate-700 text-slate-300 text-sm">
-                Already completed
-              </div>
-            )}
-            {onDismiss && (
-              <button
-                onClick={onDismiss}
-                className="text-slate-400 hover:text-white transition-colors"
-              >
-                ✕
-              </button>
-            )}
-          </div>
+          {onDismiss && (
+            <button
+              onClick={onDismiss}
+              className="text-slate-400 hover:text-white transition-colors"
+            >
+              ✕
+            </button>
+          )}
         </div>
 
         {/* Summary */}

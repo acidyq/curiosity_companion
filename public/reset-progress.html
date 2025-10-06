@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reset Progress - Development Only</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    }
+    .container {
+      background: white;
+      padding: 2rem;
+      border-radius: 1rem;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+      max-width: 500px;
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+      margin-top: 0;
+    }
+    .warning {
+      background: #fff3cd;
+      border: 2px solid #ffc107;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin: 1rem 0;
+      color: #856404;
+    }
+    .button-group {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1.5rem;
+    }
+    button {
+      flex: 1;
+      padding: 1rem;
+      border: none;
+      border-radius: 0.5rem;
+      font-size: 1rem;
+      font-weight: bold;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    button:hover {
+      transform: scale(1.05);
+    }
+    .reset-btn {
+      background: #dc3545;
+      color: white;
+    }
+    .cancel-btn {
+      background: #6c757d;
+      color: white;
+    }
+    .success {
+      background: #d4edda;
+      border: 2px solid #28a745;
+      color: #155724;
+      padding: 1rem;
+      border-radius: 0.5rem;
+      margin-top: 1rem;
+      display: none;
+    }
+    .stats {
+      background: #f8f9fa;
+      border-radius: 0.5rem;
+      padding: 1rem;
+      margin: 1rem 0;
+      text-align: left;
+    }
+    .stat-item {
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid #dee2e6;
+    }
+    .stat-item:last-child {
+      border-bottom: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🔧 Development Reset</h1>
+
+    <div class="warning">
+      ⚠️ <strong>Development Only</strong><br>
+      This will permanently delete all progress, XP, achievements, and streaks.
+    </div>
+
+    <div class="stats" id="current-stats">
+      <h3 style="margin-top: 0;">Current Progress</h3>
+      <div class="stat-item">
+        <span>Total XP:</span>
+        <strong id="xp">0</strong>
+      </div>
+      <div class="stat-item">
+        <span>Level:</span>
+        <strong id="level">0</strong>
+      </div>
+      <div class="stat-item">
+        <span>Modules Completed:</span>
+        <strong id="modules">0</strong>
+      </div>
+      <div class="stat-item">
+        <span>Current Streak:</span>
+        <strong id="streak">0 days</strong>
+      </div>
+      <div class="stat-item">
+        <span>Achievements:</span>
+        <strong id="achievements">0</strong>
+      </div>
+    </div>
+
+    <div class="button-group">
+      <button class="cancel-btn" onclick="goBack()">Cancel</button>
+      <button class="reset-btn" onclick="resetProgress()">Reset All Progress</button>
+    </div>
+
+    <div class="success" id="success">
+      ✅ Progress reset successfully!<br>
+      <a href="/" style="color: #155724;">Return to app</a>
+    </div>
+  </div>
+
+  <script>
+    // Load and display current progress
+    function loadCurrentProgress() {
+      try {
+        const stored = localStorage.getItem('curiosity-progress')
+        if (stored) {
+          const data = JSON.parse(stored)
+          const state = data.state
+
+          document.getElementById('xp').textContent = state.stats?.totalXP || 0
+          document.getElementById('level').textContent = state.stats?.level || 0
+          document.getElementById('modules').textContent = state.stats?.modulesCompleted || 0
+          document.getElementById('streak').textContent = (state.streak?.currentStreak || 0) + ' days'
+          document.getElementById('achievements').textContent = state.stats?.achievementsUnlocked || 0
+        }
+      } catch (error) {
+        console.error('Error loading progress:', error)
+      }
+    }
+
+    function resetProgress() {
+      if (confirm('Are you absolutely sure? This cannot be undone!')) {
+        // Clear the Zustand persisted state
+        localStorage.removeItem('curiosity-progress')
+
+        // Also clear any other related items
+        for (let key in localStorage) {
+          if (key.startsWith('curiosity')) {
+            localStorage.removeItem(key)
+          }
+        }
+
+        document.querySelector('.stats').style.display = 'none'
+        document.querySelector('.button-group').style.display = 'none'
+        document.querySelector('.warning').style.display = 'none'
+        document.getElementById('success').style.display = 'block'
+      }
+    }
+
+    function goBack() {
+      window.location.href = '/'
+    }
+
+    // Load current stats on page load
+    loadCurrentProgress()
+  </script>
+</body>
+</html>

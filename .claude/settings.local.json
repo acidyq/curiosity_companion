@@ -7,7 +7,18 @@
       "Bash(npm run dev:*)",
       "Bash(lsof:*)",
       "Bash(kill:*)",
-      "Bash(cd:*)"
+      "Bash(cd:*)",
+      "Bash(git commit -m \"$(cat <<''EOF''\nInitial commit: Curiosities Companion learning tool\n\nSet up React + Vite + TypeScript project with Tailwind CSS for exploring mathematical curiosities. Includes state management with Zustand, routing with React Router, and animations with Framer Motion.\n\n🤖 Generated with [Claude Code](https://claude.com/claude-code)\n\nCo-Authored-By: Claude <noreply@anthropic.com>\nEOF\n)\")",
+      "Bash(git branch:*)",
+      "Bash(git remote add:*)",
+      "Bash(git push:*)",
+      "Bash(git remote set-url:*)",
+      "Bash(ssh-add:*)",
+      "Read(//Users/acydyca/.ssh/**)",
+      "Bash(ssh-keygen:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ],
     "deny": [],
     "ask": []

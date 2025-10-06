@@ -18,3 +18,20 @@
   height: 100%;
   transition: transform 0.3s ease-out;
 }
+
+/* Glossary Terms Styling */
+.glossary-term {
+  display: inline;
+  cursor: help;
+  color: #ea580c; /* Discovery Orange */
+  font-weight: 500;
+  border-bottom: 2px dotted rgba(234, 88, 12, 0.5);
+  transition: all 0.2s ease;
+  text-decoration: none;
+}
+
+.glossary-term:hover {
+  color: #f97316; /* Lighter orange on hover */
+  border-bottom-color: #f97316;
+  border-bottom-style: solid;
+}
