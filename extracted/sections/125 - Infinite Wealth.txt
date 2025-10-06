@@ -1,0 +1,34 @@
+Infinite Wealth
+During the early development of probability theory, a lot of
+effort was expended – mainly by various members of the
+Bernoulli family, which had four generations of able mathemat-
+icians – on a strange puzzle, the St Petersburg paradox.
+    You play against the bank, tossing a coin until it first lands
+heads. The longer you keep tossing tails, the more the bank will
+pay out. In fact, if you toss heads on the first try, the bank pays you
+£2. If you first toss heads on the second try, the bank pays you £4. If
+you first toss heads on the third try, the bank pays you £8. In
+general, if you first toss heads on the nth try, the bank pays you £2n .
+    The question is: how much should you be willing to pay to
+take part in the game?
+    To answer this, you should calculate your ‘expected’
+winnings, in the long run, and the rules of probability tell you
+how. The probability of a head on the first toss is 12, and you then
+win £1, so the expected gain on the first toss is 12 62 ¼ 1. The
+probability of a head first arising on the second toss is 14, and you
+then win £4, so the expected gain on the second toss is 14 64 ¼ 1.
+Continuing in this way, the expected gain on the nth toss is
+2 n62n ¼ 1. In total, your expected winnings amount to
+1
+
+
+       1 þ 1 þ 1 þ 1 þ ...
+
+going on forever, which is infinite. Therefore you should pay the
+bank an infinite amount to play the game.
+       What—if anything—is wrong here?
+
+
+...........................................
+   Answer on page 299
+212 // Let Fate Decide

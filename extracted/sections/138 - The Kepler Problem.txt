@@ -1,0 +1,147 @@
+The Kepler Problem
+Mathematicians have learned that apparently simple questions
+are often hard to answer, and apparently obvious facts may be
+false, or may be true but extremely hard to prove. The Kepler
+problem is a case in point: it took nearly three hundred years to
+232 // The Kepler Problem
+
+
+
+solve it, even though everyone knew the correct answer from the
+start.
+     It all began in 1611 when Johannes Kepler, a mathematician
+and astrologer (yes, he cast horoscopes; lots of mathematicians
+did at that time – it was a quick way to make money) wanted to
+give his sponsor a New Year’s gift. The sponsor rejoiced in the
+name Johannes Mathäus Wacker of Wackenfels, and Kepler
+wanted to say ‘thanks for all the cash’ without actually spending
+any of it. So he wrote a book, and presented it to his sponsor. Its
+title (in Latin) was The Six-Cornered Snowflake. Kepler started with
+the curious shapes of snowflakes, which often form beautiful
+sixfold symmetric crystals, and asked why this happened.
+
+
+
+
+                                                A typical ‘dendritic’
+                                                snowflake.
+
+
+    It is often said that ‘no two snowflakes are alike’. The logician
+in me objects ‘How can you tell?’ but a back-of-the-envelope
+calculation suggests that there are so many features in a
+‘dendritic’ snowflake, of the kind illustrated, that the chance of
+two being identical is pretty much zero.
+    No matter. What matters here is that Kepler’s analysis of the
+snowflake led him to the idea that its sixfold symmetry arises
+because that’s the most efficient way to pack circles in a plane.
+    Take a lot of coins, of the same denomination – pennies, say.
+If you lay them on a table and push them together tightly, you
+                                         The Kepler Problem // 233
+
+
+
+quickly discover that they fit perfectly into a honeycomb
+pattern, or ‘hexagonal lattice’:
+
+
+                                             (Left) The closest way to
+                                             pack circles, and (right)
+                                             a less efficient lattice
+                                             packing.
+
+    And this is the closest packing – the one that fills space most
+efficiently, in the ideal case of infinitely many circles arranged on
+a plane. Alternatives, such as the square lattice on the right, are
+less efficient.
+    Mind you, this innocent assertion wasn’t proved until 1940,
+when László Fejes Tóth managed it. (Axel Thue sketched out a
+proof in 1892, and gave more details in 1910, but he left some
+gaps.) Tóth’s proof was quite hard. Why the difficulty? We don’t
+know, to begin with, that the most efficient packing forms a
+regular lattice. Maybe something more random could work
+better. (For finite packings, say inside a square, this can actually
+happen – see the next puzzle, about a milk crate.)
+    Along the way, Kepler came very close indeed to the idea that
+all matter is made from tiny indivisible components, which we
+now call ‘atoms’. This is impressive, given that he did no
+experiments in the course of writing his book. Atomic theory,
+introduced by the Greek Democritus, was not established
+experimentally until about 1900.
+    Kepler had his eye on something a bit more complicated,
+though: the closest way to pack identical spheres in space. He
+was aware of three regular ‘lattice’ packings, which we now call
+the hexagonal, cubic and face-centred cubic lattices. The first of
+these is formed by stacking lots of honeycomb layers of spheres
+on top of one another, with the centres of corresponding spheres
+forming a vertical line. The second is made from square-lattice
+layers, also stacked vertically. For the third, we stack hexagonal
+layers, but fit the spheres in any given layer into the hollows in
+the one below.
+234 // The Kepler Problem
+
+
+
+    You can get the same result, though tilted, by similarly
+stacking square-lattice layers so that the spheres in any given
+layer fit into the hollows in the one below – this isn’t entirely
+obvious, and – like the milk crate puzzle – it shows that intuition
+may not be a good guide in this area. The picture shows how this
+happens: the horizontal layers are square, but the slanting layers
+are hexagonal.
+
+
+                                      Part of a face-centred
+                                      cubic lattice.
+
+
+
+
+    Now, every greengrocer knows that the way to stack oranges
+is to use the face-centred cubic lattice.* By thinking about
+pomegranate seeds, Kepler was led to the casual remark that with
+the face-centred cubic lattice, ‘the packing will be the tightest
+possible’.
+    That was in 1611. The proof that Kepler was right had to wait
+until 1998, when Thomas Hales announced that he had achieved
+this with massive computer assistance. Basically, Hales consid-
+ered all possible ways to surround a sphere with other spheres,
+and showed that if the arrangement wasn’t the one found in the
+face-centred cubic lattice, then the spheres could be shoved
+closer together. Tóth’s proof in the plane used the same ideas,
+but he only had to check about forty cases.
+    Hales had to check thousands, so he rephrased the problem
+in terms that could be verified by a computer. This led to a huge
+computation – but each step in it is essentially trivial. Almost all
+of the proof has been checked independently, but a very tiny
+level of doubt still remains. So Hales has started a new computer-
+
+*   They don’t say it that way, but they stack it that way.
+                                    The Milk Crate Problem // 235
+
+
+
+based project to devise a proof that can be verified by standard
+proof-checking software. Even then, a computer will be involved
+in the verifications, but the software concerned does such simple
+things – in principle – that a human can check that the software
+does what it is supposed to. The project will probably take 20
+years. You can still object on philosophical grounds if you wish,
+but you’ll be splitting logical hairs very finely indeed.
+    What makes the problem so hard? Greengrocers usually start
+with a square box that has a flat base, so they naturally pack their
+oranges in layers, making each layer a square lattice. It is then
+natural to make the second layer fill the gaps in the bottom one,
+and so on. If by chance they start with a hexagonal layer instead,
+they get the same packing anyway, except for a tilt. Gauss proved
+in 1831 that Kepler’s packing is the tightest lattice packing. But
+the mathematical problem here is to prove this, without
+assuming at the start that the packing forms flat layers. The
+mathematician’s spheres can hover unsupported in space. So the
+greengrocer’s ‘solution’ involves a whole pile of assumptions –
+well, actually, oranges. Since experiments aren’t proofs, and here
+even the experiment is dodgy, you can see that the problem
+
+
+...........................................
+could be harder than it seems.

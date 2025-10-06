@@ -1,0 +1,51 @@
+Two Perpendiculars
+Euclidean geometry is renowned for its logical consistency: no
+two theorems contradict each other. Actually, there are errors in
+Euclid. Here’s a case in point.
+   One of Euclid’s theorems proves that if we have a line, and a
+point not on the line, then there is exactly one ‘perpendicular’
+from the point to the line. That is, there is a line through the
+point that meets the original line at right angles – and there is
+only one such line. (If there were two, they would be parallel, so
+they couldn’t both pass through the same point.)
+
+
+
+
+       Given AB and X, we can find P such that PX is perpendicular to
+       AB. There can’t be another point Q like that, because the line
+       through Q is parallel to PX so it can’t pass through X.
+
+    A second Euclidean theorem proves that if you take a circle
+and join the two ends of a diameter to a point on the
+circumference, you get a right angle.
+168 // Can You Hear the Shape of a Drum?
+
+
+
+
+                                      If AB is a diameter of the
+                                      circle, angle APB is a right
+                                      angle.
+
+
+   Let’s put these two theorems together and see what happens.
+
+
+
+
+                                      How to find two
+                                      perpendiculars.
+
+
+    Given the line AB and the point X, draw circles with
+diameters AX and BX. Let the line AB meet the first circle at P and
+the second circle at Q. Then the angle APX is a right angle, since
+AX is a diameter of the first circle. Similarly, the angle BQX is a
+right angle. So there are two perpendiculars XP and XQ from X to
+AB.
+    Which of Euclid’s two theorems is wrong?
+
+
+...........................................
+   Answer on page 288

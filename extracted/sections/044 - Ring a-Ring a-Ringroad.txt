@@ -1,0 +1,31 @@
+Ring a-Ring a-Ringroad
+The M25 motorway completely encircles London, and in Britain
+we drive on the left. So if you travel clockwise round the M25
+you stay on the outside carriageway, whereas travelling anti-
+clockwise keeps you on the inside carriageway, which is shorter.
+But how much shorter? The total length of the M25 is 188 km
+(117 miles), so the advantage of being on the inside carriageway
+ought to be quite a lot – shouldn’t it?
+
+
+
+
+                                                                      The M25
+                                                                      motorway.
+68 // Pure v. Applied
+
+
+
+   Suppose that two cars travel right round the M25, staying in
+the outside lane—no, make that two white vans travelling right
+round the M25, staying in the outside lane, as they tend to do.
+Assume that one is going clockwise and the other anticlockwise,
+and suppose (which is not entirely true but makes the problem
+specific) that the distance between these two lanes is always 10
+metres. How much further does the clockwise van travel than the
+anticlockwise one? You may assume that the roads all lie in a flat
+plane (which also isn’t entirely true).
+
+
+...........................................
+   Answer on page 267

@@ -1,0 +1,110 @@
+The Sausage Conjecture
+This is one of my favourite unsolved mathematical problems,
+and it is absolutely weird, believe me.
+    As a warm-up, suppose you are packing a lot of identical
+circles together in the plane, and ‘shrink-wrapping’ them by
+surrounding the lot with the shortest curve you can. With 7
+circles, you could try a long ‘sausage’:
+
+
+
+
+       Sausage shape and wrapping.
+
+    However, suppose that you want to make the total area inside
+the curve – circles and the spaces between them – as small as
+possible. If each circle has radius 1, then the area of the sausage is
+27.141. But there is a better arrangement of the circles, a
+hexagon with a central circle, and now the area is 25.533, which
+is smaller:
+
+
+
+
+                                   Hexagonal shape
+                                   and wrapping.
+
+
+    Curiously, if you use identical spheres instead of circles, and
+shrink-wrap them with the surface of smallest possible area, then
+for 7 spheres the long sausage shape leads to a smaller total
+90 // Tom Fool’s Knot
+
+
+
+volume than the hexagonal arrangement. This sausage pattern
+gives the smallest volume inside the wrapping for any number of
+spheres up to 56. But with 57 spheres or more, the minimal
+arrangements are more rotund.
+    Less intuitive still is what happens in spaces of four or more
+dimensions. The arrangement of 4-dimensional spheres whose
+wrapping gives the smallest 4-dimensional ‘volume’ is a sausage
+for any number of spheres up to 50,000. It’s not a sausage for
+100,000 spheres, though. So the packing of smallest volume uses
+very long thin strings of spheres until you get an awful lot of
+them. Nobody knows the precise number at which 4-dimen-
+sional sausages cease to be the best.
+    The really fascinating change probably comes at five dimen-
+sions. You might imagine that in five dimensions sausages are
+best for, say, up to 50 billion spheres, but then something more
+rotund gives a smaller 5-dimensional volume; and for six
+dimensions the same sort of thing holds up to 29 squillion
+spheres, and so on. But in 1975 Laszlo Fejes Tóth formulated the
+sausage conjecture, which states that for five or more dimensions,
+the arrangement of spheres that occupies the smallest volume
+when shrink-wrapped is always a sausage – however large the
+number of spheres may be.
+    In 1998 Ulrich Betke, Martin Henk and Jörg Wills proved that
+Tóth was right for any number of dimensions greater than or
+
+
+...........................................
+equal to 42. To date, that’s the best we know.
+
+
+
+Tom Fool’s Knot
+This trick lets you tie a decorative knot while everybody watches.
+When you challenge them to do the same, they fail. No matter
+how many times you demonstrate the method, they seem unable
+to copy it successfully.
+                                              Tom Fool’s Knot // 91
+
+
+
+
+       Stages in tying the Tom Fool’s knot.
+
+     Take a length of soft cord about two metres long and hold it
+across your palms as in the first diagram, with your hands about
+half a metre apart. Let the two long ends hang down to
+counterbalance the weight of the length between the palms.
+Now bring your hands slowly together, all the while twiddling
+the fingers of the right hand. The finger twiddles have nothing at
+all to do with the method of tying the knot, but they distract
+spectators from the important moves, all of which happen with
+the left hand. Make the movements of your right hand seem as
+purposeful as you can.
+     With the left hand, first slide your thumb under the cord and
+pick it up, as in the second diagram. Then rapidly withdraw your
+fingers and replace them behind the hanging end, as shown by
+the arrow in the second diagram, to reach the position of the
+third figure. Without stopping, flip your fingers under the
+horizontal length of cord, as shown by the arrow in the third
+diagram, and withdraw your thumb. You should now have
+reached the position shown in the fourth diagram. Finally, use
+the tips of the fingers of each hand to grasp the end of cord
+hanging from the other hand, as in the fifth diagram. Holding on
+to the cord, pull the hands apart, and the lovely symmetrical
+knot of the final diagram appears.
+     Practice the method until you can perform it as a single,
+rhythmic movement. The knot unties if you just pull on the ends
+92 // New Merology
+
+
+
+of the cord, so you can tie it over and over again. The trick
+
+
+...........................................
+becomes more mysterious every time you do it.

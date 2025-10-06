@@ -1,0 +1,10 @@
+The Cube of Cheese
+An oldie, but none the worse for that. Marigold Mouse has a cube
+of cheese and a carving-knife. She wishes to slice the cheese
+along a flat plane, to obtain a cross-section that is a regular
+hexagon. Can she do this, and if so, how?
+
+
+...........................................
+   Answer on page 304
+                                          The Game of Life // 223

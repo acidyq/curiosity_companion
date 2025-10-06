@@ -1,0 +1,58 @@
+All Triangles are Isosceles
+This puzzle requires some knowledge of Euclidean geometry,
+which nowadays isn’t taught . . . Ho hum. It’s still accessible if
+you’re prepared to take a few facts on trust.
+    An isosceles triangle has two sides equal. (The third could also
+be equal: this makes the triangle equilateral, but it still counts as
+isosceles too.) Since it is easy to draw triangles with all three sides
+different, the title of this section is clearly false. Nevertheless,
+here is a geometric proof that it is true.
+
+
+
+
+                                            This triangle is isosceles –
+                                            except that it clearly isn’t.
+
+
+
+
+(1) Take any triangle ABC.
+
+(2) Draw a line CX that cuts the top angle in half, so that angles a
+and b are equal. Draw a line MX at right angles to the bottom
+edge at its midpoint, so that AM = MB. This meets the previous
+line, CX, somewhere inside the triangle at the point X.
+
+(3) Draw lines from X to the other two corners A and B. Draw XD
+and XE to make angles c, d, e and f all right angles.
+
+(4) Triangles CXD and CXE are congruent – that is, they have the
+same shape and size (though one is the other flipped over). The
+204 // Square Year
+
+
+
+reason is that angles a and b are equal, angles c and d are equal,
+and the side CX is common to both triangles.
+
+(5)    Therefore lines CD and CE are equal.
+
+(6)    So are lines XD and XE.
+
+(7) Since M is the midpoint of AB and MX is at right angles to
+AB, the lines XA and XB are equal.
+
+(8) But now triangles XDA and XEB are congruent. The reason is
+that XD = XE, XA = XB and angle e equals angle f.
+
+(9)    Therefore DA = EB.
+
+(10) Combining steps 5 and 9: CA ¼ CD þ DA ¼ CE þ EB ¼ CB.
+So lines CA and CB are equal, and triangle ABC is isosceles.
+
+What’s wrong here? (Hint: it’s not the use of congruent triangles.)
+
+
+...........................................
+      Answer on page 298

@@ -1,0 +1,15 @@
+Scrabble Oddity
+The letter scores at Scrabble are:
+       Score 1           A, E, I, L, N, O, R, S, T, U
+       Score 2           D, G
+       Score 3           B, C, M, P
+       Score 4           F, H, V, W, Y
+       Score 5           K
+       Score 8           J, X
+       Score 10        Q, Z
+Which positive integer is equal to its own Scrabble score when
+spelt out in full?
+
+
+...........................................
+   Answer on page 306

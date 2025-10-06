@@ -1,0 +1,47 @@
+Sliced Fingers
+Here’s how to wrap a loop of string around somebody’s fingers –
+your own or those of a ‘volunteer’ – so that when it is pulled tight
+it seems to slice through the fingers. The trick is striking because
+we know from experience that if the string is genuinely linked
+with the fingers then it shouldn’t slip off. More precisely,
+imagine that your fingers all touch a fixed surface – thereby
+preventing the string from sliding off their tips. The trick is
+equivalent to removing the loop from the holes created by your
+fingers and the surface. If the loop were really linked through
+those holes, you couldn’t remove it at all, so it has to appear to be
+linked without actually being linked.
+     If by mistake it is linked, it really would have to slice through
+your fingers, so be careful.
+
+
+
+
+                                                 How (not) to slice
+                                                 your fingers off.
+
+
+   Why is this a mathematical trick? The connection is
+topology, a branch of mathematics that emerged over the past
+150 years, and is now central to the subject. Topology is about
+properties such as being knotted or linked – geometrical features
+that survive fairly drastic transformations. Knots remain knotted
+even if the string is bent or stretched, for instance.
+                                           Turnip for the Books // 9
+
+
+
+      Make a loop from a 1-metre length of string. Hook one end
+over the little finger of the left hand, twist, loop it over the next
+finger, twist in the same direction, and keep going until it passes
+behind the thumb (left picture). Now bring it round in front of
+the thumb, and twist it over the fingers in reverse order (right
+picture). Make sure that when coming back, all the twists are in
+the opposite direction to what they were the first time.
+      Fold the thumb down to the palm of the hand, releasing the
+string. Pull hard on the free loop hanging from the little finger
+. . . and you can hear it slice through those fingers. Yet,
+miraculously, no damage is done.
+
+
+...........................................
+      Unless you get a twist in the wrong direction somewhere.

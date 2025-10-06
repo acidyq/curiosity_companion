@@ -1,0 +1,27 @@
+The Ourotorus
+Are there higher-dimensional analogues of ouroborean rings?
+    For example, there are sixteen 262 squares with entries 0 or
+1. Is it possible to write 0’s and 1’s in a 464 square so that each
+possibility occurs exactly once as a subsquare? You must pretend
+that opposite edges of the square are joined together, so that it
+wraps round into an ourotorus.
+46 // Who Was Pythagoras?
+
+
+
+
+                                     16 pieces for the
+                                     ourotorus puzzle.
+
+
+    You can turn this puzzle into a game. Cut out the sixteen
+pieces shown – the small dot near the top tells you which way up
+they go. Can you arrange them in a 464 grid, keeping the dot at
+the top, so that adjacent squares have the same colours along
+common edges? This rule also applies to squares that become
+adjacent if the top and bottom, or the left and right sides, of the
+grid are ‘wrapped round’ so that they join.
+
+
+...........................................
+   Answer on page 264

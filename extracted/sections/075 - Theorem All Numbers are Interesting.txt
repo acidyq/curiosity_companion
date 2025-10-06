@@ -1,0 +1,9 @@
+Theorem: All Numbers are Interesting
+Proof: For a contradiction, suppose not. Then there is a smallest
+uninteresting number. But being the smallest one singles it out
+among all other numbers, making it special, hence interesting –
+
+
+...........................................
+contradiction.
+106 // Theorem: All Numbers are Boring

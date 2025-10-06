@@ -1,0 +1,104 @@
+Miles of Tiles
+Bathroom walls and kitchen floors provide everyday examples of
+tiling patterns, using real tiles, plastic or ceramic. The simplest
+pattern is made from identical square tiles, fitted together like
+the squares of a chessboard. Over the centuries, mathematicians
+and artists have discovered many beautiful tilings, and mathe-
+maticians have gone a stage further by seeking all possible tilings
+with particular features.
+     For instance, exactly three regular polygons tile the entire
+infinite plane – that is, identical tiles of that shape cover the
+plane without overlaps or gaps. These polygons are the
+equilateral triangle, the square and the hexagon:
+
+
+
+
+       The three regular polygons that tile the plane.
+
+    We can be confident that no other regular polygon tiles the
+plane, by thinking about the angles at which the edges of the
+tiles meet. If several tiles meet at a given point, the angles
+involved must add to 3608. So the angle at the corner of a tile is
+3608 divided by a whole number, say 360/m. As m gets larger, this
+angle gets smaller. In contrast, as the number of sides of a regular
+polygon increases, the angle at each corner gets bigger. The effect
+                                                 Miles of Tiles // 115
+
+
+
+of this is to ‘sandwich’ m within very narrow limits, and this in
+turn restricts the possible polygons.
+    The details go like this. When m ¼ 1, 2, 3, 4, 5, 6, 7, and so on,
+360/m takes the values 360, 180, 120, 90, 72, 60, 5137, and so on.
+The angle at the corner of a regular n-gon, for n = 3, 4, 5, 6, 7, and
+so on, is 60, 90, 108, 120, 12847, and so on. The only places where
+these lists coincide are when m ¼ 3, 4, and 6; here n ¼ 6, 4 and 3.
+    Actually, this proof as stated has a subtle flaw. What have I
+forgotten to say?
+    The most striking omission from my list is the regular
+pentagon, which does not tile the plane. If you try to fit regular
+pentagonal tiles together, they don’t fit. When three of them
+meet at a common point, the total angle is 361088 ¼ 3248, less
+than 3608. But if you try to make four of them meet, the total
+angle is 461088 ¼ 4328, which is too big.
+    Irregular pentagons can tile the plane, and so can innumer-
+able other shapes. In fact, 14 distinct types of convex pentagon
+are known to tile the plane. It is probable, but not yet proved,
+that there are no others. You can find all 14 patterns at
+www.mathpuzzle.com/tilepent.html
+mathworld.wolfram.com/PentagonTiling.html
+    The mathematics of tilings has important applications in
+crystallography, where it governs how the atoms in a crystal can
+be arranged, and what symmetries can occur. In particular,
+crystallographers know that the possible rotational symmetries
+of a regular lattice of atoms is tightly constrained. There are
+2-fold, 3-fold, 4-fold and 6-fold symmetries – meaning that the
+arrangement of atoms looks identical if the whole thing is
+rotated through 12, 13, 14 or 16 of a full turn (3608). However,
+5-fold symmetries are impossible – just as the regular pentagon
+cannot tile the plane.
+    There the matter stood until 1972, when Roger Penrose
+discovered a new type of tiling, using two types of tile, which he
+called kites and darts:
+116 // Miles of Tiles
+
+
+
+
+       A kite (left) and dart (right). The matching rules require the thick
+       and thin arcs to meet at any join – see the pictures below.
+
+    These shapes are derived from the regular pentagon, and the
+associated tilings are required to obey certain ‘matching rules’
+where several tiles meet, to avoid simple repetitive patterns.
+Under these conditions, the two shapes can tile the plane, but
+not by forming a repetitive lattice pattern. Instead, they form a
+bewildering variety of complicated patterns. Precisely two of
+these, called the star and sun patterns, have exact fivefold
+rotational symmetry.
+
+
+
+
+       The two fivefold-symmetric Penrose tilings. Left: star pattern;
+       right: sun pattern. Tinted lines illustrate the matching rules.
+       Black lines are edges of tiles.
+
+   It then turned out that nature knows this trick. Some
+chemical compounds can form ‘quasicrystals’ using Penrose
+patterns for their atoms. These forms of matter are not regular
+                                              Chaos Theory // 117
+
+
+
+lattices, but they can occur naturally. So Penrose’s discovery
+changed our ideas about natural arrangements of atoms in
+crystal-like structures.
+    The detailed mathematics and crystallography are too
+complicated to describe here. To find out more, go to:
+en.wikipedia.org/wiki/Penrose_tiling
+
+
+...........................................
+   Answers on page 278

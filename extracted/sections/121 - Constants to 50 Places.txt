@@ -1,0 +1,92 @@
+Constants to 50 Places
+       p     3.141 592 653 589 793 238 462 643 383 279 502 884
+             197 169 399 375 11
+       e     2.718 281 828 459 045 235 360 287 471 352 662 497
+             757 247 093 699 96
+       p
+         2   1.414 213 562 373 095 048 801 688 724 209 698 078
+             569 671 875 376 95
+       p
+         3   1.732 050 807 568 877 293 527 446 341 505 872 366
+             942 805 253 810 38
+       log 2 0.693 147 180 559 945 309 417 232 121 458 176 568
+             075 500 134 360 26
+       f     1.618 033 988 749 894 848 204 586 834 365 638 117
+             720 309 179 805 76
+       g     0.577 215 664 901 532 860 606 512 090 082 402 431
+             042 159 335 939 94
+       d     4.669 201 609 102 990 671 853 203 820 466 201 617
+             258 185 577 475 76
+   Here f is the golden number (page 96), g is Euler’s constant
+(page 96), and d is the Feigenbaum constant, which is important in
+chaos theory (page 117). See
+en.wikipedia.org/wiki/Logistic_map
+
+
+...........................................
+mathworld.wolfram.com/FeigenbaumConstant.html
+
+
+
+Richard’s Paradox
+In 1905 Jules Richard, a French logician, invented a very curious
+paradox. In the English language, some sentences define positive
+integers and others do not. For example ‘The year of the
+Declaration of Independence’ defines 1776, whereas ‘The
+historical significance of the Declaration of Independence’ does
+not define a number. So what about this sentence: ‘The smallest
+number that cannot be defined by a sentence in the English
+language containing fewer than 20 words.’ Observe that what-
+198 // Richard’s Paradox
+
+
+
+ever this number may be, we have just defined it using a sentence
+in the English language containing only 19 words. Oops.
+     A plausible way out is to say that the proposed sentence does
+not actually define a specific number. However, it ought to. The
+English language contains a finite number of words, so the
+number of sentences with fewer than 20 words is itself finite. Of
+course, many of these sentences make no sense, and many of
+those that do make sense don’t define a positive integer – but
+that just means that we have fewer sentences to consider.
+Between them, they define a finite set of positive integers, and it
+is a standard theorem of mathematics that in such circumstances
+there is a unique smallest positive integer that is not in the set. So
+on the face of it, the sentence does define a specific positive
+integer.
+     But logically, it can’t.
+     Possible ambiguities of definition such as ‘A number which
+when multiplied by zero gives zero’ don’t let us off the logical
+hook. If a sentence is ambiguous, then we rule it out, because an
+ambiguous sentence doesn’t define anything. Is the troublesome
+sentence ambiguous, then? Uniqueness is not the issue: there
+can’t be two distinct smallest-numbers-not-definable-(etc.),
+because one must be smaller than the other.
+     One possible escape route involves how we decide which
+sentences do or do not define a positive integer. For instance, if
+we go through them in some kind of order, excluding bad ones
+in turn, then the sentences that survive depend on the order in
+which they are considered. Suppose that two consecutive
+sentences are:
+
+(1) The number in the next valid sentence plus one.
+
+(2) The number in the previous valid sentence plus two.
+
+These sentences cannot both be valid – they would then
+contradict each other. But once we have excluded one of them,
+the other one is valid, because it now refers to a different
+sentence altogether.
+                                 Are Hard Problems Easy? // 199
+
+
+
+    Forbidding this type of sentence puts us on a slippery slope,
+with more and more sentences being excluded for various
+reasons. All of which strongly suggests that the alleged sentence
+does not, in fact, define a specific number – even though it seems
+
+
+...........................................
+to.

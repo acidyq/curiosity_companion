@@ -1,0 +1,43 @@
+Ouroborean Rings
+Around 1960 the American mathematician Sherman K. Stein
+discovered a curious pattern in the Sanskrit nonsense word
+yamátárájabhánasalagám. The composer George Perle told Stein
+that the stressed (á ) and unstressed (a) syllables form a
+mnemonic for rhythms, and correspond to long and short
+beats. Thus the first three syllables, ya má tá, have the rhythm
+short, long, long. The second to fourth are má tá rá, long, long,
+long – and so on. There are eight possible triplets of long or
+short rhythms, and each occurs in the nonsense word exactly
+once.
+    Stein rewrote the word using 0 for short and 1 for long,
+                                               The Ourotorus // 45
+
+
+
+getting 0111010001. Then he noticed that the first two digits are
+the same as the last two, so the string of digits can be bent into a
+loop, swallowing its own tail. Now you can generate all possible
+sequences of three digits 0 and 1 by moving along the loop one
+space at a time:
+       0 1 1 1 0 1 0 0 ...
+       0 1 1
+         1 1 1
+           1 1 0
+             1 0 1
+               0 1 0
+                 1 0 0
+                   0 0 0
+                     0 0                1
+
+I call such sequences ouroborean rings, after the mythical serpent
+Ouroboros, which eats its own tail.
+    There is an ouroborean ring for pairs: 0011. It is unique
+except for rotations. Your task is to find one for quadruplets.
+That is, arrange eight 0’s and eight 1’s in a ring so that every
+possible string of four digits, from 0000 to 1111, appears as a
+series of consecutive symbols. (Each string of four must then
+occur exactly once.)
+
+
+...........................................
+   Answer on page 263

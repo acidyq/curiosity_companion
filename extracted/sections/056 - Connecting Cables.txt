@@ -1,0 +1,24 @@
+Connecting Cables
+Can you connect the fridge, cooker and dishwasher to the three
+corresponding electrical sockets, using cables that don’t go
+through the kitchen walls or any of the three appliances, so that
+no two cables cross?
+
+
+
+
+                                                        Connect the
+                                                        appliances to
+                                                        their sockets
+                                                        without any
+                                                        crossings.
+
+    In ordinary three-dimensional space this puzzle is a bit
+artificial, but in two dimensions it’s a genuine problem, as any
+inhabitant of Flatland will tell you. A kitchen with no doors is an
+even bigger problem, but there you go.
+
+
+...........................................
+   Answer on page 272
+82 // Coin Swap

@@ -1,0 +1,36 @@
+A Little-Known Pythagorean Curiosity
+It is well known that any two Pythagorean triples can be
+combined to yield another one. In fact, if
+
+       a2 þ b2 ¼ c 2
+
+and
+
+       A2 þ B2 ¼ C2
+
+then
+
+       ðaA  bBÞ2 þ ðaB þ bAÞ2 ¼ ðcCÞ2
+
+However, there is a lesser-known feature of this method for
+combining Pythagorean triples. If you think of it as a kind of
+‘multiplication’ for triples, then we can define a triple to be prime
+if it is not the product of two smaller triples. Then every
+Pythagorean triple is a product of distinct prime Pythagorean
+triples; moreover, this ‘prime factorisation’ of triples is essen-
+tially unique, except for some trivial distinctions which I won’t
+go into here.
+     It turns out that the prime triples are those for which the
+hypotenuse is a prime number of the form 4k þ 1 and the other
+two sides are both non-zero, or the hypotenuse is 2 or a prime of
+the form 4k  1 and one of the other sides is zero (a ‘degenerate’
+triple).
+     For instance, the 3–4–5 triple is prime, and so is the 5–12–13
+triple, because their hypotenuses are both 4k þ 1 primes. The
+0–7–7 triple is also prime. The 33–56–65 triple is not prime – it is
+the ‘product’ of the 3–4–5 and 5–12–13 triples.
+
+
+...........................................
+     Just thought you’d like to know.
+62 // Digital Century

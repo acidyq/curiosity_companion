@@ -1,0 +1,59 @@
+How to do Lots of Mathematics
+Leonhard Euler was the most prolific mathematician of all time.
+He was born in 1707 in Basel, Switzerland, and died in 1783 in St
+Petersburg, Russia. He wrote more than 800 research papers, and
+a long list of books. Euler had 13 children, and often worked on
+his mathematics while one of them sat on his knee. He lost the
+sight of one eye in 1735, probably because of a cataract; the other
+eye failed in 1766. Going blind seems to have had no effect on
+his productivity. His family took notes, and he had an
+astonishing mental powers – once doing a mental calculation to
+fifty decimal places to decide which of two students had the right
+answer.
+
+
+
+
+                                    Leonhard Euler.
+
+
+
+    Euler spent many years at the court of Queen Catherine the
+Great. It has been suggested that to avoid becoming embroiled in
+court politics – which could easily prove fatal – Euler spent
+nearly all of his time working on mathematics, except when he
+was asleep. That way it was obvious that he had no time for
+intrigue.
+    Which reminds me of a mathematical joke: Why should a
+mathematician keep a mistress as well as a wife? (For gender-
+equality reasons, feel free to change to ‘a lover as well as a
+44 // Euler’s Pentagonal Holiday
+
+
+
+husband’.) Answer: when the wife thinks you’re with the
+mistress, and the mistress thinks you’re with the wife, you have
+
+
+...........................................
+time to get on with your mathematics.
+
+
+
+Euler’s Pentagonal Holiday
+Here’s your chance to put Euler’s discoveries about tours on
+networks to the test. (a) Find an open tour of this network.
+(b) Find one that looks the same when you reflect the figure to
+interchange left and right.
+
+
+
+
+                                   A network with
+                                   an open tour.
+
+
+
+
+...........................................
+   Answer on page 263

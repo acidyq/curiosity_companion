@@ -1,0 +1,224 @@
+Fractals – The Geometry of Nature
+Every so often, an entire new area of mathematics arises. One of
+the best known in recent times is fractal geometry, pioneered by
+Benoı̂t Mandelbrot, who coined the term ‘fractal’ in 1975.
+Roughly speaking, it is a mathematical method for coming to
+grips with apparent irregularities in the natural world, and
+revealing hidden structure. The subject is best known for its
+beautiful, complex computer graphics, but it goes far deeper than
+that.
+190 // Fractals – The Geometry of Nature
+
+
+
+
+                                                       Part of the
+                                                       Mandelbrot
+                                                       set, a famous
+                                                       fractal.
+
+    The traditional shapes of Euclidean geometry are triangles,
+squares, circles, cones, spheres, and the like. These shapes are
+simple, and in particular they have no fine structure. If you
+magnify a circle, for instance, any portion of it looks more and
+more like a featureless straight line. Shapes like this have played a
+prominent role in science – for instance, the Earth is close to a
+sphere, and for many purposes that level of detail is good
+enough.
+    Many natural shapes are far more complex. Trees are a mass
+of branches, clouds are fuzzy and convoluted, mountains are
+jagged, coastlines are wiggly . . . To understand these shapes
+mathematically, and to solve problems about them, we need new
+ingredients. The supply of problems, by the way, is endless – how
+do trees dissipate the energy of the wind, how do waves erode a
+coastline, how does water run off mountains into rivers? These
+are practical issues, often related to ecology and the environ-
+ment, not just theoretical problems.
+    Coastlines are a good example. They are wiggly curves, but
+you can’t use any old wiggly curve. Coastlines have a curious
+property: they look much the same on any scale of map. If the
+map shows more detail, extra wiggles can be distinguished. The
+exact shape changes, but the ‘texture’ seems pretty much the
+same. The jargon here is ‘statistically self-similar’. All statistical
+features of a coastline, such as what proportion of bays have a
+                         Fractals – The Geometry of Nature // 191
+
+
+
+given relative size, are the same no matter what scale of
+magnification you work on.
+    Mandelbrot introduced the word fractal to describe any shape
+that has intricate structure no matter how much you magnify it.
+It doesn’t have to be statistically self-similar – but such fractals
+are easier to understand. And those that are exactly self-similar
+are even nicer, which is how the subject started.
+    About a century ago, mathematicians invented a spate of
+weird shapes, for various esoteric purposes. These shapes were
+not just statistically self-similar – they were exactly self-similar.
+When suitably magnified, the result looked identical to the
+original. The most famous is the snowflake curve, invented by
+Helge von Koch in 1904. It can be assembled from three copies of
+the curve shown in the right-hand diagram.
+
+
+
+
+       The snowflake curve and successive stages in its construction.
+
+    This component curve (though not the whole snowflake) is
+exactly self-similar. You can see that each stage in the
+construction is made from four copies of the previous stage, each
+one-third as big. The four copies are fitted together as in Stage 1.
+Passing to the infinite limit, we obtain an infinitely intricate
+curve that is built from four copies of itself, each one-third the
+size – so it is self-similar.
+192 // Fractals – The Geometry of Nature
+
+
+
+
+                                              Each quarter of the
+                                              curve, blown up to three
+                                              times the size, looks like
+                                              the original curve.
+
+    This shape is too regular to represent a real coastline, but it
+has about the right degree of wiggliness, and less regular curves
+formed in a similar way do look like genuine coastlines. The
+degree of wiggliness can be represented by a number, called the
+fractal dimension.
+    To see how this goes, I’m going to take some simpler non-
+fractal shapes and see how they fit together at different scales of
+magnification. If I break a line into pieces 1/5 the size, say, then I
+need 5 of them to reconstruct the line. With a square, I need 25
+pieces, which is 52 . And with cubes I need 125, which is 53 .
+
+
+
+
+       Effect of scaling on ‘cubes’ in 1, 2 and 3 dimensions.
+
+    The power of 5 occurring here is the same as the dimension
+of the shape concerned: 1 for a line, 2 for a square, 3 for a cube.
+In general, if the dimension is d and we have to fit k pieces of size
+1/n together to reassemble the original shape, then k ¼ nd .
+Taking logarithms, we find that
+            log k
+       d¼
+            log n
+                         Fractals – The Geometry of Nature // 193
+
+
+
+Now, taking a deep breath, we try this formula out on the
+snowflake. Here we need k ¼ 4 pieces each 1/3 the size, so n ¼ 3.
+Therefore our formula yields
+            log 4
+       d¼
+            log 3
+
+which is roughly 1.2618. So the ‘dimension’ of the snowflake
+curve is not a whole number!
+    That would be bad if we wanted to think of ‘dimension’ in
+the conventional way, as the number of independent directions
+available. But it’s fine if we want a numerical measure of
+wiggliness, based on self-similarity. A curve with dimension
+1.2618 is more wiggly than a curve of dimension 1, such as a
+straight line; but it is less wiggly than a curve of dimension 1.5,
+say.
+    There are dozens of technically distinct ways to define the
+dimension of a fractal. Most of them work when it is not self-
+similar. The one used by mathematicians is called the Hausdorff–
+Besicovitch dimension. It’s a pig to define and a pig to calculate,
+but it has pleasant properties. Physicists generally use a simpler
+version, called the box dimension. This is easy to calculate, but
+lacks nearly all the pleasant properties of the Hausdorff–
+Besicovitch dimension. Despite that, the two dimensions are
+often the same. So the term fractal dimension is used to mean
+either of them.
+    Fractals need not be curves: they can be highly intricate
+surfaces or solids, or higher-dimensional shapes. The fractal
+dimension then measures how rough the fractal is, and how
+effectively it fills space. The fractal dimension turns up in most
+applications of fractals, both in the theoretical calculations and
+in experimental tests. For example, the fractal dimension of real
+coastlines is generally close to 1.25 – surprisingly close to that of
+the snowflake curve.
+    Fractals have come a long way, and they are now routinely
+used as mathematical models throughout the sciences. They are
+also the basis of an effective method for compressing computer
+194 // Fractals – The Geometry of Nature
+
+
+
+files of video images. But their most interesting role is as ‘the’
+geometry of many natural forms. A striking example is a kind of
+cauliflower called Romanesco broccoli. You can find it in most
+supermarkets. Each tiny floret has much the same form as the
+whole cauliflower, and everything is arranged in a series of ever-
+smaller Fibonacci spirals. This example is the tip of an iceberg –
+the fractal structure of plants. While much remains to be sorted
+out, it is already clear that the fractal structure arises from the
+way plants grow, which in turn is regulated by their genetics. So
+the geometry here is more than just a visual pun.
+
+
+
+
+                                                    Romanesco
+                                                    broccoli – you
+                                                    can’t get much
+                                                    more self-
+                                                    similar than
+                                                    that!
+
+    The applications of fractals are extensive, ranging from the
+fine structure of minerals to the form of the entire universe.
+Fractal shapes have been used to make antennas for mobile
+phones – such shapes are more efficient. Fractal image com-
+pression techniques cram huge quantities of data on to CDs and
+DVDs. There are even medical applications: for example, fractal
+geometry can be used to detect cancerous cells, whose surfaces
+are wrinkly and have a higher fractal dimension than normal
+cells.
+    About ten years ago a team of biologists (Geoffrey West,
+James Brown and Brain Enquist) discovered that fractal geometry
+can explain a long-standing puzzle about patterns in living
+creatures. The patterns concerned are statistical ‘scaling laws’.
+For example, the metabolic rates of many animals seem to be
+proportional to the 34th power of their masses, and the time it
+                          Fractals – The Geometry of Nature // 195
+
+
+
+takes for the embryo to develop is proportional to the 14th
+power of the mass of the adult. The main enigma here is that
+fraction 14. A power law with the value 13 could be explained in
+terms of volume, which is proportional to the cube of the
+creature’s length. But 14, and related fractions such as 34 or 14, are
+harder to explain.
+    The team’s idea was an elegant one: a basic constraint on
+how organisms can grow is the transport of fluids, such as blood,
+around the body. Nature solves this problem by building a
+branching network of veins and arteries. Such a network obeys
+three basic rules: it should reach all regions of the body, it should
+transport fluids using as little energy as possible, and its smallest
+tubes should all be much the same size (because the tube can’t be
+smaller than a single blood cell, or the blood can’t flow). What
+shapes satisfy these conditions? Space-filling fractals – with the
+fine structure cut off at the limiting size, that of the single cell.
+This approach – which takes into account some important
+physical and biological details, such as the flexibility of the tubes
+and the occurrence of pulses in the blood as the heart beats –
+predicts that elusive 14th power.
+
+
+
+
+                                                        Fractal
+                                                        branching of
+                                                        blood vessels
+                                                        in the lungs.
+
+...........................................
+196 // The Missing Symbol

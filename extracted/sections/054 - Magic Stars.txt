@@ -1,0 +1,35 @@
+Magic Stars
+Here is a five-pointed star. It is a magic star because the numbers
+on any line of four circles add up to the same total, 24. But it’s
+not a very good magic pentacle, because it doesn’t use the
+numbers from 1 to 10. Instead, it uses the numbers from 1 to 12
+with 7 and 11 missing.
+
+
+
+
+                                     Five-pointed magic star.
+                                     Numbers are not consecutive.
+
+
+    It turns out that this is the best you can do with a five-
+pointed star. But if you use a six-pointed star, it is possible to
+place the numbers 1 to 12 in the circles, using one of each, so
+that each line of four numbers has the same total. (As a hint, the
+total has to be 26.) And, just to make the puzzle harder, I want
+you to make the six outermost numbers add up to 26 as well.
+    Where do the numbers go?
+
+
+
+
+                                     Write the numbers 1 to 12 in
+                                     the circles to make this star
+                                     magic.
+
+
+
+
+...........................................
+   Answer on page 271
+                                          Connecting Cables // 81

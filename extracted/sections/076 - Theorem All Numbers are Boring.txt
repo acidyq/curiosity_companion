@@ -1,0 +1,7 @@
+Theorem: All Numbers are Boring
+Proof: For a contradiction, suppose not. Then there is a smallest
+non-boring number.
+
+
+...........................................
+   And your point is—?

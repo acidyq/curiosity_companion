@@ -1,0 +1,147 @@
+Why Call It a Witch?
+Maria Agnesi was born in 1718 and died in 1799. She was the
+daughter of a wealthy silk merchant, Pietro Agnesi (often
+wrongly said to have been a professor of mathematics at
+Bologna), and the eldest of his 21 children. Maria was
+precocious, and published an essay advocating higher education
+for women when she was nine years old. The essay was actually
+written by one of her tutors, but she translated it into Latin and
+delivered it from memory to an academic gathering in the
+garden of the family home. Her father also arranged for her to
+debate philosophy in the presence of prominent scholars and
+public figures. She disliked making a public spectacle of herself
+and asked her father for permission to become a nun. When he
+refused, she extracted an agreement that she could attend church
+whenever she wished, wear simple clothing, and be spared from
+all public events and entertainments.
+110 // Why Call It a Witch?
+
+
+
+
+                                     Maria Gaetana Agnesi.
+
+    From that time on, she focused on religion and mathematics.
+She wrote a book on differential calculus, printed privately
+around 1740. In 1748 she published her most famous work,
+Instituzioni Analitiche ad Uso Della Gioventù Italiana (‘Analytical
+Institutions for the Use of the Youth of Italy’). In 1750 Pope
+Benedict XIV invited her to become professor of mathematics at
+the University of Bologna, and she was officially confirmed in
+the role, but she never actually attended the university because
+this would not have been in keeping with her humble lifestyle.
+As a result, some sources say she was a professor and others say
+she wasn’t. Was she, or wasn’t she? Yes.
+    There is a famous curve, called the ‘witch of Agnesi’, which
+has the equation
+
+       xy2 ¼ a2 ða  xÞ
+
+where a is a constant. The curve looks remarkably unlike a witch –
+it isn’t even pointy:
+
+
+
+
+       Witch of Agnesi.
+                                        Möbius and His Band // 111
+
+
+
+   So how did this strange name get attached to the curve?
+   Fermat was the first to discuss this curve, in about 1700.
+Maria Agnesi wrote about the curve in her book Instituzione
+Analitiche. The word ‘witch’ was a mistake in translation. In 1718
+Guido Grandi named the curve ‘versoria’, a Latin term for a rope
+that turns a sail, because that’s what it looked like. In Italian this
+term became ‘versiera’, which is what Agnesi called it. But John
+Colson, who translated various mathematics books into English,
+mistook ‘la versiera’ for ‘l’aversiera’, meaning ‘the witch’.
+
+
+...........................................
+   It could have been worse. Another meaning is ‘she-devil’.
+
+
+
+Möbius and His Band
+There are some pieces of mathematical folklore that you really
+should be reminded about, even though they’re ‘well known’ –
+just in case. An excellent example is the Möbius band.
+    Augustus Möbius was a German mathematician, born 1790,
+died 1868. He worked in several areas of mathematics, including
+geometry, complex analysis and number theory. He is famous for
+his curious surface, the Möbius band. You can make a Möbius
+band by taking a strip of paper, say 2 cm wide and 20 cm long,
+bending it round until the ends meet, then twisting one end
+through 1808, and finally gluing the ends together. For
+comparison, make a cylinder in the same way, omitting the
+twist.
+
+
+
+
+                                      Möbius band.
+
+
+
+
+                                      Cylindrical band.
+112 // Möbius and His Band
+
+
+
+    The Möbius band is famous for one surprising feature: it has
+only one side. If an ant crawls around on a cylindrical band, it
+can cover only half the surface – one side of the band. But if an
+ant crawls around on the Möbius band, it can cover the entire
+surface. The Möbius band has only one side.
+    You can check these statements by painting the band. You
+can paint the cylinder so that one side is red and the other is
+blue, and the two sides are completely distinct, even though they
+are separated only by the thickness of the paper. But if you start
+to paint the Möbius band red, and keep going until you run out
+of band to paint, the whole thing ends up red.
+    In retrospect, this is not such a surprise, because the 1808
+twist connects each side of the original paper strip to the other. If
+you don’t twist before gluing, the two sides stay separate. But
+until Möbius (and a few others) thought this one up, mathe-
+maticians didn’t appreciate that there are two distinct kinds of
+surface: those with two sides, and those with one. This turned
+out to be important in topology. And it showed how careful you
+have to be about making ‘obvious’ assumptions.
+    There are lots of Möbius band recreations. Here are three.
+
+. If you cut the cylindrical band along the middle with scissors,
+    it falls apart into two cylindrical bands. What happens if you
+    try this with a Möbius band?
+.   Repeat, but this time make the cut about one-third of the way
+    across the width of the band. Now what happens to the
+    cylinder, and to the band?
+.   Make a band like a Möbius band but with a 3608 twist. How
+    many sides does it have? What happens if you cut it along the
+    middle?
+
+The Möbius band is also known as a Möbius strip, but this can
+lead to misunderstandings, as in a Limerick written by science
+fiction author Cyril Kornbluth:
+                                       Three More Quickies // 113
+
+
+
+       A burleycue dancer, a pip
+       Named Virginia, could peel in a zip;
+          But she read science fiction
+          and died of constriction
+       Attempting a Möbius strip.
+A more politically correct Möbius limerick, which gives away one
+of the answers, is:
+       A mathematician confided
+       That a Möbius strip is one-sided.
+           You’ll get quite a laugh
+           if you cut it in half,
+       For it stays in one piece when divided.
+
+
+...........................................
+   Answers on page 277

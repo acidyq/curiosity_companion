@@ -1,0 +1,22 @@
+Curious Calculations
+Your calculator can do tricks.
+
+(1) Try these multiplications. What do you notice?
+
+       161
+       11611
+       1116111
+       111161111
+       11;111611;111
+
+Does the pattern continue if you use longer strings of 1’s?
+
+(2) Enter the number
+       142;857
+
+(preferably into the memory) and multiply it by 2, 3, 4, 5, 6 and
+7. What do you notice?
+
+
+...........................................
+   Answers on page 252

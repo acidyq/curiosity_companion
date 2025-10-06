@@ -1,0 +1,131 @@
+Trisectors Beware!
+Euclid tells us how to bisect an angle – divide it into two equal
+parts – and by repeating this method we can divide any given
+angle into 4; 8; 16; . . . ; 2n equal parts. But Euclid doesn’t explain
+how to trisect an angle – divide it into three equal parts. (Or
+quinquisect, five equal parts, or . . . .)
+    Traditionally, Euclidean constructions are carried out using
+only two instruments – an idealised ruler, with no markings
+along its edge, to draw a straight line, and an idealised (pair of)
+compass(es), which can draw a circle. It turns out that these
+instruments are inadequate for trisecting angles, but the proof
+had to wait until 1837, when Pierre Wantzel used algebraic
+methods to show that no ruler-and-compass trisection of the
+angle 608 is possible. Undeterred, many amateurs continue to
+seek trisections. So it may be worth explaining why they don’t
+exist.
+    Any point can be constructed approximately, and the
+approximation can be as accurate as we wish. To trisect an angle
+to an accuracy of, say one-trillionth of a degree is easy – in
+principle. The mathematical problem is not about practical
+solutions: it is about the existence, or not, of ideal, infinitely
+accurate ones. It is also about finite sequences of applications of
+ruler and compass: if you allow infinitely many applications,
+again any point can be constructed – this time exactly.
+    The key feature of Euclidean constructions is their ability to
+form square roots. Repeating an operation leads to complicated
+combinations of square roots of quantities involving square roots
+of . . . well, you get the idea. But that’s all you can do with the
+traditional instruments.
+                                            Trisectors Beware! // 77
+
+
+
+    Turning now to algebra, we find the coordinates of such
+points by starting with rational numbers and repeatedly taking
+square roots. Any such number satisfies an algebraic equation of
+a very specific kind. The highest power of the unknown that
+appears in the equation (called the degree) must be the square, or
+the fourth power, or the eighth power . . . That is, the degree
+must be a power of 2.
+    An angle of 608 can be formedpﬃﬃ
+                                         from three constructible
+points: (0, 0), (1, 0), and ð12 , 23Þ, which lie on the unit circle
+(radius 1, with its centre at the origin of the coordinate system).
+Trisecting this angle is equivalent to constructing a point (x, y)
+where the line at 208 to the horizontal axis crosses this circle.
+Using trigonometry and algebra, the coordinate x of this point is
+a solution of a cubic equation with rational coefficients. In fact x
+satisfies the equation 8x3  6x  1 ¼ 0. But the degree of a cubic is
+3, which is not a power of 2. Contradiction – so no trisection is
+possible. Yes, you can get as close as you wish, but not spot on.
+
+
+
+
+                                Trisecting 608 is
+                                equivalent to constructing x.
+
+
+    Trisectors often look for the impossible method even though
+they’ve heard of Wantzel’s proof. They say things like ‘I know it’s
+impossible algebraically, but what about geometrically?’ But
+Wantzel’s proof shows that there is no geometric solution. It uses
+algebraic methods to do that, but algebra and geometry are
+mutually consistent parts of mathematics.
+    I always tell would-be trisectors that if they think they’ve
+found a trisection, a direct consequence is that 3 is an even
+number. Do they really want to go down in history as making
+that claim?
+    If the conditions of the problem are relaxed, many trisections
+78 // Langford’s Cubes
+
+
+
+exist. Archimedes knew of one that used a ruler with just two
+marks along its edge. The Greeks called this kind of technique a
+neusis construction. It involves sliding the rule so that the marks
+fall on two given curves – here a line and a circle:
+
+
+
+
+                                             How Archimedes
+                                             trisected an angle.
+
+
+...........................................
+Langford’s Cubes
+The Scottish mathematician C. Dudley Langford was watching
+his young son playing with six coloured blocks – two of each
+colour. He noticed that the boy had arranged them so that the
+two yellow blocks (say) were separated by one block, the two blue
+blocks were separated by two blocks, and the two red blocks were
+separated by three blocks. Here I’ve used white for yellow, grey
+for blue and black for red to show you what I mean:
+
+
+                                                     Langford’s
+                                                     cubes.
+
+
+     In between the white blocks we find just one block (which
+happens to be grey). Between the grey blocks are two blocks (one
+black, one white). And between the black blocks are three blocks
+(two white and one grey). Langford thought about this and was
+able to prove that this is the only such arrangement, except for
+its left–right reversal.
+     He wondered if you could do the same with more colours –
+such as four. And he found that again there is only one
+                                        Duplicating the Cube // 79
+
+
+
+arrangement, plus its reversal. Can you find it? The simplest way
+to work on the puzzle is to use playing cards instead of blocks.
+Take two aces, two 2’s, two 3’s and two 4’s. Can you lay the cards
+in a row to get exactly one card between the two aces, two cards
+between the two 2’s, three cards between the two 3’s and four
+cards between the two 4’s?
+     There are no such arrangements with five or six pairs of cards,
+but there are 26 of them with seven pairs. In general, solutions
+exist if and only if the number of pairs is a multiple of 4 or one
+less than a multiple of 4. No formula is known for how many
+solutions there are, but in 2005 Michaël Krajecki, Christophe
+Jaillet and Alain Bui ran a computer for three months and found
+that there are precisely 46,845,158,056,515,936 arrangements
+with 24 pairs.
+
+
+...........................................
+    Answer on page 271

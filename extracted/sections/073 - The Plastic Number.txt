@@ -1,0 +1,66 @@
+The Plastic Number
+The plastic number is a little-known relative of the famous
+golden number. We’ve just seen how the Fibonacci numbers
+create a spiralling system of squares, related to the golden
+number. There is a similar spiral diagram for the plastic number,
+but composed of equilateral triangles. In the diagram below, the
+initial triangle is marked in black and successive triangles spiral
+in a clockwise direction: the spiral shown is again roughly
+logarithmic. In order to make the shapes fit, the first three
+triangles all have side 1. The next two have side 2, and then the
+numbers go 4, 5, 7, 9, 12, 16, 21, and so on.
+
+
+
+
+       Padovan spiral.
+
+   Again there is a simple rule for finding these numbers,
+analogous to that for Fibonacci numbers: each number in the
+sequence is the sum of the previous number but one, together
+with the one before that. For example,
+       12 ¼ 7 þ 5; 16 ¼ 9 þ 7; 21 ¼ 12 þ 9
+
+This pattern follows from the way the triangles fit together. If Pn
+is the nth Padovan number (starting from P0 ¼ P1 ¼ P2 ¼ 1),
+then
+       Pn ¼ Pn2 þ Pn3
+104 // The Plastic Number
+
+
+
+The first twenty numbers in the sequence are:
+
+       1; 1; 1; 2; 2; 3; 4; 5; 7; 9; 12; 16;
+       21; 28; 37; 49; 65; 86; 114; 151
+
+I call this sequence the Padovan numbers because the architect
+Richard Padovan told me about them, although he denies any
+responsibility. Curiously, ‘Pádova’ is the Italian form of ‘Padua’,
+and Fibonacci was from Pisa, roughly a hundred miles away. I am
+tempted to rename the Fibonacci numbers ‘Pisan numbers’ to
+reflect the Italian geography, but as you can see I managed to
+resist.
+     The plastic number, which I denote by p, is roughly 1.324718.
+It is related to the Padovan numbers in the same way that the
+golden number is related to the Fibonacci numbers. That is,
+ratios of successive Padovan numbers, such as 49/37 or 151/114,
+give good approximations to the plastic number. The pattern of
+the sequence of Padovan numbers leads to the equation
+p3  p  1 ¼ 0, and p is the unique real solution of this cubic
+equation. The Padovan sequence increases much more slowly
+than the Fibonacci sequence because p is smaller than f. There
+are many interesting patterns in the Padovan sequence. For
+example, the diagram shows that 21 ¼ 16 þ 5, because triangles
+adjacent along a suitable edge have to fit together; similarly,
+16 ¼ 12 þ 4; 12 ¼ 9 þ 3, and so on. Therefore
+       Pn ¼ Pn1 þ Pn5
+
+which is an alternative rule for deriving further terms of the
+sequence. This equation implies that p5  p4  1 ¼ 0, and it is not
+immediately obvious that p, defined as a solution of a cubic
+
+
+...........................................
+equation, must also satisfy this quintic (fifth-degree) equation.
+                     Theorem: All Numbers are Interesting // 105

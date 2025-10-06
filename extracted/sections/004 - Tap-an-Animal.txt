@@ -1,0 +1,26 @@
+Tap-an-Animal
+This is a great mathematical party trick for children. They take
+turns to choose an animal. Then they spell out its name while
+you, or another child, tap successive points of the ten-pointed
+star. You must start at the point labelled ‘Rhinoceros’, and move
+in a clockwise direction along the lines. Miraculously, as they say
+the final letter, you tap the correct animal.
+
+
+
+
+                                                    Spell the name
+                                                    to find the
+                                                    animal.
+
+   How does it work? Well, the third word along the star is ‘Cat’,
+which has three letters, the fourth is ‘Lion’, with four, and so on.
+To help conceal the trick, the animals in positions 0, 1 and 2
+have 10, 11 and 12 letters. Since 10 taps takes you back to where
+you started, everything works out perfectly.
+   To conceal the trick, use pictures of the animals – in the
+
+
+...........................................
+diagram I’ve used their names for clarity.
+6 // Curious Calculations

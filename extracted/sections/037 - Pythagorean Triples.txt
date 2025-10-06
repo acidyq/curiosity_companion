@@ -1,0 +1,51 @@
+Pythagorean Triples
+I can’t really get away without telling you Diophantus’s method
+for finding all Pythagorean triples, can I?
+    OK, here it is. Take any two whole numbers, and form:
+
+. twice their product
+. the difference between their squares
+. the sum of their squares
+Then the resulting three numbers are the sides of a Pythagorean
+triangle.
+    For instance, take the numbers 2 and 1. Then
+
+. twice their product ¼ 26261 ¼ 4
+. the difference between their squares ¼ 22  12 ¼ 3
+. the sum of their squares ¼ 22 þ 12 ¼ 5
+and we obtain the famous 3–4–5 triangle. If instead we take
+numbers 3 and 2, then
+
+. twice their product ¼ 26362 ¼ 12
+. the difference between their squares ¼ 32  22 ¼ 5
+. the sum of their squares ¼ 32 þ 22 ¼ 13
+and we get the next-most-famous 5–12–13 triangle. Taking
+numbers 42 and 23, on the other hand, leads to
+
+. twice their product ¼ 2642623 ¼ 1;932
+
+*   If you think you’ve found it, please don’t send it to me. I get too
+    many attempted proofs as it is, and so far – well, just don’t get me
+    started, OK?
+                                              Prime Factoids // 59
+
+
+
+. the difference between their squares ¼ 422  232 ¼ 1;235
+. the sum of their squares ¼ 422 þ 232 ¼ 2;293
+and no one has ever heard of the 1,2351,9322,293 triangle.
+But these numbers do work:
+
+       1;2352 þ 1;9322 ¼ 1;525;225 þ 3;732;624 ¼ 5;257;849
+                      ¼ 2;2932
+
+There’s a final twist to Diophantus’s rule. Having worked out the
+three numbers, we can choose any other number we like and
+multiply them all by that. So the 3–4–5 triangle can be converted
+to a 6–8–10 triangle by multiplying all three numbers by 2, or to
+a 15–20–25 triangle by multiplying all three numbers by 5. We
+can’t get these two triples from the above prescription using
+
+
+...........................................
+whole numbers. Diophantus knew that.

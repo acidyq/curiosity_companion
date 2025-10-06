@@ -1,0 +1,61 @@
+The Goldbach Conjecture
+In 2000, as a publicity stunt for Apostolos Doxiadis’s novel Uncle
+Petros and Goldbach’s Conjecture, the publisher Faber & Faber
+offered a million-dollar prize for a proof of the conjecture,
+provided it was submitted before April 2002. The prize was never
+claimed, which mathematicians did not find surprising, because
+the problem has resisted all efforts for more than 250 years.
+    It began in 1742, when Christian Goldbach wrote to
+Leonhard Euler, suggesting that every even integer is the sum of
+two primes. (Apparently René Descartes had come across the
+same idea a little earlier, but no one had noticed.) At that time
+the number 1 was considered to be prime, so 2 ¼ 1 þ 1 was
+acceptable, but nowadays we reformulate the the Goldbach
+Conjecture thus: every even integer greater than 2 is the sum of
+two primes – often in several different ways. For example,
+
+        4¼2þ2
+        6¼3þ3
+        8¼5þ3
+       10 ¼ 7 þ 3 ¼ 5 þ 5
+       12 ¼ 7 þ 5
+       14 ¼ 11 þ 3 ¼ 7 þ 7
+
+Euler replied that he was sure Goldbach must be right, but he
+couldn’t find a proof – and that remains true today. We do know
+that every even integer is the sum of at most six primes – proved
+by Olivier Ramaré in 1995. In 1973 Chen Jing-Run proved that
+every sufficiently large even integer is the sum of a prime and a
+semiprime (either a prime or a product of two primes).
+    In 1998 Jean-Marc Deshouillers, Yannick Saouter and
+Herman te Riele verified Goldbach’s Conjecture for all even
+numbers up to 1014. By 2007, Oliveira e Silva had improved that
+to 1018, and his computations continue. If the Riemann
+Hypothesis (page 215) is true, then the Odd Goldbach
+Conjecture – that every odd integer greater than 5 is the sum of
+three primes – is a consequence of the 1998 result.
+                                     Turtles All the Way Down // 155
+
+
+
+
+        Graph showing in how many ways (vertical axis) a given even
+        number (horizontal axis) can be expressed as a sum of two
+        primes. The lowest points in the graph move upwards as we go
+        from left to right, indicating that there are many ways to achieve
+        this. However, for all we know an occasional point might fall on
+        the horizontal axis. Just one such point would disprove the
+        Goldbach Conjecture.
+
+    In 1923 Godfrey Hardy and John Littlewood obtained a
+heuristic formula – one that they could not prove rigorously, but
+looked plausible – for the number of different ways to write a
+given even integer as a sum of two primes. This formula, which
+agrees with numerical evidence, indicates that when the number
+gets large, there are many ways to write it as a sum of two primes.
+Therefore we may expect the smallest of the two primes to be
+relatively tiny. In 2001 Jörg Richstein observed that for numbers
+up to 1014, the smaller prime is at most 5,569, and this occurs for
+       389;965;026;819;938 ¼ 5;569 þ 389;965;814;369
+
+...........................................

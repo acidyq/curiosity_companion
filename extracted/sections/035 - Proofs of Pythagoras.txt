@@ -1,0 +1,62 @@
+Proofs of Pythagoras
+Euclid’s method for proving Pythagoras’s Theorem is fairly
+complicated, involving a diagram known to Victorian school-
+boys as ‘Pythagoras’s pants’ because it looked like underwear
+hung on a washing line. This particular proof fitted into Euclid’s
+development of geometry, which is why he chose it. But there
+are many other proofs, some of which make the theorem much
+more obvious.
+48 // Proofs of Pythagoras
+
+
+
+
+                                       Pythagoras’s
+                                       pants.
+
+
+
+    One of the simplest proofs is a kind of mathematician’s
+jigsaw puzzle. Take any right-angled triangle, make four copies,
+and assemble them inside a carefully chosen square. In one
+arrangement we see the square on the hypotenuse; in the other,
+we see the squares on the other two sides. Clearly, the areas
+concerned are equal, since they are the difference between the
+area of the surrounding square and the areas of the four copies of
+the triangle.
+
+
+
+
+       (Left) The square on the hypotenuse (plus four triangles). (Right)
+       The sum of the squares on the other two sides (plus four
+       triangles). Take away the triangles . . . and Pythagoras’s
+       Theorem is proved.
+
+    Then there’s a cunning tiling pattern. Here the slanting grid
+is formed by copies of the square on the hypotenuse, and the
+other grid involves both of the smaller squares. If you look at
+how one slanting square overlaps the other two, you can see how
+to cut the big square into pieces that can be reassembled to make
+the two smaller squares.
+                                          A Constant Bore // 49
+
+
+
+
+                                     Proof by
+                                     tiling.
+
+    Another proof is a kind of geometric ‘movie’, showing how to
+split the square on the hypotenuse into two parallelograms,
+which then slide apart – without changing area – to make the
+two smaller squares.
+
+
+
+
+                                                   Proof by
+                                                   movie.
+
+
+...........................................

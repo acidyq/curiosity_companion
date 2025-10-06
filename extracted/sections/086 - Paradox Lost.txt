@@ -1,0 +1,40 @@
+Paradox Lost
+In mathematical logic, a paradox is a self-contradictory statement
+– the best known is ‘This sentence is a lie.’ Another is Bertrand
+Russell’s ‘barber paradox’. In a village there is a barber who
+shaves everyone who does not shave themselves. So who shaves
+the barber? Neither ‘the barber’ nor ‘someone else’ is logically
+acceptable. If it is the barber, then he shaves himself – but we are
+told that he doesn’t. But if it’s someone else, then the barber does
+                         When Will My MP3 Player Repeat? // 131
+
+
+
+not shave himself . . . but we are told that he shaves all such
+people, so he does shave himself.
+     In the real world, there are plenty of get-outs (are we talking
+about shaving beards here, or legs, or what? Is the barber a
+woman? Can such a barber actually exist anyway?) But in
+mathematics, a more carefully stated version of Russell’s paradox
+ruined the life’s work of Gottlob Frege, who attempted to base
+the whole of mathematics on set theory – the study of collections
+of objects, and how these can be combined to form other
+collections.
+     Here’s another famous (alleged) paradox:
+     Protagoras was a Greek lawyer who lived and taught in the
+fifth century BC. He had a student, and it was agreed that the
+student would pay for his teaching after he had won his first case.
+But the student didn’t get any clients, and eventually Protagoras
+threatened to sue him. Protagoras reckoned that he would win
+either way: if the court upheld his case, the student would be
+required to pay up, but if Protagoras lost, then by their
+agreement the student would have to pay anyway. The student
+argued exactly the other way round: if Protagoras won, then by
+their agreement the student did not have to pay, but if Protagoras
+lost, the court would have ruled that the student did not have to
+pay.
+     Is this a genuine logical paradox or not?
+
+
+...........................................
+   Answer on page 279

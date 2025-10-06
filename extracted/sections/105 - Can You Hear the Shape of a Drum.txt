@@ -1,0 +1,119 @@
+Can You Hear the Shape of a Drum?
+The backcloth depicted a striking scene: the Rhine valley by
+moonlight. In the pit, the orchestra was rehearsing Wagner’s
+Götterdämmerung. The story had reached the tragic death of
+Siegfried, and the conductor, Otto Fenderbender, raised his
+baton for the beginning of the ‘Funeral March’. First, just
+tympani, an intricate repeated rhythm in a low C sharp . . .
+                       Can You Hear the Shape of a Drum? // 169
+
+
+
+    ‘No, no, no!’ screamed Fenderbender, hurling his baton to
+the floor. ‘Not like that, you incompetent pigs!’
+    The leading tympanist, somewhat unwisely, protested. ‘But
+Herr Fenderbender, the rhythm was absolutely pre—’
+    ‘Rhythm, schmythm!’ said Fenderbender.
+    ‘The tempo was exactly as the score indic—’
+    ‘I am not complaining about the tempo!’ screamed the
+conductor.
+    ‘The pitch was a perfect C shar—’
+    ‘Pitch? Pitch? Of course the pitch was perfect! I heard that for
+myself when the orchestra was tuning up! I have an inherent
+sense of pitch!’
+    ‘Then what—’
+    ‘The shape, you fool! The shape!’
+    The lead tympanist looked perplexed. It was hard to describe.
+Otto tried to express what he had heard. ‘One of the drums
+sounded too . . . well, too square,’ he said. ‘The other tympani
+had their usual . . . rounded sound, but one of them— well, it had
+corners.’
+    ‘Come now, Herr Fenderbender – surely you’re not claiming
+you can hear the shape of a drum?’
+    ‘I heard what I heard,’ Otto said doggedly. ‘One of the drums
+is too square.’
+    And, what do you know? He was right. It’s the Bessel
+functions, you see.
+
+
+
+
+                                                       Some
+                                                       vibrational
+                                                       modes of a
+                                                       circular
+                                                       drum.
+
+   Let me explain. When a drum beats, it produces several
+170 // Can You Hear the Shape of a Drum?
+
+
+
+different notes at once, each note corresponding to a different
+mode of vibration. Each has its own frequency, or equivalently,
+pitch. Euler calculated the vibrational spectrum of a circular
+drum – the list of frequencies of these basic modes – using
+mathematical gadgets called Bessel functions. For a square drum
+you get sines and cosines instead. In both cases there are
+characteristic patterns of nodal lines, where the drum remains
+stationary. At any given instant, the drum is displaced upwards
+on one side of a nodal line, and downwards on the other. As the
+drum vibrates, each region between the nodal lines oscillates up
+and down. Fast oscillations create a high-pitched sound, slow
+oscillations make the pitch lower.
+
+
+
+
+                                                     Some of the
+                                                     modes of a
+                                                     square drum.
+
+    The mathematics of vibrations proves that the shape of a
+drum determines its list of frequencies – basically, what it can
+sound like. But can we go the other way, and deduce the shape
+from the sound? In 1966 Mark Kac made that question precise:
+given the spectrum, is it possible to find the shape of the drum?
+    Kac’s question is much more important than its quirky
+formulation might suggest. When an earthquake hits, the entire
+Earth rings like a bell, and seismologists deduce a great deal
+about the internal structure of our planet from the ‘sound’ that it
+produces and the way those sounds echo around as they bounce
+off different layers of rock. Kac’s question is the simplest one we
+can ask about such techniques. ‘Personally, I believe that one
+cannot ‘‘hear’’ the shape,’ Kac wrote. ‘But I may well be wrong
+and I am not prepared to bet large sums either way.’
+                       Can You Hear the Shape of a Drum? // 171
+
+
+
+     The first significant evidence that Kac was right showed up in
+a higher-dimensional analogue of the problem. John Milnor
+wrote a one-page paper proving that two distinct 16-dimensional
+tori (generalised doughnuts, basically) have the same spectrum.
+The first results for ordinary 2-dimensional drums were in a more
+positive direction: various features of the shape can be deduced
+from the spectrum. Kac himself proved that the spectrum of a
+drum determines its area and perimeter. A curious consequence
+is that you can hear whether or not a drum is circular, because a
+circle has the smallest perimeter for a given area. If you know the
+area A and the perimeter p, and it so happens that p2 ¼ 4pA – as it
+is for a circle – then the drum is a circle, and vice versa. So when
+Fenderbender said that tympani should have a nice ‘rounded’
+sound, he knew what he was talking about.
+     In 1989 Carolyn Gordon, David Webb and Scott Wolpert
+answered Kac’s question by constructing two distinct math-
+ematical drums that produce an identical range of sounds. Since
+then, simpler examples have been found. So now we know that
+there are limits to what information can be deduced from a
+shape’s vibrational spectrum.
+
+
+
+
+       The first example of two sound-alike drums with different
+
+
+...........................................
+       shapes.
+172 // What is e, and Why?

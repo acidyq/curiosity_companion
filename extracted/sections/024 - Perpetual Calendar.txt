@@ -1,0 +1,44 @@
+Perpetual Calendar
+In 1957 John Singleton patented a desk calendar that could
+represent any date from 01 to 31 using two cubes, but he let the
+patent lapse in 1965. Each cube bears six digits, one on each face.
+                                                     A two-cube
+                                                     calendar, and
+                                                     two of the days
+                                                     it can represent.
+
+   The picture shows how such a calendar represents the 5th
+and the 25th day of the month. I have intentionally omitted any
+other numbers from the faces. You are allowed to place the cubes
+with any of the six faces showing, and you can also put the grey
+one on the left and the white one on the right.
+   What are the numbers on the two cubes?
+
+
+...........................................
+    Answer on page 260
+
+
+
+Mathematical Jokes 1*
+A biologist, a statistician and a mathematician are sitting outside
+a cafe watching the world go by. A man and a woman enter a
+building across the road. Ten minutes later, they come out
+accompanied by a child.
+    ‘They’ve reproduced,’ says the biologist.
+
+*   The purpose of these jokes is not primarily to make you laugh. It
+    is to show you what makes mathematicians laugh, and to provide
+    you with a glimpse into an obscure corner of the world’s
+    mathematical subculture.
+36 // Deceptive Dice
+
+
+
+    ‘No,’ says the statistician. ‘It’s an observational error. On
+average, two and a half people went each way.’
+    ‘No, no, no,’ says the mathematician. ‘It’s perfectly obvious.
+
+
+...........................................
+If someone goes in now, the building will be empty.’

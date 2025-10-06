@@ -1,0 +1,21 @@
+Six Pens
+Farmer Hogswill has run into another mathematico-agricultural
+problem. He had carefully assembled 13 identical fence panels to
+create 6 identical pens for his rare-breed Alexander-horned pigs.
+But during the night some antisocial person stole one of his
+panels. So now he needs to use 12 fence panels to create 6
+identical pens. How can he achieve this? All 12 panels must be
+used.
+                                          Patented Primes // 135
+
+
+
+
+                                                   13 panels
+                                                   making 6 pens.
+
+
+
+
+...........................................
+   Answer on page 280

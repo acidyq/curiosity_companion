@@ -1,0 +1,24 @@
+The Milk Crate Problem
+Here’s a simpler question of the same kind. A milkman wishes to
+pack identical bottles, with circular cross-section, into a square
+crate. To him, it’s obvious that for any given square number of
+bottles – 1, 4, 9, 16, and so on – the crate can be made as small as
+possible by packing the bottles in a regular square array. (He can
+see that with a non-square number of bottles, there are gaps and
+maybe the bottles can be jiggled around to shrink the crate.)
+    Is he right?
+236 // Equal Rights
+
+
+
+
+                                    How the milkman fits
+                                    16 bottles into the
+                                    smallest possible
+                                    square crate.
+
+
+
+
+...........................................
+   Answer on page 305

@@ -1,0 +1,137 @@
+Why Gauss Became a Mathematician
+
+
+
+
+                                    Carl Friedrich Gauss.
+
+   Carl Friedrich Gauss was born in Brunswick in 1777 and died
+in Göttingen in 1855. His parents were uneducated manual
+workers, but he became one of the greatest mathematicians ever;
+many consider him the best. He was precocious – he is said to
+have pointed out a mistake in his father’s financial calculations
+when he was three. At the age of nineteen he had to decide
+whether to study mathematics or languages, and the decision
+was made for him when he discovered how to construct a regular
+17-sided polygon using the traditional Euclidean tools of an
+unmarked ruler and a compass.
+   This may not sound like much, but it was totally unprece-
+dented, and the discovery led to a new branch of number theory.
+Euclid’s Elements contains constructions for regular polygons (all
+                      Why Gauss Became a Mathematician // 147
+
+
+
+sides equal length, all angles equal) with 3, 4, 5, 6 and 15 sides,
+and the ancient Greeks knew that the number of sides could be
+doubled as often as you wish. Up to 100, the number of sides in a
+constructible (regular) polygon – as far as the Greeks knew – must
+be
+
+       2; 3; 4; 5; 6; 8; 10; 12; 15; 16; 20; 24; 30; 32; 40;
+       48; 60; 64; 80; 96
+
+For more than two thousand years, everyone assumed that no
+other polygons were constructible. In particular, Euclid does not
+tell us how to construct 7-gons or 9-gons, and the reason is that
+he had no idea how this might be done. Gauss’s discovery was a
+bombshell, adding 17, 34 and 68 to the list. Even more
+amazingly, his methods prove that other numbers, such as 7, 9,
+11 and 13, are impossible. (The polygons do exist, but you can’t
+construct them by Euclidean methods.)
+     Gauss’s construction depends on two simple facts about the
+number 17: it is prime, and it is one greater than a power of 2.
+The whole problem pretty much reduces to finding which prime
+numbers correspond to constructible polygons, and powers of 2
+come into the story because every Euclidean construction boils
+down to taking a series of square roots – which in particular
+implies that the lengths of any lines that feature in the
+construction must satisfy algebraic equations whose degree is a
+power of two. The key equation for the 17-gon is
+
+       x16 þ x15 þ x14 þ x13 þ x12 þ x11 þ x10 þ x9 þ x8 þ x7 þ x6
+           þ x5 þ x4 þ x3 þ x2 þ x þ 1 ¼ 0
+
+where x is a complex number. The 16 solutions, together with the
+number 1, form the vertices of a regular 17-gon in the complex
+plane. Since 16 is a power of 2, Gauss realised that he was in with
+a chance. He did some clever calculations, and proved that the
+148 // Why Gauss Became a Mathematician
+
+
+
+17-gon can be constructed provided you can construct a line
+whose length is
+         "
+       1              pﬃﬃﬃﬃﬃ pﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃpﬃﬃﬃﬃﬃ
+            1 þ 17 þ 34  2 17 þ
+       16
+         qﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃﬃ#
+                         p                   p                p                          p           p                p
+           68 þ 12 17  16 34 þ 2 17  2ð1  17Þð 34  2 17Þ
+
+
+Since you can always construct square roots, this effectively
+solves the problem, and Gauss didn’t bother to describe the
+precise steps needed – the formula itself does that. Later, other
+mathematicians wrote down explicit constructions. Ulrich von
+Huguenin published the first in 1803, and H.W. Richmond
+found a simpler one in 1893.
+
+
+
+
+              Richmond’s method for constructing a regular 17-gon. Take two
+              perpendicular radii, AOP0 and BOC, of a circle. Make 4OB  OJ
+                                                                           ¼1
+                          OJE
+              and angle 4OJP  0
+                                ¼ 1. Find F Such that angle EJF is 458. Draw a
+              circle with FP0 as diameter, meeting OB at K. Draw the circle
+              with centre E through K, cutting AP0 in G and H. Draw HP3 and
+              GP5 perpendicular to AP0. Then P0, P3 and P5 are respectively
+              the 0th, 3rd and 5th vertices of a regular 17-gon, and the other
+              vertices are now easily constructed.
+
+    Gauss’s method proves that a regular n-gon can be con-
+structed whenever n is a prime of the form 2k þ 1. Primes like this
+are called Fermat primes, because Fermat investigated them. In
+                       Why Gauss Became a Mathematician // 149
+
+
+
+particular he noticed that k must itself be a power of 2 if 2k þ 1 is
+going to be prime. The values k = 1, 2, 4, 8 and 16 yield the
+Fermat primes 3, 5, 17, 257 and 65,537. However, 232 þ 1 ¼
+4;294;967;297 ¼ 64166;700;417 is not prime. Gauss was aware that
+the regular n-gon is constructible if and only if n is a power of 2,
+or a power of 2 multiplied by distinct Fermat primes. But he
+didn’t give a complete proof – probably because to him it was
+obvious.
+    His results prove that it is impossible to construct regular 7-,
+11- or 13-gons by Euclidean methods, because these are prime
+but not of Fermat type. The analogous equation for the 7-gon, for
+instance, is x6 þ x5 þ x4 þ x3 þ x2 þ x þ 1 ¼ 0, and that has degree
+6, which is not a power of 2. The 9-gon is not constructible
+because 9 is not a product of distinct Fermat primes – it is 363,
+and 3 is a Fermat prime, but the same prime occurs twice here.
+    The Fermat primes just listed are the only known ones. If there
+is another, it must be absolutely gigantic: in the current state of
+knowledge the first candidate is 233;554;432 þ 1, where
+33;554;432 ¼ 225 . Although we’re still not sure exactly which
+regular polygons are constructible, the only obstacle is the
+possible existence of very large Fermat primes. A useful website
+for Fermat primes is mathworld.wolfram.com/FermatNumber.html
+    In 1832 Friedrich Julius Richelot published a construction for
+the regular 257-gon. Johann Gustav Hermes of Lingen University
+devoted ten years to the 65,537-gon, and his unpublished work
+can be found at the University of Göttingen, but it probably
+contains errors.
+    With more general construction techniques, other numbers
+are possible. If you use a gadget for trisecting angles, then the
+9-gon is easy. The 7-gon turns out to be possible too, but that’s
+
+
+...........................................
+nowhere near as obvious.
+150 // What Shape is a Crescent Moon?

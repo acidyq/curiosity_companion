@@ -1,0 +1,31 @@
+Drawing an Ellipse – and More?
+It is well known that an easy way to draw an ellipse is to fix two
+pins through the paper, tie a loop of string round them, and
+place your pencil so that the string stays taut. Gardeners
+sometimes use this method to map out elliptical flowerbeds. The
+two pins are the foci (plural of focus, and pronounced ‘foe-sigh’)
+of the ellipse.
+
+
+
+
+                                        How to draw an ellipse.
+
+
+   Suppose that you use three pegs, in a triangle. It need not be
+an equilateral or isosceles triangle.
+
+
+
+
+                                Why isn’t this interesting too?
+                                       The Kepler Problem // 231
+
+
+
+  That ought to give some interesting new kinds of curves. So
+why don’t the mathematics books mention them?
+
+
+...........................................
+   Answer on page 304

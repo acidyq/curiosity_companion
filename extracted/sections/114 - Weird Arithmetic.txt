@@ -1,0 +1,21 @@
+Weird Arithmetic
+‘No, Henry, you can’t do that,’ said the teacher, pointing to
+Henry’s exercise book, where he had written
+       1 8 18
+        6 ¼
+       4 5 45
+‘Sorry, sir,’ said Henry. ‘What’s wrong? I checked it on my
+calculator and it seemed to work.’
+    ‘Well, Henry, the answer is right, I guess,’ the teacher
+admitted. ‘Though you should probably cancel the 9’s to get 25,
+which is simpler. What’s wrong is—’
+                                        McMahon’s Squares // 183
+
+
+
+    Explain the mistake to Henry. Then find all such sums, with
+single non-zero digits in the first two fractions, that are correct.
+
+
+...........................................
+    Answer on page 291

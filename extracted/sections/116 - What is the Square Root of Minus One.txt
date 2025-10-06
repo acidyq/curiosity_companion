@@ -1,0 +1,79 @@
+What is the Square Root of Minus One?
+The square root of a number is a number whose square is the
+given one. For instance, the square root of 4 is 2. If we allow
+negative numbers, then 2 is a second square root of 4 because
+minus times minus makes plus. Since plus times plus also makes
+plus, the square of any number – positive or negative – is always
+positive. So it looks as though negative numbers, in particular
+1, can’t have square roots.
+    Despite this, mathematicians (and physicists and engineers
+and indeed anyone working in any branch of science) have
+found it useful to provide 1 with a square root. This is not a
+number in the usual sense, so it is given a new symbol, which is i
+if you are a mathematician, and j if you are an engineer.
+    Square roots of negative numbers first showed up in
+mathematics around 1450, in an algebra problem. In those days
+the idea was a huge puzzle, because people thought of a number
+as something real. Even negative numbers caused a great deal of
+head-scratching, but people quickly got accustomed to them
+when they realised how useful they could be. Much the same
+happened with i, but it took a lot longer.
+    A big issue was how to visualise i geometrically. Everyone had
+got used to the idea of the number line, like an infinitely long
+ruler, with positive numbers on the right and negative ones on
+the left, and fractions and decimals in between:
+                    What is the Square Root of Minus One? // 185
+
+
+
+
+                                           The ‘real’ number line.
+
+    Collectively, these familiar kinds of number became known
+as real numbers, because they correspond directly to physical
+quantities. You can observe 3 cows or 2.73 kilograms of sugar.
+    The puzzle was that there seemed to be nowhere on the real
+number line for the ‘new’ number i. Eventually, mathematicians
+realised that it didn’t have to go on the real number line. In fact,
+being a new kind of number, it couldn’t go there. Instead, i had to
+live on a second line, at right angles to the real number line:
+
+
+
+
+                                            The ‘imaginary’ number
+                                            line, placed at right
+                                            angles to the real one.
+
+   And if you added an imaginary number to a real one, the
+answer had to live in the plane defined by the two lines:
+
+
+
+
+                                            A complex number is a
+                                            real one plus an
+                                            imaginary one.
+186 // The Most Beautiful Formula
+
+
+
+    Multiplication was more complicated. The main point was
+that multiplying a number by i rotated it around the origin O
+through a right angle, anticlockwise. For instance, 3 multiplied
+by i is 3i, and that’s what you get when you rotate the point
+labelled 3 through 908.
+    The new numbers extended the familiar real number line to a
+larger space, a number plane. Three mathematicians discovered
+this idea independently: the Norwegian Caspar Wessel, the
+Frenchman Jean-Robert Argand and the German Carl Friedrich
+Gauss.
+    Complex numbers don’t turn up in everyday situations, such
+as checking the supermarket bill or measuring someone for a
+suit. Their applications are in things like electrical engineering
+and aircraft design, which lead to technology that we can use
+without having to know the underlying mathematics.
+
+
+...........................................
+    The engineers and designers need to know it, though.

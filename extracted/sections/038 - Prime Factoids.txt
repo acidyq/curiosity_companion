@@ -1,0 +1,71 @@
+Prime Factoids
+Prime numbers are among the most fascinating in the whole of
+mathematics. Here’s a Prime Primer.
+    A whole number bigger than 1 is prime if it is not the product
+of two smaller numbers. The sequence of primes begins
+       2; 3; 5; 7; 11; 13; 17; 19; 23; 29; 31; 37; . . .
+
+Note that 1 is excluded, by convention. Prime numbers are of
+fundamental importance in mathematics because every whole
+number is a product of primes – for instance,
+
+       2;007 ¼ 3636223
+       2;008 ¼ 262626251
+       2;009 ¼ 767641
+
+Moreover (only mathematicians worry about this sort of thing,
+but actually it’s kind of important and surprisingly difficult to
+prove), there is only one way to achieve this, apart from
+rearranging the order of the prime numbers concerned. For
+60 // Prime Factoids
+
+
+
+instance, 2;008 ¼ 251626262, but that doesn’t count as differ-
+ent. This property is called ‘unique prime factorisation’.
+    If you’re worried about 1 here, mathematicians consider it to
+be the product of no primes. Sorry, mathematics is like that
+sometimes.
+    The primes seem to be scattered fairly unpredictably. Apart
+from 2, they are all odd – because an even number is divisible by
+2, so it can’t be prime unless it is equal to 2. Similarly, 3 is the
+only prime that is a multiple of 3, and so on.
+    Euclid proved that there is no largest prime. In other words,
+there exist infinitely many primes. Given any prime p, you can
+always find a bigger one. In fact, any prime divisor of p! þ 1 will
+do the job. Here p! ¼ p6ðp  1Þ6ðp  2Þ6    636261, a pro-
+duct called the factorial of p. For instance,
+       7! ¼ 7666564636261 ¼ 5;040:
+
+The largest known prime is another matter, because Euclid’s
+method isn’t a practical way to generate new primes explicitly.
+As I write, the largest known prime is
+
+       232;582;657  1
+
+which has 9,808,358 digits when written out in decimal notation
+(see page 153).
+    Twin primes are pairs of primes that differ by 2. Examples are
+(3, 5), (5, 7), (11, 13), (17, 19), and so on. The twin primes
+conjecture states that there are infinitely many twin primes. This
+is widely believed to be true, but has never been proved. Or
+disproved. The largest known twin primes, to date, are:
+
+       2;003;663;61362195;000  1 and 2;003;663;61362195;000 þ 1
+
+with 58,711 digits each.
+    Nicely does it . . . In 1994 Thomas Nicely was investigating
+twin primes by computer, and noticed that his results disagreed
+with previous computations. After spending weeks searching for
+errors in his program, he traced the problem to a previously
+unknown bug in the IntelTM PentiumTM microprocessor chip. At
+                        A Little-Known Pythagorean Curiosity // 61
+
+
+
+that time, the Pentium was the central processing unit of most of
+the world’s computers. See
+
+
+...........................................
+www.trnicely.net/pentbug/bugmail1.html

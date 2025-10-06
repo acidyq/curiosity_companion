@@ -1,0 +1,58 @@
+Two-Horse Race
+Every whole number can be obtained by multiplying suitable
+primes together. If this requires an even number of primes, we
+say that the number is of even type. If it requires an odd number
+of primes, we say that the number is of odd type. For instance,
+       96 ¼ 26262626263
+                                            Two-Horse Race // 229
+
+
+
+uses six primes, so is of even type. On the other hand,
+       105 ¼ 36567
+
+uses three primes, so is of odd type. By convention, 1 is of even
+type.
+   For the first ten whole numbers, 1–10, the types are:
+       Odd        2 3        5       7 8
+       Even 1            4       6         9 10
+
+A striking fact emerges: in general, odd types occur at least as
+frequently as even types. Imagine two horses, Odd and Even,
+racing. Start them level with each other, and read along the
+sequence of numbers: 1; 2; 3; . . . At each stage, move Odd forward
+one step if the next number has odd type; move Even forward
+one step if the next number has even type. So:
+       After 1 step, Even is ahead.
+       After 2 steps, Odd and Even are level.
+       After 3 steps, Odd is ahead.
+       After 4 steps, Odd and Even are level.
+       After 5 steps, Odd is ahead.
+       After 6 steps, Odd and Even are level.
+       After 7 steps, Odd is ahead.
+       After 8 steps, Odd is ahead.
+       After 9 steps, Odd is ahead.
+       After 10 steps, Odd and Even are level.
+Odd always seems to be level, or ahead. In 1919 George Pólya
+conjectured that Odd never falls behind Even, except right at the
+start, step 1. Calculations showed that this is true for the first
+million steps. Given this weight of favourable evidence, surely it
+has to be true for any number of steps?
+    Without a computer you can waste a lot of time on this
+question, so I’ll tell you the answer. Pólya was wrong! In 1958,
+Brian Haselgrove proved that at some (unknown) stage Odd falls
+behind Even. Once reasonably fast computers were available, it
+was easy to test ever larger numbers. In 1960 Robert Lehman
+discovered that Even is in the lead at step 906,180,359. In 1980
+230 // Drawing an Ellipse – and More?
+
+
+
+Minoru Tanaka proved that Even first takes the lead at step
+906,150,257.
+    This kind of thing is what makes mathematicians insist upon
+proofs. And it shows that even a number like 906,150,257 can be
+
+
+...........................................
+interesting and unusual.

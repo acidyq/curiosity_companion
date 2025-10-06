@@ -1,0 +1,206 @@
+Contents
+...........................................
+
+Start Here // 1
+Alien Encounter // 4
+Tap-an-Animal // 5
+Curious Calculations // 6
+Triangle of Cards // 6
+Pop-up Dodecahedron // 7
+Sliced Fingers // 8
+Turnip for the Books // 9
+The Four-Colour Theorem // 10
+Shaggy Dog Story // 16
+Shaggy Cat Story // 18
+Rabbits in the Hat // 18
+River Crossing 1 – Farm Produce // 20
+More Curious Calculations // 20
+Extracting the Cherry // 22
+Make Me a Pentagon // 23
+What is p? // 23
+Legislating the Value of p // 24
+If They Had Passed It . . . // 25
+Empty glasses // 26
+How Many— // 27
+Three Quickies // 27
+Knight’s Tours // 28
+vi // Contents
+
+
+
+Much Undo About Knotting // 29
+White-Tailed Cats // 31
+To Find Fake Coin // 32
+Perpetual Calendar // 35
+Mathematical Jokes 1 // 35
+Deceptive Dice // 36
+An Age-Old Old-Age Problem // 37
+Why Does Minus Times Minus Make Plus? // 37
+Heron Suit // 38
+How to Unmake a Greek Cross // 39
+How to Remember a Round Number // 39
+The Bridges of Königsberg // 41
+How to do Lots of Mathematics // 43
+Euler’s Pentagonal Holiday // 44
+Ouroborean Rings // 44
+The Ourotorus // 45
+Who Was Pythagoras? // 46
+Proofs of Pythagoras // 47
+A Constant Bore // 49
+Fermat’s Last Theorem // 50
+Pythagorean Triples // 58
+Prime Factoids // 59
+A Little-Known Pythagorean Curiosity // 61
+Digital Century // 62
+Squaring the Square // 62
+Magic Squares // 64
+Squares of Squares // 66
+Ring a-Ring a-Ringroad // 67
+Pure v. Applied // 68
+Magic Hexagon // 68
+Pentalpha // 69
+Wallpaper Patterns // 70
+How Old Was Diophantus? // 71
+                                              Contents // vii
+
+
+
+If You Thought Mathematicians Were Good at
+   Arithmetic . . . // 72
+The Sphinx is a Reptile // 72
+Six Degrees of Separation // 73
+Trisectors Beware! // 76
+Langford’s Cubes // 78
+Duplicating the Cube // 79
+Magic Stars // 80
+Curves of Constant Width // 81
+Connecting Cables // 81
+Coin Swap // 82
+The Stolen Car // 82
+Space-Filling Curves // 83
+Compensating Errors // 84
+The Square Wheel // 84
+Why Can’t I Divide by Zero? // 85
+River Crossing 2 – Marital Mistrust // 86
+Wherefore Art Thou Borromeo? // 87
+Percentage Play // 88
+Kinds of People // 89
+The Sausage Conjecture // 89
+Tom Fool’s Knot // 90
+New Merology // 92
+Numerical Spell // 94
+Spelling Mistakes // 95
+Expanding Universe // 95
+What is the Golden Number? // 96
+What are the Fibonacci Numbers? // 98
+The Plastic Number // 103
+Family Occasion // 105
+Don’t Let Go! // 105
+Theorem: All Numbers are Interesting // 105
+Theorem: All Numbers are Boring // 106
+viii // Contents
+
+
+
+The Most Likely Digit // 106
+Why Call It a Witch? // 109
+Möbius and His Band // 111
+Golden Oldie // 113
+Three More Quickies // 113
+Miles of Tiles // 114
+Chaos Theory // 117
+Après-Le-Ski // 124
+Pick’s Theorem // 125
+Mathematical Prizes // 126
+Why No Nobel for Maths? // 128
+Is There a Perfect Cuboid? // 129
+Paradox Lost // 130
+When Will My MP3 Player Repeat? // 131
+Six Pens // 134
+Patented Primes // 135
+The Poincaré Conjecture // 136
+Hippopotamian Logic // 140
+Langton’s Ant // 141
+Pig on a Rope // 143
+The Surprise Examination // 144
+Antigravity Cone // 144
+Mathematical Jokes 2 // 145
+Why Gauss Became a Mathematician // 146
+What Shape is a Crescent Moon? // 150
+Famous Mathematicians // 150
+What is a Mersenne Prime? // 151
+The Goldbach Conjecture // 154
+Turtles All the Way Down // 155
+Hilbert’s Hotel // 157
+Continuum Coaches // 160
+A Puzzling Dissection // 161
+A Really Puzzling Dissection // 163
+                                                Contents // ix
+
+
+
+Nothing Up My Sleeve . . . // 166
+Nothing Down My Leg . . . // 167
+Two Perpendiculars // 167
+Can You Hear the Shape of a Drum? // 168
+What is e, and Why? // 172
+May Husband and Ay . . . // 173
+Many Knees, Many Seats // 174
+Euler’s Formula // 177
+What Day is It? // 179
+Strictly Logical // 180
+Logical or Not? // 180
+A Question of Breeding // 180
+Fair Shares // 181
+The Sixth Deadly Sin // 182
+Weird Arithmetic // 182
+How Deep is the Well? // 183
+McMahon’s Squares // 183
+What is the Square Root of Minus One? // 184
+The Most Beautiful Formula // 186
+Why is Euler’s Beautiful Formula True? // 186
+Your Call May be Monitored for Training Purposes // 188
+Archimedes, You Old Fraud! // 188
+Fractals – The Geometry of Nature // 189
+The Missing Symbol // 196
+Where There’s a Wall, There’s a Way // 196
+Constants to 50 Places // 197
+Richard’s Paradox // 197
+Connecting Utilities // 199
+Are Hard Problems Easy? or How to Win a Million Dollars by
+   Proving the Obvious // 199
+Don’t Get the Goat // 202
+All Triangles are Isosceles // 203
+Square Year // 204
+x // Contents
+
+
+
+Gödel’s Theorems // 205
+If p isn’t a Fraction, How Can You Calculate It? // 208
+Infinite Wealth // 211
+Let Fate Decide // 212
+How Many— // 212
+What Shape is a Rainbow? // 214
+Alien Abduction // 214
+The Riemann Hypothesis // 215
+Anti-Atheism // 220
+Disproof of the Riemann Hypothesis // 221
+Murder in the Park // 221
+The Cube of Cheese // 222
+The Game of Life // 223
+Two-Horse Race // 228
+Drawing an Ellipse – and More? // 230
+Mathematical Jokes 3 // 231
+The Kepler Problem // 231
+The Milk Crate Problem // 235
+Equal Rights // 236
+Road Network // 236
+Tautoverbs // 237
+Complexity Science // 239
+Scrabble Oddity // 244
+Dragon Curve // 244
+Counterflip // 245
+Spherical Sliced Bread // 246
+Mathematical Theology // 246
+Professor Stewart’s Cunning Crib Sheet // 251

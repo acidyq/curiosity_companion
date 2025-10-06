@@ -1,0 +1,153 @@
+Turtles All the Way Down
+Infinity is a slippery idea. People talk fairly casually of ‘eternity’ –
+an infinite period of time. According to the Big Bang theory, the
+universe came into being about 13 billion years ago. Not only
+156 // Turtles All the Way Down
+
+
+
+was there no universe before then – there was no ‘before’ before
+then.* Some people worry about that, and most of them seem
+much happier with the idea that the universe ‘has always
+existed’. That is, its past has already been infinitely long.
+    This alternative seems to solve the difficult question of the
+origin of the universe, by denying that it ever had an origin. If
+something has always been here, it’s silly to ask why it’s here
+now. Isn’t it?
+    Probably. But that still doesn’t explain why it’s always been
+here.
+    This can be a difficult point to grasp. To bring it into
+perspective, let me compare it with a rather different proposal.
+There is an amusing (and very likely true) tale that a famous
+scientist – Stephen Hawking is often mentioned because he told
+the story in A Brief History of Time – was giving a lecture about the
+universe, and a lady in the audience pointed out that the Earth
+floats in space because it rests on the back of four elephants,
+which in turn rest on the back of a turtle.
+    ‘Ah, but what supports the turtle?’ the scientist asked.
+    ‘Don’t be silly,’ she said. ‘It’s turtles all the way down!’
+
+
+
+
+                             Turtles all the
+                             way down.
+
+
+*   Some cosmologists now think that there could have been
+    something before the Big Bang after all – our universe may be
+    part of a ‘multiverse’ in which individual universes could come
+    into existence or fade away again. The theory is nice, but it’s
+    difficult to find any way to test it.
+                                                 Hilbert’s Hotel // 157
+
+
+
+    All very amusing, and we don’t buy that explanation. A self-
+supporting pile of turtles is ludicrous, and not just because it’s
+turtles. Each turtle being supported by a previous one just
+doesn’t look like an explanation of how the whole pile stays up.
+    Very well. But now replace the Earth by the present state of
+the universe, and replace each turtle by the previous state of the
+universe. Oh, and change ‘support’ to ‘cause’. Why does the
+universe exist? Because a previous one did. Why did that one
+exist? Because a previous one did. Did it all start a finite time in
+the past? No, it’s universes all the way back.*
+    So a universe that has always existed is at least as puzzling as
+
+
+...........................................
+one that has not.
+
+
+
+Hilbert’s Hotel
+Among the paradoxes concerning the infinite are a series of
+bizarre events at Hilbert’s Hotel. David Hilbert was one of the
+world’s leading mathematicians around 1900. He worked in the
+logical foundations of mathematics and took a particular interest
+in infinity. Anyway, Hilbert’s Hotel has infinitely many rooms,
+numbered 1, 2, 3, 4, and so on – every positive integer.
+    One bank holiday weekend, the hotel was completely full. A
+traveller without a reservation arrived at reception wanting a
+room. In any finite hotel, no matter how big, the traveller would
+be out of luck – but not in Hilbert’s Hotel.
+    ‘No problem, sir,’ said the manager. ‘I’ll ask the person in
+Room 1 to move to Room 2, the person in Room 2 to move to
+Room 3, the person in Room 3 to move to Room 4, and so on.
+The person in Room n will move to Room n þ 1. Then Room 1
+will be free, so I’ll put you there.’
+
+
+
+
+*   Part of the appeal of the multiverse approach is that it revives the
+    ‘it’s always been here’ point of view. Our universe hasn’t, but the
+    surrounding multiverse has. It’s multiverses all the way back . . .
+158 // Hilbert’s Hotel
+
+
+
+
+       All move up one, and Room 1 is free.
+
+    This trick works in an infinite hotel. In a finite hotel it goes
+wrong, because the person in the room with the biggest number
+has nowhere to go. But in Hilbert’s Hotel there is no biggest room
+number. Problem sorted.
+    Ten minutes later, an Infinity Tours coach arrived, with
+infinitely many passengers sitting in seats 1, 2, 3, 4, and so on.
+    ‘Well, I can’t fit you in by asking every other guest to move
+up some number of places,’ said the manager. ‘Even if they all
+moved up a million places, that would only free up a million
+rooms.’ He thought for a moment. ‘Nevertheless, I can still fit
+you in. I’ll ask the person in Room 1 to move to Room 2, the
+person in Room 2 to move to Room 4, the person in Room 3 to
+move to Room 6, and so on. The person in Room n will move to
+Room 2n. That frees up all the odd-numbered rooms, so now I
+can put the person in Seat 1 of your bus into Room 1, the person
+in Seat 2 into Room 3, the person in Seat 3 into Room 5, and so
+on. The person in Seat n will move to Room 2n  1.’
+
+
+
+
+       How to accommodate an infinite bus-load.
+
+   However, the manager’s troubles were still not over. Ten
+minutes later, he was horrified to see infinitely many Transfinity
+Travel buses arriving in his (infinite) car park.
+                                               Hilbert’s Hotel // 159
+
+
+
+     He rushed out to meet them. ‘We’re full – but I can still fit you
+all in!’
+     ‘How?’ asked the driver of Bus 1.
+     ‘I’ll reduce you to a problem I’ve already solved,’ said the
+manager. ‘I want you to move everyone into Bus 1.’
+     ‘But Bus 1 is full! And there are infinitely many other buses!’
+     ‘No problem. Line up all your buses side by side, and
+renumber all the seats using a diagonal order.’
+
+
+
+
+       The Manager’s ‘diagonal’ order – the numbers 2–3, 4–5–6,
+       7–8–9–10, and so on slant to the left.
+
+    ‘What does that achieve?’ asked the driver.
+    ‘Nothing – yet. But notice: each passenger, in each of your
+infinitely many buses, is assigned a new number. Every number
+occurs exactly once.’
+    ‘And your point is—?’
+    ‘Move each passenger to the seat in Bus 1 that corresponds to
+their new number.’
+    The driver did so. Then everyone was sitting in Bus 1, and all
+the other buses were empty – so they drove away.
+    ‘Now I’ve got a full hotel and just one extra bus-load,’ said
+
+
+...........................................
+the manager. ‘And I already know how to deal with that.’
+160 // Continuum Coaches

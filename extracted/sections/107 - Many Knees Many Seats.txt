@@ -1,0 +1,162 @@
+Many Knees, Many Seats
+A polyhedron is a solid with finitely many flat (that is, planar)
+faces. Faces meet along lines called edges; edges meet at points
+called vertices. The climax of Euclid’s Elements is a proof that there
+are precisely five regular polyhedrons, meaning that every face is a
+regular polygon (equal sides, equal angles), all faces are identical,
+and each vertex is surrounded by exactly the same arrangement of
+faces. The five regular polyhedrons (also called regular solids) are:
+
+. the tetrahedron, with 4 triangular faces, 4 vertices and 6 edges
+. the cube or hexahedron, with 6 square faces, 8 vertices and
+   12 edges
+. the octahedron, with 8 triangular faces, 6 vertices and 12 edges
+. the dodecahedron, with 12 pentagonal faces, 20 vertices and
+   30 edges
+. the icosahedron, with 20 triangular faces, 12 vertices and
+   30 edges.
+
+
+
+
+       The five regular solids.
+                                    Many Knees, Many Seats // 175
+
+
+
+    The names start with the Greek word for the number of faces,
+and ‘hedron’ means ‘face’. Originally it meant ‘seat’, which isn’t
+quite the same thing. While we’re discussing linguistics, the
+‘-gon’ in ‘polygon’ originally meant ‘knee’ and later acquired the
+technical meaning of ‘angle’. So a polygon has many knees, and
+a polyhedron has many seats.
+    The regular solids arise in nature – in particular, they all occur
+in tiny organisms known as radiolarians. The first three also
+occur in crystals; the dodecahedron and icosahedron don’t,
+although irregular dodecahedra are sometimes found.
+
+
+
+
+       Radiolarians shaped like the regular solids.
+
+    It’s quite easy to make models of polyhedrons out of card, by
+cutting out a connected set of faces – called the net of the solid –
+folding along edges, and gluing or taping appropriate pairs of
+edges together. It helps to add flaps to one edge of each such pair,
+as shown.
+176 // Many Knees, Many Seats
+
+
+
+
+       Nets of the regular solids.
+
+   Here’s a bit of arcane lore: if the edges are of unit length, then
+the volumes of these solids (in cubic units) are:
+                  p
+.   Tetrahedron: 122 *0:117 851
+.   Cube: 1     p
+.   Octahedron: 32 *0:471
+                     p
+                            405
+                       5 4
+.   Dodecahedron:p 2
+                        f  *7:663 12
+.   Icosahedron: 65 f2 *2:181 69
+
+Here f is the golden number (page 96), which turns up
+whenever you have pentagons around – just as p turns up
+whenever you have spheres or circles. And * means ‘approxi-
+mately equals’.
+    Analogues of the regular polyhedrons can be defined in
+spaces of 4 or more dimensions, and are called polytopes. There
+are six regular polytopes in 4 dimensions, but only three regular
+
+
+...........................................
+polytopes in 5 dimensions or more.
+                                             Euler’s Formula // 177
+
+
+
+Euler’s Formula
+The regular solids have a curious pattern which turns out to be
+far more general. If F is the number of faces, E the number of
+edges and V the number of vertices, then
+       FEþV ¼2
+
+for all five solids. In fact, the same formula holds for any
+polyhedron that has no ‘holes’ in it – one that is topologically
+equivalent to a sphere. This relation is called Euler’s formula, and
+its generalisations to higher dimensions are important in
+topology.
+    The formula also applies to a map in the plane, provided we
+consider the infinite region outside the map to be an extra face –
+or ignore this ‘face’ and replace the formula by
+       FEþV ¼1
+
+which amounts to the same thing but is easier to think about. I’ll
+call this expression Euler’s formula for maps.
+    The diagram shows, using a typical example, why this
+formula is true. The value of F  E þ V is written underneath
+each step in the process. The method of proof is to simplify the
+map, one step at a time. If we choose a face adjacent to the
+outside of the map, and remove that face and an adjacent outside
+edge, then both F and E decrease by 1. This leaves F  E
+unchanged. Since we haven’t altered V, it also leaves F  E þ V
+unchanged. We can keep erasing a face and a corresponding edge
+until all faces have been removed. We are left with a network of
+edges and vertices, and this always forms a ‘tree’ – there are no
+closed loops of edges. In the example in the diagram, this stage is
+reached at the sixth step, when F  E þ V ¼ 0  7 þ 8.
+178 // Euler’s Formula
+
+
+
+
+       Proof of Euler’s formula for maps in the plane.
+
+    Now we simplify the tree by snipping off one ‘branch’ – an
+edge on the end of the tree plus the vertex on the outside end of
+that edge – at a time. Now F remains at 0, while E and V both
+decrease by 1 with each snip. Again, F  E þ V remains
+unchanged. Eventually, a single vertex remains. Now
+F ¼ 0; E ¼ 0 and V ¼ 1. So at the end of the process,
+F  E þ V ¼ 1. Since the process does not change this quantity, it
+must also have been equal to 1 when we started.
+    The proof explains why the signs alternate – plus, minus, plus
+– as we go from faces to edges to vertices. A similar trick works for
+higher-dimensional topology, for much the same reason.
+    There is a hidden topological assumption in the proof: the
+map is drawn in the plane. Equivalently, when considering
+polyhedrons, they must be ‘drawable’ on the surface of a sphere.
+If the polyhedron or map lives on a surface that is topologically
+distinct from a sphere, such as a torus, then the method of proof
+can be adapted but the final result is slightly different. For
+example, the formula for polyhedrons becomes
+       FEþV ¼0
+
+when the polyhedron is topologically equivalent to a torus. As an
+example, this ‘picture frame’ polyhedron has F ¼ 16; E ¼ 32 and
+V ¼ 16:
+                                            What Day is It? // 179
+
+
+
+
+       Picture frame polyhedron.
+
+   On a surface with g holes, the formula becomes
+       F  E þ V ¼ 2  2g
+
+so we can calculate the number of holes by drawing a
+polyhedron on the surface. In this manner, an ant that inhabited
+the surface and could not perceive it ‘from outside’ would still be
+able to work out the topology of the surface. Today’s cosmolo-
+gists are trying to work out the topological shape of our own
+universe – which we can’t observe ‘from outside’ – by using more
+
+
+...........................................
+elaborate topological ideas of a similar kind.

@@ -1,0 +1,12 @@
+Digital Century
+Place exactly three common mathematical symbols between the
+digits
+       1 2 3 4 5 6 7 8 9
+
+so that the result equals 100. The same symbol can be repeated if
+you wish, but each repeat counts towards your limit of three.
+Rearranging the digits is not permitted.
+
+
+...........................................
+   Answer on page 266

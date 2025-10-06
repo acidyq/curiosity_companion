@@ -1,0 +1,44 @@
+Expanding Universe
+The starship Indefensible starts from the centre of a spherical
+universe of radius 1,000 light years, and travels radially at a speed
+of one light year per year – the speed of light. How long will it
+take to reach the edge of the universe? Clearly, 1,000 years.
+Except that I forgot to tell you that this universe is expanding.
+Every year, the universe expands its radius instantly by precisely
+1,000 light years. Now, how long will it take to reach the edge?
+(Assume that the first such expansion happens exactly one year
+after the Indefensible starts its voyage, and successive expansions
+occur at intervals of exactly one year.)
+    It might seem that the Indefensible never gets to the edge,
+because that is receding faster than the ship can move. But at the
+instant that the universe expands, the ship is carried along with
+the space in which it sits, so its distance from the centre expands
+proportionately. To make these conditions clear, let’s look at
+what happens for the first few years.
+    In the first year the ship travels 1 light year, and there are 999
+light years left to traverse. Then the universe instantly expands
+to a radius of 2,000 light years, and the ship moves with it. So it is
+then 2 light years from the centre, and has 1,998 left to travel.
+    In the next year it travels a further light year, to a distance of
+3 light years, leaving 1,997. But then the universe expands to a
+radius of 3,000 light-years, multiplying its radius by 1.5, so the
+ship ends up 4.5 light years from the centre, and the remaining
+distance increases to 2,995.5 light years.
+    Does the ship ever get to the edge? If so, how long does it
+take?
+96 // What is the Golden Number?
+
+
+
+   Hint: it will be useful to know that the nth harmonic number
+               1 1 1          1
+       Hn ¼ 1 þ þ þ þ    þ
+               2 3 4          n
+is approximately equal to
+       log n þ g
+
+where g is Euler’s constant, which is roughly 0.577 215 664 9.
+
+
+...........................................
+   Answer on page 276

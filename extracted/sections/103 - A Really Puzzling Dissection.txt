@@ -1,0 +1,170 @@
+A Really Puzzling Dissection
+‘The area can’t change when the pieces are reassembled in a
+different way.’
+    Hmmm.
+    In 1924 two Polish mathematicians, Stefan Banach and
+Alfred Tarski, proved that it is possible to dissect a sphere into
+finitely many pieces, which can then be rearranged to make two
+spheres – each the same size as the original. No overlaps, no
+missing bits – the pieces fit together perfectly. This result has
+become known as the Banach–Tarski paradox, although it’s a
+perfectly valid theorem and the only element of paradox is that
+it seems to be obviously false.
+
+
+
+
+       It can be done – but not with pieces like these.
+
+      Hang on, though. Surely, if you cut a sphere into several
+pieces, the total volume of the pieces must be the same as that of
+the sphere. So however you reassemble the pieces, the total
+volume can’t change. But two identical spheres have twice the
+volume of a single sphere (of the same size). You don’t have to be
+a genius to see that it can’t be done! In fact, if it could be done,
+then you could start with a gold sphere, cut it up, fit the pieces
+back together, and end up with twice as much gold. Then repeat
+. . . But you can’t get something for nothing.
+      Hang on, though. Let’s not be so hasty.
+      The argument about gold is inconclusive, because mathe-
+matical concepts do not always model the real world exactly. In
+mathematics, volumes can be subdivided into indefinitely small
+pieces. In the real world, you hit problems at the atomic scale.
+This could spoil things if we try to use gold.
+      In contrast, the argument about volumes looks watertight.
+But there’s a tiny loophole in the logic: the tacit assumption that
+164 // A Really Puzzling Dissection
+
+
+
+the separate pieces have well-defined volumes. ‘Volume’ is such a
+familiar concept that we tend to forget just how tricky it can be.
+    None of this means that Banach and Tarski were right; it just
+explains why they are not obviously wrong. Unlike the nice
+polygonal pieces in Mathophila’s dissection of a chessboard, the
+Banach–Tarski ‘pieces’ are more like disconnected clouds of
+infinitely small dust specks than solid lumps. They are so
+complicated, in fact, that their volumes cannot be defined – not
+if we want them to obey the usual rule ‘when you combine
+several pieces, their volumes add’. And if that rule fails, the
+argument about volumes comes to bits. The single sphere, and
+two copies of it, have well-defined volumes. But the intermediate
+stages, when they are cut into pieces, aren’t like that.
+    What are they like? Well . . . not like that.
+    Banach and Tarski realised that this loophole might actually
+make their paradoxical dissection possible. They proved that:
+
+. You can split a single sphere A into finitely many very
+   complicated, possibly disconnected, parts.
+. You can do the same to two spheres B and C, the same size as A.
+. You can accomplish all of that in such a way that the parts of
+   B and C together correspond exactly to the parts of A.
+. You can arrange for corresponding parts to be perfect copies
+   of one another.
+
+The proof of the Banach–Tarski paradox is complicated and
+technical, and it requires a set-theoretic assumption known as
+the axiom of choice. This particular assumption worries some
+mathematicians. However, the fact that it leads to the Banach–
+Tarski paradox is not what worries them, and is no reason to
+reject it. Why not? Because the Banach–Tarski paradox isn’t
+really very paradoxical. With the right intuition, we would
+expect such paradoxical dissections to be possible.
+    Let me try to give you that intuition. It all hinges on the weird
+behaviour of what are called infinite sets. Although a sphere has
+finite size, it contains infinitely many points. That leaves room for
+the weirdness of infinity to show up in the geometry of the sphere.
+                                A Really Puzzling Dissection // 165
+
+
+
+       A useful analogy involves the English alphabet, the 26 letters
+A, B, C, . . . , Z. These letters can be combined to make words, and
+we list permissible words in a dictionary. Suppose we allow all
+possible sequences of letters, as long or as short as we like. So
+AAAAVDQX is a word, and so is GNU, and so is ZZZ . . . Z with ten
+million Z’s. We can’t print such a dictionary, but to mathemat-
+icians it is a well-defined set which contains infinitely many words.
+       Now, we can dissect this dictionary into 26 pieces. The first
+piece contains all words starting with A, the second contains all
+words starting with B, and so on, with the 26th piece containing
+all words starting with Z. These pieces do not overlap, and every
+word occurs in exactly one piece.
+       Each piece, however, has exactly the same structure as the
+original dictionary. The second piece, for example, contains the
+words BAAAAVDQX, BGNU and BZZZ . . . Z. The third contains
+CAAAAVDQX, CGNU and CZZZ . . . Z. You can convert each
+piece into the entire dictionary by lopping off the first letter from
+every word.
+       In other words: we can cut the dictionary apart, and
+reassemble the pieces to make 26 exact copies of the dictionary.
+       Banach and Tarski found a way to do the same kind of thing
+with the infinite set of all points in a solid sphere. Their alphabet
+consisted of two different rotations of the sphere; their words
+were sequences of these rotations. By playing a more compli-
+cated version of the dictionary game with the rotations, you can
+create an analogous dissection of the sphere. Since there are now
+two ‘letters’ in the alphabet, we convert the original sphere into
+two identical copies.
+       Careful readers will observe that I’ve cheated slightly in the
+interests of simplicity. When I chop off the initial letter B from
+the second piece, for instance, I not only get the entire original
+dictionary: I also get the ‘empty’ word that arises when the initial
+B is deleted from the word B. So really my dissection turns the
+dictionary into 26 copies of itself, plus 26 extra words A, B, C,
+. . . , Z of length 1. To keep everything neat and tidy, we have to
+absorb the extra 26 words into the pieces. A similar problem
+166 // Nothing Up My Sleeve . . .
+
+
+
+occurs in Banach and Tarski’s construction – but this is a very
+fine point. If we ignore it, we still double the sphere – we just
+have a few extra points left over. Which is just as suprising.
+    After Banach and Tarski proved their theorem, mathemat-
+icians began to wonder how few pieces you could get away with.
+In 1947 Abraham Robinson proved that it can be done with five
+pieces, but no fewer. If you are willing to ignore a single point at
+the centre of the sphere, this number reduces to four.
+    The Banach–Tarski paradox isn’t really about dissecting
+spheres. It is about the impossibility of defining a sensible
+
+
+...........................................
+concept of ‘volume’ for really complicated shapes.
+
+
+
+Nothing Up My Sleeve . . .
+How can you remove a loop of string from your arm without
+taking your hand out of your jacket pocket?
+    More precisely: take a two-metre length of string and tie its
+ends together to form a closed loop. Put on your jacket, button it
+up, and put your arm through a loop and into the side pocket.
+Now you have to remove the loop without taking your hand out
+of your pocket – and without sliding the loop into the pocket to
+sneak it out over the ends of your fingers.
+
+
+
+
+                            Remove the string without removing
+                            your hand from your pocket.
+
+
+
+
+...........................................
+   Answer on page 286
+                                         Two Perpendiculars // 167
+
+
+
+Nothing Down My Leg . . .
+Once your audience has learned to solve the previous problem,
+ask someone to try the same thing, still wearing the jacket, but
+with his hand in his trouser pocket.
+
+
+...........................................
+   Answer on page 287

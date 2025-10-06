@@ -1,0 +1,23 @@
+The Surprise Examination
+This paradox is so famous that I nearly left it out. It raises some
+intriguing issues.
+    Teacher tells the class that there will be a test one day next
+week (Monday to Friday), and that it will be a surprise. This
+seems reasonable: the teacher can choose any day out of five, and
+there is no way that the students can know which day it will be.
+But the students don’t see things that way at all. They reason that
+the test can’t be on Friday – because if it was, then as soon as
+Thursday passed without a test, they’d know it had to be Friday,
+so no surprise. And once they’ve ruled out Friday, they apply the
+same reasoning to the remaining four days of the week, so the
+test can’t be on Thursday, either. In which case it can’t be on
+Wednesday, so it can’t be on Tuesday, so it can’t be on Monday.
+Apparently, no surprise test is possible.
+    That’s all very well, but if the teacher decides to set the test
+on Wednesday, there seems to be no way that the students could
+actually know the day ahead of time! Is this a genuine paradox or
+not?
+
+
+...........................................
+   Answer on page 281

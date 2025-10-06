@@ -1,0 +1,117 @@
+What is a Mersenne Prime?
+A Mersenne number is a number of the form 2n  1. That is, it is
+one less than a power of 2. A Mersenne prime is a Mersenne
+number that happens also to be prime. It is straightforward to
+prove that in this case the exponent n must itself be prime. For
+the first few primes, n ¼ 2, 3, 5 and 7, the corresponding
+Mersenne numbers 3, 7, 31 and 127 are all prime.
+     Interest in Mersenne numbers goes back a long way, and
+initially it was thought that they are prime whenever n is prime.
+However, in 1536 Hudalricus Regius proved that this assumption
+is false, pointing out that 211  1 ¼ 2;047 ¼ 23689. In 1603 Pietro
+Cataldi noted that 217  1 and 219  1 are prime, which is correct,
+and claimed that n ¼ 23, 29, 31 and 37 also lead to primes.
+Fermat proved that he was wrong for 23 and 37, and Euler
+demolished his claim for 29. But Euler later proved that 231  1 is
+prime.
+     In his 1644 book Cogitata Physico-Mathematica, the French
+monk Marin Mersenne stated that 2n  1 is prime when n is 2, 3,
+5, 7, 13, 17, 19, 31, 67, 127 and 257 – and for no other values in
+that range. Using the methods then available, he could not have
+tested most of these numbers, so his claims were mainly
+guesswork, but his name became associated with the problem.
+     In 1876 Édouard Lucas developed a cunning way to test
+Mersenne numbers to see if they are prime, and showed that
+Mersenne was right for n ¼ 127. By 1947 all cases in Mersenne’s
+range had been checked, and it turned out that he had
+mistakenly included 67 and 257. He had also omitted 61, 89 and
+152 // What is a Mersenne Prime?
+
+
+
+107. Lucas improved his test, and in the 1930s Derrick Lehmer
+found further improvements. The Lucas–Lehmer test uses the
+sequence of numbers
+                  4; 14; 194; 37634; . . .
+
+in which each number is the square of the previous one,
+decreased by 2. It can be proved that the nth Mersenne number is
+prime if and only if it divides the (n  1)th term of this sequence.
+This test can prove that a Mersenne number is composite
+without finding any of its prime factors, and it can prove the
+number is prime without testing for any prime factors. There’s a
+trick to keep all numbers involved in the test smaller than the
+Mersenne number concerned.
+    Looking for new, larger Mersenne primes is an amusing way
+to try out new, fast computers, and over the years prime-hunters
+have extended the list. It now includes 44 primes:
+
+                                         n              Year                     Discoverer
+....................................................................................................................................................................
+                                   2                    —                        known from antiquity
+                                   3                    —                        known from antiquity
+                                   5                    —                        known from antiquity
+                                   7                    —                        known from antiquity
+                                  13                    1456                     anonymous
+                                  17                    1588                     Pietro Cataldi
+                                  19                    1588                     Pietro Cataldi
+                                  31                    1772                     Leonhard Euler
+                                  61                    1883                     Ivan Pervushin
+                                  89                    1911                     R.E. Powers*
+                                 107                    1914                     R.E. Powers
+                                 127                    1876                     Édouard Lucas
+                                 521                    1952                     Raphael Robinson
+                                 607                    1952                     Raphael Robinson
+                               1,279                    1952                     Raphael Robinson
+                               2,203                    1952                     Raphael Robinson
+                               2,281                    1952                     Raphael Robinson
+                               3,217                    1957                     Hans Riesel
+
+*       Powers is a rather obscure, possibly amateur, mathematician. I
+        haven’t been able to locate his first name.
+                                                                               What is a Mersenne Prime? // 153
+
+
+
+                       4,253                            1961                     Alexander Hurwitz
+                       4,423                            1961                     Alexander Hurwitz
+                       9,689                            1963                     Donald Gillies
+                       9,941                            1963                     Donald Gillies
+                      11,213                            1963                     Donald Gillies
+                      19,937                            1971                     Bryant Tuckerman
+                      21,701                            1978                     Landon Noll and Laura Nickel
+                      23,209                            1979                     Landon Noll
+                      44,497                            1979                     Harry Nelson and David Slowinski
+                      86,243                            1982                     David Slowinski
+                     110,503                            1988                     Walter Colquitt and Luther Welsh
+                     132,049                            1983                     David Slowinski
+                     216,091                            1985                     David Slowinski
+                     756,839                            1992                     David Slowinski et al.
+                     859,433                            1994                     David Slowinski and Paul Gage
+                   1,257,787                            1996                     David Slowinski and Paul Gage
+                   1,398,269                            1996                     Joel Armengaud et al.
+                   2,976,221                            1997                     Gordon Spence et al.
+                   3,021,377                            1998                     Roland Clarkson et al.
+                   6,972,593                            1999                     Nayan Hajratwala et al.
+                  13,466,917                            2001                     Michael Cameron et al.
+                  20,996,011                            2003                     Michael Shafer et al.
+                  24,036,583                            2004                     Josh Findley et al.
+                  25,964,951                            2005                     Martin Nowak et al.
+                  30,402,457                            2005                     Curtis Cooper et al.
+                  32,582,657                            2006                     Curtis Cooper et al.
+....................................................................................................................................................................
+
+Up to and including the 39th Mersenne prime (n ¼ 13,466,917)
+the list is complete, but there may be undiscovered Mersenne
+primes in the gaps between the known ones after that. The 44th
+known Mersenne prime, 232;582;657  1, has 9,808,358 decimal
+digits and is currently (December 2007) the largest known prime.
+Mersenne primes generally hold this record, thanks to the Lucas–
+Lehmer test; however, we know from Euclid that there is no largest
+prime. For up-to-date information, go to the Mersenne Primes
+website primes.utm.edu/mersenne/; you can also join the Great
+
+
+...........................................
+Internet Mersenne Prime Search (GIMPS) at www.mersenne.org/
+154 // The Goldbach Conjecture

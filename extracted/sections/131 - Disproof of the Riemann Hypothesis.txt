@@ -1,0 +1,18 @@
+Disproof of the Riemann Hypothesis
+Consider the following logical argument:
+
+. Elephants never forget.
+. No creature that has ever won Mastermind has possessed a
+    trunk.
+. A creature that never forgets will always win Mastermind
+    provided it takes part in the competition.
+. A creature lacking a trunk is not an elephant.
+. In 2001 an elephant took part in Mastermind.
+Therefore:
+
+. The Riemann Hypothesis is false.
+Is this a correct deduction?
+
+
+...........................................
+    Answer on page 302

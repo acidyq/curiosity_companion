@@ -1,0 +1,96 @@
+Six Degrees of Separation
+In 1998 Duncan Watts and Steven Strogatz published a research
+paper in the science journal Nature about ‘small-world networks’.
+These are networks in which certain individuals are unusually
+well-connected. The paper triggered a mass of research in which
+the ideas were applied to real networks such as the Internet and
+the transmission of disease epidemics.
+74 // Six Degrees of Separation
+
+
+
+
+                                   A small-world network. The
+                                   black individual in the middle is
+                                   connected to many others,
+                                   unlike the grey individuals.
+
+    The story began in 1967 when the psychologist Stanley
+Milgram prepared 160 letters with the name of his stockbroker
+on the envelope – but no address. Then he ‘lost’ the letters so
+that random members of the populace could find them, and, he
+hoped, send them on. Many of the letters duly arrived at the
+stockbroker’s office, and when they did, they had done so in at
+most six steps. This led Milgram to the idea that we are
+connected to every other person on the planet by at most five
+intermediaries – six degrees of separation.
+    I was explaining the Nature paper and its background to my
+friend Jack Cohen, in the maths common room. Our head of
+department walked past, stopped, and said, ‘Nonsense! Jack, how
+many steps are there between you and a Mongolian yak herder?’
+Jack’s instant response was: ‘One!’ He then explained that the
+person in the office next to his was an ecologist who had worked
+in Mongolia. This kind of thing happens to Jack, because he is
+one of those unusually well-connected people who makes small-
+world networks hang together. For example, he causes both me
+and my head of department to be only two steps away from a
+Mongolian yak herder.
+    You can explore the small-world phenomenon using the
+Oracle of Bacon, at oracleofbacon.org. Kevin Bacon is an actor
+who has appeared in a lot of movies. Anyone who has appeared
+in the same movie as Kevin has a Bacon number of 1. Anyone who
+has appeared in the same movie as anyone with a Bacon number
+of 1 has a Bacon number of 2, and so on. If Milgram is right,
+virtually every actor (movies being the relevant ‘world’) has a
+                                 Six Degrees of Separation // 75
+
+
+
+Bacon number of 6 or less. At the Oracle, when you type in an
+actor’s name it tells you the Bacon number, and which movies
+form the links. For instance,
+
+. Michelle Pfeiffer appeared in Amazon Women on the Moon in
+    1987 with:
+. David Alan Grier, who appeared in The Woodsman in 2004
+    with:
+. Kevin Bacon
+so Michelle’s Bacon number is 2.
+    It’s not easy to find anyone with Bacon number bigger than
+2! One of them is
+
+. Hayley Mooy, who appeared in Star Wars: Episode III – Revenge
+    of the Sith in 2005 with:
+. Samuel L. Jackson, who appeared in Snakes on a Plane in 2006
+    with:
+. Rachel Blanchard, who appeared in Where the Truth Lies in
+    2005 with:
+. Kevin Bacon
+so Hayley has Bacon number 3.
+    Mathematicians have their own version of the Oracle of
+Bacon, centred on the late Paul Erdős. Erdős wrote more joint
+research papers than any other mathematician, so the game goes
+the same way but the links are joint papers. My Erdős number is
+3, because
+
+.   I wrote a joint paper with:
+.   Marty Golubitsky, who wrote a joint paper with:
+.   Bruce Rothschild, who wrote a joint paper with:
+.   Paul Erdős
+
+and no shorter chain exists. One of my former students, who has
+written a joint paper with me but with no one else, has Erdős
+number 4.
+   Usually, more people take part in the same movie than co-
+author the same mathematics research paper – though I can’t say
+76 // Trisectors Beware!
+
+
+
+the same about some areas of biology or physics. So you’d expect
+bigger Erdős numbers than Bacon numbers, on the whole. All
+mathematicians with Erdős number 1 or 2 are listed at
+
+
+...........................................
+www.oakland.edu/enp

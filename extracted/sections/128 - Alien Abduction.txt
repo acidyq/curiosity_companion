@@ -1,0 +1,25 @@
+Alien Abduction
+Two aliens from the planet Porqupyne want to abduct two
+Earthlings, but are blissfully unaware that the objects of their
+                                   The Riemann Hypothesis // 215
+
+
+
+attention are actually pigs. In their formal way, the aliens play a
+game.
+
+
+
+
+                                             First catch your pig . . .
+
+    On the first move, each alien moves one square horizontally
+or vertically (not diagonally). Each alien can move in any of the
+four directions, independently of what the other one does. On
+the next move, the pigs can do likewise. The aliens get to abduct
+any pig upon whose square they land. To their surprise, the pigs
+always seem to get away. What are the aliens doing wrong?
+
+
+...........................................
+   Answers on page 302

@@ -1,0 +1,246 @@
+The Four-Colour Theorem
+Problems that are easy to state can sometimes be very hard to
+answer. The four-colour theorem is a notorious example. It all
+began in 1852 with Francis Guthrie, a graduate student at
+University College, London. Guthrie wrote a letter to his younger
+brother Frederick, containing what he thought would be a simple
+little puzzle. He had been trying to colour a map of the English
+counties, and had discovered that he could do it using four
+colours, so that no two adjacent counties were the same colour.
+He wondered whether this fact was special to the map of
+England, or more general. ‘Can every map drawn on the plane be
+coloured with four (or fewer) colours so that no two regions
+having a common border have the same colour?’ he wrote.
+     It took 124 years to answer him, and even now, the answer
+relies on extensive computer assistance. No simple conceptual
+proof of the four-colour theorem – one that can be checked step
+by step by a human being in less than a lifetime – is known.
+
+
+
+
+       Colouring England’s counties with four colours – one solution
+       out of many.
+
+    Frederick Guthrie couldn’t answer his brother’s question, but
+he ‘knew a man who could’ – the famous mathematician
+Augustus De Morgan. However, it quickly transpired that De
+Morgan couldn’t, as he confessed in October of the same year in a
+                                   The Four-Colour Theorem // 11
+
+
+
+letter to his even more famous Irish colleague, Sir William Rowan
+Hamilton.
+    It is easy to prove that at least four colours are necessary for
+some maps, because there are maps with four regions, each
+adjacent to all the others. Four counties in the map of England
+(shown here slightly simplified) form such an arrangement,
+which proves that at least four colours are necessary in this case.
+Can you find them on the map?
+
+
+
+
+                                    A simple map
+                                    needing four colours.
+
+
+
+    De Morgan did make some progress: he proved that it is not
+possible to find an analogous map with five regions, each
+adjacent to all four of the others. However, this does not prove
+the four-colour theorem. All it does is prove that the simplest
+way in which it might go wrong doesn’t happen. For all we
+know, there might be a very complicated map with, say, a
+hundred regions, which can’t be coloured using only four
+colours because of the way long chains of regions connect to
+their neighbours. There’s no reason to suppose that a ‘bad’ map
+has only five regions.
+    The first printed reference to the problem dates from 1878,
+when Arthur Cayley wrote a letter to the Proceedings of the London
+Mathematical Society (a society founded by De Morgan) to ask
+whether anyone had solved the problem yet. They had not, but
+in the following year Arthur Kempe, a barrister, published a
+proof, and that seemed to be that.
+    Kempe’s proof was clever. First he proved that any map
+contains at least one region with five or fewer neighbours. If a
+region has three neighbours, you can shrink it away, getting a
+simpler map, and if the simpler map can be 4-coloured, so can
+12 // The Four-Colour Theorem
+
+
+
+the original one. You just give the region that you shrunk
+whichever colour differs from those of its three neighbours.
+Kempe had a more elaborate method for getting rid of a region
+with four or five neighbours. Having established this key fact, the
+rest of the proof was straightforward: to 4-colour a map, keep
+shrinking it, region by region, until it has four regions or fewer.
+Colour those regions with different colours, and then reverse the
+procedure, restoring regions one by one and colouring them
+according to Kempe’s rules. Easy!
+
+
+
+
+                                                    If the right-
+                                                    hand map can
+                                                    be 4-coloured,
+                                                    so can the left-
+                                                    hand one.
+
+
+    It looked too good to be true – and it was. In 1890 Percy
+Heawood discovered that Kempe’s rules didn’t always work. If
+you shrunk a region with five neighbours, and then tried to put it
+back, you could run into terminal trouble. In 1891 Peter Guthrie
+Tait thought he had fixed this error, but Julius Petersen found a
+mistake in Tait’s method, too.
+    Heawood did observe that Kempe’s method can be adapted
+to prove that five colours are always sufficient for any map. But
+no one could find a map that needed more than four. The gap was
+tantalising, and quickly became a disgrace. When you know that
+a mathematical problem has either 4 or 5 as its answer, surely
+you ought to be able to decide which!
+    But . . . no one could.
+    The usual kind of partial progress then took place. In 1922
+Philip Franklin proved that all maps with 26 or fewer regions can
+be 4-coloured. This wasn’t terribly edifying in itself, but
+Franklin’s method paved the way for the eventual solution by
+introducing the idea of a reducible configuration. A configuration
+is any connected set of regions within the map, plus some
+                                    The Four-Colour Theorem // 13
+
+
+
+information about how many regions are adjacent to those in
+the configuration. Given some configuration, you can remove it
+from the map to get a simpler map – one with fewer regions. The
+configuration is reducible if there is a way to 4-colour the original
+map, provided you can 4-colour the simpler map. In effect, there
+has to be a way to ‘fill in’ colours in that configuration, once
+everything else has been 4-coloured.
+    A single region with only three neighbours forms a reducible
+configuration, for instance. Remove it, and 4-colour what’s left –
+if you can. Then put that region back, and give it a colour that
+has not been used for its three neighbours. Kempe’s failed proof
+does establish that a region with four neighbours forms a
+reducible configuration. Where he went wrong was to claim the
+same thing for a region with five neighbours.
+    Franklin discovered that configurations containing several
+regions can sometimes work when single regions don’t. Lots of
+multi-region configurations turn out to be reducible.
+    Kempe’s proof would have worked if every region with five
+neighbours were reducible, and the reason why it would have
+worked is instructive. Basically, Kempe thought he had proved
+two things. First, every map contains a region with either three,
+four or five adjacent ones. Second, each of the associated
+configurations is reducible. Now these two facts together imply
+that every map contains a reducible configuration. In particular,
+when you remove a reducible configuration, the resulting
+simpler map also contains a reducible configuration. Remove
+that one, and the same thing happens. So, step by step, you can
+get rid of reducible configurations until the result is so simple
+that it has at most four regions. Colour those however you wish –
+at most four colours will be needed. Then restore the previously
+removed configuration; since this was reducible, the resulting
+map can also be 4-coloured . . . and so on. Working backwards,
+we eventually 4-colour the original map.
+    This argument works because every map contains one of our
+irreducible configurations: they form an ‘unavoidable set’.
+    Kempe’s attempted proof failed because one of his config-
+14 // The Four-Colour Theorem
+
+
+
+urations, a region with five neighbours, isn’t reducible. But the
+message from Franklin’s investigation is: don’t worry. Try a
+bigger list, using lots of more complicated configurations. Dump
+the region with five neighbours; replace it by several configura-
+tions with two or three regions. Make the list as big as you need.
+If you can find some unavoidable set of reducible configurations,
+however big and messy, you’re done.
+    In fact – and this matters in the final proof – you can get away
+with a weaker notion of unavoidability, applying only to
+‘minimal criminals’: hypothetical maps that require five colours,
+with the nice feature that any smaller map needs only four
+colours. This condition makes it easier to prove that a given set is
+unavoidable. Ironically, once you prove the theorem, it turns out
+that no minimal criminals exist. No matter: that’s the proof
+strategy.
+    In 1950 Heinrich Heesch, who had invented a clever method
+for proving that many configurations are reducible, said that he
+believed the four-colour theorem could be proved by finding an
+unavoidable set of reducible configurations. The only difficulty
+was to find one – and it wouldn’t be easy, because some rule-of-
+thumb calculations suggested that such a set would have to
+include about 10,000 configurations.
+    By 1970 Wolfgang Haken had found some improvements to
+Heesch’s method for proving configurations to be reducible, and
+began to feel that a computer-assisted proof was within reach. It
+should be possible to write a computer program to check that
+each configuration in some proposed set is reducible. You could
+write down several thousand configurations by hand, if you
+really had to. Proving them unavoidable would be time-
+consuming, but not necessarily out of reach. But with the
+computers then available, it would have taken about a century to
+deal with an unavoidable set of 10,000 configurations. Modern
+computers can do the job in a few hours, but Haken had to work
+with what was available, which meant that he had to improve
+the theoretical methods, and cut the calculation down to a
+feasible size.
+                                    The Four-Colour Theorem // 15
+
+
+
+     Working with Kenneth Appel, Haken began a ‘dialogue’ with
+his computer. He would think of potential new methods for
+attacking the problem; the computer would then do lots of sums
+designed to tell him whether these methods were likely to
+succeed. By 1975, the size of an unavoidable set was down to
+only 2,000, and the two mathematicians had found much faster
+tests for irreducibility. Now there was a serious prospect that a
+human–machine collaboration could do the trick. In 1976 Appel
+and Haken embarked on the final phase: working out a suitable
+unavoidable set. They would tell the computer what set they had
+in mind, and it would then test each configuration to see
+whether it was reducible. If a configuration failed this test, it was
+removed and replaced by one or more alternatives, and the
+computer would repeat the test for irreducibility. It was a delicate
+process, and there was no guarantee that it would stop – but if it
+ever did, they would have found an unavoidable set of
+irreducible configurations.
+     In June 1976 the process stopped. The computer reported
+that the current set of configurations – which at that stage
+contained 1,936 of them, a figure they later reduced to 1,405 –
+was unavoidable, and every single one of those 1,936 config-
+urations was irreducible. The proof was complete.
+     The computation took about 1,000 hours in those days, and
+the test for reducibility involved 487 different rules. Today, with
+faster computers, we can repeat the whole thing in about an
+hour. Other mathematicians have found smaller unavoidable
+sets and improved the tests for reducibility. But no one has yet
+managed to cut down the unavoidable set to something so small
+that an unaided human can verify that it does the job. And even
+if somebody did do that, this type of proof doesn’t provide a very
+satisfactory explanation of why the theorem is true. It just says
+‘do a lot of sums, and the end result works’. The sums are clever,
+and there are some neat ideas involved, but most mathemati-
+cians would like to get a bit more insight into what’s really going
+on. One possible approach is to invent some notion of
+‘curvature’ for maps, and interpret reducibility as a kind of
+16 // Shaggy Dog Story
+
+
+
+‘flattening out’ process. But no one has yet found a suitable way
+to do this.
+     Nevertheless, we now know that the four-colour theorem is
+true, answering Francis Guthrie’s innocent-looking question.
+Which is an amazing achievement, even if it does depend on a
+little bit of help from a computer.
+
+
+...........................................
+   Answer on page 254

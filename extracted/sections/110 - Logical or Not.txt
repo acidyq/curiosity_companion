@@ -1,0 +1,13 @@
+Logical or Not?
+       If pigs had wings, they’d fly.
+       Pigs don’t fly if the weather is bad.
+       If pigs had wings, the sensible person would carry an
+       umbrella.
+       Therefore:
+       If the weather is bad, the sensible person would carry an
+       umbrella.
+       Is the deduction logically valid?
+
+
+...........................................
+   Answer on page 288

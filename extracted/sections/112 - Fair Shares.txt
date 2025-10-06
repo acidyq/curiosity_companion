@@ -1,0 +1,20 @@
+Fair Shares
+In 1944, as the Russian army fought to reclaim Poland from the
+Germans, the mathematician Hugo Steinhaus, trapped in the
+city of Lvov, sought distraction in a puzzle. As you do.
+    The puzzle was this. Several people want to share a cake (by
+all means replace that by a pizza if you wish). And they want the
+procedure to be fair, in the sense that no one will feel that they
+have got less than their fair share.
+    Steinhaus knew that for two people there is a simple method:
+one person cuts the cake into two pieces, and the other chooses
+which one they want. The second person can’t complain,
+because they made the choice. The first person also can’t
+complain – if they do, it was their fault for cutting the cake
+wrongly.
+    How can three people divide a cake fairly?
+
+
+...........................................
+   Answer on page 289
+182 // The Sixth Deadly Sin

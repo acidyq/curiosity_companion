@@ -1,0 +1,15 @@
+Compensating Errors
+The class had been given a sum to do, involving three positive
+whole numbers (‘positive’ here means ‘greater than zero’).
+During the break, two classmates compared notes.
+    ‘Oops. I added the three numbers instead of multiplying
+them,’ said George.
+    ‘You’re lucky, then,’ said Henrietta. ‘It’s the same answer
+either way.’
+    What were the three numbers? What would they have been if
+there had been only two of them, or four of them, again with
+their sum equal to their product?
+
+
+...........................................
+   Answer on page 273

@@ -1,0 +1,56 @@
+Three Quickies
+(1) After four bridge hands have been dealt, which is the more
+likely: that you and your partner hold all the spades, or that you
+and your partner hold no spades?
+
+(2) If you took three bananas from a dish holding thirteen
+bananas, how many bananas would you have?
+
+(3) A secretary prints out six letters from the computer and
+addresses six envelopes to their intended recipients. Her boss, in
+a hurry, interferes and stuffs the letters into the envelopes at
+random, one letter in each envelope. What is the probability that
+exactly five letters are in the right envelope?
+
+
+...........................................
+   Answers on page 258
+28 // Knight’s Tours
+
+
+
+Knight’s Tours
+The knight in chess has an unusual move. It can jump two
+squares horizontally or vertically, followed by a single square at
+right angles, and it hops over any intermediate pieces. The
+geometry of the knight’s move has given rise to many
+mathematical recreations, of which the simplest is the knight’s
+tour. The knight is required to make a series of moves, visiting
+each square on a chessboard (or any other grid of squares) exactly
+once. The diagram shows a tour on a 565 board, and also shows
+what the possible moves look like. This tour is not ‘closed’– that
+is, the start and finish squares are not one knight’s move apart.
+Can you find a closed tour on the 565 board?
+
+
+
+
+                                                         (Left) A 565
+                                                         knight’s tour,
+                                                         and (right) a
+                                                         partial 464
+                                                         knight’s tour.
+
+
+    I tried to find a 464 knight’s tour, but I got stuck after visiting
+13 squares. Can you find a knight’s tour that visits all 16 squares?
+If not, what is the largest number of squares that the knight can
+visit?
+    There is a vast literature on this topic. Good websites include:
+www.ktn.freeuk.com
+mathworld.wolfram.com/KnightsTour.html
+
+
+...........................................
+   Answers on page 259
+                                 Much Undo About Knotting // 29

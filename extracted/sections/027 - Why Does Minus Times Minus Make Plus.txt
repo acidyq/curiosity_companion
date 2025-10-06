@@ -1,0 +1,56 @@
+Why Does Minus Times Minus Make Plus?
+When we first meet negative numbers, we are told that multi-
+plying two negative numbers together makes a positive number,
+so that, for example, ð2Þ6ð3Þ ¼ þ6. This often seems rather
+puzzling.
+    The first point to appreciate is that starting from the usual
+conventions for arithmetic with positive numbers, we are free to
+define ð2Þ6ð3Þ to be anything we want. It could be 99, or
+127p, if we wished. So the main question is not what is the true
+value, but what is the sensible value. Several different lines of
+thought all converge on the same result – namely, that
+ð2Þ6ð3Þ ¼ þ6. I include the þ sign for emphasis.
+    But why is this sensible? I rather like the interpretation of a
+negative number as a debt. If my bank account contains £–3,
+then I owe the bank £3. Suppose that my debt is multiplied by 2
+(positive): then it surely becomes a debt of £6. So it makes sense
+to insist that ðþ2Þ6ð3Þ ¼ 6, and most of us are happy with
+that. What, though, should ð2Þ6ð3Þ be? Well, if the bank
+kindly writes off (takes away) two debts of £3 each, I am £6 better
+off – my account has changed exactly as it would if I had
+deposited £þ6. So in banking terms, we want ð2Þ6ð3Þ to equal
+þ6.
+    The second argument is that we can’t have both ðþ2Þ6ð3Þ
+and ð2Þ6ð3Þ equal to þ6. If that were the case, then we could
+cancel the 3 and deduce that þ2 ¼ 2, which is silly.
+    The third argument begins by pointing out an unstated
+assumption in the second one: that the usual laws of arithmetic
+should remain valid for negative numbers. It proceeds by adding
+38 // Heron Suit
+
+
+
+that this is a reasonable thing to aim for, if only for mathematical
+elegance. If we require the usual laws to be valid, then
+        ðþ2Þ6ð3Þ þ ð2Þ6ð3Þ ¼ ð2  2Þ6ð3Þ ¼ 06ð3Þ ¼ 0
+
+so
+        6 þ ð2Þ6ð3Þ ¼ 0
+
+Adding 6 to both sides, we find that
+        ð2Þ6ð3Þ ¼ þ6
+
+In fact a similar argument justifies taking ðþ2Þ6ð3Þ ¼ 6, as
+well.
+    Putting all this together: mathematical elegance leads us to
+define minus times minus to be plus. In applications such as
+finance, this choice turns out to match reality in a straightfor-
+ward manner. So as well as keeping arithmetic simple, we end up
+with a good model for important aspects of the real world.
+    We could do it differently. But we’d end up by complicating
+arithmetic, and reducing its applicability. Basically, there’s no
+contest. Even so, ‘minus times minus makes plus’ is a conscious
+
+
+...........................................
+human convention, not an inescapable fact of nature.

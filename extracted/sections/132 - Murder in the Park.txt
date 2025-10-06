@@ -1,0 +1,42 @@
+Murder in the Park
+This puzzle – like several in this book – goes back to the great
+English puzzlist Henry Ernest Dudeney. He called it ‘Ravensdene
+Park’. I’ve made a few trivial changes.
+
+
+
+
+                                                 Ravensdene Park.
+
+   Soon after a heavy fall of snow, Cyril Hastings entered
+Ravensdene Park at gate D, walked straight to the position
+222 // The Cube of Cheese
+
+
+
+marked with a black dot, and was stabbed through the heart. His
+body was found the next morning, along with several tracks in
+the snow. The police immediately closed the park.
+    Their subsequent investigations revealed that each track had
+been made by a different, very distinctive shoe. Witnesses placed
+four individuals, other than Hastings, in the park during the
+period concerned. So the murderer had to be one of them.
+Examining their shoes, the police deduced that:
+
+. The butler – who could prove he had been in the house X at
+   the time of the murder – had entered at gate E and gone to X.
+. The gamekeeper – who had no such alibi – had entered at gate
+   A and gone to his lodge at Y.
+. A local youth had entered at gate G and left by gate B.
+. The grocer’s wife had entered at gate C and left by gate F.
+None of these individuals entered or left the park more than
+once.
+   It had been foggy as well as snowy, so the routes these people
+took were often rather indirect. The police did notice that no two
+paths crossed. But they failed to make a sketch of the routes
+before the snow melted and they disappeared.
+   So who was the murderer?
+
+
+...........................................
+   Answer on page 303

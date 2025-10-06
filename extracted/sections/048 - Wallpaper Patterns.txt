@@ -1,0 +1,50 @@
+Wallpaper Patterns
+A wallpaper pattern repeats the same image in two directions:
+down the wall and across the wall (or on a slant). The repetition
+down the wall comes from the paper being printed in a
+continuous roll, using a revolving cylinder to create the pattern.
+The repetition across the wall makes it possible to continue the
+pattern sideways, across adjacent strips of paper, to cover the
+entire wall. A ‘drop’ from one panel to the next causes no
+problems, and can actually make it easier to hang the paper.
+
+
+
+
+                                       Wallpaper patterns repeat
+                                       in two directions.
+
+
+    The number of possible designs for wallpaper is effectively
+infinite. But different designs can have the same underlying
+pattern, it’s just that the basic image that gets repeated is
+different. For instance, the flower in the design above could be
+replaced by a butterfly, or a bird, or an abstract shape. So
+mathematicians distinguish essentially different patterns by their
+symmetries. What are the different ways in which we can slide
+the basic image, or rotate it, or even flip it over (like reflecting it
+in a mirror), so that the end result is the same as the start?
+    For my pattern of flowers, the only symmetries are slides
+along the two directions in which the basic image repeats, or
+several such slides performed in turn. This is the simplest type of
+symmetry, but there are more elaborate ones involving rotations
+and reflections as well. In 1924 George Pólya and Paul Niggli
+proved that there are exactly 17 different symmetry types of
+wallpaper pattern – surprisingly few.
+                                   How Old Was Diophantus? // 71
+
+
+
+
+                                                       The 17 types
+                                                       of wallpaper
+                                                       pattern.
+
+    In three dimensions the corresponding problem is to list all
+possible symmetry types of atomic lattices of crystals. Here there
+are 230 types. Curiously, that answer was discovered before
+anyone solved the much easier two-dimensional version for
+
+
+...........................................
+wallpaper.

@@ -1,0 +1,34 @@
+Counterflip
+Make some circular counters out of card, each black on one side
+and white on the other (the precise number doesn’t matter, but
+10 or 12 is about right). Arrange them in a row, with a random
+choice of colours facing upwards.
+    Your task is now to remove all the counters, by making a
+series of moves. Each move involves choosing a black counter,
+removing it, and flipping any neighbouring counters over to
+change their colours. Counters are ‘neighbours’ if they are next
+to each other in the original row of counters; removing any
+counter creates a gap. As the game progresses, a counter may
+have two, one or no neighbours.
+    Here is a sample game in which the player succeeds in
+removing all the counters:
+
+
+
+
+                                                Sample game
+                                                of counterflip.
+                                                Lines show
+                                                neighbours.
+
+    The key to this puzzle is simple, but far from obvious: with
+correct play, you can always succeed if the initial number of
+black counters is odd. If it is even, there is no solution.
+    You can play the game for fun, without analysing its
+mathematical structure. If you feel ambitious, you can look for a
+winning strategy – and explain why there is no way to win when
+the initial number of black counters is even.
+
+...........................................
+   Answer on page 307
+246 // Spherical Sliced Bread

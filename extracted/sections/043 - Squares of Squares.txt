@@ -1,0 +1,54 @@
+Squares of Squares
+Magic squares are so well known that I’m not going to say a lot
+about the common ones, but some of the variants are more
+interesting. For instance, is it possible to make a magic square
+whose entries are all distinct perfect squares? Call this a square of
+squares. (Clearly the condition of using consecutive whole
+numbers must be ignored!)
+    We still have no idea whether a 363 square of squares exists.
+Near misses include Lee Sallows’s
+
+        1272        462            52
+          22       1132        942
+              2          2
+         74         82         972
+
+for which all rows, columns, and one diagonal have the same
+sum. Another near miss is magic:
+
+                  3732       2892             5652
+         360;721             4252              232
+                  2052       5272         222;121
+
+However, only seven entries are square – I’ve marked the
+exceptions in bold. It was found by Sallows and (independently)
+Andrew Bremner.
+   In 1770 Euler sent the first 464 square of squares to Joseph-
+Louis Lagrange:
+
+        682       292        412        372
+        172       312        792        322
+        592       282        232        612
+        112       772         82        492
+
+It has magic constant, 8515.
+    Christian Boyer has found 565; 666 and 767 squares of
+                                                       Ring a-Ring a-Ringroad // 67
+
+
+
+squares. The 767 square uses squares of consecutive integers
+from 02 to 482:
+
+       252   452      152   142      442      52        202
+       162   102      222    62      462      262       422
+       482    92      182   412      272      132       122
+       342   372      312   332       02      292        42
+         2        2     2        2        2        2
+       19     7       35    30        1       36        402
+       212   322       22   392      232      432        82
+
+
+
+...........................................
+       172   282      472    32      112      242       382

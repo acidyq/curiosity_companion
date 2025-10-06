@@ -1,0 +1,107 @@
+Hippopotamian Logic
+       I won’t eat my hat.
+       If hippos don’t eat acorns, then oak trees will grow in
+       Africa.
+       If oak trees don’t grow in Africa, then squirrels hibernate
+       in winter.
+       If hippos eat acorns and squirrels hibernate in winter,
+       then I’ll eat my hat.
+       Therefore – what?
+
+
+...........................................
+   Answer on page 280
+                                              Langton’s Ant // 141
+
+
+
+Langton’s Ant
+Langton’s ant was invented by Christopher Langton, and it
+shows how amazingly complex simple ideas can be. It leads to
+one of the most baffling unsolved problems in the whole of
+mathematics, and all from astonishingly simple ingredients.
+    The ant lives on an infinite square grid of black and white
+cells, and it can face in one of the four compass directions: north,
+south, east or west. At each tick of a clock it moves one cell
+forward, and then follows three simple rules:
+
+. If it lands on a black cell it makes a 908 turn to the left.
+. If it lands on a white cell it makes a 908 turn to the right.
+. The cell that it has just vacated then changes colour, from
+   white to black, or vice versa.
+
+
+
+
+                                                     Effect of the
+                                                     ant moving.
+                                                     Grey cells can
+                                                     be any colour
+                                                     and do not
+                                                     change on this
+                                                     move.
+
+   As a warm-up, the ant starts by facing east on a completely
+white grid. Its first move takes it to a white square, while the
+square it started from turns black. Because it is on a white square,
+the ant’s next move is a right turn, so now it faces south. That
+142 // Langton’s Ant
+
+
+
+takes it to a new white square, and the square it has just vacated
+turns black. After a few more moves the ant starts to revisit earlier
+squares that have turned black, so it then turns to the left
+instead. As time passes, the ant’s motion gets quite complicated,
+and so does the ever-changing pattern of black and white squares
+that trails behind it.
+    Jim Propp discovered that the first few hundred moves
+occasionally produce a nice, symmetrical pattern. Then things
+get rather chaotic for about ten thousand moves. After that, the
+ant gets trapped in a cycle in which the same sequence of 104
+moves is repeated indefinitely, each cycle moving it two squares
+diagonally. It continues like this for ever, systematically building
+a broad diagonal ‘highway’.
+
+
+
+
+                                        Langton’s ant builds a
+                                        highway.
+
+    This ‘order out of chaos’ behaviour is already puzzling, but
+computer experiments suggest something more surprising. If you
+scatter any finite number of black squares on the grid, before the
+ant sets off, it still ends up building a highway. It may take longer
+to do so, and its initial movements may be very different, but
+ultimately that’s what will happen. As an example, the second
+diagram shows a pattern that forms when the ant starts inside a
+solid rectangle. Before building its highway, the ant builds a
+‘castle’ with straight walls and complicated crenellations. It
+keeps destroying and rebuilding these structures in a curiously
+purposeful way, until it gets distracted and wanders off –
+building a highway.
+                                               Pig on a Rope // 143
+
+
+
+
+                                             Pattern created by
+                                             Langton’s ant when it
+                                             starts inside a black
+                                             rectangle. The highway
+                                             is at the lower right.
+                                             Small white dots mark
+                                             squares of the original
+                                             rectangle that have
+                                             never been visited.
+
+     The problem that is baffling mathematicians is to prove that
+the ant always ends up building a highway, for every initial
+configuration of finitely many black squares. Or disprove that, if
+it’s wrong. We do know that the ant can never get trapped inside
+any bounded region of the grid – it always escapes if you wait
+
+
+...........................................
+long enough. But we don’t know that it escapes along a highway.

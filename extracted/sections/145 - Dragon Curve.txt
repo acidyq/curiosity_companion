@@ -1,0 +1,20 @@
+Dragon Curve
+The picture shows a sequence of curves, called dragon curves
+(look at the last one). The sequence can be continued
+indefinitely, getting ever more complicated curves.
+    What is the rule for making them? Ignore the ‘rounding’ of the
+corners by the short lines, which is done so that later curves in
+the sequence remain intelligible.
+
+
+
+
+                                                  The first
+                                                  nine
+                                                  dragon curves.
+
+
+
+...........................................
+   Answer on page 307
+                                               Counterflip // 245

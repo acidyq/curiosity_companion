@@ -1,0 +1,14 @@
+Heron Suit
+        No cat that wears a heron suit is unsociable.
+        No cat without a tail will play with a gorilla.
+        Cats with whiskers always wear heron suits.
+        No sociable cat has blunt claws.
+        No cats have tails unless they have whiskers.
+           Therefore:
+        No cat with blunt claws will play with a gorilla.
+           Is the deduction logically correct?
+
+
+...........................................
+     Answer on page 262
+                         How to Remember a Round Number // 39

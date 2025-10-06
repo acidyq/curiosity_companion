@@ -1,0 +1,114 @@
+When Will My MP3 Player Repeat?
+You have 1,000 songs on your MP3 player. If it plays songs ‘at
+random’, how long would you expect to wait before the same
+song is repeated?
+   It all depends on what ‘at random’ means. The leading MP3
+player on the market ‘shuffles’ songs just like someone shuffling
+a pack of cards. Once the list has been shuffled, all songs are
+132 // When Will My MP3 Player Repeat?
+
+
+
+played in order. If you don’t reshuffle, it will take 1,001 songs to
+get a repeat. However, it is also possible to pick a song at random,
+and keep repeating this procedure without eliminating that
+song. If so, the same song might – just – come up twice in a row.
+I’ll assume that all songs appear with the same probability,
+though some MP3 players bias the choice in favour of songs you
+play a lot.
+     You’ve probably met the same problem with birthdays
+replacing songs. If you ask people their birthday, one at a time,
+then on average how many do you have to ask to get a repeat?
+The answer is 23, remarkably small. There is a second, super-
+ficially similar problem: how many people should there be at a
+party so that the probability that at least two share a birthday is
+bigger than 12? Again the answer is 23. In both calculations we
+ignore leap years and assume that any particular birthday occurs
+with probability 1/365. This isn’t quite accurate, but it simplifies
+the sums. We also assume that all individuals have statistically
+independent birthdays, which would not be the case if, say, the
+party included twins.
+     I’ll solve the second birthday problem, because the sums are
+easier to understand. The trick is to imagine the people entering
+the room one at a time, and to work out, at each stage, the
+probability that all birthdays so far are different. Subtract the
+result from 1 and you get the probability that at least two are
+equal. So we want to continue allowing people to enter until the
+probability that all birthdays are different drops below 12.
+     When the first person enters, the probability that their
+birthday is different from that of anyone else present is 1,
+because nobody else is present. I’ll write that as the fraction
+       365
+       365
+because it tells us that out of the 365 possible birthdays, all 365
+have the required outcome.
+   When the second person enters, their birthday has to be
+                          When Will My MP3 Player Repeat? // 133
+
+
+
+different, so there are now only 364 choices out of 365. So the
+probability we want is now
+       365 364
+          6
+       365 365
+When the third person enters, they have only 363 choices, and
+the probability of no duplication so far is
+       365 364 363
+          6   6
+       365 365 365
+The pattern should now be clear. After k people have entered, the
+probability that all k birthdays are distinct is
+       365 364 363       365  k þ 1
+          6   6    66
+       365 365 365           365
+and we want the first k for which this is less than 12. Each fraction,
+other than the first, is smaller than 1, so the probability decreases
+as k increases. Direct calculation shows that when k ¼ 22 the
+fraction equals 0.524 305, and when k is 23 it equals 0.492 703.
+So the required number of people is 23.
+    This number seems surprisingly small, which may be because
+we confuse the question with a different one: how many people
+do you have to ask for the probability that one of them has the
+same birthday as you to be bigger than 12? The answer to that is
+much bigger – in fact, it’s 253.
+    The same calculation with 1,000 songs on an MP3 player
+shows that if each song is chosen at random then you have to
+play a mere 38 songs to make the probability of a repeat bigger
+than 12. The average number of songs you have to play to get a
+repeat is 39 – slightly more.
+    These sums are all very well, but they don’t provide much
+insight. What if you had a million songs? It’s a big sum – a
+computer can do it, though. But is there a simpler answer? We
+can’t expect an exact formula, but we ought to be able to find a
+134 // Six Pens
+
+
+
+good approximation. Let’s say we have n songs. Then it turns out
+that on average we have to play approximately
+       p1 p              p
+         ð2 pÞ n ¼ 1:2533 n
+
+songs to get a repeat (of some song already played, not necessarily
+the first one). To make the probability of a repeat greater than 12,
+we have to play approximately
+        p        p
+          ðlog 4Þ n
+
+songs, which is
+             p
+       1:1774 n
+
+This is about 6% smaller.
+    Both numbers are proportional to the square root of n, which
+grows much more slowly than n. This is why we get quite small
+answers when n is large. If you did have a million songs on your
+MP3 player, then on average you would have to play only 1,253
+of them to get a repeat (the square root of a million is 1,000). And
+to make the probability of a repeat greater than 12, you would
+have to play approximately 1,177 of them. The exact answer,
+
+
+...........................................
+according to my computer, is 1,178.

@@ -1,0 +1,24 @@
+The Sixth Deadly Sin
+It’s envy, and the problem is to avoid it.
+     Stefan Banach and Bronislaw Knaster extended Steinhaus’s
+method of fair cake division to any number of people, and
+simplified it for three people. Their work pretty much summed
+up the whole area until a subtle flaw emerged: the procedure may
+be fair, but it takes no account of envy. A method is envy-free if no
+one thinks that anyone else has got a bigger share than they
+have. Every envy-free method is fair, but a fair method need not
+be envy-free. And neither Steinhaus’s method, nor that of
+Banach and Knaster, is envy-free.
+     For example, Belinda may think that Arthur’s division is fair.
+Then Steinhaus’s method stops after step 3, and both Arthur and
+Belinda consider all three pieces to be of size 1/3. Charlie must
+think that his own piece is at least 1/3, so the allocation is
+proportional. But if Charlie sees Arthur’s piece as 1/6 and
+Belinda’s as 1/2, then he will envy Belinda, because Belinda got
+first crack at a piece that Charlie thinks is bigger than his.
+     Can you find an envy-free method for dividing a cake among
+three people?
+
+
+...........................................
+   Answer on page 290

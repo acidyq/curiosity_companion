@@ -1,0 +1,144 @@
+How to Remember a Round Number
+A traditional French rhyme goes like this:*
+        Que j’aime a faire apprendre
+        Un nombre utile aux sages!
+        Glorieux Archimède, artiste ingenieux,
+        Toi, de qui Syracuse loue encore le mérite!
+But to which ‘number useful to the sages’ does it refer? Counting
+the letters in each word, treating ‘j’ as a word with one letter and
+placing a decimal point after the first digit, we get
+        3:141 592 653 589 793 238 462 6
+
+
+*   A loose translation is:
+        How I like to make
+        The sages learn a useful number!
+        Glorious Archimedes, ingenious artist,
+        You whose merit Syracuse still praises.
+40 // How to Remember a Round Number
+
+
+
+which is p to the first 22 decimal places. Many similar
+mnemonics for p exist in many languages. In English, one of the
+best known is
+       How I want a drink, alcoholic of course, after the heavy
+       chapters involving quantum mechanics. One is, yes,
+       adequate even enough to induce some fun and pleasure
+       for an instant, miserably brief.
+It probably stopped there because the next digit is a 0, and it’s
+not entirely clear how best to represent a word with no letters.
+(For one convention, see later.) Another is:
+       Sir, I bear a rhyme excelling
+       In mystic force, and magic spelling
+       Celestial sprites elucidate
+       All my own striving can’t relate.
+An ambitious p-mnemonic featured in The Mathematical
+Intelligencer in 1986 (volume 8, page 56). This is an informal
+‘house journal’ for professional mathematicians. The mnemonic
+is a self-referential story encoding the first 402 decimals of p. It
+uses punctuation marks (ignoring full stops) to represents the
+digit zero, and words with more than 9 letters represent two
+consecutive digits – for instance, a word with 13 letters
+represents the digits 13 in that order. Oh, and any actual digit
+represents itself. The story begins like this:
+       For a time I stood pondering on circle sizes. The large
+       computer mainframe quietly processed all of its assembly
+       code. Inside my entire hope lay for figuring out an elusive
+       expansion. Value: pi. Decimals expected soon. I nervously
+       entered a format procedure. The mainframe processed the
+       request. Error. I, again entering it, carefully retyped. This
+       iteration gave zero error printouts in all – success.
+For the rest of the story, and many other p-mnemonics in various
+languages, see
+
+
+...........................................
+www.geocities.com/capecanaveral/lab/3550/pimnem.htm
+                                  The Bridges of Königsberg // 41
+
+
+
+The Bridges of Königsberg
+Occasionally, a simple puzzle starts a whole new area of
+mathematics. Such occurrences are rare, but I can think of at
+least three. The most famous such puzzle is known as the Bridges
+of Königsberg, which led Leonhard Euler* to invent a branch of
+graph theory in 1735. Königsberg, which was in Prussia in those
+days, straddled the river Pregel. There were two islands,
+connected to the banks and each other by seven bridges. The
+puzzle was: is it possible to find a path that crosses each bridge
+exactly once?
+
+
+
+
+                                                        Euler’s
+                                                        diagram
+                                                        of the
+                                                        Königsberg
+                                                        bridges.
+
+
+    Euler solved the puzzle by proving that no solution exists.
+More generally, he gave a criterion for any problem of this kind
+to have a solution, and observed that it did not apply to this
+particular example. He pointed out that the exact geometry is
+irrelevant – what matters is how everything is connected. So the
+puzzle reduces to a simple network of dots, joined by lines, here
+shown superimposed on the map. Each dot corresponds to one
+connected piece of land, and two dots are joined by lines if there
+is a bridge linking the corresponding pieces of land.
+
+
+
+
+*   It is mandatory to point out that his name is pronounced ‘oiler’,
+    not ‘yooler’. Numerous oil-based puns then become equally
+    mandatory, but I won’t mention any.
+42 // The Bridges of Königsberg
+
+
+
+
+                                                       Turning the
+                                                       Königsberg
+                                                       bridges into
+                                                       a network.
+
+
+
+     So we get four dots, A, B, C and D, and seven edges, a, b, c, d,
+e, f and g, one for each bridge. The puzzle now simplifies to this:
+is it possible to find a path through the network that includes
+each line exactly once? You might like to experiment before
+reading on.
+     To work out when a solution exists, Euler distinguished two
+kinds of path. An open tour starts and ends at different dots; a
+closed tour starts and ends at the same dot. He proved that for this
+particular network, neither kind of tour exists. The main
+theoretical idea is the valency of each dot: how many lines meet
+there. For instance, 5 lines meet at dot A, so the valency of A is 5.
+     Suppose that a closed tour exists on some network. Whenever
+one of the lines in the tour enters a dot, then the next line must
+exit from that dot. So, if a closed tour is possible, the number of
+lines at any given dot must be even: every dot must have even
+valency. This already rules out any closed tour of the Königsberg
+bridges, because that network has three dots of valency 3 and
+one of valency 5 – all odd numbers.
+     A similar criterion works for open tours, but now there must
+be exactly two dots of odd valency: one at the start of the tour,
+the other at its end. The Königsberg diagram has four vertices
+with odd valency, so there is no open tour either.
+     Euler also proved that these conditions are sufficient for a
+tour to exist, provided the diagram is connected – any two dots
+must be linked by some path. Euler’s proof of this is quite
+                             How to do Lots of Mathematics // 43
+
+
+
+lengthy. Nowadays a proof takes just a few lines, thanks to new
+
+
+...........................................
+discoveries inspired by his pioneering efforts.

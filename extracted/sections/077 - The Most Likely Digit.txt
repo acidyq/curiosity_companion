@@ -1,0 +1,112 @@
+The Most Likely Digit
+If you look at a list of numerical data, and count how often a
+given digit turns up as the first digit in each entry, which digit is
+most likely? The obvious guess is that every digit has the same
+chance of occurring as any other. But it turns out that for most
+kinds of data, this is wrong.
+    Here’s a typical data set – the areas of 18 islands in the
+Bahamas. I’ve given the figures in square miles and in square
+kilometres, for reasons I’ll shortly explain.
+
+                  Island                                                            Area (sq mi)                                Area (sq km)
+....................................................................................................................................................................
+                  Abaco                                                              649                                        1681
+                  Acklins                                                            192                                         497
+                  Berry Islands                                                     2300                                        5957
+                  Bimini Islands                                                       9                                          23
+                  Cat Island                                                         150                                         388
+                  Crooked and Long Cay                                                93                                         241
+                  Eleuthera                                                          187                                         484
+                  Exuma                                                              112                                         290
+                  Grand Bahama                                                       530                                        1373
+                  Harbour Island                                                       3                                           8
+                  Inagua                                                             599                                        1551
+                  Long island                                                        230                                         596
+                  Mayaguana                                                          110                                         285
+                  New Providence                                                      80                                         207
+                  Ragged Island                                                       14                                          36
+                  Rum Cay                                                             30                                          78
+                  San Salvador                                                        63                                         163
+                  Spanish Wells                                                       10                                          26
+....................................................................................................................................................................
+                                         The Most Likely Digit // 107
+
+
+
+For the square mile data, the number of times that a given first
+digit (shown in brackets) occurs goes like this:
+       ð1Þ7 ð2Þ 2 ð3Þ 2 ð4Þ 0 ð5Þ 2 ð6Þ 2 ð7Þ 0 ð8Þ 1 ð9Þ 2
+
+and 1 wins hands down. In square kilometres, the corresponding
+numbers are
+       ð1Þ 4 ð2Þ 6 ð3Þ 2 ð4Þ 2 ð5Þ 2 ð6Þ 0 ð7Þ 1 ð8Þ 1 ð9Þ 0
+
+and now 2 wins, but only just.
+    In 1938 the physicist Frank Benford observed that for long
+enough lists of data, the numbers encountered by physicists and
+engineers are most likely to start with the digit 1 and least likely
+to start with 9. The frequency with which a given initial digit
+occurs – that is, the probability that the first digit takes a given
+value – decreases as the digits increase from 1 to 9. Benford
+discovered empirically that the probability of encountering n as
+the first decimal digit is
+       log10 ðn þ 1Þ  log10 ðnÞ
+
+where the subscript 10 means that the logarithms are to base ten.
+(The value n = 0 is excluded because the initial digit is by
+definition the first non-zero digit.) Benford called this formula the
+law of anomalous numbers, but nowadays it’s usually known as
+Benford’s law.
+
+
+
+
+       Theoretical frequencies according to Benford’s law.
+108 // The Most Likely Digit
+
+
+
+   For the Bahama Island data, the frequencies look like this:
+
+
+
+
+       Observed frequencies for the areas of the Bahama Islands,
+       compared with Benford’s theoretical ideal.
+
+    There are some differences between theory and reality, but
+the data sets here are fairly small, so we would expect that. Even
+with only 18 numbers, there is a strong prevalence of 1’s and 2’s
+– which, according to Benford’s law, should between them occur
+just over half the time.
+    Benford’s formula is far from obvious, but a little thought
+shows that the nine frequencies are unlikely to be identical.
+Think of a street of houses, numbered from 1 upwards. The
+probability of a given digit coming first varies considerably with
+the number of houses on the street. If there are nine houses, each
+digit occurs equally often. But, if there are 19, then the initial
+digit is 1 for houses 1 and 10–19, a frequency of 11/19, or more
+than 50%. As the length of the street increases, the frequency
+with which a given first digit occurs wanders up and down in a
+complicated but computable manner. The nine frequencies are
+the same only when the number of houses is 9, 99, 999, and so on.
+    Benford’s formula is distinguished by a beautiful property: it is
+scale-invariant. If you measure the areas of Bahamian islands in
+square miles or square kilometres, if you multiply house numbers
+                                        Why Call It a Witch? // 109
+
+
+
+by 7 or 93, then – provided you have a big enough sample – the
+same law applies. In fact, Benford’s Law is the only scale-invariant
+frequency law. It is unclear why nature prefers scale-invariant
+frequencies, but it seems reasonable that the natural world should
+not be affected by the units in which humans choose to measure
+it.
+    Tax collectors use Benford’s law to detect fake figures in tax
+forms, because people who invent fictitious numbers tend to use
+the same initial digits equally often. Probably because they think
+
+
+...........................................
+that’s what should happen for genuine figures!

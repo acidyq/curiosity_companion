@@ -1,0 +1,83 @@
+The Square Wheel
+We seldom see a square wheel, but that’s not because such a
+wheel can’t roll without creating a bumpy ride. Circular wheels
+are great on flat roads. For square wheels, you just need a
+different shape of road:
+
+
+                                                    A square-
+                                                    wheeled
+                                                    bicycle stays
+                                                    level on this
+                                                    bumpy road.
+                                 Why Can’t I Divide by Zero? // 85
+
+
+
+    In fact, the correct shape is a cycloid, which is the path traced
+by a point on the rim of a circular wheel as it rolls along a flat
+surface. The length of each arch of the cycloid has to be the same
+as the perimeter of the wheel. It turns out that almost any shape
+of wheel will work provided you build the right kind of road for it
+to run on. Reinventing the wheel is easy. What counts is
+
+
+...........................................
+reinventing the road.
+
+
+
+Why Can’t I Divide by Zero?
+In general, any number can be divided by any other number –
+except when the number we are dividing by is 0. ‘Division by
+zero’ is forbidden; even our calculators put up error messages if
+we try it. Why is zero a pariah in the division stakes?
+    The difficulty is not that we can’t define division by zero. We
+could for instance, insist that any number divided by zero gives
+42. What we can’t do is make that kind of definition and still
+have all the usual arithmetical rules working properly. With this
+admittedly very silly definition, we could start from 1=0 ¼ 42 and
+apply standard arithmetical rules to deduce that 1 ¼ 4260 ¼ 0.
+    Before we worry about division by zero, we have to agree on
+the rules that we want division to obey. Division is normally
+introduced as a kind of opposite to multiplication. What is 6
+divided by 2? It is whichever number, multiplied by 2, gives 6.
+Namely, 3. So the two statements
+       6=2 ¼ 3   and 6 ¼ 263
+
+are logically equivalent. And 3 is the only number that works
+here, so 6/2 is unambiguous.
+    Unfortunately, this approach runs into major problems when
+we try to define division by zero. What is 6 divided by 0? It is
+whichever number, multiplied by 0, gives 6. Namely . . . uh. Any
+number multiplied by 0 makes 0; you can’t get 6.
+    So 6/0 is out, then. So is any other number divided by 0,
+except – perhaps – 0 itself. What about 0/0?
+86 // River Crossing 2 – Marital Mistrust
+
+
+
+    Usually, if you divide a number by itself, you get 1. So we
+could define 0=0 to be 1. Now 0 ¼ 160, so the relation with
+multiplication works. Nevertheless, mathematicians insist that
+0/0 doesn’t make sense. What worries them is a different
+arithmetical rule. Suppose that 0=0 ¼ 1. Then
+       2 ¼ 261 ¼ 26ð0=0Þ ¼ ð260Þ=0 ¼ 0=0 ¼ 1
+
+Oops.
+    The main problem here is that since any number multiplied
+by 0 makes 0, we deduce that 0/0 can be any number whatsoever.
+If the rules of arithmetic work, and division is the opposite of
+multiplication, then 0/0 can take any numerical value. It’s not
+unique. Best avoided, then.
+    Hang on – if you divide by zero, don’t you get infinity?
+    Sometimes mathematicians use that convention, yes. But
+when they do, they have to check their logic rather carefully,
+because ‘infinity’ is a slippery concept. Its meaning depends on
+the context, and in particular you can’t assume that it behaves
+like an ordinary number.
+    And even when infinity makes sense, 0/0 still causes head-
+
+
+...........................................
+aches.

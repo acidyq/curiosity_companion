@@ -1,0 +1,52 @@
+Wherefore Art Thou Borromeo?
+Three rings can be linked together in such a way that if any one of
+them is ignored, the remaining two would pull apart. That is, no
+two of the rings are linked, only the full set of three. This
+arrangement is generally known as the Borromean rings, after the
+Borromeo family in Renaissance Italy, who used it as a family
+emblem. However, the arrangement is much older, and can be
+found in seventh-century Viking relics. Even in Renaissance Italy,
+it goes back to the Sforza family; Francesco Sforza permitted the
+Borromeos to use the rings in their coat of arms as a way of
+thanking them for their support during the defence of Milan.
+
+
+
+
+       Emblem of the Borromeo family and its use (bottom, left of
+       centre) in their coat of arms.
+
+    On Isola Bella, one of three islands in Lake Maggiore owned
+by the Borromeo family, there is a seventeenth-century baroque
+88 // Percentage Play
+
+
+
+palazzo built by Vitaliano Borromeo. Here the three-ring emblem
+can be found in numerous locations, indoors and out. A careful
+observer (such as a topologist) will discover that the rings
+depicted there are linked in several topologically distinct ways,
+only one of which has the key feature that no two rings are
+linked but all three are:
+
+
+
+
+       Four variations on the Borromean rings from the family palazzo.
+
+    The first version in the picture is the canonical one; it is inset
+into a floor and also appears in the garden. The second appears
+on the entrance tickets and on some of the flowerpots. A family
+crest at the top of the main staircase has the third pattern. Black
+and white seashells on the floor of a grotto under the palazzo
+form the fourth pattern. For further information, visit
+www.liv.ac.uk/~spmr02/rings/
+    Look at the four versions and explain why they are
+topologically different.
+    Can you find an analogous arrangement of four rings, such
+that if any ring is removed the remaining three can be pulled
+apart, but the full set of four rings cannot be disentangled?
+
+
+...........................................
+   Answer on page 274

@@ -1,0 +1,311 @@
+A Constant Bore
+‘Now, this component is a solid copper sphere with a cylindrical
+hole bored exactly through its centre,’ said Rusty Nail, the
+construction manager. He opened a blueprint on his laptop’s
+screen:
+50 // Fermat’s Last Theorem
+
+
+
+
+                                             Cross-section of sphere
+                                             with cylindrical hole.
+
+    ‘Looks straightforward,’ said the foreman, Lewis Bolt. ‘That’s
+quite a lot of copper.’
+    ‘Coincidentally, that’s what I want you to work out,’ said
+Rusty. ‘What volume of copper do we need to cast it?’
+    Lewis stared at the blueprint. ‘It doesn’t say how big the
+sphere is.’ He paused. ‘I can’t find the answer unless you tell me
+the radius of the sphere.’
+    ‘Hmmm,’ said Rusty. ‘They must have forgotten to put that
+in. But I’m sure you can work something out. I need the answer
+by lunchtime.’
+    What is the volume of copper required? Does it depend on the size
+of the sphere?
+
+
+...........................................
+   Answer on page 264
+
+
+
+Fermat’s Last Theorem
+The great virtue of Fermat’s Last Theorem is that it’s easy to
+understand what it means. What made the theorem famous is
+that proving it turned out to be amazingly hard. So hard, in fact,
+that it took about 350 years of effort, by many of the world’s
+leading mathematicians, to polish it off. And to do that, they had
+to invent entire new mathematical theories, and prove things
+that looked much harder.
+                                      Fermat’s Last Theorem // 51
+
+
+
+
+                                         Pierre de Fermat.
+
+    It all started around 1650, when Pierre de Fermat wrote an
+enigmatic note in the margin of his copy of Diophantus’s book
+Arithmetica: ‘of which fact I have found a remarkable proof, ‘but
+this margin is too small to contain it.’ Proof of what? Let me back
+up a bit.
+    Diophantus was probably Greek, and he lived in ancient
+Alexandria. Some time around AD 250 he wrote a book about
+solving algebraic equations – with a slight twist: the solutions
+were required to be fractions, or better still, whole numbers. Such
+equations are called Diophantine equations to this day. A typical
+Diophantine problem is: find two squares whose sum is square
+(using only whole numbers). One possible answer is 9 and 16,
+which add up to 25. Here 9 is the square of 3, while 16 is the
+square of 4, and 25 is the square of 5. Another answer is 25 (the
+square of 5) and 144 (the square of 12), which add up to 169 (the
+square of 13). These are the tip of an iceberg.
+    This particular problem is linked to Pythagoras’s Theorem,
+and Diophantus was following a long tradition of looking for
+Pythagorean triples – whole numbers that can form the sides of a
+right-angled triangle. Diophantus wrote down a general rule for
+finding all Pythagorean triples. He wasn’t the first to discover it,
+but it belonged very naturally in his book. Now Fermat wasn’t a
+professional mathematician – he never held an academic
+position. In his day job he was a legal advisor. But his passion was
+mathematics, especially what we now call number theory, the
+properties of ordinary whole numbers. This area uses the
+52 // Fermat’s Last Theorem
+
+
+
+simplest ingredients anywhere in mathematics, but paradoxic-
+ally it is one of the most difficult areas to make progress in. The
+simpler the ingredients, the harder it is to make things with
+them.
+    Fermat pretty much created number theory. He took over
+where Diophantus had left off, and by the time he had finished,
+the subject was virtually unrecognisable. And some time around
+1650 – we don’t even know the exact date – he must have been
+thinking about Pythagorean triples, and wondered ‘can we do it
+with cubes?’
+    Just as the square of a number is what you get by multiplying
+two copies of the same number, the cube is what you get by
+multiplying three copies. That is, the square of 5, say, is
+565 ¼ 25, and the cube of 5 is 56565 ¼ 125. These are written
+more compactly as 52 and 53, respectively. No doubt Fermat tried
+a few possibilities. Is the sum of the cubes of 1 and 2 a cube, for
+instance? The cubes here are 1 and 8, so their sum is 9. That’s a
+square, but not a cube: no banana.
+    He surely noticed that you can get pretty close. The cube of 9
+is 729; the cube of 10 is 1,000; their sum is 1,729. That’s very
+nearly the cube of 12, which is 1,728. Missed by one! Still no
+banana.
+    Like any mathematician, Fermat would have tried bigger
+numbers, and used any short cuts he could think of. Nothing
+worked. Eventually he gave up: he hadn’t found any solutions,
+and by now he suspected that there weren’t any. Except for the
+cube of 0 (which is also 0) and any cube whatsoever, which add
+up to the whatsoever – but we all know that adding zero makes
+no difference to anything, so that’s ‘trivial’, and he wasn’t
+interested in trivialities.
+    OK, so cubes don’t get us anywhere. What about the next
+such type of number, fourth powers? You get those by multi-
+plying four copies of the same number, for example
+3636363 ¼ 81 is the fourth power of 3, written as 34 . Still no
+joy. In fact, for fourth powers Fermat found a logical proof that
+no solutions exist except trivial ones. Very few of Fermat’s proofs
+                                      Fermat’s Last Theorem // 53
+
+
+
+have survived, and few of them were written down, but we know
+how this one went, and it’s both cunning and correct. It takes
+some hints from Diophantus’s method of finding Pythagorean
+triples.
+    Fifth powers? Sixth powers? Still nothing. By now Fermat was
+ready to make a bold statement: ‘To resolve a cube into the sum
+of two cubes, a fourth power into two fourth powers, or in
+general any power higher than the second into two powers of the
+same kind, is impossible.’ That is: the only way for two nth
+powers to add up to an nth power is when n is 2 and we are
+looking at Pythagorean triples. This is what he wrote in his
+margin, and it’s what caused so much fuss for the next 350 years.
+    We don’t actually have Fermat’s copy of the Arithmetica with
+its marginal notes. What we have is a printed edition of the book
+prepared later by his son, which has the notes printed in it.
+    Fermat included various other unproved but fascinating bits
+of number theory in his letters and the marginal notes published
+by his son, and the world’s mathematicians rose to the
+challenge. Soon all but one of Fermat’s statements had been
+proved – apart from one that was disproved, but in that case
+Fermat never claimed he had a proof anyway. The sole remaining
+‘last theorem’ – not the last one he wrote down, but the last one
+that no one else could prove or disprove – was the marginal note
+about sums of like powers.
+    Fermat’s Last Theorem became notorious. Euler proved that
+there is no solution in cubes. Fermat himself had done fourth
+powers. Peter Lejeune Dirichlet dealt with fifth powers in 1828,
+and 14th powers in 1832. Gabriel Lamé published a proof for 7th
+powers, but it had a mistake in it. Carl Friedrich Gauss, one of the
+best mathematicians who has ever lived and an expert in number
+theory, tried to patch up Lamé’s attempt, but failed, and gave up
+on the whole problem. He wrote to a scientific friend that the
+problem ‘has little interest for me, since a multitude of such
+propositions, which one can neither prove nor refute, can easily
+be formulated’. But for once Gauss’s instincts let him down: the
+54 // Fermat’s Last Theorem
+
+
+
+problem is interesting, and his remark seems to have been a case
+of sour grapes.
+    In 1874 Lamé had a new idea, linking Fermat’s Last Theorem
+to a special type of complex number – involving the square root
+of minus one (see page 184). There was nothing wrong with
+complex numbers, but there was a hidden assumption in Lamé’s
+argument, and Ernst Kummer wrote to him to inform him that it
+went wrong for 23rd powers. Kummer managed to fix Lamé’s
+idea, eventually proving Fermat’s Last Theorem for all powers up
+to the 100th, except for 37, 59 and 67. Later mathematicians
+polished off these powers too, and extended the list, until by
+1980 Fermat’s Last Theorem had been proved for all powers up to
+the 125,000th.
+    You might think that this would be good enough, but
+mathematicians are made of sterner stuff. It has to be all powers,
+or nothing. The first 125,000 whole numbers are minuscule
+compared with the infinity of numbers that remain. But
+Kummer’s methods needed special arguments for each power,
+and they weren’t really up to the job. What was needed was a new
+idea. Unfortunately, nobody knew where to look for one.
+    So number theorists abandoned Fermat’s Last Theorem and
+headed off into areas where they could still make progress. One
+such area, the theory of elliptic curves, started to get really
+exciting, but also very technical. An elliptic curve is not an
+ellipse – if it were, we wouldn’t need a different name for it. It is a
+curve in the plane whose y-coordinate, squared, is a cubic
+formula in its x-coordinate. These curves in turn are connected
+with some remarkable expressions involving complex numbers,
+called elliptic functions, which were in vogue in the late
+nineteenth century. The theory of elliptic curves, and their
+associated elliptic functions, became very deep and powerful.
+                                      Fermat’s Last Theorem // 55
+
+
+
+
+                                        The elliptic curve
+                                        y 2 ¼ x 3  6x þ 6.
+
+
+
+
+     Starting around 1970, a series of mathematicians started to
+get glimpses of a strange connection between elliptic curves and
+Fermat’s Last Theorem. Roughly speaking, if Fermat was wrong,
+and two nth powers do add up to another nth power, then those
+three numbers determine an elliptic curve. And because the
+powers add like that, it is a very strange elliptic curve, with a
+surprising combination of properties. So surprising, in fact, that
+it looks wildly unlikely that it can exist at all, as Gerhard Frey
+pointed out in 1985.
+     This observation opens the way to a ‘proof by contradiction’,
+what Euclid called ‘reductio ad absurdum’ (reduction to the
+absurd). To prove that some statement is true, you begin by
+assuming that, on the contrary, it is false. Then you deduce the
+logical consequences of this falsity. If the consequences contra-
+dict each other or known facts, then your assumption must have
+been wrong – so the statement must be true after all. In 1986
+Kenneth Ribet pinned this idea down by proving that if Fermat’s
+Last Theorem is false, then the associated elliptic curve violates a
+conjecture (that is, a plausible but unproved theorem) intro-
+duced by the Japanese mathematicians Yutaka Taniyama and
+Goro Shimura. This Taniyama–Shimura conjecture, which dates
+56 // Fermat’s Last Theorem
+
+
+
+from 1955, says that every elliptic curve is associated with a
+special class of elliptic functions, called modular functions.
+    Ribet’s discovery implies that any proof of the Taniyama–
+Shimura conjecture automatically proves – by contradiction –
+Fermat’s Last Theorem as well. Because the assumed falsity of
+Fermat’s Last Theorem tells us that Frey’s elliptic curve exists, but
+the Taniyama–Shimura conjecture tells us that it doesn’t.
+    Unfortunately, the Taniyama–Shimura conjecture was just
+that – a conjecture.
+    Enter Andrew Wiles. When Wiles was a child he heard about
+Fermat’s Last Theorem, and decided that when he grew up he
+would become a mathematician and prove it. He did become a
+mathematician, but by then he had decided that Fermat’s Last
+Theorem was much as Gauss had complained – an isolated
+question of no particular interest for the mainstream of
+mathematics. But Frey’s discovery changed all that. It meant that
+Wiles could work on the Taniyama–Shimura conjecture, an
+important mainstream problem, and polish off Fermat’s Last
+Theorem too.
+    Now, the Taniyama–Shimura conjecture is very difficult –
+that’s why it remained a conjecture for some forty years. But it
+has good links to many areas of mathematics, and sits firmly in
+the middle of an area where the techniques are very powerful:
+elliptic curves. For seven years Wiles worked away in his study,
+trying every technique he could think of, striving to prove the
+Taniyama–Shimura conjecture. Hardly anybody knew that he
+was working on that problem; he wanted to keep it secret.
+    In June 1993 Wiles gave a series of three lectures at the Isaac
+Newton Institute in Cambridge, one of the world’s top
+mathematical research centres. Their title was ‘Modular forms,
+elliptic curves and Galois representations’, but the experts knew
+it must really be about the Taniyama–Shimura conjecture – and,
+just possibly, Fermat’s Last Theorem. On day three, Wiles
+announced that he had proved the Taniyama–Shimura con-
+jecture, not for all elliptic curves, but for a special kind called
+‘semistable’.
+                                         Fermat’s Last Theorem // 57
+
+
+
+    Frey’s elliptic curve, if it exists, is semistable. Wiles was telling
+his audience that he had proved Fermat’s Last Theorem.
+    But it wasn’t quite that straightforward. In mathematics you
+don’t get credit for solving a big problem by giving a few lectures
+in which you say you’ve got the answer. You have to publish
+your ideas in full, so that everyone else can check that they are
+right. And when Wiles started that process – which involves
+getting experts to go over the work in detail before it gets into
+print – some logical gaps emerged. He quickly filled most of
+them, but one seemed much harder, and it wouldn’t go away. As
+rumours spread that the proposed proof had collapsed, Wiles
+made one final attempt to shore up his increasingly rickety proof
+– and, contrary to most expectations, he succeeded. One final
+technical point was supplied by his former student, Richard
+Taylor, and by the end of October 1994 the proof was complete.
+The rest, as they say, is history.
+    By developing Wiles’s new methods, the Taniyama–Shimura
+conjecture has now been proved for all elliptic curves, not just
+semistable ones. And although the result of Fermat’s Last
+Theorem is still just a minor curiosity – nothing important rests
+on it being true or false – the methods used to prove it have
+become a permanent and important addition to the mathemat-
+ical armoury.
+    One question remains. Did Fermat really have a valid proof,
+as he claimed in his margin? If he did, it certainly wasn’t the one
+that Wiles found, because the necessary ideas and methods
+simply did not exist in Fermat’s day. As an analogy: today we
+could erect the pyramids using huge cranes, but we can be
+confident that however the ancient Egyptians built their
+pyramids, they didn’t use modern machinery. Not just because
+there is no evidence of such machines, but because the necessary
+infrastructure could not have existed. If it had done, the whole
+culture would have been different. So the consensus among
+mathematicians is that what Fermat thought was a proof
+probably had a logical gap that he missed. There are some
+plausible but incorrect attempts that would have been feasible in
+58 // Pythagorean Triples
+
+
+
+his day. But we don’t know whether his proof – if one ever
+existed – followed those lines. Maybe – just maybe – there is a
+much simpler proof lurking out there in some unexplored realm
+of mathematical imagination, waiting for somebody to stumble
+
+
+...........................................
+into it.* Stranger things have happened.

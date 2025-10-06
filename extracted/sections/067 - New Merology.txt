@@ -1,0 +1,88 @@
+New Merology
+Let him that hath understanding count the number of the beast; for it
+is the number of a man; and his number is Six hundred threescore and
+six. Revelation of St John 13:18
+     Or maybe not. The Oxyrhynchus Papyri – ancient documents
+found at Oxyrhynchus in Upper Egypt – include a fragment of
+the Book of Revelation from the third or fourth century which
+contains the earliest known version of some sections. The
+number that this papyrus assigns to the Beast is 616, not 666. So
+much for barcodes being symbols of evil.* No matter, for this
+puzzle is not about the Beast. It is about an idea that its inventor,
+Lee Sallows, calls ‘new merology’. Let me make it clear that his
+proposal is not serious, except as a mathematical problem.{
+     The traditional method for assigning numbers to names,
+known as gematria, sets A ¼ 1, B ¼ 2 up to Z ¼ 26. Then you add
+up all the numbers corresponding to the letters in the name. But
+there are lots of different systems of this kind, and lots of
+alphabets. Sallows suggested a more rational method based on
+words that denote numbers. For instance, with the numbering
+just described, the word ONE becomes 15 þ 14 þ 5 ¼ 34. However,
+
+
+*   The middle of a supermarket barcode bears lines that would
+    represent the number 666, except that they have an entirely
+    different function – they are ‘guard bars’ that help to correct
+    errors. Each guard bar has the binary pattern 101, which on a
+    barcode represents 6. Whence 666. Except that genuine barcode
+    numbers actually have seven binary digits, so that 6 is 1010000,
+    and . . . oh well. This led some American fundamentalists to
+    denounce barcodes as the work of the Devil. Since it now seems
+    that the number of the Beast is actually 616, even the numerology
+    is dodgy.
+{   I really shouldn’t need to say this–but given the previous footnote
+    ...
+                                             New Merology // 93
+
+
+
+the number corresponding to ONE surely ought to be 1. Worse,
+no English number word denotes its numerological total, a
+property we will call ‘perfect’.
+    Sallows wondered what happens if you assign a whole
+number to each letter, so that as many as possible of the number-
+words ONE, TWO, and so on are perfect. To make the problem
+interesting, different letters must be given different values. So
+you get a whole pile of equations like
+
+               OþNþE¼1
+           TþWþO¼2
+       TþHþRþEþE¼3
+
+in algebraic unknowns O, N, E, T, W, H, R, . . . . And you must
+solve them in integers, all distinct.
+    The equation O þ N þ E ¼ 1 tells us that some of the numbers
+have to be negative. Suppose, for example, that E ¼ 1 and N ¼ 2.
+Then the equation for ONE tells us that O ¼ 2, and similar
+equations with other number-words imply that I ¼ 4; T ¼ 7 and
+W ¼ 3. To make THREE perfect we must assign values to H and
+R. If H ¼ 3, then R has to be 9. FOUR involves two more new
+letters, F and U. If F ¼ 5, then U = 10. Now, F þ I þ V þ E ¼ 5
+leads to V ¼ 5. Since SIX contains two new letters, we try
+SEVEN first, which tells us that S ¼ 8. Then we can fill in X from
+SIX, getting X ¼ 6. The equation for EIGHT leads to G ¼ 7.
+Now all the number names from ONE to TEN are perfect.
+    The only extra letter in ELEVEN and TWELVE is L.
+Remarkably, L ¼ 11 makes them both perfect. But
+T þ H þ I þ R þ T þ E þ E þ N ¼ 7 þ 3 þ 4 þ ð9Þ þ 7 þ 1 þ 1 þ 2,
+which is 16, so we get stuck at this point.
+    In fact, we always get stuck at this point: if THIRTEEN is
+perfect, then
+       THREE þ TEN ¼ THIRTEEN
+94 // Numerical Spell
+
+
+
+and we can remove common letters from both sides. This leads
+to E ¼ I, violating the rule that different letters get different
+values.
+    However, we can go the other way and try to make ZERO
+perfect as well as ONE to TWELVE. Using the choices above,
+Z þ E þ R þ O ¼ 0 leads to Z ¼ 10, but that’s the same as U.
+    Can you find a different assignment of positive or negative
+whole-number values to letters, so that all words from ZERO to
+TWELVE are perfect?
+
+
+...........................................
+   Answer on page 275

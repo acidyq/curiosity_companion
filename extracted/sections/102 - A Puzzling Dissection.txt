@@ -1,0 +1,45 @@
+A Puzzling Dissection
+‘Why are you hacking that chessboard to bits?’ asked
+Innumeratus.
+   ‘I want to show you something about areas,’ said Mathophila.
+‘What’s the area of the chessboard if each square has area one
+square unit?’
+   Innumeratus thought about this, and because he was better
+162 // A Puzzling Dissection
+
+
+
+at maths than his name might suggest, he quickly said, ‘It’s 8
+times 8, which is 64 square units.’
+
+
+
+
+                                   How Mathophila cut up
+                                   her chessboard . . .
+
+
+   ‘Excellent!’ said Mathophila. ‘Now, I’m going to rearrange
+the four pieces to make a rectangle.’
+
+
+
+
+       . . . and how she rearranged the pieces.
+
+    ‘OK,’ said Innumeratus.
+    ‘What’s the area of the rectangle?’
+    ‘Er – it must be 64 square units as well! It’s made from the
+same pieces.’
+    ‘Right . . . but what size is the rectangle?’
+    ‘Let me see – 13 by 5.’
+    ‘And what is 13 times 5?’
+    ‘65,’ replied Innumeratus. He paused. ‘So its area must be 65
+square units. That’s strange. The area can’t change when the
+pieces are reassembled in a different way . . . ’
+    So what’s happened?
+
+
+...........................................
+   Answer on page 286
+                                 A Really Puzzling Dissection // 163

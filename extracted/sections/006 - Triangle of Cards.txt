@@ -1,0 +1,30 @@
+Triangle of Cards
+I have 15 cards, numbered consecutively from 1 to 15. I want to
+lay them out in a triangle. I’ve put numbers on the top three for
+later reference:
+
+
+
+
+                             Triangle of cards.
+
+    However, I don’t want any old arrangement. I want each card
+to be the difference between the two cards immediately below it,
+                                       Pop-up Dodecahedron // 7
+
+
+
+to left and right. For example, 5 is the difference between 4 and
+9. (The differences are always calculated so that they are
+positive.) This condition does not apply to the cards in the
+bottom row, you appreciate.
+    The top three cards are already in place – and correct. Can
+you find how to place the remaining twelve cards?
+    Mathematicians have found ‘difference triangles’ like this
+with two, three or four rows of cards, bearing consecutive whole
+numbers starting from 1. It has been proved that no difference
+triangle can have six or more rows.
+
+
+...........................................
+   Answer on page 253

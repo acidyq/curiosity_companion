@@ -1,0 +1,39 @@
+Is There a Perfect Cuboid?
+It is easy to find rectangles whose sides and diagonals are whole
+numbers – this is the hoary old problem of Pythagorean
+triangles, and it has been known since antiquity how to find all
+of them (page 58). Using the classical recipe, it is not too hard to
+find a cuboid – a box with rectangular sides – such that its sides,
+and the diagonals of all its faces, are whole numbers. The first set
+of values given below achieves this. But what no one has yet been
+able to find is a perfect cuboid – one in which the ‘long diagonal’
+between opposite corners of the cuboid is also a whole number.
+130 // Paradox Lost
+
+
+
+
+                                               Make all lengths
+                                               integers.
+
+
+
+    With the notation in the diagram, and bearing Pythagoras in
+mind, we have to find a, b and c so that all four of the numbers
+a2 þ b2 ; a2 þ c2 ; b2 þ c2 and a2 þ b2 þ c2 are perfect squares – equal,
+respectively, to p2 ; q2 ; r2 and s2 . The existence of such numbers
+has neither been proved nor disproved, but some ‘near misses’
+have been found:
+
+        a ¼ 240; b ¼ 117; c ¼ 44; p ¼ 267; q ¼ 244; r ¼ 125;
+          but s is not an integer
+        a ¼ 672; b ¼ 153; c ¼ 104; q ¼ 680; r ¼ 185; s ¼ 697;
+          but p is not an integer
+        a ¼ 18;720; b ¼ 211;773;121; c ¼ 7;800; p ¼ 23;711;
+          q ¼ 20;280; r ¼ 16;511; s ¼ 24;961; but b is not an integer
+
+If there is a perfect cuboid, it involves big numbers: it has been
+
+
+...........................................
+proved that the smallest edge is at least 232 ¼ 4;294;967;296.

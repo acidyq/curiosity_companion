@@ -1,0 +1,41 @@
+The Missing Symbol
+Place a standard mathematical symbol between 4 and 5 to get a
+number greater than 4 and less than 5.
+
+
+...........................................
+   Answer on page 294
+
+
+
+Where There’s a Wall, There’s a Way
+In the county of Hexshire, fields are separated by walls built from
+the local stones – which for some reason are all made from
+identical hexagonal lumps joined together. Perhaps they origi-
+nated as basalt columns like the ones in the Giant’s Causeway.
+Anyway, Farmer Hogswill has seven stones, each formed from
+four hexagons. In fact, they are precisely the seven possible
+combinations of four hexagons:
+
+
+
+
+                                                    Seven stones
+                                                    to make a wall.
+
+
+   He has to make a wall shaped like this:
+
+
+
+
+                                                    The required
+                                                    wall.
+
+   How can he do it? (He can rotate the stones and turn them
+over to obtain their mirror images if necessary.)
+
+
+...........................................
+   Answer on page 294
+                                         Richard’s Paradox // 197

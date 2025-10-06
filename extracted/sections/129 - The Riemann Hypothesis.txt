@@ -1,0 +1,209 @@
+The Riemann Hypothesis
+If there is one single problem that mathematicians would dearly
+love to solve, it is the Riemann Hypothesis. Entire areas of
+mathematics would open up if some bright spark could prove
+this wonderful theorem. And entire areas of mathematics would
+close down if some bright spark could disprove it. Right now,
+those areas are in limbo. We can get a glimpse of the Promised
+Land, but for all we know it might be a mirage.
+    Oh, there’s also a million-dollar prize on offer from the Clay
+Mathematics Institute.
+    The story goes back to the time of Gauss, around 1800, and
+the discovery that although the prime numbers seem rather
+randomly distributed doing the number line, they have clear
+statistical regularities. Various mathematicians noticed that the
+number of primes up to some number x, denoted by pðxÞ just to
+216 // The Riemann Hypothesis
+
+
+
+confuse everyone who thought that p ¼ 3:141 59, is approxi-
+mately
+                  x
+       pðxÞ ¼
+                log x
+
+Gauss found what seemed to be a slightly better approximation,
+the logarithmic integral
+               Z x
+                     dx
+       LiðxÞ ¼
+                 2 log x
+
+Now, it’s one thing to notice this ‘prime number theorem’, but
+what counts is proving it, and that turned out to be hard. The
+most powerful approach is to turn the question into something
+quite different, in this case complex analysis. The connection
+between primes and complex functions is not at all obvious, but
+the key idea was spotted by Euler.
+   Every positive integer is a product of primes in a unique way.
+We can formulate this basic property analytically. A first attempt
+would be to notice that
+
+       ð1 þ 2 þ 22 þ 23 þ . . .Þ6ð1 þ 3 þ 32 þ 33 þ . . .Þ
+       6ð1 þ 5 þ 52 þ 53 þ . . .Þ6 . . .
+
+with each bracketed series going on for ever, and taking the
+product over all primes, is equal to
+       1 þ 2 þ 3 þ 4 þ 5 þ 6 þ 7 þ 8 þ ...
+
+summed over all integers. For example, to find out where a
+number like 360 comes from, we write it as a product of primes
+
+       360 ¼ 23 632 65
+
+and then pick out from the formula the corresponding terms,
+here shown in bold:
+
+       ð1 þ 2 þ 22 þ 23 þ . . .Þ6ð1 þ 3 þ 32 þ 33 þ . . .Þ
+       6ð1 þ 5 þ 52 þ 53 þ . . .Þ6 . . .
+
+When you ‘expand’ the brackets, each possible product of prime
+powers occurs exactly once.
+                                     The Riemann Hypothesis // 217
+
+
+
+    Unfortunately this makes no sense because the series diverge
+to infinity, and so does the product. However, if we replace each
+number n by a suitable power ns , and make s large enough,
+everything converges. (The minus sign ensures that large values
+of s lead to convergence, which is more convenient.) So we get
+the formula
+
+       ð1 þ 2s þ 22s þ 23s þ . . .Þ6ð1 þ 3s þ 32s þ 33s þ . . .Þ
+       6ð1 þ 5s þ 52s þ 53s þ . . .Þ6 . . .
+       ¼ 1 þ 2s þ 3s þ 4s þ 5s þ 6s þ 7s þ 8s þ . . .
+
+(where I’ve written 1 instead of 1s because these are equal
+anyway.) This formula makes perfectly good sense provided s is
+real and greater than 1. It’s true because
+
+       60–s ¼ 2–3s 63–2s 65–s
+
+and similarly for any positive integer.
+    In fact, the formula makes perfectly good sense if s = aþib is
+complex and its real part a is greater than 1. The final series in
+the formula is called the Riemann zeta function of s, denoted by
+zðsÞ. Here z is the Greek letter zeta.
+    In 1859 Georg Riemann wrote a brief, astonishingly inven-
+tive paper showing that the analytic properties of the zeta
+function reveal deep statistical features of primes, including
+Gauss’s prime number theorem. In fact, he could do more: he
+could make the error in the approximation of pðxÞ much smaller,
+by adding further terms to Gauss’s expression. Infinitely many
+such terms, themselves forming a convergent series, would make
+the error disappear altogether. Riemann could write down an
+exact expression for pðxÞ as an analytic series.
+    For the record, here’s his formula:
+
+       pðxÞ þ pðx1=2 Þ þ pðx1=3 Þ þ . . .
+                  Z ?                                     X
+                         2               1
+       ¼ LiðxÞ þ         ðt  1Þt log t       t  log 2    Liðxr Þ
+                    x                                    r
+
+where r runs through the non-trivial zeros of the zeta function.
+Strictly speaking, this formula is not quite correct when the left-
+218 // The Riemann Hypothesis
+
+
+
+hand side has discontinuities, but that can be fixed up. You can
+get an even more complicated formula for pðxÞ itself by applying
+the formula again with x replaced by x1=2 ; x1=3 , and so on.
+    All very pretty, but there was one tiny snag. In order to prove
+that his series is correct, Riemann needed to establish an
+apparently straightforward property of the zeta function.
+Unfortunately, he couldn’t find a proof.
+    All complex analysts learn at their mother’s knee (the mother
+here being Augustin-Louis Cauchy, who along with Gauss first
+understood the point) that the best way to understand any
+complex function is to work out where its zeros lie. That is: which
+complex numbers s make zðsÞ ¼ 0? Well, it becomes the best way
+after some nifty footwork; in the region where the series for zðsÞ
+converges, there aren’t any zeros. However, there is another
+formula which agrees with the series whenever it converges, but
+also makes sense when it doesn’t. This formula lets us extend the
+definition of zðsÞ so that it makes sense for all complex numbers
+s. And this ‘analytic continuation’ of the zeta function does have
+zeros. Infinitely many of them.
+    Some of the zeros are obvious – once you see the formula
+involved in the continuation process. These ‘trivial zeros’ are the
+negative even integers 2; 4; 6, and so on. The other zeros
+come in pairs a þ ib and a  ib, and all such zeros that Riemann
+could find had a ¼ 12. The first three pairs, for instance, are
+       1            1            1
+       2 +14:13i;   2 +21:02i;   2 +25:01i
+
+Evidence like this led Riemann to conjecture (‘hypothesise’) that
+all non-trivial zeros of the zeta function must lie on the so-called
+critical line 12 þ ib.
+    If he could prove this statement – the famous Riemann
+Hypothesis – then he could prove that Gauss’s approximate
+formula for pðxÞ is correct. He could improve it to an exact –
+though complicated – formula. Great vistas of number theory
+would be wide open for development.
+    But he couldn’t, and we still can’t.
+    Eventually, the prime number theorem was proved, inde-
+                                    The Riemann Hypothesis // 219
+
+
+
+pendently, by Jacques Hadamard and Charles de la Vallée-
+Poussin in 1896. They used complex analysis, but managed to
+find a proof that avoided the Riemann Hypothesis. We now
+know that the first ten trillion non-trivial zeros of the zeta
+function lie on the critical line, thanks to Xavier Gourdon and
+Patrick Demichel in 2004. You might think that ought to settle
+the matter, but in this area of number theory ten trillion is
+ridiculously small, and may be misleading.
+    The Riemann Hypothesis is important for several reasons. If
+true, it would tell us a lot about the statistical properties of
+primes. In particular, Helge von Koch proved in 1901 that the
+Riemann Hypothesis is true if and only if the estimate
+                          pﬃﬃﬃ
+        jpðxÞ  LiðxÞj < C x log x
+
+for the error in Gauss’s formula holds for some constant C. Later,
+Lowell Schoenfeld proved that we can take C ¼ 1=8p for all
+x52;657. (Sorry, this area of mathematics does that kind of
+thing.) The point here is that the error is small compared with x,
+and it tells us how much the primes fluctuate away from their
+more typical behaviour.
+    Riemann’s exact formula, of course, would also follow from
+the Riemann Hypothesis. So would a huge list of other
+mathematical results – you can find some of them at
+en.wikipedia.org/wiki/Riemann_hypothesis
+    However, the main reason why the Riemann Hypothesis is
+important – apart from ‘because it’s there’ – is that it has a lot of
+far-reaching analogues and generalisations in algebraic number
+theory. A few of the analogues have even been proved. There is a
+feeling that if the Riemann Hypothesis can be proved in its
+original form, then so can the generalisations. These ideas are
+too technical to describe, but see mathworld.wolfram.com/
+RiemannHypothesis.html
+    I will tell you one deceptively simple statement that is
+equivalent to the Riemann Hypothesis. Of itself, it looks
+harmless and unimportant. Not so! Here’s how it goes. If n is a
+220 // Anti-Atheism
+
+
+
+whole number, then the sum of its divisors, including n itself, is
+written as sðnÞ. (Here s is the lower-case Greek letter ‘sigma’.) So
+
+       sð24Þ ¼ 1 þ 2 þ 3 þ 4 þ 6 þ 8 þ 12 þ 24 ¼ 60
+       sð12Þ ¼ 1 þ 2 þ 3 þ 4 þ 6 þ 12 ¼ 28
+
+and so on. In 2002 Jeffrey Lagarias proved that the Riemann
+Hypothesis is equivalent to the inequality
+
+       sðnÞ4eHn log Hn
+
+for every n. Here Hn is the nth harmonic number, equal to
+          1 1 1      1
+       1 þ þ þ þ ...
+
+...........................................
+          2 3 4      n

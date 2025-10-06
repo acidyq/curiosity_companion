@@ -1,0 +1,37 @@
+Space-Filling Curves
+We ordinarily think of a curve as being much ‘thinner’ than, say,
+the interior of a square. For a long time, mathematicians thought
+that since a curve is one-dimensional, and a square is two-
+dimensional, it must be impossible for a curve to pass through
+every point inside a square.
+    Not so. In 1890 the Italian mathematician Giuseppe Peano
+discovered just such a space-filling curve. It was infinitely long and
+infinitely wiggly, but it still fitted the mathematical concept of a
+curve – which basically is some kind of bent line. In this case, very
+bent. A year later the German mathematician David Hilbert
+found another one. These curves are too complicated to draw –
+and if you could, you might as well just draw a solid black square
+like the left-hand picture. Mathematicians define space-filling
+curves using a step-by-step process that introduces more and
+more wiggles. At each step, the new wiggles are finer than the
+previous ones. The right-hand picture shows the fifth stage of
+this process for Hilbert’s curve.
+
+
+
+
+       Hilbert’s space-filling curve and an approximation.
+84 // Compensating Errors
+
+
+
+    There is an excellent animation showing successive stages of
+the construction of the Hilbert curve at en.wikipedia.org/wiki/
+Hilbert_curve. Similar curves can fill a solid cube, indeed the
+analogue of a cube in any number of dimensions. So examples
+like this forced mathematicians to rethink basic concepts, such
+as ‘dimension’. Space-filling curves have been proposed as the
+
+
+...........................................
+basis of an efficient method for searching databases by computer.

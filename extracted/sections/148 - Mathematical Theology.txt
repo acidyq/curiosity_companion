@@ -1,0 +1,2527 @@
+Mathematical Theology
+It is said that during Leonhard Euler’s second stint at the Court of
+Catherine the Great, the French philosopher Denis Diderot was
+trying to convert the Court to atheism. Since royalty generally
+claims to have been appointed by God, this didn’t go down
+terribly well. At any rate, Catherine asked Euler to put a spoke in
+Diderot’s wheel. So Euler told the Court that he knew an algebraic
+proof of the existence of God. Facing Diderot, he declaimed: ‘Sir,
+                                   Mathematical Theology // 247
+
+
+
+a þ bn =n ¼ x, hence God exists – reply!’ Diderot had no answer,
+and left the Court to widespread laughter, humiliated.
+    Yes, well . . . There are some little problems with this
+anecdote, which seems to have originated with the English
+mathematician Augustus De Morgan in his Budget of Paradoxes.
+As the historian Dirk Struik pointed out in 1967, Diderot was an
+accomplished mathematician who had published work on
+geometry and probability, and would have been able to recognise
+nonsense when he heard it. Euler, an even better mathematician,
+would not have expected something that simple-minded to
+work. The formula is a meaningless equation unless we know
+what a, b, n and x are supposed to be. As Struik remarks, ‘No
+reason exists to think that the thoughtful Euler would have
+behaved in the asinine way indicated.’
+    Euler was a religious man, who apparently considered the
+Bible to be literal truth, but he also believed that knowledge
+stems, in part, from rational laws. In the eighteenth century
+there was occasional talk about the possibility of an algebraic
+proof of the Deity’s existence, and Voltaire mentions one by
+Maupertuis in his Diatribe.
+    A much better attempt was found among Kurt Gödel’s
+unpublished papers. Naturally, it is formulated in terms of
+mathematical logic, and for the record here it is in its entirety:
+       Ax:1   &Vx½fðxÞ ! cðxÞ6PðfÞ ! PðcÞ
+       Ax:2   Pð:fÞp:PðfÞ
+       Th:1   PðfÞ ! }9x½fðxÞ
+       Df:1   GðxÞ , Vf½PðfÞ ! fðxÞ
+       Ax:3   PðGÞ
+       Th:2   }9xGðxÞ
+       Df:2   f ess x , fðxÞ6VCCðxÞ ! &Vx½fðxÞ ! CðxÞ
+       Ax:4   PðfÞ ! &PðfÞ
+       Th:3   GðxÞ ! G ess x
+       Df:3   EðxÞ , Vf½f ess x ! &9xfðxÞ
+       Ax:5   PðEÞ
+       Th:4   &9xGðxÞ
+
+The symbolism belongs to a branch of mathematical logic called
+modal logic. Roughly speaking, the proof works with ‘positive
+248 // Mathematical Theology
+
+
+
+properties’, denoted by P. The expression PðfÞ means that f is a
+positive property. The property ‘being God’ is defined (Df.1) by
+requiring God to have all positive properties. Here G(x) means
+‘x has the property of being God’, which is a fancy way of saying
+‘x is God’. The symbols & and } denote ‘necessary truth,’ and
+‘contingent truth,’ respectively. The arrow ? means ‘implies’,
+V is ‘for all’ and 9 is ‘there exists’. The symbol : means ‘not’, 6 is
+‘and’, and $ and , are subtly different versions of ‘if and only
+if’. The symbol ‘ess’ is defined in Df.2. The axioms are Ax.1–5.
+The theorems (Th.1–4) culminate in the statement ‘there exists x
+such that x has the property of being God’ – that is, God exists.
+     The distinction between necessary and contingent truth is a
+key novelty of modal logic. It distinguishes statements that must
+be true (such as ‘2 þ 2 ¼ 4’ in a suitable axiomatic treatment of
+mathematics) from those that conceivably might be false (such
+as ‘it is raining today’). In conventional mathematical logic, the
+statement ‘If A then B’ is always considered to be true when A is
+false. For instance ‘2 þ 2 ¼ 5 implies 1 ¼ 1’ is true, and so is
+‘2 þ 2 ¼ 5 implies 1 ¼ 42’. This may seem strange, but it is
+possible to prove that 1 = 1 starting from 2 þ 2 ¼ 5, and it is also
+possible to prove that 1 = 42 starting from 2 þ 2 ¼ 5. So the
+convention makes good sense. Can you find any such proofs?
+     If we extend this convention to human activities, then the
+statement ‘If Hitler had won World War II then Europe would
+now be a single nation’ is trivially true, because Hitler did not win
+World War II. But ‘If Hitler had won World War II then pigs
+would now have wings’ is also trivially true, for the same reason.
+In modal logic, however, it would be sensible to debate the truth
+or falsity of the first of these statements, depending on how
+history might have changed if the Nazis had won the war. The
+second would be false, because pigs don’t have wings.
+     Gödel’s sequence of statements turns out to be a formal
+version of the ontological argument put forward by St Anselm of
+Canterbury in his Proslogion of 1077–78. Defining ‘God’ as ‘the
+greatest conceivable entity’, Anselm argued that God is con-
+                                    Mathematical Theology // 249
+
+
+
+ceivable. But if he is not real, we could conceive of Him being
+greater by existing in reality. Therefore, God must be real.
+    Aside from deep issues of what we mean by ‘greatest’ and so
+forth, there is a basic logical flaw here, one that every
+mathematician learns at his mother’s knee. Before we can deduce
+any property of some entity or concept from its definition, we
+must first prove that something satisfying the definition exists.
+Otherwise the definition might be self-contradictory. For
+instance, suppose we define n to be ‘the largest whole number’.
+Then we can easily prove that n ¼ 1. For if not, n2 > n, contra-
+dicting the definition of n. Therefore 1 is the largest whole
+number. The flaw is that we cannot use any properties of n until
+we know that n exists. As it happens, it doesn’t – but even if it
+did, we would have to prove that it did before proceeding with
+the deduction.
+    In short: in order to prove that God exists by Anselm’s line of
+thinking, we must first establish that God exists (by some other
+line of reasoning, or else the logic is circular). Of course I’ve
+simplified things here, and later philosophers tried to remove the
+flaw by being more careful with the logic or the philosophy.
+Gödel’s proof is essentially a formal version of one proposed by
+Leibniz. Gödel never published his proof because he was worried
+that it might be seen as a rigorous demonstration of the existence
+of God, whereas he viewed it as a formal statement of Leibniz’s
+tacit assumptions, which would help to reveal potential logical
+errors. For further analysis see
+en.wikipedia.org/wiki/G%C3%B6del’s_ontological_proof and for a
+detailed discussion of modal logic and its use in the proof see
+www.stats.uwaterloo.ca/~cgsmall/ontology1.html
+
+
+...........................................
+   Answers on page 310
+This page intentionally left blank
+Professor Stewart’s Cunning
+Crib Sheet
+...........................................
+Wherein the discerning or desperate reader may
+locate answers to those questions that are
+currently known to possess them . . . with
+occasional supplementary facts for
+their further edification.
+252 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+Alien Encounter
+Alfy is a Veracitor, whereas Betty and Gemma are Gibberish.
+    There are only eight possibilities, so you can try each in turn. But
+there’s a quicker way. Betty said that Alfy and Gemma belong to the
+same species, but they have given different answers to the same
+question, so Betty is Gibberish. Alfy said precisely that, making him a
+Veracitor. Gemma said the opposite, so she must be Gibberish.
+
+Curious Calculations
+          161 ¼ 1
+          11611 ¼ 121
+          1116111 ¼ 12;321
+          1;11161;111 ¼ 1;234;321
+          11;111611;111 ¼ 123;454;321
+
+If you know how to do ‘long multiplication’, you can see why this
+striking pattern occurs. For instance,
+          1116111 ¼
+            11;100 þ
+             1;110 þ
+               111
+
+We find one ‘1’ in the units column, two in the tens column, three in
+the hundreds; then the numbers shrink again, with two in the
+thousands and one in the ten thousands. So the answer must be
+12,321.
+    The pattern does continue – but your calculator may run out of
+digits. In fact,
+                  111; 1116111;111 ¼ 12;345;654;321
+              1;111;11161;111;111 ¼ 1;234;567;654;321
+            11;111;111611;111;111 ¼ 123;456;787;654;321
+          111;111;1116111;111;111 ¼ 12;, 345; 678 ; 987;654;321
+
+After this the pattern breaks down, because digits ‘carry’ and spoil it.
+                      Professor Stewart’s Cunning Crib Sheet // 253
+
+
+        142;85762 ¼ 285;714
+        142;85763 ¼ 428;571
+        142;85764 ¼ 571;428
+        142;85765 ¼ 714;285
+        142;85766 ¼ 857;142
+        142;85767 ¼ 999;999
+
+When we multiply 142,857 by 2, 3, 4, 5 or 6, we get the same
+sequence of digits in cyclic order, but starting at a different place. The
+999,999 is a bonus.
+    This curious fact is not an accident. Basically, it happens because
+1/7 in decimals is 0.142 857 142 857 . . . , repeating for ever.
+
+Triangle of Cards
+
+
+
+
+                                  The 15-card
+                                  difference triangle.
+
+
+
+Turnip for the Books
+Hogswill started with 400 turnips.
+
+    The way to solve this kind of puzzle is to work backwards.
+
+Suppose that at the start of hour 4, Hogswill has x turnips. By the end
+                          6x 1
+of the hour he has sold     þ turnips, and since none are left, this
+                           7 7
+                 6x 1 x  1
+equals x. So x  þ ¼            ¼ 0, and x = 1. Similarly, if he had x
+                  7 7       7
+                                      x1
+turnips at the start of hour 3, then       ¼ 1, so x = 8. If he had x
+                                     x71
+turnips at the start of hour 2, then      ¼ 8, so x = 57. Finally, if he
+                                       7
+                                            x1
+had x turnips at the start of hour 1, then        ¼ 57, so x = 400.
+                                             7
+254 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+The Four-Colour Theorem
+Here are the four counties for which each is adjacent to all of the
+others. The middle one is West Midlands – which coincidentally is
+where I live – and the three surrounding it are Staffordshire,
+Warwickshire and Worcestershire, clockwise from the top.
+
+
+
+
+                                     These counties imply that we
+                                     need at least four colours.
+
+
+
+Shaggy Dog Story
+First, the dodgy arithmetic. The method ‘works’ because the will’s
+terms are inconsistent. The fractions do not add up to 1. In fact,
+       1 1 1 17
+        þ þ ¼
+       2 3 9 18
+which should make the trick obvious.
+   Whoever first designed this puzzle was clever – there are very few
+numbers that work, and this choice disguises the inconsistency very
+neatly. I mean, how would you feel about a puzzle where the uncle
+has 1,129 dogs, the sons are bequeathed 47, 11
+                                             3      2
+                                               and 15 of them, and
+Lunchalot rides to the rescue with 26 extra dogs?
+   However, there is another neat possibility: exactly the same,
+except that the third son gets one-seventh of the dogs. If the same
+trick works, how many dogs were there?
+                      Professor Stewart’s Cunning Crib Sheet // 255
+
+
+
+Answer to the Answer
+The clue is that
+
+         1 1 1 41
+          þ þ ¼
+         2 3 7 42
+So there were 41 dogs.
+
+Answer Continued
+Oops, I nearly forgot the actual question: what did Gingerbere say to
+Ethelfred that so offended Sir Lunchalot?
+    It was this: ‘Surely you wouldn’t send a knight out on a dog like
+this?’
+    I said it was a shaggy dog story.
+
+Confession
+The shaggy dog story is inspired, in part, by the science fiction short
+story ‘Fall of knight’ by A. Bertram Chandler, which appeared in
+Fantastic Universe magazine in 1958.
+
+
+Rabbits in the Hat
+Nothing is wrong with the calculation, but its interpretation is
+nonsense. When the various probabilities are combined, we are
+working out the probability of extracting a black rabbit, over all
+possible combinations of rabbits. It is fallacious to imagine that this
+probability is valid for any specific combination. The fallacy is glaring
+if there is only one rabbit in the hat. With one rabbit, a similar
+argument (ignoring adding and removing a black rabbit, which
+changes nothing essential) goes like this: the hat contains either B or
+W, each with probability 12. The probability of extracting a black
+rabbit is therefore
+
+         1     1
+           61 þ 60
+         2     2
+which is 12. Therefore (really?) half the rabbits in the hat are black, and
+half are white.
+    But there’s only one rabbit in the hat . . .
+256 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+River Crossing 1 – Farm Produce
+There are two solutions. One is:
+
+(1) Take the goat across.
+
+(2) Come back with no cargo, pick up the wolf, and take that
+across.
+
+(3) Bring the goat back, but leave the wolf.
+
+(4) Drop off the goat, pick up the cabbage, cross the river, leave
+the cabbage.
+
+(5) Come back with no cargo, pick up the goat, take it across.
+
+In the other, the roles of wolf and cabbage are exchanged.
+   I like to solve this geometrically, using a picture in wolf–goat–
+cabbage space. This consists of triples (w, g, c) where each symbol is
+either 0 (on this side of the river) or 1 (on the far side). So, for
+instance, (1, 0, 1) means that the wolf and cabbage are on the far side
+but the goat is on this side. The problem is to get from (0, 0, 0) to
+(1, 1, 1) without anything being eaten. We don’t need to say where
+the farmer is, since he always travels in the boat during river
+crossings.
+
+
+
+
+                                               Wolf–goat–cabbage
+                                               space: now it’s obvious.
+
+
+   There are eight possible triples, and they can be thought of as the
+vertices of a cube. Because only one item can accompany the farmer
+on each trip, the permissible moves are the edges of the cube.
+                      Professor Stewart’s Cunning Crib Sheet // 257
+
+
+
+However, four edges (shown in grey) are not permitted, because
+things get eaten. The remaining edges (black) do not cause mayhem.
+    So the puzzle reduces to a geometric one: find a route along the
+black edges, from (0, 0, 0) to (1, 1, 1). The two solutions are
+immediately evident.
+
+
+More Curious Calculations
+(1) 1361167 ¼ 1;001, and this is why the trick works. If you
+multiply a three-digit number abc by 1,001 the result is abcabc.
+Why? Well, multiplying by 1,000 gives abc000. Then you add a
+final abc to multiply by 1,001.
+
+(2) For four-digit numbers, everything is similar, but we have to
+multiply by 10,001. This can be done in two stages – multiply by
+73 and then by 137 – because 736137 ¼ 10;001.
+
+(3) For five-digit numbers we have to multiply by 100,001. This
+can be done in two stages – multiply by 11 and then by 9,091 –
+because 1169;091 ¼ 100;001. As a party trick, this is a bit
+contrived, though.
+
+(4) We get 471,471,471,471 – the same three digits repeated four
+times. Why? Because
+        7611613610169;901 ¼ 1;001;001;001
+
+(5) Adding the final 128 leads to 128,000,000 – a million times
+the original number. This trick works for all three-digit numbers,
+and it does so because
+        3636367611613637 ¼ 999;999
+
+Add 1 and you get a million.
+    You can turn all these tricks into party magic tricks. For instance,
+the trick that turns 471,471 into 471 could be presented like this. The
+magician, with eyes blindfolded, asks a member of the audience to
+write down a three-digit number (say 471) on a blackboard or a sheet
+of paper. A second person then writes it down twice (471,471). A
+third, armed with a calculator, divides that by 13 (getting 36,267). A
+fourth divides the result by 11 (getting 3,297). While this is going on,
+258 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+the magician makes a lot of fuss about how unlikely it is that either of
+these numbers divides without remainder. Then she asks what the
+final result is, and instantly announces that the original number was
+471.
+   To work this out, she mentally divides 3,297 by 7. OK, you have
+to be able to do that, but if you know your seven times table it’s easy.
+
+
+Extracting the Cherry
+
+
+
+
+                         After two matches
+                         have been moved.
+
+
+
+
+Make Me a Pentagon
+Tie a knot in the strip, and flatten it – carefully.
+
+
+
+
+                                         Pentagon from
+                                         knotted strip.
+
+    An interesting challenge is to prove that the result really is a
+regular pentagon – in an idealised Euclidean version of the problem.
+I’ll leave that for anyone who is interested.
+
+
+Empty Glasses
+Pick up the second glass from the left, pour its contents into the fifth
+glass, and replace the second glass.
+
+
+Three Quickies
+(1) If you and your partner hold all the spades, your opponents
+                     Professor Stewart’s Cunning Crib Sheet // 259
+
+
+
+hold none, and vice versa. So the likelihood is the same in each
+case.
+
+(2) Three. You took three, so that’s how many you have.
+
+(3) Zero. If five are in the right envelope, so is the sixth.
+
+Knight’s Tours
+There is no closed tour on the 565 square. Imagine colouring the
+squares black and white in the usual chessboard fashion. Then the
+knight changes colour at each move. A closed tour must then have
+equal numbers of black and white squares. But 565 ¼ 25 is odd. The
+same argument rules out closed tours on all squares with odd sides.
+    There is no tour on the 4 6 4 square. The main obstacle is that
+each corner square connects to only two other squares, and the
+diagonally opposite corner also connects to those two squares. A little
+thought proves that if a tour of all 16 squares exists, it must start at
+one corner and finish in an adjacent corner. Systematic consideration
+of possibilities shows that this is impossible.
+    However, there is a tour that visits 15 of the 16 squares (showing
+that the situation regarding a complete tour is delicate):
+
+
+
+
+                                        How the knight
+                                        can visit 15 squares.
+
+
+
+White-Tailed Cats
+Suppose that there are c cats, of which w have white tails. There are c
+(c1) ordered pairs of distinct cats, and w(w1) ordered pairs of
+white-tailed cats. (You can choose the first cat of the pair in c ways,
+but the second in only c1 ways since you’ve used up one cat. Ditto
+for white-tailed cats. By ‘ordered’ I mean that choosing first cat A and
+260 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+then cat B is considered to be different from B first and then A. If you
+don’t like that, then both formulas have to be halved – with the same
+result.)
+    This means that the probability of both cats having white tails is
+
+           wðw  1Þ
+           cðc  1Þ
+
+and this must be 12. Therefore
+
+           cðc  1Þ ¼ 2wðw  1Þ
+
+with c and w whole numbers. The smallest solution is c ¼ 4,
+w ¼ 3. The next smallest turns out to be c ¼ 21, w ¼ 15. Since Ms
+Smith has fewer than 20 cats, she must have four cats, of which three
+have white tails.
+
+
+Perpetual Calendar
+Each cube must include 1 and 2 so that 11 and 22 can be represented.
+If only one cube bears a 0, then at most six of the nine numbers 01–
+09 can be represented, so both must bear a 0 as well. That leaves six
+spare faces for the seven digits 3–9, so the puzzle looks impossible . . .
+until you realise that the cube bearing the number 6 can be turned
+upside down to represent 9. So the white cube bears the numbers 0, 1,
+2, 6 (also 9), 7 and 8, and the grey cube bears the numbers 0, 1, 2, 3, 4
+and 5. (Note that I’ve shown a 5 on my grey cube, and that tells us
+which cube is which.)
+
+
+Deceptive Dice
+There is no best dice. If Innumeratus plays, and Mathophila chooses
+correctly (as she will, because she’s like that), then he will lose, in the
+long run. The odds will always favour Mathophila.
+    How come? Mathophila has constructed her dice so that on
+average, the yellow one beats the red one, the red one beats the blue
+one – and the blue one beats the yellow one! At first sight this seems
+impossible, so let me explain why it’s true.
+    Each number occurs twice on each of the dice, so the chance of
+rolling any particular number is always 13. So I can make a table of the
+                                                 Professor Stewart’s Cunning Crib Sheet // 261
+
+
+
+possibilities, and see who wins for which combinations of numbers
+thrown. Each combination has the same probability, 19.
+
+Yellow versus red
+
+                                                           1                                         5                                         9
+....................................................................................................................................................................
+                  3                                        Red                                       Yellow                                    Yellow
+                  4                                        Red                                       Yellow                                    Yellow
+                  8                                        Red                                       Red                                       Yellow
+....................................................................................................................................................................
+
+Here yellow wins five times out of nine, red wins only four times.
+
+
+
+Red versus blue
+
+                                                           3                                         4                                         8
+....................................................................................................................................................................
+                  2                                        Red                                       Red                                       Red
+                  6                                        Blue                                      Blue                                      Red
+                  7                                        Blue                                      Blue                                      Red
+....................................................................................................................................................................
+
+Here red wins five times out of nine, blue wins only four times.
+
+Blue versus yellow
+
+                                                           2                                         6                                         7
+....................................................................................................................................................................
+                  1                                        Blue                                      Blue                                      Blue
+                  5                                        Yellow                                    Blue                                      Blue
+                  9                                        Yellow                                    Yellow                                    Yellow
+....................................................................................................................................................................
+
+Here blue wins five times out of nine, yellow wins only four times.
+         So yellow beats red 59 of the time, red beats blue 59 of the time, and
+blue beats yellow 59 of the time.
+         This gives Mathophila an advantage if she chooses second, which
+she has cunningly arranged. If Innumeratus chooses the red dice, she
+should choose yellow. If he chooses the yellow dice, she should
+choose blue. And if he chooses the blue dice, she should choose red.
+   It may not be a huge advantage – five chances out of nine of
+winning, compared with four out of nine – but it’s still an advantage.
+262 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+In the long run, Innumeratus will lose his pocket money. If he wants
+to play, then a gentlemanly ‘No, you choose’ would be a good idea.
+    It may seem impossible to have yellow ‘better than’ red, and red
+‘better than’ blue – but not to have yellow ‘better than’ blue. What’s
+happening is that the meaning of ‘better than’ depends on which
+dice are being used. It’s a bit like three football teams:
+
+. The Reds have a good goalkeeper and a good defence, but a
+    poor attack. They win if and only if the opposing goalie is
+    poor.
+.   The Yellows have a poor goalie, a good defence, and a good
+    attack. They win if and only if the opposing defence is poor.
+.   The Blues have a good goalie, a poor defence, and a good
+    attack. They win if and only if the opposing attack is poor.
+
+Then (check this!) the Reds always beat the Yellows, the Yellows
+always beat the Blues, and the Blues always beat the Reds.
+   Dice like this are said to be intransitive. (‘Transitive’ means that if
+A beats B and B beats C then A beats C. That doesn’t happen here.)
+On the practical side, the existence of intransitive dice tells us that
+some ‘obvious’ assumptions about economic behaviour are actually
+wrong.
+
+
+An Age-Old Old-Age Problem
+Scrumptius was 69. There was no year 0 between BC dates and AD
+dates. (If you decided that he might be 68 if he died earlier in the day
+than he was born, you get a point for ingenuity. But you lose two for
+pedantry, because it is usual to increase a person’s age by one year as
+soon as their birthday begins, immediately after midnight.)
+
+
+Heron Suit
+The deduction is incorrect. Consider a cat with blunt claws that plays
+with a gorilla, does not wear a heron suit, has a tail, has no whiskers
+and is unsociable. The first five statements are all true, but the sixth is
+not.
+    I’d explain about the heron suit, but my cat has refused
+permission on the grounds that it might incriminate itself.
+                        Professor Stewart’s Cunning Crib Sheet // 263
+
+
+
+How to Unmake a Greek Cross
+
+
+
+
+                                                        Converting a
+                                                        Greek cross to a
+                                                        square.
+
+
+
+Euler’s Pentagonal Holiday
+Here’s a solution to (b), which is automatically a solution to (a) as
+well. There are others. But they all have to start and end at the two
+vertices with valency 3, and a mirror-symmetric one must always
+have the bottom edge of the pentagon in the middle of the tour.
+
+
+
+
+                                     A solution with
+                                     left-right symmetry.
+
+
+
+Ouroborean Rings
+One possible ouroborean ring for quadruplets is
+
+       1111000010100110
+
+There are others. The topic has a long history, going back to Irving
+Good in 1946. Ouroborean rings exist for all m-tuples of n digits: for
+example, in this one
+
+       000111222121102202101201002
+
+each triple of the three digits 0, 1, 2 occurs exactly once.
+   How many ouroborean rings are there? In 1946 Nicholas de
+Bruijn proved that for m-tuples formed from the two digits 0 and 1,
+                 m1
+                       m
+this number is 22           , which grows extremely fast. Here rings
+obtained by rotating a given one are considered to be the same.
+264 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+
+                  m                           Number of ouroborean rings
+....................................................................................................................................................................
+                  2                           1
+                  3                           2
+                  4                           16
+                  5                           2,048
+                  6                           67,108,864
+                  7                           144,115,188,075,855,872
+....................................................................................................................................................................
+
+
+
+The Ourotorus
+There is a unique solution, except for various symmetry transfor-
+mations – rotation, reflection and translations horizontally or
+vertically. Bear in mind the ‘wrap round’ convention. So you can, for
+instance, cut off the four pieces on the right and move them to the
+left.
+
+
+
+
+                                                                                            Solution to the
+                                                                                            ourotorus puzzle.
+
+
+
+A Constant Bore
+The only reason for including this kind of question in this kind of
+book is if something surprising happens, and the only surprising
+thing that makes much sense is that the answer does not depend on
+the radius of the sphere.
+         That sounds crazy – suppose the sphere were the Earth? But to
+make the hole only 1 metre long, you have to remove almost the
+entire planet, leaving only a very thin band round the equator, one
+metre wide. So just maybe . . .
+         Here comes the easy bit. Assuming that the radius really does not
+                          Professor Stewart’s Cunning Crib Sheet // 265
+
+
+
+matter, we can work out the answer by considering the special case
+when the hole is very narrow – in fact, when its width is zero.
+
+
+
+
+                                             Special case of the
+                                             problem.
+
+    Now the volume of copper is equal to that of the entire sphere,
+and the diameter of the sphere is 1 metre. So its radius is r ¼ 12, and its
+volume is given by the famous formula
+
+           4
+        V ¼ pr3
+           3
+which equals p=6 when r ¼ 12.
+    Ah, but how do we know that the answer doesn’t depend on the
+radius? That’s a bit more complicated, and it uses more geometry. (Or
+you can do it by calculus, if you know how.)
+
+
+
+
+                                           Restoring the spherical caps
+                                           to help the calculation.
+
+
+
+    Put back the missing ‘spherical caps’ on the top and bottom.
+Suppose that the radius of the sphere is r, and the radius of the
+cylindrical hole is a. Then Pythagoras’s Theorem applied to the small
+triangle at the top right tells us that
+
+        r2 ¼ a2 þ ð12Þ2
+266 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+so
+
+         a2 ¼ r2  14 :
+
+Now we need three volume formulas:
+
+. The volume of a sphere of radius r is 43 pr3 .
+. The volume of a cylinder of base radius a and height h is pa2 h.
+. The volume of a spherical cap of height k in a sphere of radius
+     r is 13 pk2 ð3r  kÞ.
+
+Don’t worry, I had to look that last one up myself.
+     The volume of copper required is the volume of the sphere,
+minus that of the cylinder, minus that of two spherical caps, which is
+
+         3pr  pa h  3pk ð3r  kÞ
+         4 3     2    2  2
+
+
+since there are two spherical caps. But h ¼ 1; k ¼ r  12 and a2 ¼ r2  14,
+so the volume is
+                                          2   
+         3pr  p r  4            23p r  12 3r  12
+         4 3      2  1
+
+
+Doing the algebra, almost everything miraculously cancels, and all
+that remains is p=6.
+
+
+Digital Century
+         123  45  67 þ 89 ¼ 100
+
+This solution was found by the great English puzzle-creator, Henry
+Ernest Dudeney, and can be found in his book Amusements in
+Mathematics. There are lots of answers if you use four or more
+arithmetical symbols.
+                     Professor Stewart’s Cunning Crib Sheet // 267
+
+
+
+Squaring the Square
+
+
+
+
+                                           How Morón’s tiles
+                                           make a rectangle.
+
+
+
+
+                                               How Duijvestijn’s
+                                               tiles make a square.
+
+   You can also rotate or reflect these arrangements.
+
+
+Ring a-Ring a-Ringroad
+The difference is 20p metres, or roughly 63 metres, for roads on the
+flat. It doesn’t depend on the length of the motorway, or how wiggly
+it is, provided the curvature is gradual enough for ‘10 metres distance
+between lanes’ to be unambiguous.
+268 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+
+                                   Data for a
+                                   circular M25.
+
+   Let’s start with an idealised version, where the M25 is a perfect
+circle. If the anticlockwise lane has radius r, then the clockwise one
+has radius r þ 10. Their circumferences are then 2pr and 2pðr þ 10Þ.
+The difference is
+
+       2pðr þ 10Þ  2pr ¼ 20p
+
+which is independent of r.
+
+
+
+
+                                                   A rectangular
+                                                   motorway also creates
+                                                   an excess
+                                                   of 20.
+   However, the M25 is not circular. For argument’s sake, try a
+rectangle. Now the outer lane consists of four straight bits, which
+match the inner lane exactly, plus four quarter-circles at the corners.
+These extra arcs fit together to make a single circle of radius 10.
+Again, we get an excess of exactly 20p.
+
+
+
+
+                                     A non-convex polygon
+                                     gives 20p as well.
+    The same point holds for any ‘polygonal’ road – one composed of
+straight lines, plus arcs of circles at corners. The straight-line parts
+                      Professor Stewart’s Cunning Crib Sheet // 269
+
+
+
+match; the arcs add up to one complete circle of radius 10. This is true
+even when the polygon is not convex, such as the M-shape shown
+above.* Now the outer lane has arcs that add up to one and a quarter
+circles, and the inner lane has a quarter circle of its own. But this
+quarter-turn is of opposite curvature, so it cancels out the excess
+quarter-turn in the outer lane. The point is that any sufficiently
+smooth curve can be approximated as closely as we wish by polygons,
+so the excess is 20p in all cases.
+    The same argument applies to runners on a curved track. In the
+400 metres, runners start from ‘staggered’ positions, to make the
+overall distance the same in each lane. The stagger between adjacent
+lanes must be 2p times the width of a lane. This width is usually 1.22
+metres, so the stagger should be 7.66 metres per lane – provided it is
+applied on a straight section of the track. In practice the region where
+the athletes start often includes part of a bend, so the numbers are a
+bit different. The easy way to calculate them is to make sure that each
+runner goes exactly
+400 metres, which is what the rules actually state.
+
+
+Magic Hexagon
+The only solution (apart from rotations and reflections of it) is
+
+
+
+
+                                          The only non-trivial magic
+                                          hexagon.
+
+
+    This magic hexagon was found independently by several people
+
+
+*   It’s not true if the polygon crosses itself, as does the Suzuka racing
+    circuit in Japan. But for some reason figure-of-eight orbital
+    motorways don’t seem to have caught on.
+270 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+between 1887 and 1958. If we try similar patterns of hexagons with n
+cells along the edge instead of 3, then the only other case where a
+magic hexagon (using consecutive numbers 1, . . . , n) exists is the
+trivial pattern when n ¼ 1: a single hexagon containing the number
+1. Charles W. Trigg explained why in 1964, by proving that the magic
+constant must be
+
+       9ðn4  2n3 þ 2n2  nÞ þ 2
+               2ð2n  1Þ
+
+which is an integer only when n ¼ 1 or 3.
+
+
+Pentalpha
+The star shape is designed to mislead. The important aspect of the
+structure is which circles are two steps away from which, because
+these are where each new counter starts and finishes. By focusing on
+this we can draw a much simpler diagram:
+
+
+                                       A transformed version of the
+                                       puzzle.
+
+
+
+
+   The rule for placing counters is now: place each new counter on
+an empty circle and slide it to an adjacent empty circle. It is now
+obvious how to cover nine circles. For example, place a counter on 1
+and slide it to 0. Then place a counter on 2 and slide it to 1. Then
+place a counter on 3 and slide it to 2. Continue in this way, placing
+each new counter two empty dots away from the existing string of
+counters.
+   Copy these moves on the original diagram to solve the puzzle.
+   In the second diagram, you can add new counters at either end,
+so there are lots of solutions. But you can’t create more than one
+connected chain of counters at any stage, because there are then at
+                     Professor Stewart’s Cunning Crib Sheet // 271
+
+
+
+least two gaps where no counters exist, and each gap leads to at least
+one circle that can’t be covered.
+
+
+How Old Was Diophantus?
+Diophantus was 84 when he died. Let x be his age. Then
+       x x x   x
+        þ þ þ5þ þ4¼x
+       6 12 7  2
+So
+
+       9
+          x¼9
+       84
+and x = 84.
+
+
+The Sphinx is a Reptile
+
+
+
+
+                                      Four sphinxes make a
+                                      bigger sphinx.
+
+
+
+Langford’s Cubes
+
+                                             Langford’s cubes
+                                             with four colours.
+
+
+
+Magic Stars
+This arrangement – possibly rotated or reflected – is the only
+solution.
+272 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+
+                                           Six-pointed
+                                           magic star.
+
+
+
+Curves of Constant Width
+Surprisingly, the circle isn’t the only curve of constant width. The
+simplest curve of constant width that is not a circle is an equilateral
+triangle with rounded edges:
+
+
+
+
+                                                     (Left) Constant-
+                                                     width triangle.
+
+                                                     (Right) Twenty-
+                                                     pence coin.
+
+   Each edge is an arc of a circle, with centre at the opposite vertex.
+Two British coins, the 20p and 50p, are 7-sided curves of constant
+width; this shape was chosen because it makes the coins suitable for
+use in slot machines, but distinguishes them from other circular
+coins worth different amounts – which is especially useful for the
+visually impaired.
+
+
+Connecting Cables
+The main point is not to connect the dishwasher first, with a straight
+cable. This isolates each of the other appliances from its socket, and
+makes a solution impossible. If you connect the fridge and cooker
+first, it’s then obvious how to hook up the dishwasher.
+                     Professor Stewart’s Cunning Crib Sheet // 273
+
+
+
+
+                                                     How to make
+                                                     the connections.
+
+
+
+
+Coin Swap
+One solution is to successively swap the following pairs: HK, HE, HC,
+HA, IL, IF, ID, KL, GJ, JA, FK, LE, DK, EF, ED, EB, BK. There are many
+others.
+
+
+The Stolen Car
+Fenderbender paid out £900 for the car and an extra £100 to the
+clergyman as change. He counted all his outgoings but forgot to
+include the corresponding income. All other transactions cancel out,
+so he lost £1,000.
+
+
+Compensating Errors
+The numbers were 1, 2 and 3. Then 1 þ 2 þ 3 ¼ 6 ¼ 16263. This is
+the only solution for three positive whole numbers.
+   With two numbers, the only possibility is 2 þ 2 ¼ 4 ¼ 262. With
+four numbers, the only solution is 1 þ 1 þ 2 þ 4 ¼ 8 ¼ 16 16264.
+   With more numbers, there are usually lots of solutions, but in
+some exceptional cases there is just one solution. If the sum of k
+positive whole numbers is equal to their product, and only one set of
+k numbers has that property, then k is one of the numbers 2, 3, 4, 6,
+24, 114, 174 and 444, or it is at least 13, 587, 782, 064. No examples
+greater than that are known, but their possible existence remains
+open.
+
+
+River Crossing 2 – Marital Mistrust
+A graphical solution is a bit messy to draw because it involves a
+6-dimensional hypercube in husband1–husband2–husband3–wife1–
+274 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+wife2–wife3 space. Fortunately there’s an alternative. Eliminating
+unsuitable moves and using a bit of logic leads to a solution in 11
+moves, which is the smallest possible number. Here the husbands are
+A B C and the corresponding wives are
+a b c.
+
+                  This bank                                   In boat                              Direction                                 Far bank
+....................................................................................................................................................................
+                  ACac                                        Bb                                   ®                                         —
+                  ACac                                        B                                    ¬                                         b
+                  ABC                                         ac                                   ®                                         b
+                  ABC                                         a                                    ¬                                         bc
+                  Aa                                          BC                                   ®                                         bc
+                  Aa                                          Bb                                   ¬                                         Cc
+                  ab                                          AB                                   ®                                         Cc
+                  ab                                          c                                    ¬                                         ABC
+                  b                                           ac                                   ®                                         ABC
+                  b                                           B                                    ¬                                         ACac
+                  —                                           Bb                                   ®                                         ACac
+....................................................................................................................................................................
+
+There are minor variations on this solution in which various couples
+are interchanged.
+
+
+Wherefore Art Thou Borromeo?
+In the second pattern, the two lower rings are linked. In the third
+pattern, all three pairs are linked. In the fourth pattern, the top ring is
+linked to the left one which in turn is linked to the right one.
+         There are lots of four-ring versions. Here’s one:
+
+
+
+
+                                                                                     A set of four
+                                                                                     ‘Borromean’ rings.
+
+         Analogous arrangements exist for any finite number of rings. It
+has been proved that the Borromean property can’t be obtained using
+                        Professor Stewart’s Cunning Crib Sheet // 275
+
+
+
+perfectly circular (and therefore flat) rings. This is a topological
+phenomenon.
+
+
+Percentage Play
+The profit and loss do not cancel out. The bicycle he sold to Bettany
+cost him £400 (he lost £100, which is 25% of £400). The one he sold
+to Gemma cost him £240 (he gained £60, which is 25% of £240).
+Overall, he paid £640 and received £600, so he lost £40.
+
+
+New Merology
+Assign the values
+
+        E   F   G   H     I   L N   O    R  S     T   U   V    W   X    Z
+        3   9   6   1    4   0 5   7   6 1    2   8   3   7   11   10
+
+Then
+
+             ZþEþRþO¼0
+               OþNþE¼1
+                 TþWþO¼2
+        TþHþRþEþE¼3
+          FþOþUþR¼4
+           FþIþVþE¼5
+             SþIþX¼6
+        SþEþVþEþN¼7
+         EþIþGþHþT¼8
+
+                NþIþNþE¼9
+                    T þ E þ N ¼ 10
+        E þ L þ E þ V þ E þ N ¼ 11
+        T þ W þ E þ L þ V þ E ¼ 12
+
+
+Spelling Mistakes
+There are four spelling mistakes, in the words ‘there’, ‘mistakes’, ‘in’
+and ‘sentence’. The fifth mistake is the claim that there are five
+mistakes, when there are really only four.
+276 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+    But . . . this means that if the sentence is true, it has to be false,
+but if it’s false, it has to be true. Oops.
+
+
+Expanding Universe
+Perhaps surprisingly, the Indefensible actually does get to the edge of
+the universe . . . but it takes about 10434 years to do so. By then the
+universe has grown to a radius of about 10437 light years.
+    Let’s see why.
+    At each stage, when the universe expands, the fraction of the
+distance that the Indefensible has already covered doesn’t change.
+That suggests that if we think about the fractions, we ought to be able
+to find the answer more easily.
+    In the first year the ship travels 1/1,000 of the distance to the
+edge. In the next year it travels 1/2,000 of the distance. In the third
+year it travels 1/3,000 of the distance, and so on. In the nth year it
+travels 1/1,000n of the distance. So the total fraction travelled after n
+years is
+                                   
+             1        1 1 1        1      1
+                   1 þ þ þ þ ... þ    ¼       Hn
+           1;000      2 3 4        n    1;000
+
+which is why harmonic numbers are relevant. In particular, the
+number of years required to reach the edge is whatever value of n first
+makes this fraction bigger than 1 – that is, makes Hn bigger than
+1,000. There is no known formula for the value of Hn in terms of n,
+and it grows very slowly as n increases. However, it can be proved
+that by making n large enough, Hn can be made as large as we wish –
+and in particular, greater than 1. So the Indefensible does get to the
+edge if n is sufficiently large.
+    To find out how large, we use the hint. To make Hn > 1,000 we
+require log n þ g > 1;000, so that n > e1;000g . So the number of years
+required to reach the edge of the universe is very close to e999:423 ,
+which is 10434 in round numbers. By then the universe will have
+grown to n þ 1 thousand light years, which is near enough 10437 light
+years.
+    Initially the remaining distance keeps increasing each year, but
+eventually the ship starts to catch up with the expanding edge of the
+universe. Its ‘share’ of the expansion grows as it gets farther out, and
+                     Professor Stewart’s Cunning Crib Sheet // 277
+
+
+
+in the long run this beats the fixed expansion rate of 1,000 light years
+per year of the edge of the universe. The ‘long run’ here is very long:
+it takes about e999g ¼ 10433:61 years before the remaining distance
+starts to decrease – roughly the first third of the voyage.
+
+
+Family Occasion
+The smallest possible number of party guests is seven: two small girls
+and one boy, their father and mother, and their father’s father and
+mother.
+
+
+Don’t Let Go!
+Your body plus the rope forms a closed loop. It is a topological
+theorem that a knot cannot be created in a closed loop by deforming
+it continuously, so the problem can never be solved if you pick up the
+rope in the obvious ‘normal’ way. Instead, you must first tie a knot in
+your arms. This may sound difficult, but anyone can do it: just fold
+them across your chest. Now lean forward so that the hand that is on
+top of an arm can reach over the arm to pick up one end of the rope,
+and pick up the other end with the other hand. Unfold your arms,
+and the knot appears.
+
+
+Möbius and His Band
+If you cut a Möbius band along the middle, it stays in one piece – see
+the second limerick. The resulting band has a 3608 twist.
+    If you cut a Möbius band one-third of the way across, you get two
+linked bands. One is a Möbius band, the other (longer) one has a 3608
+twist.
+    If you cut a band with a 3608 twist along the middle, you get two
+linked bands with 3608 twists.
+
+
+Three More Quickies
+(1) Five days. (Each dog digs a hole in five days.)
+
+(2) The parrot is deaf.
+
+(3) The usual answer is that one hemisphere of the planet is land,
+and the other is water, so the continent and the island are
+278 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+identical. But puzzles like this are easily ‘cooked’ by finding
+loopholes in the conditions. For instance, maybe Nff lives on the
+continent but its house is on the island, and Pff eats houses for
+breakfast. Or on Nff-Pff, the land moves – after all, who knows
+what happens on an alien world? Or . . .
+
+
+
+
+                                         Nff and Pff on their
+                                         home planet of Nff-Pff.
+
+
+
+Miles of Tiles
+I forgot to add an extra condition: the tiles should meet at their
+corners. The corners of some might meet the edges of others. This
+doesn’t change the answer, but it complicates the proof a little.
+
+
+
+
+                                         I forgot this
+                                         kind of thing.
+
+
+
+Après-le-Ski
+The cables cross at a height of 240 metres.
+                        Professor Stewart’s Cunning Crib Sheet // 279
+
+
+
+
+                                             More generally . . .
+
+
+    It’s simpler to tackle a more general problem, where the lengths
+are as shown. By similar triangles,
+        xþy y                       xþy x
+           ¼            and            ¼
+         a   c                       b   c
+Adding, we get
+                           
+                      1 1           xþy
+        ðx þ yÞ        þ        ¼
+                      a b            c
+
+Dividing by xþy, we obtain
+
+        1 1 1
+         þ ¼
+        a b c
+
+
+leading to
+
+               ab
+        c¼
+              aþb
+We notice that c does not depend on x or y, which is a good job since
+the puzzle didn’t tell us those. We know that a ¼ 600, and
+b ¼ 400, so
+
+              6006400
+        c¼            ¼ 240
+                1000
+
+
+Pick’s Theorem
+The lattice polygon illustrated has B ¼ 21 and I ¼ 5, so its area is 14 12
+square units.
+
+
+Paradox Lost
+I don’t think this one stands up to scrutiny. Both litigants are doing a
+pick-and-mix – at one moment assuming that the agreement is valid,
+280 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+but at another, assuming that the court’s decision can override the
+agreement. But why do you take an issue like this to court? Because
+the court’s job is to resolve any claimed ambiguities in the contract,
+override the contract if need be, and tell you what to do. So if the court
+orders the student to pay up, then he has to, and if the court says that
+he doesn’t have to pay up, then Protagoras doesn’t have a leg to stand
+on.
+
+
+Six Pens
+
+
+
+
+                                       12 panels
+                                       making 6 pens.
+
+
+
+
+Hippopotamian Logic
+Therefore oak trees grow in Africa.
+      Why? Suppose, on the contrary, that oak trees don’t grow in
+Africa. Then squirrels hibernate in the winter, and hippos eat acorns.
+Therefore I’ll eat my hat. But I won’t eat my hat, a contradiction.
+Therefore (reductio ad absurdum) my assumption that oak trees don’t
+grow in Africa must be false. So oak trees grow in Africa.
+
+
+Pig on a Rope
+
+
+
+
+                                         Six copies simplify
+                                         the geometry.
+                      Professor Stewart’s Cunning Crib Sheet // 281
+
+
+
+To simplify the problem, make six copies of the field, with six copies
+of the (shaded) region accessible to the pig. Then we want the shaded
+circle to have half the area of the hexagon. The area of the circle is pr 2
+where r is the radius. The hexagon has sides 100 metres long, so its
+                 p             p                  p
+area is 10;00063 3=2, or 15;000 3. So pr2 ¼ 15;000 3, and
+             s       p 
+                15;000 3
+        r¼
+                    p
+
+which is about 90.9392 metres.
+
+
+The Surprise Examination
+I think that the Surprise Examination Paradox is a very interesting
+case of something that looks like a paradox but isn’t. My reason is
+that there is a logically equivalent statement, which is obviously true
+– but totally uninteresting.
+    Suppose that every morning the students announce confidently,
+‘The test will be today.’ Then eventually they will do so on the day of
+the actual test, at which point they will be able to claim that the test
+was not a surprise.
+    I don’t see any logical objection to this technique, but it’s
+obviously a cheat. If you expect something to happen every day, then
+of course you won’t be surprised when it does. My view – and I’ve
+argued with enough mathematicians who didn’t agree with me, let
+alone anybody else, so I’m aware that there’s room for differences of
+opinion – is that the paradox is bogus. It is nothing more than this
+obvious strategy, dressed up to look mysterious. The cheat is not
+entirely obvious, because everything is intuited instead of being
+acted upon, but it’s the same cheat.
+    Let me sharpen the conditions by requiring the students to state,
+each morning before school begins, whether they think the test will
+be held that day. With this condition, in order for the students to
+know that it can’t be on Friday, they have to leave themselves the
+option of announcing on Friday morning that ‘It will be today.’ And
+the same goes for Thursday, Wednesday, Tuesday and Monday. So
+they have to say ‘It will be today’ five times in all – once per day. This
+282 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+makes sense: if the students are allowed to revise their prediction
+each day, then eventually they’ll be right.
+    If we demand even the tiniest bit more, though, their strategy
+falls to bits. For example, suppose that they’re allowed only one such
+announcement. If Friday arrives and they haven’t used up their
+guess, then they can make the announcement then. But if they have
+used up their guess, they’re in trouble. Worse, they can’t wait until
+Friday to use their guess, because the test might be on Monday,
+Tuesday, Wednesday or Thursday.
+    In fact, if they are allowed four guesses, they’re still sunk. Only if
+they are permitted five guesses can they guarantee to predict the
+correct day. But any fool could do that.
+    I’m proposing two things here. The less interesting one is that the
+paradox hinges on what we mean by ‘surprise’. The more interesting
+proposal is that whatever we mean by ‘surprise’, there are two
+logically equivalent ways to state the students’ prediction strategy.
+One – the usual presentation – seems to indicate a genuine paradox.
+The other – describe the strategy in terms of actual actions, not
+hypothetical ones – turns it into something correct but unsurprising,
+destroying the element of paradox.
+    Equivalently, we can up the ante by letting the teacher add
+another condition. Suppose that the students have poor memories,
+so that any work they do on a given evening to prepare for the test is
+forgotten by the next evening. If, as the students claim, the test is not
+going to be a surprise, then they ought to be able to get away with
+very little homework: just wait until the evening before the test, then
+cram, pass and forget. But the teacher, in her wisdom, knows that
+this won’t work. If they don’t do their homework on Sunday evening,
+the test could be on Monday, and if it is, they’ll fail. Ditto Tuesday
+through Friday. So despite claiming never to be surprised by the test,
+the students have to do five evenings of homework.
+
+
+Antigravity Cone
+The uphill motion is an illusion. As the cone moves in the ‘uphill’
+direction, its centre of gravity moves downwards, because the slope
+widens out and the cone is supported nearer to its two ends.
+                       Professor Stewart’s Cunning Crib Sheet // 283
+
+
+                                                  Side view: as the cone
+                                                  follows the arrow,
+                                                  which points up the
+                                                  slope, its centre of
+                                                  gravity moves down
+                                                  (black line).
+
+
+
+What Shape is a Crescent Moon?
+
+
+
+
+                                           Geometry of an
+                                           illuminated sphere.
+
+The left curve of the crescent is a semicircle, but the other edge is not
+an arc of a circle. It is a ‘semiellipse’ – an ellipse cut in half along its
+longest axis. The diagram shows the rays of the Sun, which we are
+assuming to be parallel. In this view the Sun must be positioned some
+distance behind the plane of the page to create the crescent. The light
+and dark portions of the Moon are hemispheres, so the boundary
+between them is a circle; in fact, it is where a plane at right angles to
+the Sun’s rays cuts the sphere. We observe this circle at an angle. A
+circle viewed at an angle is an ellipse – its hidden edge is drawn
+dotted, and we see only the front half. (I’ve used grey shading to
+show the dark part of the moon.)
+    In reality the illumination becomes very faint near the boundary
+between light and dark, and the Moon is a bit bumpy. So the shape is
+not as clearly defined as this discussion suggests. You can also quibble
+about how the circle is projected on to the retina if you so desire.
+    The crescent shape formed by two circular arcs can sometimes be
+seen in the sky – most dramatically during an eclipse of the Sun,
+when the Moon partially overlaps the Sun’s disk. But now it is the
+Sun, not the Moon, that looks like a crescent.
+284 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+Famous Mathematicians
+The odd famous mathematician out is Carol Vorderman – see below.
+
+Pierre Boulez Modernist composer and conductor. Studied
+mathematics at the University of Lyon but then switched to
+music.
+
+Sergey Brin Co-founder of GoogleÔ, with Larry Page. Computer
+Science and Mathematics degree from University of Maryland.
+Net worth estimated at $16.6 billion in 2007, making him the
+26th-richest person in the world. The Google search engine is
+based on mathematical principles.
+
+Lewis Carroll Pseudonym of Charles Lutwidge Dodgson. Author
+of Alice in Wonderland. Logician.
+
+J. M. Coetzee South African author and academic, winner of the
+2003 Nobel Prize in Literature. BA in Mathematics at the
+University of Cape Town in 1961. Also BA in English, Cape
+Town, 1960.
+
+Alberto Fujimori President of Peru, 1990–2000. Holds a master’s
+degree in mathematics from the University of Wisconsin-
+Milwaukee.
+
+Art Garfunkel Singer. Master’s in mathematics from Columbia
+University. Started on his PhD, but stopped to pursue a career in
+music.
+
+Philip Glass Modern composer, ‘minimalist’ (now ‘post-
+minimalist’) in style. Accelerated college programme in
+Mathematics and Philosophy, University of Chicago, at the age
+of fifteen.
+
+Teri Hatcher Actor. Played Lois Lane in The New Adventures of
+Superman and also starred in Desperate Housewives. Mathematics
+and engineering major at DeAnza Junior College.
+
+Edmund Husserl Philosopher. Mathematics PhD from Vienna in
+1883.
+                   Professor Stewart’s Cunning Crib Sheet // 285
+
+
+
+Michael Jordan Basketball player. Started as a mathematics
+student at university but changed subject after his second year.
+
+Theodore Kaczynski PhD in mathematics from the University of
+Michigan. Retreated to the Montana foothills and became the
+notorious ‘Unabomber.’ Sentenced to life imprisonment, with
+no possibility of parole, for murder.
+
+John Maynard Keynes Economist. MA and 12th Wrangler in
+mathematics, Cambridge University.
+
+Carole King Prolific pop songwriter of the 1960s, later also
+became a singer. Dropped out after one year of a mathematics
+degree to develop her musical career.
+
+Emanuel Lasker Chess grandmaster, world chess champion 1894–
+1921. Mathematics professor at Heidelberg University.
+
+J. P. Morgan Banking, steel and railroad magnate. He was so good
+at mathematics that the faculty of Göttingen University tried to
+persuade him to become a professional.
+
+Larry Niven Author of Ringworld and numerous other science
+fiction bestsellers. Majored in mathematics.
+
+Alexander Solzhenitsyn Winner of the 1970 Nobel Prize in
+literature. Author of The Gulag Archipelago and other influential
+literary works. Degree in mathematics and physics from the
+University of Rostov.
+
+Bram Stoker Author of Dracula. Mathematics degree from Trinity
+College, Dublin.
+
+Leon Trotsky Revolutionary. Studied mathematics at Odessa in
+1897. Mathematical career terminated by imprisonment in
+Siberia.
+Eamon de Valera Prime Minister and later President of the
+Republic of Ireland. Taught mathematics at university before
+Irish independence.
+
+Carol Vorderman Highly numerate co-presenter of television
+286 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+series Countdown. Actually studied Engineering, so strictly
+speaking does not belong in this list.
+
+Virginia Wade Tennis player, winner of the 1977 Wimbledon
+ladies’ singles title. Degree in mathematics and physics from
+Sussex University.
+
+Ludwig Wittgenstein Philosopher. Studied mathematical logic
+with Bertrand Russell.
+
+Sir Christopher Wren Architect, in particular of St Paul’s Cathedral.
+Science and mathematics at Wadham College, Oxford.
+
+A Puzzling Dissection
+The area can’t change when the pieces are reassembled in a different
+way. When we form the rectangle, the pieces don’t quite fit, and a
+long, thin parallelogram is missing – I’ve exaggerated the effect to
+show you what I mean.
+
+
+
+
+                                                 Why the area isn’t 65.
+
+    In fact, if we calculate the slopes of the slanting lines, the top-left
+line has a slope of 2/5 = 0.4 and the top-right line has a slope of 3/8 =
+0.375. These are different, and the first is slightly larger, so the top-
+left line is slightly steeper than the top-right one. In particular, they
+are not two pieces of the same straight line.
+    The key lengths in this puzzle are 5, 8 and 13 – consecutive
+Fibonacci numbers (page 98). You can create a similar puzzle using
+other sets of consecutive Fibonacci numbers.
+
+
+Nothing Up My Sleeve . . .
+The topological point is that because your jacket has holes,* the
+string is not actually linked to your body and the jacket. It just looks
+
+
+*   Armholes, not moth holes.
+                     Professor Stewart’s Cunning Crib Sheet // 287
+
+
+
+that way. To see that the string is not linked to your body or the
+jacket, imagine shrinking your body down to the size of a walnut, so
+that it slides down your sleeve and into your pocket. Now you can
+obviously pull the loop away, because your wrist is no longer
+blocking the gap between sleeve and pocket. However, this method is
+impractical, so we need a substitute.
+
+
+
+
+                                                       Here’s how.
+
+
+    Begin by pulling the end of the loop up the outside of your arm
+inside the jacket sleeve, as shown by the arrow in the diagram on the
+left. Pull out a loop at the top and draw it over your head to reach the
+position shown in the right-hand diagram. Then pull the loop down
+the outside of the other arm, inside the sleeve, as shown by the arrow
+in the right-hand diagram. Pull it over your hand and then back up
+through the sleeve. Now take hold of the string where it passes in
+front of your head and push it down inside the front of the jacket.
+The string pulls through the jacket armholes, and after a few wiggles
+it drops down around your ankles and you can step out of it.
+
+
+Nothing Down My Leg . . .
+After the moves that solve the previous problem, the string ends up
+looped around your waist, and it is still looped around your arm. So
+you now follow a similar sequence of moves again, with the trousers
+instead of the jacket: pass a loop down the trouser leg on the side
+opposite the pocket with the hand in it, over the foot, back up the
+trouser leg – and finally remove the string down the other trouser leg.
+All of this is enormously undignified, and thus highly amusing to
+spectators. Topology can be fun.
+288 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+Two Perpendiculars
+Neither Euclidean theorem is wrong. Mine is.
+    The mistake is the assumption that P and Q are different points.
+In fact, P and Q coincide – this follows from Euclid’s two theorems,
+and is highly plausible if you draw an accurate picture.
+
+
+May Husband and Ay . . .
+
+
+
+
+                                              A 15-move
+                                              solution.
+
+The smallest number of moves is 15. The path shown, and its
+reflection about the diagonal, are the only solutions. (Remember –
+each square is visited exactly once; that is, the path cannot cross itself.)
+
+
+What Day is It?
+Today is Saturday. (As I told you right at the start, the conversation
+took place yesterday.) Darren’s answers imply that the day of the
+conversation is exactly one of Friday, Monday or Thursday. Delia’s
+imply that it is Saturday, Sunday or Friday. The only common day is
+Friday. So when the conversation took place, it was Friday.
+
+
+Logical or Not?
+The logic is wrong. If the weather is bad, then pigs don’t fly. As a
+consequence, we don’t know whether they have wings. So we don’t
+know whether to carry an umbrella.
+    It may seem strange that a deduction can be illogical when – as
+                     Professor Stewart’s Cunning Crib Sheet // 289
+
+
+
+here – the conclusion is entirely sensible. Actually, this is very
+common. For example:
+
+       2 þ 2 ¼ 22 ¼ 262 ¼ 4
+
+is nonsense as far as logic goes, but it gives the right answer. All
+mathematicians know that you can give false proofs of correct
+statements. What you can’t do – if mathematics is logically
+consistent, as we fervently hope – is give correct proofs of false
+statements.
+
+
+A Question of Breeding
+We are told that Catt breeds pigs.
+   Hamster does not breed pigs, hamsters, dogs or zebras. So he
+breeds cats.
+   Now, Dogge breeds either hamsters or zebras; Pigge breeds dogs
+hamsters or zebras; Zebra breeds either dogs or hamsters. Since the
+namesake of Zebra’s animals breeds hamsters, Zebra must breed dogs.
+Therefore Dogge breeds hamsters, so Pigge breeds zebras.
+
+
+Fair Shares
+Here’s Steinhaus’s method. Let the three people be Arthur, Belinda
+and Charlie.
+
+(1) Arthur cuts the cake into three pieces (which he thinks are all
+fair, hence subjectively equal).
+
+(2) Belinda must either
+    . pass (if she thinks that at least two pieces are fair) or
+    . label two pieces (which she thinks are unfair) as being
+        ‘bad’.
+
+(3) If Belinda passed, then Charlie chooses a piece (which he
+thinks is fair). Then Belinda chooses a piece (which she thinks is
+fair). Finally, Arthur takes the last piece.
+
+(4) If Belinda labelled two pieces as ‘bad’, then Charlie is offered
+the same options as Belinda – pass, or label two pieces ‘bad’. He
+takes no notice of Belinda’s labels.
+290 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+(5) If Charlie did nothing in step 4, then the players choose
+pieces in the order Belinda, Charlie, Arthur (using the same
+strategy as in step 3.)
+
+(6) Otherwise, both Belinda and Charlie have labelled two pieces
+as ‘bad’. There must be at least one piece that they both consider
+‘bad’. Arthur takes that one. (He thinks that all the pieces are fair,
+so he can’t complain.)
+
+(7) The other two pieces are reassembled into a heap. (Charlie
+and Belinda both think that the result is at least two-thirds of the
+cake.) Now Charlie and Belinda play I-cut-you-choose on the
+heap, to share what’s left between themselves (thereby getting
+what they each judge to be a fair share).
+
+The Sixth Deadly Sin
+In the early 1960s John Selfridge and John Horton Conway
+independently found an envy-free method of cake division for three
+players. It goes like this:
+
+(1) Arthur cuts the cake into three pieces, which he considers to
+be ‘fair’ – of equal value to him.
+
+(2) Belinda must either
+    . pass (if she thinks that two or more pieces are tied for
+        largest) or
+    . trim (the largest) piece (to make the two the same). Any
+        trimmings are called leftovers and set aside.
+
+(3) Charlie, Belinda and Arthur, in that order, choose a piece
+(one they think is largest or equal largest). If Belinda did not pass
+in step 2, she must choose the trimmed piece unless Charlie
+chose it first.
+
+At this stage, the part of the cake other than the leftovers has been
+divided into three pieces in an envy-free manner—a ‘partial envy-free
+allocation’.
+
+(4) If Belinda passed at step 2, there are no leftovers and we are
+                      Professor Stewart’s Cunning Crib Sheet // 291
+
+
+
+done. If not, either Belinda or Charlie took the trimmed piece.
+Call this person the ‘non-cutter’, and the other one of the two
+the ‘cutter’. The cutter divides the leftovers into three pieces
+(that he/she considers equal).
+
+Arthur has an ‘irrevocable advantage’ over the non-cutter, in the
+following sense. The non-cutter received the trimmed piece, and
+even if he/she gets all the leftovers, Arthur still thinks that he/she has
+no more than a fair share, because he thought that the original pieces
+were all fair. So however the leftovers are now divided, Arthur will not
+envy the non-cutter.
+
+(5) The three pieces of leftovers are chosen by the players in the
+order non-cutter, Arthur, cutter. (Each chooses the largest piece,
+or one of the equal largest, among those available.)
+
+The non-cutter chooses from the leftovers first, so has no reason to be
+envious. Arthur does not envy the non-cutter because of his
+irrevocable advantage; he does not envy the cutter because he
+chooses before he/she does. The cutter can’t envy anybody since he/
+she was the one who divided the leftovers.
+    Recently, Steven Brams, Alan Taylor and others have found very
+complicated envy-free methods for any number of people.
+    When it comes to sharing cakes, avoiding the second deadly sin*
+is more tricky, in my experience.
+
+
+Weird Arithmetic
+The result is correct, though as teacher said, you should cancel 9 from
+the top and the bottom to simplify it to 25. But Henry’s presumed
+method leaves a lot to be desired.
+    For instance,
+
+        3 8 38
+         6 ¼
+        4 5 45
+is wrong.
+
+
+
+
+*   Gluttony.
+292 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+    So when does his method work? An easy way to find one more
+solution is to turn Henry’s upside down:
+
+         4 5 45
+          6 ¼
+         1 8 18
+But there are other solutions. With the stated limits on the number of
+digits, we are trying to solve the equation
+
+         a c 10a þ c
+          6 ¼
+         b d 10b þ d
+which boils down to
+
+         acð10b þ dÞ ¼ bdð10a þ cÞ
+
+where a, b, c and d can each be any digit from 1 to 9 inclusive.
+    There are 81 trivial solutions where a ¼ b and c ¼ d. Aside from
+these, there are 14 solutions, where (a, b, c, d) ¼ (1, 2, 5, 4), (1, 4, 8, 5),
+(1, 6, 4, 3), (1, 6, 6, 4), (1, 9, 9, 5), (2, 1, 4, 5), (2, 6, 6, 5), (4, 1, 5, 8),
+(4, 9, 9, 8), (6, 1, 3, 4), (6, 1, 4, 6), (6, 2, 5, 6), (9, 1, 5, 9) and (9, 4, 8, 9).
+These form seven pairs (a, b, c, d) and (b, a, d, c), corresponding to
+turning the fractions upside down.
+
+
+How Deep is the Well?
+The depth of the well is
+
+         s ¼ 12 gt2 ¼ 12 10ð6Þ2 ¼ 180 metres ¼ 590 feet
+
+which agrees very well with what the Time Team measured (about
+550 feet) when you take into account the difficulty of timing the fall
+by hand. A more accurate figure for g is 9:8 m s2 , leading to a depth of
+176 metres or 577 feet. Presumably the exact time was slightly less
+than 6 seconds.
+   Yes, the well really was that deep. How did they dig it, so long
+ago? The mind boggles.
+
+
+McMahon’s Squares
+The 24 tiles can be assembled as shown. There are 17 other solutions,
+plus rotations and reflections.
+                      Professor Stewart’s Cunning Crib Sheet // 293
+
+
+
+
+                                                 One of the 18 basically
+                                                 different solutions.
+
+    One feature of the tiles helps us work out how to assemble them.
+Choose a border colour, say grey. There are four tiles that have two
+blue triangles opposite each other and no other blue triangles. Their
+remaining triangles are grey/grey, black/black, white/white and
+black/white. The only way to fit these tiles in is to stack four of them
+together across the narrow width of the rectangle:
+
+
+
+
+                                The four tiles like the left-hand
+                                one have to stack together.
+                                The white triangles can be any
+                                combination of black and white.
+
+    There are still lots of ways to proceed, but this observation helps
+to restrict the possibilities. There are 18 basically different solutions,
+which lead to 216 solutions altogether by swapping colours, rotating
+the picture or reflecting it. Note the stack in the third column of the
+sample solution above.
+
+
+Archimedes, You Old Fraud!
+Let’s say that Archimedes can exert a force sufficient to lift his own
+weight, call it 100 kg. The mass of the Earth is about 661024 kg. To
+keep the analysis simple, suppose that the pivot is 1 metre from the
+Earth. Then the law of the lever tells us that distance from the pivot
+to Archimedes is 661022 metres, and his lever is 1 þ 661022 metres
+long – about 1.6 million light years, or about two-thirds of the way to
+294 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+the Andromeda Galaxy. If Archimedes now moves his end of the
+lever one metre, the Earth moves 1=ð661022 Þ ¼ 1:6661023 metres.
+    Now, a proton has a diameter of 1015 metres—
+    Yes, but it still moves, dammit!
+    True. But suppose that instead of using this huge and improbable
+apparatus, Archimedes stands on the surface of the Earth and jumps.
+For every metre he goes up, the Earth moves 1:6661023 metres down
+(action/reaction). Jumping has exactly the same effect as his
+hypothetical lever. So the place to stand is on the Earth – but you
+don’t stand still.
+
+
+The Missing Symbol
+Well, the symbols þ; ; 6; and7 don’t work, because 4 þ 5 and 465
+are too big, and 4  5 and 475 are too small. Neither does the square
+          p             p
+root sign , because 4 5 ¼ 8:94 and that’s too big as well.
+    Give up? How about the decimal point, 4.5?
+
+
+Where There’s a Wall, There’s a Way
+
+
+
+                                                      How to make
+                                                      the wall.
+
+    Rotation and reflection yield three other solutions. The compo-
+nent shapes are called tetrahexes.
+
+
+Connecting Utilities
+No, you can’t. As stated – and without ‘cooking’ the puzzle by, say,
+working on a surface that isn’t a plane, passing cables through a
+house, whatever – the puzzle has no solution.
+                     Professor Stewart’s Cunning Crib Sheet // 295
+
+
+
+
+                                                 A cheat that works by
+                                                 passing a cable
+                                                 through a house.
+
+   If you experiment, you’ll soon become convinced that it’s
+impossible – but mathematicians require proof. To find one, we first
+connect things up without worrying about crossings, like this:
+
+
+
+
+                                      Can this be redrawn without
+                                      crossings?
+
+   While we’re at it, I’ve replaced the buildings by dots.
+   Now, suppose that we could redraw this picture, keeping all the
+connections at the dots, to eliminate the crossings. Then the lines
+would form a kind of map in the plane. This map would have E ¼ 9
+edges (the nine connections) and V ¼ 6 vertices (the six dots). Euler’s
+formula for maps (page 177) tells us that if F is the number of faces,
+then
+
+       FEþV ¼2
+
+so F  9 þ 6 ¼ 2 and F ¼ 5. One of these faces is infinitely large and
+forms the outside of the whole diagram.
+   Now we count the edges in another way. Each face has a
+boundary formed by a loop of edges. You can check that the possible
+loops in the diagram contain either 4 or 6 distinct edges, nothing
+296 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+else. So there are six possibilities for the number of edges in the five
+faces:
+
+         4   4   4   4   4
+         4   4   4   4   6
+         4   4   4   6   6
+         4   4   6   6   6
+         4   6   6   6   6
+         6   6   6   6   6
+
+which respectively total 20, 22, 24, 26, 28 and 30. But every edge
+forms the border between two faces, so the number of edges has to be
+half of one of these numbers: 10, 11, 12, 13, 14 or 15.
+    However, we already know that there should be 9 faces. This is a
+contradiction, so we can’t redraw the diagram to have no crossings.
+    People often claim that ‘You can’t prove a negative.’ In
+mathematics, you most certainly can.
+
+
+Don’t Get the Goat
+No, there isn’t. The contestant doubles their chance of success by
+changing their mind. But this is true only under the stated
+assumptions. For example, suppose that the host (who knows where
+the car is, remember) offers the contestant the opportunity to change
+their mind only when they have correctly chosen the door with the
+car behind it. In this extreme case, they always lose if they change
+their mind. At the other extreme, if he offers the contestant the
+opportunity to change their mind only when they have chosen a
+door with a goat behind it, they always win.
+    Fine – but what if my original assumptions are valid. The fifty–
+fifty argument then looks convincing, but it’s wrong. The reason is
+that the host’s procedure does not make the odds fifty–fifty.
+    When the contestant makes their initial choice, the probability
+that they have the right door is one in three. So on average and in the
+long run, the car is behind that particular door one time in three.
+Nothing that happens subsequently can change that. (Unless the
+television people surreptitiously move the prizes . . . OK, let’s assume
+that doesn’t happen either.)
+    After a goat is revealed, the contestant is left with two doors. The
+car must be behind one of them (the host never reveals the car). One
+                      Professor Stewart’s Cunning Crib Sheet // 297
+
+
+
+time in three that door is the one that the contestant has chosen. The
+other two times out of three, it must be behind the other door. So, if
+you don’t change your mind, you win the car one time in three. If
+you do, you win it two times in three – twice the chance.
+   The trouble with such reasoning is that unless you’ve spent a lot
+of time learning probability theory, it’s not always clear what works
+and what doesn’t. You can experiment using dice to decide where the
+car goes: 1 or 2 puts it behind the first door, 3 or 4 behind the second,
+5 or 6 behind the third, say. If you try this twenty or thirty times, it
+soon becomes clear that changing your mind really does improve the
+chance of success. I once got an
+e-mail from some people who had been arguing about this problem
+in the pub, until one of them got out his laptop and programmed it
+to simulate a million attempts. ‘Don’t change your mind’ succeeded
+on roughly 333,300 occasions. ‘Do change your mind’ succeeded on
+the remaining 666,700 occasions. It’s fascinating that we live in a
+world where you can do this simulation in a few minutes in a pub.
+Nearly all of which is taken up writing the computer program – the
+actual sums take less than a second.
+   Still not convinced? Sometimes people see the light when the
+problem is taken to extremes. Take a normal pack of 52 playing cards,
+held face down. Ask a friend to pull a card from the pack, without
+looking at it, and lay it on the table. They win if that card is the ace of
+spades (car) and lose otherwise (goat). So now we have one car and 51
+goats, behind 52 doors (cards). But you now pick up the remaining 51
+cards, holding them so that you can see their faces but your friend
+can’t. Now you discard 50 of those cards, none being the ace of
+spades. One card remains in your hand; one is on the table. Is it really
+true that each of these two cards has a fifty–fifty chance of being the
+ace of spades? So why were you so careful to hang on to that
+particular card out of the 51 you started with? Clearly you have a big
+advantage over your friend. They got to choose one card, without
+seeing its face. You had a choice of 51 cards, and you did see their
+faces. They have one chance in 52 of being right; you have 51
+chances. This is a fair game? Pull the other one!
+298 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+All Triangles are Isosceles
+The mistake is the innocent assertion that X is inside the triangle. If
+you draw the picture accurately, it’s not. And it turns out that exactly
+one of the points D and E is outside the triangle, too. In this particular
+case, D is not between A and C. But the other point is ‘inside’ the
+triangle—well, on its edge, but not outside it. Here E lies between B
+and C. This diagram makes it clear what I mean:
+
+
+
+
+                                                 The correct picture.
+
+
+    Now the argument collapses. We still find that CE ¼ CD and DA
+¼ EB (steps 5 and 9). But in step 10, CA ¼ CD  DA, not CD þ DA.
+However, CB is still CE þ EB. So we can’t conclude that lines CA and
+CB are equal.
+    Fallacies like this one explain why mathematicians are so
+obsessive about hidden logical assumptions in proofs.
+
+
+Square Year
+We are looking for squares either side of 2001. A little experiment
+reveals that 442 ¼ 1936, and 452 ¼ 2025. With these figures, Betty’s
+father was born in 1936  44 ¼ 1892 (so he died in 1992), and Alfie was
+born in 2025  45 ¼ 1980.
+   To rule out any other answers: the previous possible date for
+Betty’s father would be 432  43 ¼ 1806, so he would have died in
+1906, making Betty well past retirement age. The next possible date
+for Alfie would be 462  46 ¼ 2070, so he wouldn’t get born in 2001.
+                      Professor Stewart’s Cunning Crib Sheet // 299
+
+
+
+Infinite Wealth
+Whatever amount you win, it will be finite (unless the game goes on
+for ever, with you always tossing tails, in which case you win an
+infinite amount of cash, but you have to wait infinitely long to get
+it). So it’s silly to pay an infinite entry fee. The correct deduction is
+that whatever finite entry fee you pay, your expected winnings are
+bigger. Your chance of a big win is of course very small, but the win is
+so huge that it compensates you for the tiny chance of success.
+    But that still seems silly, and this is where the mathematicians of
+the time started scratching their heads (and very likely their tails too,
+though we don’t mention such things in polite company). The main
+source of trouble is that the expected winnings form a divergent series
+– one with no well-defined sum – which may not make a great deal of
+sense.
+    As a practical matter, the sums involved are limited by two
+features that the simple mathematical model fails to take into
+account: the largest amount that the bank can actually pay, and the
+length of time available to play the game – at most one human
+lifetime. If the bank has only £220 available, for instance, which is
+£1,048,576, then you are justified in risking £20. If the bank has £250
+available, which is £1,125,899,906,842,624 – a little over a quad-
+rillion pounds, which exceeds the annual Gross Global Product, then
+you are justified in risking £50.
+    There is a more philosophical point: how sensible the long-term
+average winnings (expectation) actually is when the ‘long term’ is far
+longer than any player can actually play for. If you are playing
+against a bank with £250 in its coffers, it will typically take you 250
+attempts to make the big win that justifies you spending £50, let
+alone a much larger amount. Human decisions about risk are subtler
+than the mindless computation of long-term expectations, and the
+subtleties are important exactly when the gain (or loss) is very big but
+its probability is very small.
+     A related point is the relevance of long-term averages over
+numerous trials, if in practice you only get to play once, or just a few
+times. Then you have an extraordinarily small chance of a big win,
+and the pragmatic decision is not to throw money at something so
+unlikely.
+300 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+    On the other hand, in cases where the expectation converges to a
+finite sum, it may make more sense. Suppose that you win £n if the
+first toss of a head is on the nth throw. Now the expectation is
+
+          1     1      1      1
+        16 þ 26 2 þ 36 3 þ 46 4 þ . . .
+          2    2      2      2
+which converges to 2. So here you should pay £2 to break even,
+which seems fair enough.
+
+
+What Shape is a Rainbow?
+The arcs are parts of circles. For a given colour, the arc concerned is very
+thin. All the circles involved have the same centre – which is often below
+the horizon. The interesting question is – why? The answer turns out to
+be distinctly complicated, though very elegant. Teacher was right to
+direct our attention to the colours, though she did miss an opportunity
+to do some really neat geometry.
+    Consider light of a single wavelength (colour), and look at a
+raindrop in cross-section. Raindrops are spheres, so in section we get
+a circle. A ray of light from the Sun hits the front of the drop, is
+refracted (bent through an angle) by the water, reflects off the back of
+the drop, and is refracted a second time as it leaves the drop and
+heads back roughly the way it came.
+
+
+
+
+        (Left) The path of one ray. (Right) Many rays.
+
+    That’s what happens to one ray, but in reality there are lots of
+them. Rays that are very close together usually hit the same drop, but
+turn through slightly different angles. But there is a focusing effect,
+and most of the light comes back out along a single ‘critical
+direction’. Bearing in mind the spherical geometry of the drop, the
+                       Professor Stewart’s Cunning Crib Sheet // 301
+
+
+
+end result is that effectively each drop emits a cone of light of the
+chosen colour. The axis of the cone joins the drop to the Sun. The
+vertex angle of the cone is about 428, for a raindrop, but it depends
+on the colour of the light.
+    When an observer looks at the sky, in the direction of the rain,
+she observes light only from those drops whose cones meet her eye. A
+little geometry shows that these drops themselves lie on a cone,
+whose tip is at her eye, and whose axis is the line joining her eye to
+the Sun. Again, the vertex angle is about 428, depending on the
+colour of the light.
+
+
+
+
+        The eye receives a cone of light.
+
+    If you place a cone to your eye and sight along it, what you see is
+the edge of its circular base. More accurately, the directions of the
+incoming light are perceived as if the light were being emitted by the
+circular base. So the upshot is that the eye ‘sees’ a circular arc. The arc
+is not up there in the sky: it is an illusion, caused by the directions of
+the incoming light rays.
+    Usually, the eye sees only part of this circular arc. If the Sun is
+high in the sky, most of the arc is below the horizon. If the Sun is low,
+the eye sees almost a semicircle. From an aircraft a complete circle
+can sometimes be seen. If the rain is nearby, the arc may appear to be
+in front of other parts of the landscape. The arc is often partial – you
+see the returning light only when there’s rain in that direction.
+    Because different colours of light lead to different vertex angles
+for the cone, each colour appears on a slightly different arc, but they
+all have the same centre. So we see ‘parallel’ arcs of colours.
+    Sometimes you can see a second rainbow, outside the first. This is
+302 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+formed in a similar way, but the light bounces more times before
+coming back out of the drop. The vertex angle of the cone is
+different, and the colours are in reverse order. The sky is brighter
+inside the main rainbow, very dark between this and the ‘secondary’
+rainbow, and medium-dark outside that. Again, all this can be
+explained in terms of the geometry of the light rays. René Descartes
+did that in 1637.
+    A really informative website is en.wikipedia.org/wiki/Rainbow
+
+
+Alien Abduction
+Each alien is going after the pig that initially is nearest to it. If they
+chase the other pig, they will soon catch it.
+    Why? The way to catch a pig is to drive it into a corner. If the
+position looks like the next picture, and it is the pig’s turn to move, it
+will be abducted. However, if it is the alien’s turn to move, the pig can
+escape.
+
+
+
+
+                                  How to catch your pig
+                                  – provided the pig has to move.
+
+    Which of these happens depends on the parity (odd or even) of
+the distance (in moves) from alien to pig. If the pig is an even number
+of moves away – as it is if each alien goes for the pig it is initially
+facing – then the pig always escapes. If it is odd – as it is if the aliens
+switch pigs – then the pig can be driven into a corner and abducted.
+
+
+Disproof of the Riemann Hypothesis
+The argument is logically correct. However, it doesn’t disprove the
+Riemann Hypothesis! The information given is contradictory: it
+implies that an elephant has won Mastermind, and also that it has
+not. We can now prove the Riemann Hypothesis false by contra-
+diction:
+                       Professor Stewart’s Cunning Crib Sheet // 303
+
+
+
+(1) Assume, on the contrary, that the Riemann Hypothesis is
+true.
+
+(2) Then an elephant has won Mastermind.
+
+(3) But an elephant has not won Mastermind.
+
+(4) This is a contradiction. So our assumption that the Riemann
+Hypothesis is true is wrong.
+
+(5) Therefore the Riemann Hypothesis is false.
+
+The same argument proves that the Riemann Hypothesis is true, of
+course.
+
+
+Murder in the Park
+
+
+
+
+          The two possible topological types of path.
+
+   Topologically speaking, there are just two cases to consider.
+Either the butler went to the north of Y on his way to X (left-hand
+diagram) or he went to the south (right-hand diagram). The
+gamekeeper must then have gone to the south (respectively north) of
+X on his way to Y.
+   The tracks of the youth and the grocer’s wife must then be as
+shown, perhaps with additional wiggles. In the first case, the grocer’s
+wife’s path from C to F cuts off the youth’s path from the part of the
+park that contains the body. In fact, only she and the butler could
+have approached the place where Hastings’s body lay. The same is
+true in the second case. Since the butler has a confirmed alibi, the
+murderer must have been the grocer’s wife.
+304 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+The Cube of Cheese
+The corners of the hexagon lie on various midpoints of sides of the
+cube, like this:
+
+
+
+
+                                            Hexagonal slice of a cube.
+
+
+
+Drawing an Ellipse – and More?
+
+
+
+
+        The pencil draws arcs of various ellipses.
+
+When the pencil is in the position shown on the left, the length of
+string ACþCB is constant, so the pencil moves as if you had looped a
+shorter string round A and B. Therefore it draws an arc of an ellipse
+with foci A and B. When it moves to a position like the one on the
+right, it draws an arc of an ellipse with foci A and C. The complete
+curve therefore consists of six arcs of ellipses, joined together. Since
+basically this isn’t new, mathematicians aren’t (terribly) interested.
+                      Professor Stewart’s Cunning Crib Sheet // 305
+
+
+
+The Milk Crate Problem
+The milkman is correct for 1, 4, 9, 16, 25 and 36 bottles, but wrong
+for 49 and any larger square number.
+    If you think about this the right way, it’s obvious that when the
+number of bottles gets sufficiently large, the square lattice packing
+can’t possibly be the best. (What is the best is horribly difficult to
+work out, and nobody knows.) The square lattice must fail for a large
+number of bottles, because a hexagonal lattice packs bottles more
+closely than a square one. When there aren’t too many bottles, ‘edge
+effects’ near the walls of the crate stop you exploiting this fact to
+make the crate smaller, but as the numbers go up the edge effects
+become negligible.
+    It so happens that the break-even point is close to 49 bottles. And
+it has been proved that 49 bottles of unit diameter can fit inside a
+square whose side is very slightly less than 7 units. The difference is
+too small to be seen by the naked eye, but you can easily see big
+regions of hexagonally packed circles.
+
+
+
+
+        (Left) 49 unit bottles in a 767 square. (Right) How to fit the same
+        bottles into a slightly smaller square.
+
+    Incidentally, this example shows that a rigid packing – one in
+which no single circle can move – need not be the closest packing
+possible. The square lattice is rigid for any square number of bottles
+inside a tightly fitting square crate. Or, indeed, on the infinite plane.
+
+
+Road Network
+The shortest road network introduces two new junctions and makes
+the roads meet there at exactly 1208 to each other. The same layout
+306 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+rotated by 908 is the only other option. The total length here is
+        p
+100ð1 þ 3Þ ¼ 273 km, roughly:
+
+
+
+
+                                       The shortest network.
+
+
+
+
+Tautoverbs
+. No news is no news. (Experts consider this the smallest but
+    most perfectly formed tautoverb, a kind of tautohaiku.)
+.   The bigger they are, the bigger they are.
+.   Nothing ventured, nothing lost.
+.   Too many cooks cook too much.
+.   You cannot have your cake and eat it too, unless you do them
+    in that order. What’s difficult is to eat your cake and have it
+    too.
+.   A watched pot never boils over. (Unless it’s custard.) The time
+    taken for a liquid to boil is not influenced by the presence of
+    an observer, except in certain esoteric forms of quantum field
+    theory. It merely seems longer for psychological reasons. Do
+    not be deceived.
+.   If pigs had wings, the laws of aerodynamics would still stop
+    them getting off the ground. I mean, let’s be sensible. The
+    porcithopter is not technologically feasible.
+
+Scrabble Oddity
+       TWELVE ¼ 1 þ 4 þ 1 þ 1 þ 4 þ 1
+                      Professor Stewart’s Cunning Crib Sheet // 307
+
+
+
+Dragon Curve
+Dragon curves can be made by repeatedly folding a strip of paper in
+half – always folding the same way – and then opening it out to make
+all folds into right angles.
+
+
+
+
+        Making dragon curves by paper-folding.
+
+    These curves determine a fractal (page 189). In fact, the infinite
+limit is a space-filling curve (page 83), but the region it fills has a
+complicated, dragon-like shape. The sequence of right (R) and left (L)
+turns in the curve goes like this:
+
+Step 1 R
+
+Step 2 R R L
+
+Step 3 R R L R R L L
+
+Step 4 R R L R R L L R R R L L R L L
+
+In fact, there is a simple pattern: each sequence is formed from the
+previous one by placing an extra R at the end, followed by the reverse
+of the previous sequence with R’s and L’s swapped. I’ve marked the
+extra R in the middle in bold.
+    The dragon curve was discovered by John Heighway, Bruce Banks
+and William Harter – all physicists at NASA – and was mentioned in
+Martin Gardner’s Mathematical Games’ column in Scientific American
+in 1967. It has lots of intriguing features – see en.wikipedia.org/wiki/
+Dragon_curve
+
+Counterflip
+Assume that there is an odd number of black counters—so in
+particular, there exists at least one of them. As play progresses,
+counters that are removed create gaps, breaking the row of counters
+into connected pieces, which I’ll call chains. We start with one chain.
+308 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+   I claim that any chain with an odd number of black counters can
+be removed. Here’s a method that always works. (The sample game
+doesn’t always follow it, so other methods work too.)
+    Starting from one end of the chain, find the first black counter. I
+claim that if you flip that counter, then there are three possibilities:
+
+(1) The chain originally consisted of one isolated black counter,
+and when you flip it it is removed, with no effect on any other
+counters.
+
+(2) You now have a single shorter chain having an odd number
+of black counters.
+
+(3) You now have two shorter chains, each having an odd
+number of black counters.
+
+If this claim is true, then you can repeat the same procedure on the
+shorter chains. The number of chains may grow, but they get shorter
+at each step. Eventually they all become so short that we reach case 1
+and they can be removed entirely.
+   The claim is proved by seeing what happens in three cases of a
+single chain, which exhaust the possibilities:
+
+(1) The chain concerned consists of a single black counter. It has
+no neighbours, so when it is flipped it disappears.
+
+(2) The chain has a black counter at one end. Flipping the end
+counter results in a shorter chain which has an odd number of
+black counters.
+
+                                       Grey counters may be either
+                                       black or white. The black
+                                       counter on the end disappears,
+                                       and its neighbour (here shown
+                                       white) changes colour. The
+                                       overall change in the number of
+                                       black counters is either 0 or 2,
+                                       so an odd number of black
+                                       counters remains.
+
+(3) The chain has white counters at both ends. Flipping the first
+black counter from one end (it doesn’t matter which) results in
+                     Professor Stewart’s Cunning Crib Sheet // 309
+
+
+
+two shorter chains. One has a single black counter (which is odd)
+and the other has an odd number of black counters.
+                                                 The first black counter
+                                                 (from the left)
+                                                 disappears, and its
+                                                 neighbours (one white,
+                                                 one grey – i.e. black or
+                                                 white) change colour.
+                                                 Two chains are created;
+                                                 one has one black
+                                                 counter, the other has
+                                                 an odd number of black
+                                                 counters.
+
+   It does matter which black counter you flip. For instance, if the
+chain has at least four counters, with three black counters next to one
+another and the rest white, then it is a mistake to flip the middle
+black counter. If you do, you get at least one chain containing no
+black counters at all, so this chain cannot be removed.
+
+
+                                    Oops . . .
+
+   To complete the analysis, here’s why the puzzle can’t be solved if
+the initial number of black counters is even:
+
+(1) If there are no black counters (zero is even!) you can’t get
+started.
+
+(2) If the initial number of black counters is even (and non-zero),
+then whichever black counter you remove, at least one shorter
+chain is created that also has an even number of black counters.
+Repeating this process eventually leads to a chain with no black
+counters but at least one white one. This chain cannot be
+removed since there is no place to start.
+
+Spherical Sliced Bread
+All slices have exactly the same amount of crust.
+    At first sight this seems unlikely, but slices near the top and
+bottom are more slanted than those near the middle, so they have
+310 // Professor Stewart’s Cunning Crib Sheet
+
+
+
+more crust than you might think. It turns out that the slope exactly
+compensates for the smaller size of the slices.
+    In fact, the great Greek mathematician Archimedes discovered
+that the surface area of a slice of a sphere is equal to that of the
+corresponding slice of a cylinder into which the sphere fits. It is
+obvious that parallel slices of a cylindrical loaf, of equal thickness, all
+have the same amount of crust . . . since they are all the same shape
+and size.
+
+
+
+
+        The surface area of the spherical band (pale blue) is the same as
+        that of the corresponding band on a tightly fitting cylinder.
+
+
+Mathematical Theology
+I asked you to start from 2 þ 2 ¼ 5 and prove that 1 ¼ 1 and also that
+1 ¼ 42. There are lots of valid answers (infinitely many, in fact). Here
+are two that work:
+
+. Since 2 þ 2 ¼ 4, we deduce that 4 ¼ 5. Double both sides to get
+    8 ¼ 10. Subtract 9 from each side to get 1 ¼ 1. Square both
+    sides to get 1 ¼ 1.
+.   Since 2 þ 2 ¼ 4, we deduce that 4 ¼ 5. Subtract 4 from each
+    side to get 0 ¼ 1. Multiply both sides by 41 to get 0 ¼ 41. Add
+    1 to each side to get 1 ¼ 42.

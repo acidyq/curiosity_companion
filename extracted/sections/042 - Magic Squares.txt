@@ -1,0 +1,57 @@
+Magic Squares
+I’m on a bit of a square kick here, so let me mention the most
+ancient ‘square’ mathematical recreation of them all. According
+to a Chinese myth, the Emperor Yu, who lived in the third
+millennium BC, came across a sacred turtle in a tributary of the
+Yellow River, with strange markings on its shell. These markings
+are now known as the Lo shu (‘Lo river writing’).
+
+
+
+
+                                           The Lo Shu.
+
+
+   The markings are numbers, and they form a square pattern:
+       4 9 2
+       3 5 7
+       8 1 6
+Here every row, every column and every diagonal adds to the
+same number, 15. A number square with these properties is said
+to be magic, and the number concerned is its magic constant.
+Usually the square is made from successive whole numbers, 1, 2,
+3, 4, and so on, but sometimes this condition is relaxed.
+                                                Magic Squares // 65
+
+
+
+
+       Dürer’s Melancholia and its magic square.
+
+   In 1514 the artist Albrecht Dürer produced an engraving,
+‘Melancholia’, containing a 464 magic square (top right corner).
+The middle numbers in the bottom row are 15–14, the date of
+the work. This square contains the numbers
+       16   3   2 13
+       5    10 11 8
+        9   6   7    12
+        4   15 14     1
+
+and has magic constant 34.
+    Using consecutive whole numbers 1, 2, 3, . . . , and counting
+rotations and reflections of a given square as being the same,
+there are precisely:
+
+. 1 magic square of size 363
+. 880 magic squares of size 464
+. 27,5305,224 magic squares of size 565
+The number of 666 magic squares is unknown, but has been
+estimated by statistical methods to be about 1:7761019 .
+    The literature on magic squares is gigantic, including many
+variations such as magic cubes. The website mathworld.wolfram.
+com/MagicSquare.html is a good place to look, but there are
+
+
+...........................................
+plenty of others.
+66 // Squares of Squares

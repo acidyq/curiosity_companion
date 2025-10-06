@@ -1,0 +1,23 @@
+How Many—
+Ways are there to rearrange the letters of the (English) alphabet?
+       403;291;461;126;605;635;584;000;000
+
+Ways are there to shuffle a pack of cards?
+
+       80;658;175;170;943;878;571;660;636;856;403;766;975;
+       289;505;440;883;277;824;000;000;000;000
+
+Different positions are there for a Rubik cube?
+       43;252;003;274;489;856;000
+
+Different sudoku puzzles are there?
+       6;670;903;752;021;072;936;960
+
+(Calculated by Bertram Felgenhauer and Frazer Jarvis in 2005.)
+
+Different sequences of 100 zeros and ones are there?
+
+
+
+...........................................
+       1;267;650;600;228;229;401;496;703;205;376

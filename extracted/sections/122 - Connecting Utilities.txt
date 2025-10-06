@@ -1,0 +1,163 @@
+Connecting Utilities
+Three houses have to be connected to three utility companies –
+water, gas and electricity. Each house must be connected to all
+three utilities. Can you do this without the connections crossing?
+    (Work ‘in the plane’ – there is no third dimension in which
+pipes can be passed over or under cables. And you are not
+allowed to route cables or pipes through a house or a utility
+company building.)
+
+
+
+
+                                            Connect houses to
+                                            utilities with no
+                                            crossings.
+
+
+
+...........................................
+   Answer on page 294
+
+
+
+Are Hard Problems Easy?
+  or
+How to Win a Million Dollars by Proving the
+Obvious
+Naturally, it’s not that obvious. TANSTAAFL, as science fiction
+author Robert A. Heinlein used to say – There Ain’t No Such
+Thing As A Free Lunch. But we can all dream.
+   I’m referring here to one of the seven Millennium Prize
+200 // Are Hard Problems Easy?
+
+
+
+Problems (page 127), whose solution will leave some lucky
+person a million dollars better off. Technically, it is known as
+‘P¼NP?’ which is a pretty silly name. But what it’s about is of
+vital importance: inherent limits to the efficiency of computers.
+     Computers solve problems by running programs, which are
+lists of instructions. A program that always stops with the right
+answer (assuming that the computer is doing what its designers
+think it should) is called an ‘algorithm’. The name honours the
+Arabic mathematician Abu Ja’far Muhammad ibn Musa al-
+Khwarizmi, who lived around AD 800 in present-day Iraq. His
+book Hisab al-jabr w’al-muqabala gave us the word ‘algebra’, and
+it consists of a series of procedures – algorithms – for solving
+algebraic equations of various kinds.
+     An algorithm is a method for solving a specific type of
+problem, but it is useless in practice unless it delivers the answer
+reasonably quickly. The theoretical issue here is not how fast the
+computer is, but how many calculations the algorithm has to
+perform. Even for a specific problem – to find the shortest route
+that visits a number of cities in turn, say – the number of
+calculations depends on how complicated the question is. If
+there are more cities to visit, the computer will have to do more
+work to find an answer.
+     For these reasons, a good way to measure the efficiency of an
+algorithm is to work out how many computational steps it takes
+to solve a problem of a given size. There is a natural division into
+‘easy’ calculations, where the size of the calculation is some fixed
+power of the input data, and ‘hard’ ones, where the growth rate
+is much faster, often exponential. Multiplying two n-digit
+numbers together, for example, can be done in about n2 steps
+using good old-fashioned long multiplication, so this calculation
+is ‘easy’. Finding the prime factors of an n-digit number, on the
+other hand, takes about 3n steps if you try every possible divisor
+up to the square root of n, which is the most obvious approach,
+so this calculation is ‘hard’. The algorithms concerned are said to
+run in polynomial time (class P) and non-polynomial time (not-P),
+respectively.
+                                  Are Hard Problems Easy? // 201
+
+
+
+     Working out how quickly a given algorithm runs is relatively
+straightforward. The hard bit is to decide whether some other
+algorithm might be faster. The hardest of all is to show that what
+you’ve got is the fastest algorithm that will work, and basically
+we don’t know how to do that. So problems that we think are
+hard might turn out to be easy if we found a better method for
+solving them, and this is where the million dollars comes in. It
+will go to whoever manages to prove that some specific problem
+is unavoidably hard – that no polynomial-time algorithm exists
+to solve it. Or, just possibly, to whoever proves that There Ain’t
+No Such Thing As A Hard Problem – though that doesn’t seem
+likely, the universe being what it is.
+     Before you rush out to get started, though, there are a couple
+of things you should bear in mind. The first is that there is a
+‘trivial’ type of problem that is automatically hard, simply
+because the size of the output is gigantic. ‘List all ways to
+rearrange the first n numbers’ is a good example. However fast
+the algorithm might be, it takes at least n! steps to print out the
+answer. So this kind of problem has to be removed from
+consideration, and this is done using the concept of a non-
+deterministic polynomial time, or NP, problem. (Note that NP is
+different from not-P.) These are the problems where you can
+verify a proposed answer in polynomial time – that is, easily.
+     My favourite example of an NP problem is solving a jigsaw
+puzzle. It may be very hard to find a solution, but if someone
+shows you an allegedly completed puzzle you can tell instantly
+whether they’ve done it right. A more mathematical example is
+finding a factor of a number: it is much easier to divide out and
+see whether some number works than it is to find that number in
+the first place.
+     The P¼NP? problem asks whether every NP problem is P.
+That is, if you can check a proposed answer easily, can you find it
+easily? Experience suggests very strongly that the answer should
+be ‘no’ – the hard part is to find the answer. But, amazingly, no
+one knows how to prove that, or even whether it’s correct. And
+that’s why you can pocket a million bucks for proving that P is
+202 // Don’t Get the Goat
+
+
+
+different from NP, or indeed for proving that, on the contrary,
+the two are equal.
+    As a final twist, it turns out that all likely candidates to show
+that P 6¼ NP are in some sense equivalent. A problem is called NP-
+complete if a polynomial-time algorithm to solve that particular
+problem automatically leads to a polynomial-time algorithm to
+solve any NP problem. Almost any reasonable candidate for
+proving that P 6¼ NP is known to be NP-complete. The nasty
+consequence of this fact is that no particular candidate is likely
+to be more approachable than any of the others – they all live or
+die together. In short: we know why P¼NP? must be a very hard
+problem, but that doesn’t help us to solve it.
+
+
+...........................................
+    I suspect that there are far easier ways to make a million.
+
+
+
+Don’t Get the Goat
+There used to be an American game show, hosted by Monty Hall,
+in which the guest had to choose one of three doors. Behind one
+was an expensive prize – a sports car, say. Behind the other two
+were booby prizes – goats.
+     After the contestant had chosen, Hall would open one of the
+other doors to reveal a goat. (With two doors to choose from, he
+could always do this – he knew where the car was.) He would
+then offer the contestant the chance to change their mind and
+choose the other unopened door.
+     Hardly anyone took this opportunity – perhaps with good
+reason, as I’ll eventually explain. But for the moment let’s take
+the problem at face value, and assume that the car has equal
+probability (one in three) of being behind any given door. We’ll
+assume also that everyone knows ahead of time that Hall always
+offers the contestant a chance to change their mind, after
+revealing a goat. Should they change?
+     The argument against goes like this: the two remaining doors
+are equally likely to conceal a car or a goat. Since the odds are
+fifty–fifty, there’s no reason to change.
+                                    All Triangles are Isosceles // 203
+
+
+
+   Or is there?
+
+
+...........................................
+   Answer on page 296

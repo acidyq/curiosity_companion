@@ -1,0 +1,26 @@
+Spherical Sliced Bread
+Araminta Ponsonby took her two sets of quins to the Archimedes
+bakery, which makes spherical loaves. She likes to go there
+because each loaf is cut into ten slices, of equal thickness, so each
+child can have one slice of bread. They have different appetites –
+which is fortunate because some slices have smaller volume than
+others. But, being extremely well-behaved, all ten children love
+the crust, and want as much as they can get.
+    Which slice has the most crust?
+
+
+                                          The slices are the same
+                                          thickness: which has the
+                                          most crust?
+
+
+
+
+    Assume that the loaf is a perfect sphere, the slices are formed
+by parallel equally spaced planes, and the crust is infinitely thin –
+so the amount of crust on each slice is equal to the area of the
+corresponding part of the sphere’s surface.
+
+
+...........................................
+   Answer on page 309

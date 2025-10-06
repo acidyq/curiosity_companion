@@ -1,0 +1,65 @@
+More Curious Calculations
+The next few calculator curiosities are variations on one basic
+theme.
+
+(1) Enter a three-digit number – say 471. Repeat it to get 471,471.
+                                    More Curious Calculations // 21
+
+
+
+Now divide that number by 7, divide the result by 11, and divide
+the result by 13. Here we get
+
+        471;471=7 ¼ 67;353
+        67;353=11 ¼ 6;123
+         6;123=13 ¼ 471
+
+which is the number you first thought of.
+     Try it with other three-digit numbers – you’ll find that
+exactly the same trick works.
+     Now, mathematics isn’t just about noticing curious things –
+it’s also important to find out why they happen. Here we can do
+that by reversing the entire calculation. The reverse of division is
+multiplication, so – as you can check – the reverse procedure
+starts with the three-digit result 471, and gives
+
+          471613 ¼ 6;123
+        6;123611 ¼ 67;353
+        67;35367 ¼ 471;471
+
+Not terribly helpful as it stands . . . but what this is telling us is
+that
+       47161361167 ¼ 471;471
+
+So it could be a good idea to see what 1361167 is. Get your
+calculator and work this out. What do you notice? Does it
+explain the trick?
+
+(2) Another thing mathematicians like to do is ‘generalise’. That
+is, they try to find related ideas that work in similar ways.
+Suppose we start with a four-digit number, say 4,715. What
+should we multiply it by to get 47,154,715? Can we achieve that
+in several stages, multiplying by a series of smaller numbers?
+
+To get started, divide 47,154,715 by 4,715.
+
+(3) If your calculator runs to ten digits (nowadays a lot of them
+do), what would the corresponding trick be with five-digit
+numbers?
+22 // Extracting the Cherry
+
+
+
+(4) If your calculator handles numbers with at least 12 digits, go
+back to a three-digit number, say 471 again. This time, instead of
+multiplying it by 7, 11 and 13, try multiplying it by 7, then 11,
+then 13, then 101, then 9,901. What happens? Why?
+
+(5) Think of a three-digit number, such as 128. Now multiply
+repeatedly by 3, 3, 3, 7, 11, 13 and 37. (Yes, three multiplications
+by 3.) The result is 127,999,872 – nothing special here. So add the
+number your first thought of: 128. Now what do you get?
+
+
+...........................................
+   Answer on page 257

@@ -1,0 +1,92 @@
+What is e, and Why?
+The number e, which is approximately 2.7182, is the ‘base of
+natural logarithms’, a term that refers to its historical origins.
+One way to see how it arises is to see how a sum of money grows
+when compound interest is applied at increasingly fine intervals.
+Suppose that you deposit £1 in the Bank of Logarithmania—
+    No, no, no. This is the twenty-first century. People don’t
+deposit savings in banks, they borrow.
+    OK, suppose you borrow £1 on your Logarithmania credit
+card. (More likely it would be £4,675.23, but £1 is easier to think
+about.) Once the 0% balance transfer deal has lapsed – about a
+week after you sign up for the card – the bank applies an interest
+rate of 100%, paid annually. Then after one year you will owe
+them
+       £1:00 borrowed þ £1:00 interest ¼ £2:00 total
+
+If instead you paid 50% interest every six months, compounded
+(so that interest becomes payable on previous interest) then after
+one year you would owe
+       £1:00 invested þ £0:50 interest þ £0:75 interest ¼ £2:25 total
+
+This is ð1 þ 12Þ2 , and the pattern continues like that. So, for
+example, if you paid interest of 10% at intervals of one-tenth of a
+year, you would end up owing
+                  
+                1 10
+          1þ          ¼ 2:5937
+               10
+
+pounds. The Bank likes the way these sums are going, so it
+decides to apply the interest rate ever more frequently. If you
+paid interest of 1% at intervals of one-hundredth of a year, you
+would end up owing
+               
+              1 100
+         1þ         ¼ 2:7048
+             100
+                                  May Husband and Ay . . . // 173
+
+
+
+pounds. If you paid interest of 0.1% at intervals of one-
+thousandth of a year, you would end up owing
+                 1;000
+              1
+        1þ               ¼ 2:7169
+            1;000
+
+pounds. And so on.
+     As the intervals become ever finer, the amount you owe does
+not increase without limit. It just seems that way. The amount
+owed gets closer and closer to 2.7182 pounds – and this number
+is given the symbol e. It’s one of those weird numbers which, like
+p, turn up naturally in mathematics but can’t be expressed
+exactly as a fraction, so it gets a special symbol. It is especially
+important in calculus, and it is widely used in scientific
+
+
+...........................................
+applications.
+
+
+
+May Husband and Ay . . .
+In a single move, a chess queen can travel any number of squares
+in a straight line – horizontally, vertically or diagonally. (Unless
+another piece stops her, but we ignore that in this puzzle.)
+
+
+
+
+                                     Move the queen from Q to K,
+                                     visiting each square exactly
+                                     once and in as few moves as
+                                     possible.
+
+
+    She starts on square Q and wishes to visit the king on square
+K. Along the way, she wants to visit all of her other subjects, who
+live on the other 62 squares. Just passing through, you appreciate
+– she doesn’t stop on every square, but she does has to stop now
+and again. How can she visit all the squares and finish at the
+174 // Many Knees, Many Seats
+
+
+
+king’s square, without passing through any square twice – in the
+smallest number of moves?
+
+
+...........................................
+   Answer on page 288

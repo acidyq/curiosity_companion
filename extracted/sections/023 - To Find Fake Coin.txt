@@ -1,0 +1,126 @@
+To Find Fake Coin
+In February 2003 Harold Hopwood of Gravesend wrote a short
+letter to the Daily Telegraph, saying that he had solved the
+newspaper’s crossword every day since 1937, but one conun-
+drum had been nagging away at the back of his mind since his
+schooldays, and at the age of 82 he had finally decided to enlist
+some help.
+    The puzzle was this. You are given 12 coins. They all have the
+same weight, except for one, which may be either lighter or
+heavier than the rest. You have to find out which coin is
+different, and whether it is light or heavy, using at most three
+weighings on a pair of scales. The scales have no graduations for
+weights; they just have two pans, and you can tell whether they
+are in balance, or the heavier one has gone down and the lighter
+one has gone up.
+
+
+
+
+       Exactly one coin is either light or heavy: find out which in three
+       weighings.
+
+    Before reading on, you should have a go. It’s quite addictive.
+    Within days, the paper’s letters desk had received 362 letters
+and calls about the puzzle, nearly all asking for the answer, and
+they phoned me. I recognised the problem as one of the classic
+puzzles, typical of the ‘weights and scales’ genre, but I’d
+forgotten the answer. But my friend Marty, who happened to be
+in the room when I answered the phone, also recognised the
+problem. The same puzzle had inspired him as a teenager, and
+his successful solution had led him to become a mathematician.
+    Of course he had forgotten how the solution went, but we
+                                          To Find Fake Coin // 33
+
+
+
+came up with a method in which we weighed various sets of
+coins against various others, and faxed it to the newspaper.
+     In fact, there are many answers, including a very clever one
+which I finally remembered on the day that the Telegraph printed
+our less elegant method. I had seen it twenty years earlier in New
+Scientist magazine, and it had been reproduced in Thomas H.
+O’Beirne’s Puzzles and Paradoxes, which I had on my bookshelf.
+     Puzzles like this seem to come round every twenty years or so,
+presumably when a new generation is exposed to them, a bit like
+an epidemic that gets a new lease of life when the population
+loses all immunity. O’Beirne traced it back to Howard Grossman
+in 1945, but it is almost certainly much older, going back to the
+seventeenth century. It wouldn’t surprise me if one day we find it
+on a Babylonian cuneiform tablet.
+     O’Beirne offered a ‘decision tree’ solution, along the lines
+that Marty and I had concocted. He also recalled the elegant
+1950 solution published by ‘Blanche Descartes’ in Eureka, the
+journal of the Archimedeans, Cambridge University’s under-
+graduate mathematics society. Ms Descartes was in actuality
+Cedric A.B. Smith, and his solution is a masterpiece of ingenuity.
+It is presented as a poem about a certain Professor Felix
+Fiddlesticks, and the main idea goes like this:
+       F set the coins out in a row
+            And chalked on each a letter, so,
+       To form the words ‘F AM NOT LICKED’
+            (An idea in his brain had clicked.)
+       And now his mother he’ll enjoin:
+            MA DO LIKE
+            ME TO FIND
+            FAKE COIN
+This cryptic list of three weighings, one set of four against
+another, solves the problem, as Eureka explains, also in verse. To
+convince you, I’m going to list all the outcomes of the
+weighings, according to which coin is heavy or light. Here
+34 // To Find Fake Coin
+
+
+
+L means that the left pan goes down, R that the right pan goes
+down, and – means they stay balanced.
+
+                  False coin                     1st weighing                           2nd weighing                              3rd weighing
+....................................................................................................................................................................
+                  F heavy                        —                                      R                                         L
+                  F light                        —                                      L                                         R
+                  A heavy                        L                                      —                                         L
+                  A light                        R                                      —                                         R
+                  M heavy                        L                                      L                                         —
+                  M light                        R                                      R                                         —
+                  N heavy                        —                                      R                                         R
+                  N light                        —                                      L                                         L
+                  O heavy                        L                                      L                                         R
+                  O light                        R                                      R                                         L
+                  T heavy                        —                                      L                                         —
+                  T light                        —                                      R                                         —
+                  L heavy                        R                                      —                                         —
+                  L light                        L                                      —                                         —
+                  I heavy                        R                                      R                                         R
+                  I light                        L                                      L                                         L
+                  C heavy                        —                                      —                                         R
+                  C light                        —                                      —                                         L
+                  K heavy                        R                                      —                                         L
+                  K light                        L                                      —                                         R
+                  E heavy                        R                                      L                                         L
+                  E light                        L                                      R                                         R
+                  D heavy                        L                                      R                                         —
+                  D light                        R                                      L                                         —
+....................................................................................................................................................................
+
+You can check that no two possibilities give the same results.
+    The Telegraph’s publication of a valid solution did not end the
+matter. Readers wrote in to object to our answer, on spurious
+grounds. They wrote to improve it, not always by valid methods.
+They e-mailed to point out Ms Descartes’s solution or similar
+ones. They told us about other weighing puzzles. They thanked
+us for setting their minds at rest. They cursed us for reopening an
+old wound. It was as if some vast, secret reservoir of folk wisdom
+had suddenly been breached. One correspondent remembered
+                                        Mathematical Jokes 1 // 35
+
+
+
+that the puzzle had featured on BBC television in the 1960s, with
+the solution being given the following night. Ominously, the
+letter continued, ‘I do not recall why it was raised in the first
+place, or whether that was my first acquaintance with it; I have a
+
+
+...........................................
+feeling that it was not.’

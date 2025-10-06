@@ -1,0 +1,35 @@
+How Old Was Diophantus?
+A few pages back, in the section on Fermat’s Last Theorem, I
+mentioned Diophantus of Alexandria, who lived around AD 250
+and wrote a famous book on equations, the Arithmetica. That is
+virtually all we know about him, except that a later source tells us
+his age – assuming it is authentic. That source says this:
+    Diophantus’s childhood lasted one-sixth of his life. His beard
+grew after one-twelfth more. He married after one-seventh more.
+His son was born five years later. The son lived to half his father’s
+age. Diophantus died four years after his son. How old was
+Diophantus when he died?
+
+
+...........................................
+   Answer on page 271
+72 // If You Thought Mathematicians were Good at Arithmetic . . .
+
+
+
+If You Thought Mathematicians were Good at
+Arithmetic . . .
+Ernst Kummer was a German algebraist, who did some of the best
+work on Fermat’s Last Theorem before the modern era. However,
+he was poor at arithmetic, so he always asked his students to do
+the calculations for him. On one occasion he needed to work out
+967. ‘Umm . . . nine times seven is . . . nine times . . . seven . . .
+is . . . ’
+     ‘Sixty-one,’ suggested one student. Kummer wrote this on the
+blackboard.
+     ‘No, Professor! It should be sixty-seven!’ said another.
+     ‘Come, come, gentlemen,’ said Kummer. ‘It can’t be both. It
+
+
+...........................................
+must be one or the other.’

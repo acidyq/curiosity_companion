@@ -1,0 +1,85 @@
+Start Here
+
+
+...
+
+
+When I was fourteen years old, I started a notebook. A math
+notebook. Before you write me off as a sad case, I hasten to
+add that it wasn’t a notebook of school math. It was a note-
+book of every interesting thing I could find out about the
+math that wasn’t taught at school. Which, I discovered, was
+a lot, because I soon had to buy another notebook.
+   OK, now you can write me off. But before you do, have
+you spotted the messages in this sad little tale? The math
+you did at school is not all of it. Better still: the math you
+didn’t do at school is interesting. In fact, a lot of it is fun—es-
+pecially when you don’t have to pass a test or get the sums
+right.
+   My notebook grew to a set of six, which I still have, and
+then spilled over into a filing cabinet when I discovered
+the virtues of the photocopier. Curiosities is a sample from
+my cabinet, a miscellany of intriguing mathematical
+games, puzzles, stories, and factoids. Most items stand by
+themselves, so you can dip in at almost any point. A few
+form short mini-series. I incline to the view that a miscel-
+lany should be miscellaneous, and this one is.
+2 // Start Here
+
+
+
+    The games and puzzles include some old favorites, which
+tend to reappear from time to time and often cause renewed
+excitement when they do—the car and the goats, and the
+12-ball weighing puzzle, both caused a huge stir in the me-
+dia: one in the USA, the other in the UK. A lot of the material
+is new, specially designed for this book. I’ve striven for vari-
+ety, so there are logic puzzles, geometric puzzles, numerical
+puzzles, probability puzzles, odd items of mathematical cul-
+ture, things to do, and things to make.
+    One of the virtues of knowing a bit of math is that you
+can impress the hell out of your friends. (Be modest about
+it, though, that’s my advice. You can also annoy the hell
+out of your friends.) A good way to achieve this desirable
+goal is to be up to speed on the latest buzzwords. So I’ve
+scattered some short “essays” here and there, written in an
+informal, nontechnical style. The essays explain some of
+the recent breakthroughs that have featured prominently
+in the media. Things like Fermat’s Last Theorem—remem-
+ber the TV program? And the Four-Color Theorem, the
+Poincaré Conjecture, Chaos Theory, Fractals, Complexity
+Science, Penrose Patterns. Oh, and there are also some un-
+solved questions, just to show that math isn’t all done.
+Some are recreational, some serious—like the P = NP? prob-
+lem, for which a million-dollar prize is on offer. You may
+not have heard of the problem, but you need to know
+about the prize.
+    Shorter, snappy sections reveal interesting facts and dis-
+coveries about familiar but fascinating topics: π, prime
+numbers, Pythagoras’ Theorem, permutations, tilings.
+Amusing anecdotes about famous mathematicians add a
+historical dimension and give us all a chance to chuckle
+sympathetically at their endearing foibles …
+    Now, I did say you could dip in anywhere—and you can,
+believe me—but to be brutally honest, it’s probably better
+                                                 Start Here // 3
+
+
+
+to start at the beginning and dip in following much the
+same order as the pages. A few of the early items help with
+later ones, you see. And the early ones tend to be a bit eas-
+ier, while some of the later ones are, well, a bit … challeng-
+ing. I’ve made sure that a lot of easy stuff is mixed in
+everywhere, though, to avoid wearing your brain out too
+quickly.
+    What I’m trying to do is to excite your imagination by
+showing you lots of amusing and intriguing pieces of
+mathematics. I want you to have fun, but I’d also be over-
+joyed if Curiosities encouraged you to engage with mathe-
+matics, experience the thrill of discovery, and keep yourself
+informed about important developments—be they from
+four thousand years ago, last week—or tomorrow.
+    Ian Stewart
+    Coventry, January 2008
+4 // Alien Encounter

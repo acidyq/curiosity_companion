@@ -1,0 +1,89 @@
+The Most Beautiful Formula
+Occasionally people hold polls for the most beautiful mathe-
+matical formula of all time – yes, they really do, I’m not making
+this up, honest – and nearly always the winner is a famous
+formula discovered by Euler, which uses complex numbers to
+link the two famous constants e and p. The formula is
+
+       eip ¼ 1
+
+and it is extremely influential in a branch of maths known as
+
+
+...........................................
+complex analysis.
+
+
+
+Why is Euler’s Beautiful Formula True?
+I often get asked whether there is a simple way to explain why
+Euler’s formula eip ¼ 1 is true. It turns out that there is, but
+                      Why is Euler’s Beautiful Formula True? // 187
+
+
+
+some preparation is needed – about two years of undergraduate
+mathematics.
+    This is uncomfortably like the joke about the professor who
+says in a lecture that some fact is obvious, and when challenged
+goes away for half an hour and returns to say ‘yes, it is obvious,’
+and then continues lecturing without further explanation. It just
+takes two years instead of half an hour. So I’m going to give you
+the explanation. Skip this bit if it doesn’t make sense – but it does
+illustrate how higher mathematics sometimes gains new insights
+by putting different ideas together in unexpected ways. The
+necessary ingredients are some geometry, some differential
+equations and a bit of complex analysis.
+    The main idea is to solve the differential equation
+       dz
+          ¼ iz
+       dt
+where z is a complex function of time t, with the initial
+condition zð0Þ ¼ 1. It is standard in differential equations courses
+that the solution is
+
+       zðtÞ ¼ eit
+
+Indeed, you can define the exponential function ew this way.
+
+
+
+
+                                              Geometry of the
+                                              differential equation.
+
+
+    Now let’s interpret the equation geometrically.
+Multiplication by i is the same as rotation through a right angle,
+so iz is at right angles to z. Therefore the tangent vector iz(t) to
+the solution at any point z(t) is always at right angles to the
+188 // Your Call May be Monitored for Training Purposes
+
+
+
+‘radius vector’ from 0 to z(t) and has length 1. Therefore the
+solution z(t) always lies in the unit circle, and the point z(t)
+moves round this circle with angular velocity 1 measured in
+radians per second. (The radian measure of an angle is the length
+of the arc of the unit circle corresponding to that angle.) The
+circumference of the unit circle is 2p, so t ¼ p is halfway round
+the circle. But halfway round is visibly the point z ¼ 1.
+Therefore eip ¼ 1, which is Euler’s formula.
+    All the ingredients of this proof are well known, but the
+overall package seems not to get much prominence. Its big
+advantage is to explain why circles (leading to p) have anything
+to do with exponentials (defined using e). So given the right
+
+
+...........................................
+background, Euler’s formula ceases to be mysterious.
+
+
+
+Your Call May be Monitored for Training
+Purposes
+‘The number you have dialled is imaginary. Please rotate your
+
+
+...........................................
+phone 90 degrees and try again.’

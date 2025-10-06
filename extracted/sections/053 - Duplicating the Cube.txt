@@ -1,0 +1,24 @@
+Duplicating the Cube
+I’ll briefly mention another cube problem: the third famous
+‘geometric problem of antiquity’. It’s nowhere near as well
+known as the other two – trisecting the angle and squaring the
+circle. The traditional story is that an altar in the shape of a
+perfect cube must be doubled in volume. This is equivalent to
+                               pﬃﬃ
+constructing a line of length 3 2 starting from the rational points
+of the plane. The desired length satisfies another cubic equation,
+this time the obvious one, x3  2 ¼ 0. For the same reason that
+trisecting the angle is impossible, so is duplicating the cube, as
+Pierre Wantzel pointed out in his 1837 paper. Cube-duplicators
+are so rare that you hardly ever come across one.* Trisectors are
+
+
+...........................................
+ten a penny.
+
+
+
+
+*   Though we shouldn’t forget Edwin J. Goodwin, whose work on
+    squaring the circle nearly caused a rumpus in Indiana (page 25).
+80 // Magic Stars

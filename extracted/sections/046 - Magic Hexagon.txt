@@ -1,0 +1,22 @@
+Magic Hexagon
+Magic hexagons are like magic squares, but using a hexagon-
+shaped arrangement of hexagons, like a chunk of a honeycomb:
+
+
+
+
+                                      Grid for magic hexagon.
+
+
+   Your task is to place the numbers from 1 to 19 in the
+hexagons so that any straight line of three, four or five cells, in
+                                                   Pentalpha // 69
+
+
+
+any of the three directions, add up to the same magic constant,
+which I can reveal must be 38.
+
+
+...........................................
+   Answer on page 269

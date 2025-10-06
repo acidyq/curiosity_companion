@@ -1,0 +1,21 @@
+Pig on a Rope
+Farmer Hogswill owns a field, which is a perfect equilateral
+triangle, each side 100 metres long. His prize pig Pigasus is tied to
+one corner, so that the portion of the field that Pigasus can reach
+is exactly half the total area. How long is the rope?
+    You may – indeed, must – assume that the pig has zero size
+(which admittedly is pretty silly) and that the rope is infinitely
+thin and any necessary knots can be ignored.
+
+
+
+
+                                      Pigs may safely graze . . . over
+                                      half the area of the field.
+
+
+
+
+...........................................
+   Answer on page 280
+144 // The Surprise Examination

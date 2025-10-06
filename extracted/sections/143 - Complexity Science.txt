@@ -1,0 +1,200 @@
+Complexity Science
+Complexity science, or the theory of complex systems, came to
+prominence with the founding of the Santa Fe Institute (SFI) in
+1984, by George Cowan and Murray Gell-Mann. This was, and
+still is, a private research centre for interdisciplinary science, with
+emphasis on ‘the sciences of complexity’. You might think that
+‘complexity’ refers to anything complicated, but the SFI’s main
+objective has been to develop and disseminate new mathema-
+tical techniques that could shed light on systems in which very
+large numbers of agents or entities interact with one another
+according to relatively simple rules. A key phenomenon is what
+is called emergence, in which the system as a whole behaves in
+ways that are not available to the individual entities.
+     An example of a real-world complex system is the human
+brain. Here the entities are nerve cells – neurons – and the
+emergent features include intelligence and consciousness.
+Neurons are neither intelligent nor conscious, but when enough
+of them are hooked together, these abilities emerge. Another
+example is the world’s financial system. Now the entities are
+bankers and traders, and emergent features include stock-market
+booms and crashes. Other examples are ants’ nests, ecosystems
+and evolution. You can probably work out what the entities are
+for each of these, and think of some emergent features. Anyone
+can play this game.
+     What’s harder, and what SFI was, and still is, all about, is to
+model such systems mathematically in a way that reflects their
+underlying structure as an interacting system of simple compo-
+nents. One such modelling technique is to employ a cellular
+automaton – a more general version of John Conway’s Game of
+Life. This is like a computer game played on a square grid. At any
+given instant, each square exists in some state, usually repre-
+sented by what colour it is. As time ticks to the next instant, each
+square changes colour according to some list of rules. The rules
+involve the colours of neighbouring squares, and might be
+240 // Complexity Science
+
+
+
+something like this: ‘a red square changes to green if it has
+between two and six blue neighbours’. Or whatever.
+
+
+
+
+                                                Three types of
+                                                pattern formed by a
+                                                simple cellular
+                                                automaton: static
+                                                (blocks of the same
+                                                colour), structured
+                                                (the spirals), and
+                                                chaotic (for example
+                                                the irregular patch at
+                                                bottom right).
+
+    It might seem unlikely that such a rudimentary gadget can
+achieve anything interesting, let alone solve deep problems of
+complexity science, but it turns out that cellular automata can
+behave in rich and unexpected ways. In fact their earliest use, by
+John von Neumann in the 1940s, was to prove the existence of
+an abstract mathematical system that could self-replicate – make
+copies of itself.* This suggested that the ability of living creatures
+to reproduce is a logical consequence of their physical structure,
+rather than some miraculous or supernatural process.
+    Evolution, in Darwin’s sense, offers a typical example of the
+complexity-theory approach. The traditional mathematical
+model of evolution is known as population genetics, which goes
+
+*   There is now a lot of interest in doing the same with real
+    machines, using nanotechnology. There are many science fiction
+    stories about ‘Von Neumann machines’, often employed by aliens
+    or machine cultures to invade planets, including our own. The
+    techniques used to pack millions of electronic components on to
+    a tiny silicon chip are now being used to build extremely tiny
+    machines, ‘nanobots’, and a true replicating machine may not be
+    so far away. Alien invasions are not a current cause for concern,
+    but the possibility of a mutant Von Neumann machine turning
+    the Earth into ‘grey goo’ has raised issues about the safety, and
+    control, of nanotechnology. See en.wikipedia.org/wiki/Grey_goo
+                                            Complexity Science // 241
+
+
+
+back to the British statistician Sir Ronald Fisher, around 1930.
+This approach views an ecosystem – a rainforest full of different
+plants and insects, or a coral reef—as a vast pool of genes. As the
+organisms reproduce, their genes are mixed together in new
+combinations.
+    For example, a hypothetical population of slugs might have
+genes for green or red skins, and other genes for a tendency to
+live in bushes or on bright red flowers. Typical gene combina-
+tions are green–bush, green–flower, red–bush, and red–flower.
+Some combinations have greater survival value than others. For
+example red–bush slugs would easily be seen by birds against the
+green bushes they live in, whereas red–flower slugs would be less
+visible.
+    As natural selection weeds out unfit combinations, the
+combinations that allow organisms to survive better tend to
+proliferate. Random genetic mutations keep the gene pool
+simmering. The mathematics centres on the proportions of
+particular genes in the population, and works out how those
+proportions change in response to selection.
+    A complexity model of slug evolution would be very
+different. For instance, we could set up a cellular automaton,
+assigning various environmental characteristics to each cell. For
+example, a cell might correspond to a piece of bush, or a flower,
+or whatever. Then we choose a random selection of cells and
+populate them with ‘virtual slugs’, assigning a combination of
+slug genes to each such cell.
+    Other cells could be ‘virtual predators’. Then we specify rules
+for how the virtual organisms move about the grid and interact
+with one another. For example, at each time-step a slug must
+either stay put or move to a random neighbouring cell. On the
+other hand, a predator might ‘see’ the nearest slug and move five
+cells towards it, ‘eating’ it if it reaches the slug’s own cell – so that
+particular virtual slug is removed from the computer’s memory.
+    We would set up the rules so that green slugs are less likely to
+be ‘seen’ if they are on bushes rather than flowers. Then this
+mathematical computer game would be allowed to run for a few
+242 // Complexity Science
+
+
+
+million time-steps, and we would read off the proportions of
+various surviving slug gene combinations.
+    Complexity theorists have invented innumerable models in
+the same spirit: building in simple rules for interactions between
+many individuals, and then simulating them on a computer to
+see what happens. The term ‘artificial life’ has been coined to
+describe such activities. A celebrated example is Tierra, invented
+by Tom Ray around 1990. Here, short segments of computer
+code compete with one another inside the computer’s memory,
+reproducing and mutating (see www.nis.atr.jp/~ray/tierra/). His
+simulations show spontaneous increases in complexity, rudi-
+mentary forms of symbiosis and parasitism, lengthy periods of
+stasis punctuated by rapid changes – even a kind of sexual
+reproduction. So the message from the simulations is that all
+these puzzling phenomena are entirely natural, provided they
+are seen as emergent properties of simple mathematical rules.
+    The same difference in working philosophy can be seen in
+economics. Conventional mathematical economics is based on a
+model in which every player has complete and instant
+information. As the Stanford economist Brian Arthur puts it, the
+assumption is that ‘If two businessmen sit down to negotiate a
+deal, in theory each can instantly foresee all contingencies, work
+out all possible ramifications, and effortlessly choose the best
+strategy.’ The goal is to demonstrate mathematically that any
+economic system will rapidly home in on an equilibrium state,
+and remain there. In equilibrium, every player is assured of the
+best possible financial return for themselves, subject to the
+overall constraints of the system. The theory puts formal flesh on
+the verbal bones of Adam Smith’s ‘invisible hand of the market’.
+    Complexity theory challenges this cosy capitalist utopia in a
+number of ways. One central tenet of classical economic theory is
+the ‘law of diminishing returns’, which originated with the
+English economist David Ricardo around 1820. This law asserts
+that any economic activity that undergoes growth must even-
+tually be limited by constraints. For example, the plastics industry
+depends upon a supply of oil as raw material. When oil is cheap,
+                                          Complexity Science // 243
+
+
+
+many companies can move over from, say, metal components to
+plastic ones. But this creates increasing demand for oil, so the
+price goes up. At some level, everything balances out.
+    Modern hi-tech industries, however, do not follow this
+pattern at all. It costs perhaps a billion dollars to set up a factory
+to make the latest generation of computer memory chips, and
+until the factory begins production, the returns are zero. But
+once the factory is in operation, the cost of producing chips is
+tiny. The longer the production run, the cheaper chips are to
+make. So here we see a law of increasing returns: the more goods
+you make, the less it costs you to do so.
+    From the point of view of complex systems, the market is not
+a simple mathematical equilibrium-seeker, but a ‘complex
+adaptive system’, where interacting agents modify the rules that
+govern their own behaviour. Complex adaptive systems often
+settle into interesting patterns, strangely reminiscent of the
+complexities of the real world. For example, Brian Arthur and his
+colleagues have set up computer models of the stock market in
+which the agents search for patterns – genuine or illusory – in the
+market’s behaviour, and adapt their buying and selling rules
+according to what they perceive. This model shares many
+features of real stock markets. For example, if many agents
+‘believe’ that the price of a stock will rise, they buy it, and the
+belief becomes self-fulfilling.
+    According to conventional economic theory, none of these
+phenomena should occur. So why do they happen in complexity
+models? The answer is that the classical models have inbuilt
+mathematical limitations, which preclude most kinds of ‘inter-
+esting’ dynamics. The greatest strength of complexity theory is
+that it resembles the untidy creativity of the real world.
+Paradoxically, it makes a virtue of simplicity, and draws far-
+ranging conclusions from models with simple – but carefully
+
+
+...........................................
+chosen – ingredients.
+244 // Scrabble Oddity

@@ -1,0 +1,20 @@
+Extracting the Cherry
+This puzzle is a golden oldie, with a simple but elusive answer.
+    The cocktail cherry is inside the glass, which is formed from
+four matches. Your task is to move at most two of the matches,
+so that the cherry is then outside the glass. You can turn the glass
+sideways or upside down if you wish, but the shape must remain
+the same.
+
+
+
+
+                     Move two matches
+                     to extract the cherry.
+
+
+
+
+...........................................
+   Answer on page 258
+                                                     What is p? // 23

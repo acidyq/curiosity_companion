@@ -1,0 +1,27 @@
+Road Network
+Four towns – Aylesbury, Beelsbury, Ceilsbury and Dealsbury – lie
+at the corners of a square, of side 100 km. The highways
+department wishes to connect them all together using the
+shortest possible network of roads.
+                                                 Tautoverbs // 237
+
+
+
+
+                                        Not like this.
+
+
+
+    ‘We can run roads straight from Aylesbury to Beelsbury to
+Ceilsbury to Dealsbury,’ said the assistant town planner. ‘That’s
+300 km of roads.’
+    ‘No, we can do better than that!’ his boss replied. ‘Two
+diagonals, which, if you recall your Pythagoras, amount to
+     p
+200 2 km – about 282 km.’
+    What is the shortest network? Using the diagonals of the square
+is not the answer.
+
+
+...........................................
+   Answer on page 305

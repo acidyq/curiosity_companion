@@ -1,0 +1,90 @@
+What is the Golden Number?
+The ancient Greek geometers discovered a useful idea which they
+called ‘division in extreme and mean ratio’. By this they meant a
+line AB being cut at a point P, so that the ratios AP : AB and
+PB : AP are the same. Euclid used this construction in his work on
+regular pentagons, and I’ll shortly explain why. But first, since
+nowadays we have the luxury of replacing ratios by numbers,
+let’s turn the geometric recipe into algebra. Take PB to be of
+length 1, and let AP ¼ x, so that AB ¼ 1 þ x. Then the required
+condition is
+       1þx x
+          ¼
+        x   1
+so that x2  x  1 ¼ 0. The solutions of this quadratic equation
+are
+                p
+            1þ 5
+       f¼          ¼ 1:618 034 . . .
+               2
+and
+               p
+            1 5
+       1f¼      ¼ 0:618 034 . . .
+              2
+Here the symbol f is the Greek letter phi. The number f, known
+as the golden number, has the pleasant property that its reciprocal
+is
+                  p
+        1 1 þ 5
+          ¼         ¼ 0:618 034 . . . ¼ f  1
+        f       2
+                                 What is the Golden Number? // 97
+
+
+
+The golden number, in its geometric form as ‘division in extreme
+and mean ratio’, was the starting point for the Greek geometry of
+regular pentagons and anything associated with these, such as
+the dodecahedron and the icosahedron. The connection is this:
+if you draw a pentagon with sides equal to 1, then the long
+diagonals have length f:
+
+
+
+
+                                      How f appears in a
+                                      regular pentagon.
+
+     The golden ratio is often associated with aesthetics; in
+particular, the ‘most beautiful’ rectangle is said to be one whose
+sides are in the ratio f : 1. The actual evidence for such
+statements is weak. Moreover, various methods of presenting
+numerical data exaggerate the role of the golden ratio, so that it
+is possible to ‘deduce’ the presence of the golden ratio in data
+that bear no relation to it. Similarly, claims that famous ancient
+buildings such as the Great Pyramid of Khufu or the Parthenon
+were designed using the golden ratio are probably unfounded. As
+with all numerology, you can find whatever you are looking for if
+you try hard enough. (Thus ‘Parthenon’ has 8 letters, ‘Khufu’ has
+5, and 8=5 ¼ 1:6 – very close to f.* )
+     Another common fallacy is to suppose that the golden ratio
+occurs in the spiral shell of a nautilus. This beautiful shell is – to
+great accuracy – a type of spiral called a logarithmic spiral. Here
+each successive turn bears a fixed ratio to the previous one. There
+is a spiral of this kind for which this ratio equals the golden ratio.
+But the ratio observed in the nautilus is not the golden ratio.
+
+*   Well, actually ‘Parthenon’ has 9 letters, but for a moment I had
+    you there. And 1.8 is a lot closer to f than many alleged instances
+    of this number.
+98 // What are the Fibonacci Numbers?
+
+
+
+
+                                      The nautilus shell is a
+                                      logarithmic spiral but its
+                                      growth rate is not the
+                                      golden number.
+
+   The term ‘golden number’ is relatively modern. According to
+the historian Roger Herz-Fischler, it was first used by Martin
+Ohm in his book 1835 Die Reine Elementar-Mathematik (‘Pure
+Elementary Mathematics’) as Goldene Schnitt (‘golden section’). It
+does not go back to the ancient Greeks.
+   The golden number is closely connected with the famous
+
+
+...........................................
+Fibonacci numbers, which come next.

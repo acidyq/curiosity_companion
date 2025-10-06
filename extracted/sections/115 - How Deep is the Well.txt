@@ -1,0 +1,49 @@
+How Deep is the Well?
+In one episode of the television series Time Team, the indefatig-
+able archaeologists want to measure the depth of a mediaeval
+well. They drop something into it and time its fall, which takes an
+amazingly long six seconds. You hear it clattering its way down
+for ages. They come dangerously close to calculating the depth
+using Newton’s laws of motion, but cop out at the last moment
+and use three very long tape measures joined together instead.
+    The formula they very nearly state is
+
+        s ¼ 12 gt2
+
+where s is the distance travelled under gravity, falling from rest,
+and g is the acceleration due to gravity. It applies when air
+resistance can be ignored. This formula was discovered experi-
+mentally by Galileo Galilei and later generalised by Isaac Newton
+to describe motion under the influence of any force.
+     Taking g ¼ 10 m s2 (metres per second per second), how deep
+is the well?
+     You’ve got three days to do it.
+
+
+...........................................
+    Answer on page 292
+
+
+
+McMahon’s Squares
+This puzzle was invented by the combinatorialist* P.A.
+McMahon in 1921. He was thinking about a square that has been
+divided into four triangular regions by diagonals. He wondered
+how many different ways there are to colour the various regions,
+
+*   A combinatorialist is someone who invents this kind of thing.
+184 // What is the Square Root of Minus One?
+
+
+
+using three colours. He discovered that if rotations and
+reflections are regarded as the same colouring, there are exactly
+24 possibilities. Find them all.
+    Now, a 664 rectangle contains 24 161 squares. Can you fit
+the 24 squares together to make such a rectangle, so that
+adjacent regions have the same colour, and the entire perimeter
+of the rectangle has the same colour?
+
+
+...........................................
+   Answer on page 292

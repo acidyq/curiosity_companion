@@ -1,0 +1,79 @@
+Much Undo About Knotting
+A mathematician’s knot is like an ordinary knot in a piece of
+string, but the ends of the string are glued together so that the
+knot can’t escape. More precisely, a knot is a closed loop in space.
+The simplest such loop is a circle, which is called the unknot. The
+next simplest is the trefoil knot.
+
+
+
+
+                                                 Unknot and trefoil.
+
+
+
+    Mathematicians consider two knots to be ‘the same’ – the
+jargon is topologically equivalent – if one can be continuously
+transformed into the other. ‘Continuously’ means you have to
+keep the string in one piece – no cutting – and it can’t pass
+through itself. Knot theory becomes interesting when you
+discover that a really complicated knot, such as Haken’s Gordian
+knot, is in fact just the unknot in disguise.
+
+
+
+
+                                                       Haken’s
+                                                       Gordian
+                                                       knot.
+
+
+   The trefoil knot is genuine – it can’t be unknotted. The first
+proof of this apparently obvious fact was found in the 1920s.
+30 // Much Undo About Knotting
+
+
+
+    Knots can be listed according to their complexity, which is
+measured by the crossing number – the number of apparent
+crossings that occur in a picture of the knot when you draw it
+using as few crossings as possible. The crossing number of the
+trefoil knot is 3.
+    The number of topologically distinct knots with a given
+number of crossings grows rapidly. Up to 16 crossings, the
+numbers are:
+
+No. of crossings                              3             4              5              6              7             8              9              10
+No. of knots                                  1             1              2              3              7             21             49             165
+....................................................................................................................................................................
+No. of crossings                              11            12   13    14                                    15                       16
+No. of knots                                  552           2176 9,988 46,972                                253,293                  1,388,705
+....................................................................................................................................................................
+
+(For pedants: these numbers refer to prime knots, which can’t be
+transformed into two separate knots tied one after the other, and
+mirror images are ignored.)
+
+
+
+
+                  The knots with 7 or fewer crossings.
+
+
+
+
+                  The knots with 8 crossings.
+                                              White-Tailed Cats // 31
+
+
+
+
+       The knots with 9 crossings.
+    Knot theory is used in molecular biology, to understand
+knots in DNA, and in quantum physics. Just in case you thought
+knots were good only for tying up parcels.
+    For further information see
+
+
+...........................................
+katlas.math.toronto.edu/wiki/The_Rolfsen_Knot_Table

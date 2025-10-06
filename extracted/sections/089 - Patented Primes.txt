@@ -1,0 +1,204 @@
+Patented Primes
+Because of their importance in encryption algorithms, prime
+numbers have commercial significance. In 1994 Roger Schlafly
+obtained US Patent 5,373,560 on two primes. The patent states
+them as hexadecimal (base-16) numbers, but I’ve converted
+them into decimal. They are:
+
+       7;994;412;097;716;110;548;127;211;733;331;600;522;933;
+       776;757;046;707;649;963;673;962;686;200;838;432;950;239;
+       103;981;070;728;369;599;816;314;646;482;720;706;826;018;
+       360;181;196;843;154;224;748;382;211;019
+
+and
+
+       103;864;912;054;654;272;074;839;999;186;936;834;171;066;
+       194;620;139;675;036;534;769;616;693;904;589;884;931;513;
+       925;858;861;749;077;079;643;532;169;815;633;834;450;952;
+       832;125;258;174;795;234;553;238;258;030;222;937;772;878;
+       346;831;083;983;624;739;712;536;721;932;666;180;751;292;
+       001;388;772;039;413;446;493;758;317;344;413;531;957;900;
+       028;443;184;983;069;698;882;035;800;332;668;237;985;846;
+       170;997;572;388;089
+
+He did this to publicise deficiencies in the US patent system.
+   Legally, you can’t use these numbers without Schlafly’s
+
+
+...........................................
+permission. Hmmm . . .
+136 // The Poincaré Conjecture
+
+
+
+The Poincaré Conjecture
+Towards the end of the nineteenth century, mathematicians
+succeeded in finding all possible ‘topological types’ of surfaces.
+Two surfaces have the same topological type if one of them can
+be continuously deformed into the other. Imagine that the
+surface is made from flexible dough. You can stretch it, squeeze
+it, twist it – but you can’t tear it, or squash different bits
+together.
+     To keep the story simple, I’ll assume that the surface has no
+boundary, that it’s orientable (two-sided, unlike the Möbius
+band) and that it’s of finite extent. The nineteenth-century
+mathematicians proved that every such surface is topologically
+equivalent to a sphere, a torus, a torus with two holes, a torus
+with three holes, and so on.
+
+
+
+
+            Sphere.               Torus.         Two-holed torus.
+
+    ‘Surface’ here really does refer only to the surface. A
+topologist’s sphere is like a balloon – an infinitely thin sheet of
+rubber. A torus is shaped like an inner tube for a tyre (for those of
+you who know what an inner tube is). So the ‘dough’ I just
+mentioned is really a very thin sheet, not a solid lump.
+Topologists call a solid sphere a ‘ball’.
+    To achieve their classification of all surfaces, the topologists
+had to characterise them ‘intrinsically’, without reference to
+any surrounding space. Think of an ant living on the surface,
+ignorant of any surrounding space. How can it work out which
+surface it inhabits? By 1900 it was understood that a good way
+to answer such questions is to think about closed loops in the
+surface, and how these loops can be deformed. For example, on
+                                   The Poincaré Conjecture // 137
+
+
+
+a sphere (by which I mean just the surface, not the solid
+interior) any closed loop can be continuously deformed to a
+point – ‘shrunk’. For example, the circle running round the
+equator can be gradually moved towards the south pole,
+becoming smaller and smaller until it coincides with the pole
+itself:
+
+
+
+
+                                            How to shrink a loop on
+                                            a sphere continuously to
+                                            a point.
+
+    In contrast, every surface that is not equivalent to a sphere
+contains loops, which cannot be deformed to points. Such loops
+‘pass through a hole’, and the hole prevents them from being
+shrunk. So the sphere can be characterised as the only surface on
+which any closed loop can be shrunk to a point.
+    Observe, however, that the ‘hole’ that we see in a picture is
+not actually part of the surface. By definition, it’s a place where
+the surface isn’t. If we think intrinsically, we can’t talk sensibly
+about holes if we try to visualise them in the usual manner. The
+ant who lives on the surface and knows no other universe can’t
+see that his torus has a dirty great hole in it – any more than we
+can look along a fourth dimension. So although I’m using the
+word ‘hole’ to explain why the loop can’t be shrunk, a
+topological proof runs along different lines.
+138 // The Poincaré Conjecture
+
+
+
+
+                                                        On all other
+                                                        surfaces, loops
+                                                        can get stuck.
+
+     In 1904 Henri Poincaré was trying to take the next step, and
+understand ‘manifolds’– three-dimensional analogues of surfaces
+– and for a time he assumed that the characterisation of a sphere
+in terms of shrinking loops is also true in three dimensions,
+where there is a natural analogue of the sphere called the
+3-sphere. A 3-sphere is not just a solid ball, but it can be visualised
+– if that’s the word – by taking a solid ball and pretending that its
+entire surface is actually just a single point.
+     Imagine doing the same with a circular disc. The rim closes up
+like the top of a bag as you draw a string tight round its edge, and
+the result is topologically a sphere. Now go up a dimension . . .
+
+
+
+
+                                                        Turning a disc
+                                                        into a sphere.
+
+    At first, Poincaré thought that this characterisation of the
+3-sphere should be obvious, or at least easily proved, but later he
+realised that one plausible version of this statement is actually
+wrong, while another closely related formulation seemed
+difficult to prove but might well be true. He posed a deceptively
+simple question: if a three-dimensional manifold (without
+boundary, of finite extent, and so on) had the property that any
+loop in it can be shrunk to a point, must that manifold be
+topologically equivalent to the 3-sphere?
+    Subsequent attempts to answer this question failed dismally,
+                                   The Poincaré Conjecture // 139
+
+
+
+although after a huge effort by the world’s topologists, the
+answer has proved to be ‘yes’ for all versions in every dimension
+higher than 3. The belief that the same answer applies in three
+dimensions became known as the Poincaré Conjecture, famous as
+one of the eight Millennium Prize Problems (page 127).
+     In 2002 a Russian-born mathematician, Grigori Perelman,
+caused a sensation by placing several papers on arXiv.org, an
+informal website for current research in physics and mathe-
+matics. His papers were ostensibly about various properties of the
+‘Ricci flow’, but it became clear that if the work was correct, it
+implied that the Poincaré Conjecture is also correct. The idea of
+using the Ricci flow dates to 1982, when Richard Hamilton
+introduced a new technique based on mathematical ideas used
+by Albert Einstein in general relativity. According to Einstein,
+spacetime can be considered as curved, and the curvature
+describes the force of gravity. Curvature is measured by some-
+thing called the ‘curvature tensor’, and this has a simpler relative
+known as the ‘Ricci tensor’ after its inventor, Gregorio Ricci-
+Curbastro.
+     According to general relativity, gravitational fields can
+change the geometry of the universe as time passes, and these
+changes are governed by the Einstein equations, which say that
+the stress tensor is proportional to the curvature. In effect, the
+gravitational bending of the universe tries to smooth itself out as
+time passes, and the Einstein equations quantify that idea.
+     The same game can be played using the Ricci version of
+curvature, and it leads to the same kind of behaviour: a surface
+that obeys the equations for the Ricci flow will naturally tend to
+simplify its own geometry by redistributing its curvature more
+evenly. Hamilton showed that the familiar two-dimensional
+version of the Poincaré Conjecture, characterising the sphere,
+can be proved using the Ricci flow. Basically, a surface in which
+all loops shrink simplifies itself so much as it follows the Ricci
+flow that it ends up being a perfect sphere. Hamilton suggested
+generalising this approach to three dimensions, but he hit some
+difficult obstacles.
+140 // Hippopotamian Logic
+
+
+
+     The main complication in three dimensions is that ‘singula-
+rities’ can develop, where the manifold pinches together and the
+flow breaks down. Perelman’s new idea was to cut the surface
+apart near such a singularity, cap off the resulting holes, and
+then allow the flow to continue. If the manifold manages to
+simplify itself completely after only finitely many singularities
+have arisen, then not only is the Poincaré Conjecture true, but a
+more far-reaching result, the Thurston Geometrisation
+Conjecture, is also true. And that tells us about all possible three-
+dimensional manifolds.
+     Now the story takes a curious turn. It is generally accepted
+that Perelman’s work is correct, although his arXiv papers leave a
+lot of gaps that have to be filled in correctly, and that has turned
+out to be quite difficult. Perelman had his own reasons for not
+wanting the prize – indeed, any reward save the solution itself –
+and decided not to expand his papers into something suitable for
+publication, although he was generally willing to explain how to
+fill in various details if anyone asked him. Experts in the area
+were forced to develop their own versions of his ideas.
+     Perelman was also awarded a Fields Medal at the Madrid
+International Congress of Mathematicians in 2006, the top prize
+
+
+...........................................
+in mathematics. He turned that down, too.

@@ -1,0 +1,159 @@
+What are the Fibonacci Numbers?
+Many people met the Fibonacci numbers for the first time in Dan
+Brown’s bestseller The Da Vinci Code. These numbers have a long
+and glorious mathematical history, which has very little overlap
+with anything mentioned in the book.
+    It all began in 1202 when Leonardo of Pisa published the
+Liber Abbaci, or ‘Book of Calculation’, an arithmetic text which
+concentrated mainly on financial computations and promoted
+the use of Hindu-Arabic numerals – the forerunner of today’s
+familiar system, which uses just ten digits, 0 to 9, to represent all
+possible numbers.
+    One of the exercises in the book seems to have been
+Leonardo’s own invention. It goes like this: ‘A man put a pair of
+rabbits in a place surrounded on all sides by a wall. How many
+pairs of rabbits are produced from that pair in a year, if it is
+supposed that every month each pair produces a new pair, which
+from the second month onwards becomes productive?’
+                           What are the Fibonacci Numbers? // 99
+
+
+
+
+                                             Family tree of of
+                                             Fibonacci’s rabbits.
+
+    Say that a pair is mature if it can produce offspring, and
+immature if not.
+    At the start, month 0, we have 1 mature pair.
+    At month 1 this pair produces an immature pair, so we have 1
+mature pair and 1 immature pair – 2 altogether.
+    At month 2 the mature pair produces another immature pair;
+the immature pair matures but produces nothing. So now we
+have 2 mature pairs and 1 immature pair – 3 in total.
+    At month 3 the 2 mature pairs produce 2 more immature
+pairs; the immature pair matures but produces nothing. So now
+we have 3 mature pairs and 2 immature pairs – 5 in total.
+    At month 4 the 3 mature pairs produce 3 more immature
+pairs; the 2 immature pairs mature but produce nothing. So now
+we have 5 mature pairs and 3 immature pairs – 8 in total.
+    Continuing step by step, we obtain the sequence
+       1; 2; 3; 5; 8; 13; 21; 34; 55; 89; 144; 233; 377
+
+for months 0, 1, 2, 3, . . . , 12. Here each term after the second is
+the sum of the previous two. So the answer to Leonardo’s
+question is 377.
+    Some time later, probably in the eighteenth century,
+Leonardo was given the nickname Fibonacci – ‘son of Bonaccio’.
+This name was more catchy than Leonardo Pisano Bigollo, which
+is what he used, so nowadays he is generally known as Leonardo
+Fibonacci, and his sequence of numbers is known as the Fibonacci
+sequence. The usual modern convention is to put the numbers 0,
+1 in front, giving
+       0; 1; 1; 2; 3; 5; 8; 13; 21; 34; 55; 89; 144; 233; 377
+100 // What are the Fibonacci Numbers?
+
+
+
+although sometimes the initial 0 is omitted. The symbol for the
+nth Fibonacci number is Fn , starting from F0 ¼ 0.
+    The Fibonacci numbers as such are pretty useless as a model
+of the growth of real rabbit populations, although more general
+processes of a similar kind, called Leslie models, are used to
+understand the dynamics of animal and human populations.
+Nevertheless, the Fibonacci numbers are important in several
+areas of mathematics, and they also turn up in the natural world
+– though less widely than is often suggested. Extensive claims
+have been made for their occurrence in the arts, especially
+architecture and painting, but here the evidence is mostly
+inconclusive, except when Fibonacci numbers are used deliber-
+ately – for instance, in the architect Le Corbusier’s ‘modulor’
+system.
+    The Fibonacci numbers have strong connections with the
+golden number, which you’ll recall is
+                p
+             1þ 5
+        f¼         ¼ 1:618 034 . . .
+               2
+Ratios of successive Fibonacci numbers, such as 8/5, 13/8, 21/13,
+and so on become ever closer to f as the numbers get bigger. Or,
+as mathematicians would say, > Fnþ1 =Fn tends to f as n tends to
+infinity. For instance, 377=233 ¼ 1:618 025 . . . . In fact, for integers
+of a given size, these Fibonacci fractions provide the best possible
+approximations to the golden number. There is even a formula
+for the nth Fibonacci number in terms of f:
+
+               fn  ð1  fÞn
+        Fn ¼        p
+                      5
+                                                          p
+and this implies that Fn is the integer closest to fn = 5.
+     If you make squares whose sides are the Fibonacci numbers
+they fit together very tidily, and you can draw quarter-circles in
+them to create an elegant Fibonacci spiral. Because Fn is close to
+fn , this spiral is very close to a logarithmic spiral, which grows in
+size by f every quarter-turn. Contrary to many claims, this spiral
+                           What are the Fibonacci Numbers? // 101
+
+
+
+is not the same shape as the Nautilus shell’s spiral. Look at the
+picture on page 98 – the Nautilus is more tightly wound.
+
+
+
+
+       Fibonacci spiral.
+
+    However, there is a genuine – and striking – occurrence of
+Fibonacci numbers in living creatures, namely plants. The
+flowers of surprisingly many species have a Fibonacci number of
+petals. Lilies have 3 petals, buttercups have 5, delphiniums have
+8, marigolds have 13, asters have 21, and most daisies have 34, 55
+or 89. Sunflowers often have 55, 89 or 144.
+    Other numbers of petals do occur, but much less frequently.
+Mostly these are twice a Fibonacci number, or a power of 2.
+Sometimes numbers are from the related Lucas sequence:
+       1; 3; 4; 7; 11; 18; 29; 47; 76; 123; . . .
+
+where again each number after the second is the sum of the
+previous two, but the start of the sequence is different.
+   There seem to be genuine biological reasons for these
+numbers to occur. The strongest evidence can be seen in the
+heads of daisies and sunflowers, when the seeds have formed.
+Here the seeds arrange themselves in spiral patterns:
+102 // What are the Fibonacci Numbers?
+
+
+
+
+                                         The head of
+                                         a daisy.
+
+     In the daisy illustrated, the eye sees one family of spirals that
+twist clockwise, and a second family of spirals that twist
+anticlockwise. There are 21 clockwise spirals and 34 anti-
+clockwise spirals – successive Fibonacci numbers. Similar
+numerical patterns, also involving successive Fibonacci numbers,
+occur in pine cones and pineapples.
+     The precise reasons for Fibonacci numerology in plant life are
+still open to debate, though a great deal is understood. As the tip
+of the plant shoot grows, long before the flowers appear, regions
+of the shoot form tiny bumps, called primordia, from which the
+seeds and other key parts of the flower eventually grow.
+Successive primordia form at angles of 137.58 – or 222.58 if we
+subtract this from 3608, measuring it the other way round. This is
+a fraction f  1 of the full circle of 3608. This occurrence of the
+golden ratio can be predicted mathematically if we assume that
+the primordia are packed as efficiently as possible. In turn,
+efficient packing is a consequence of elastic properties of the
+growing shoot – the forces that affect the primordia. The genetics
+of the plant is also involved. Of course, many real plants do not
+quite follow the ideal mathematical pattern. Nevertheless, the
+mathematics and geometry associated with the Fibonacci
+sequence provide significant insights into these numerical
+
+
+...........................................
+features of plants.
+                                         The Plastic Number // 103

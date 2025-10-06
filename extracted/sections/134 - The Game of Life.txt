@@ -1,0 +1,197 @@
+The Game of Life
+In the 1970s John Conway invented the Game of Life. Strange
+black creatures scuttle across a grid of white tiles, changing
+shape, growing, collapsing, freezing and dying. The best way to
+play Life (as it’s commonly known) is to download suitable
+software. There are several excellent free programs for Life on the
+web, easily located by searching. A Java version, which is easy to
+use and will give hours of pleasure, can be found at:
+www.bitstorm.org/gameoflife/
+    Life is played with black counters on a potentially infinite
+grid of square cells. Each cell holds either one counter or none.
+At each stage, or generation, the set of counters defines a
+configuration. The initial configuration at generation 0 evolves at
+successive stages according to a short list of rules. The rules are
+illustrated in the diagrams below. The neighbours of a given cell
+are the eight cells immediately adjacent to it, horizontally,
+vertically or diagonally. All births and deaths occur simultan-
+eously: what happens to each counter or empty cell in
+generation nþ1 depends only on its neighbours in generation n.
+
+
+
+
+                     An occupied cell and its eight neighbours.
+
+
+
+
+                                             Rule 1: If a counter
+                                             (black) has two or three
+                                             neighbours (grey), it
+                                             survives to the next
+                                             generation – that is, it
+                                             remains in the same
+                                             cell.
+224 // The Game of Life
+
+
+
+
+                                          Rule 2: If a counter
+                                          (black) has four or more
+                                          neighbours (grey), it dies
+                                          in the next generation –
+                                          that is, it is removed.
+
+
+
+
+                                           Rule 3: If a counter
+                                           (black) has no
+                                           neighbours, or just one
+                                           (grey), it dies in the next
+                                           generation.
+
+
+                                           Rule 4: If an empty cell
+                                           (centre) has exactly
+                                           three neighbours
+                                           (grey), it gives birth
+                                           (black) in the next
+                                           generation – that is, a
+                                           counter is placed in that
+                                           cell. The neighbours
+                                           may live or die,
+                                           depending on their
+                                           neighbours.
+
+
+    Starting from any given initial configuration, the rules are
+applied repeatedly to produce the life history of its succeeding
+generations. For example, here is the life history of a small
+triangle built from four counters:
+                                             The Game of Life // 225
+
+
+
+
+       Life history of a configuration. Configurations 8 and 9 alternate
+       periodically.
+
+     Even this simple examples shows that the rules for Life can
+generate complex structures from simpler ones. Here the
+sequence of generations becomes periodic: at generation 10 the
+configuration is the same as at generation 8, and thereafter
+configurations 8 and 9 alternate, a sequence known as traffic
+lights.
+     One of the fascinations of Life is the astonishing variety of
+life histories, and the absence of any obvious relation between the
+initial configuration and what it turns into. The system of rules is
+entirely deterministic – the entire infinite future of the system is
+implicit in its initial state. But Life dramatically demonstrates the
+226 // The Game of Life
+
+
+
+difference between determinism and predictability. This is where
+the name ‘Life’ comes from.
+    From a mathematical point of view, it is natural to classify
+Life configurations according to their long-term behaviour. For
+example, configurations may:
+
+(1) disappear completely (die)
+
+(2) attain a steady state (stasis)
+
+(3) repeat the same sequence over and over again (periodicity)
+
+(4) repeat the same sequence over and over again but end up in a
+new location
+
+(5) behave chaotically
+
+(6) exhibit computational behaviour (universal Turing
+machine).
+
+Among the common periodic configurations are the blinker and
+traffic lights, with periods 3 and 8, respectively:
+
+
+
+
+                                              Two periodic
+                                              configurations.
+
+
+    The outcome of a game of Life is extraordinarily sensitive to
+the precise choice of the initial state. A difference of one cell can
+totally change the state’s future. Moreover, simple initial
+configurations can sometimes develop into very complicated
+ones. This behaviour – to some extent ‘designed in’ by the choice
+of update rules – motivates the game’s name.
+                                             The Game of Life // 227
+
+
+
+
+       The left-hand S-shaped configuration eventually settles down
+       after 1,405 generations, by which time it has given birth to 2
+       gliders, 24 blocks, 6 ponds, 4 loaves, 18 beehives and 8 blinkers.
+       If you delete just one cell to give the right-hand configuration,
+       everything dies completely after 61 generations.
+
+   The prototype mobile state is the glider, which moves one cell
+diagonally every four moves:
+
+
+
+
+       Motion of a glider.
+
+   Three spaceships (lightweight, middleweight, heavyweight)
+repeat cycles that cause them to move horizontally, throwing off
+sparks that vanish immediately. Longer spaceships do not work
+on their own – they break apart in complicated ways – but they
+can be supported by flotillas of accompanying smaller spaceships.
+
+
+
+
+       Spaceships.
+
+   One of the earliest mathematical questions about Life was
+whether there can exist a finite initial configuration whose future
+configurations are unbounded – that is, it will become as large as
+we wish if we allow enough time to pass. This question was
+answered in the affirmative by Bill Gosper’s invention of a glider
+gun. The configuration shown below in black oscillates with
+228 // Two-Horse Race
+
+
+
+period 30, and repeatedly fires gliders (the first two are shown in
+grey). The stream of gliders grows unboundedly.
+
+
+
+
+       The glider gun, with two gliders it has spat out.
+
+    It turns out that the Game of Life has configurations which
+act like computers, able in principle to calculate anything that a
+computer program can specify. For example, such a configura-
+tion can compute p to as many decimal places as we want. In
+practice, such computations run incredibly slowly, so don’t
+throw away your PC just yet.
+    In fact, even simpler ‘games’ of the same kind – known as
+cellular automata (page 239) – living on a line of squares instead
+of a two-dimensional array, can behave as universal computers.
+This automaton, known as ‘rule 110’, was suggested by Stephen
+Wolfram in the 1980s, and Matthew Cook proved its universality
+in the 1990s. It illustrates, in a very dramatic way, how
+astonishingly complex behaviour can be generated by very
+
+
+...........................................
+simple rules. See mathworld.wolfram.com/Rule110.html

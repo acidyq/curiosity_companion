@@ -1,0 +1,144 @@
+Make Me a Pentagon
+You have a long, thin rectangular strip of paper. Your task is to
+make from it a regular pentagon (a five-sided figure with all edges
+the same length and all angles the same size).
+
+
+                                                         Unorthodox
+                                                         geometry.
+
+
+
+
+...........................................
+   Answer on page 258
+
+
+
+What is p?
+The number p, which is approximately 3.141 59, is the length of
+the circumference of a circle whose diameter is exactly 1. More
+generally, a circle of diameter d has a circumference of pd. A
+simple approximation to p is 317 or 22/7, but this is not exact. 317 is
+approximately 3.14 285, which is wrong by the third decimal
+place. A better approximation is 355/113, which is 3.141 592 9 to
+seven places, whereas p is 3.141 592 6 to seven places.
+    How do we know that p is not an exact fraction? However
+much you continue to improve the approximation x=y by using
+ever larger numbers, you can never get to p itself, only better and
+better approximations. A number that cannot be written exactly
+as a fraction is said to be irrational. The simplest proof that p is
+irrational uses calculus, and it was found by Johann Lambert in
+1770. Although we can’t write down an exact numerical
+representation of p, we can write down various formulas that
+define it precisely, and Lambert’s proof uses one of those
+formulas.
+    More strongly, p is transcendental – it does not satisfy any
+algebraic equation that relates it to rational numbers. This was
+proved by Ferdinand Lindemann in 1882, also using calculus.
+24 // Legislating the Value of p
+
+
+
+The fact that p is transcendental implies that the classical
+geometric problem of ‘squaring the circle’ is impossible. This
+problem asks for a Euclidean construction of a square whose area
+is equal to that of a given circle (which turns out to be equivalent
+to constructing a line whose length is the circumference of the
+circle). A construction is called Euclidean if it can be performed
+using an unmarked ruler and a compass. Well, to be pedantic, a
+‘pair of compasses’, which means a single instrument, much as a
+
+
+...........................................
+‘pair of scissors’ comes as one gadget.
+
+
+
+Legislating the Value of p
+There is a persistent myth that the State Legislature of Indiana
+(some say Iowa, others Idaho) once passed a law declaring the
+correct value of p to be – well, sometimes people say 3,
+sometimes 3 16 . . .
+    Anyway, the myth is false.
+    However, something uncomfortably close nearly happened.
+The actual value concerned is unclear: the document in question
+seems to imply at least nine different values, all of them wrong.
+The law was not passed: it was ‘indefinitely postponed’, and
+apparently still is. The law concerned was House Bill 246 of the
+Indiana State Legislature for 1897, and it empowered the State of
+Indiana to make sole use of a ‘new mathematical truth’ at no
+cost. This Bill was passed – there was no reason to do otherwise,
+since it did not oblige the State to do anything. In fact, the vote
+was unanimous.
+    The new truth, however, was a rather complicated, and
+incorrect, attempt to ‘square the circle’ – that is, to construct p
+geometrically. An Indianapolis newspaper published an article
+pointing out that squaring the circle is impossible. By the time
+the Bill went to the Senate for confirmation, the politicians –
+even though most of them knew nothing about p – had sensed
+that there were difficulties. (The efforts of Professor C.A. Waldo
+of the Indiana Academy of Science, a mathematician who
+                                     If They Had Passed It . . . // 25
+
+
+
+happened to be visiting the House when the Bill was debated,
+probably helped concentrate their minds.) They did not debate
+the validity of the mathematics; they decided that the matter
+was not suitable for legislation. So they postponed the bill . . .
+and as I write, 111 years later, it remains that way.
+    The mathematics involved was almost certainly the brain-
+child of Edwin J. Goodwin, a doctor who dabbled in mathe-
+matics. He lived in the village of Solitude in Posey County,
+Indiana, and at various times claimed to have trisected the angle
+and duplicated the cube – two other famous and equally
+impossible feats – as well as squaring the circle. At any rate, the
+legislature of Indiana did not consciously attempt to give p an
+incorrect value by law – although there is a persuasive argument
+that passing the Bill would have ‘enacted’ Goodwin’s approach,
+implying its accuracy in law, though perhaps not in mathe-
+
+
+...........................................
+matics. It’s a delicate legal point.
+
+
+
+If They Had Passed It . . .
+If the Indiana State Legislature had passed Bill 246, and if the
+worst-case scenario had proved legally valid, namely that the
+value of p in law was different from its mathematical value, the
+consequences would have been distinctly interesting. Suppose
+that the legal value is p 6¼ p, but the legislation states that p ¼ p.
+Then
+       pp
+           ¼ 1 mathematically
+       pp
+
+but
+       pp
+           ¼ 0 legally
+       pp
+
+Since mathematical truths are legally valid, the law would then
+be maintaining that 1 ¼ 0. Therefore all murderers have a cast-
+iron defence: admit to one murder, then argue that legally it is
+zero murders. And that’s not the last of it. Multiply by one
+26 // Empty Glasses
+
+
+
+billion, to deduce that one billion equals zero. Now any citizen
+apprehended in possession of no drugs is in possession of drugs
+to a street value of $1 billion.
+    In fact, any statement whatsoever would become legally
+provable.
+    It seems likely that the Law would not be quite logical enough
+for this kind of argument to stand up in court. But sillier legal
+arguments, often based on abuse of statistics, have done just
+that, causing innocent people to be locked away for long periods.
+
+
+...........................................
+So Indiana’s legislators might have opened up Pandora’s box.

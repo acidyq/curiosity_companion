@@ -1,0 +1,19 @@
+River Crossing 1 – Farm Produce
+Alcuin of Northumbria, aka Flaccus Albinus Alcuinus or
+Ealhwine, was a scholar, a clergyman and a poet. He lived in the
+eighth century and rose to be a leading figure at the court of the
+emperor Charlemagne. He included this puzzle in a letter to the
+emperor, as an example of ‘subtlety in Arithmetick, for your
+enjoyment’. It still has mathematical significance, as I’ll
+eventually explain. It goes like this.
+    A farmer is taking a wolf, a goat and a basket of cabbages to
+market, and he comes to a river where there is a small boat. He
+can fit only one item of the three into the boat with him at any
+time. He can’t leave the wolf with the goat, or the goat with the
+cabbages, for reasons that should be obvious. Fortunately the
+wolf detests cabbage. How does the farmer transport all three
+items across the river?
+
+
+...........................................
+   Answer on page 256

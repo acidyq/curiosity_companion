@@ -1,0 +1,345 @@
+Chaos Theory
+If you want your friends to accept you as a ‘rocket scientist’, you
+have to be able to spout about chaos theory. You will casually
+mention the butterfly effect, and then you get to talk about
+where Pluto (no longer a planet but a mere dwarf planet) will be
+in 200 million years’ time, and how really good dishwashers
+work.
+    Chaos theory is the name given by the media to an important
+new discovery in dynamical systems theory – the mathematics of
+systems that change over time according to specific rules. The
+name refers to a surprising and rather counterintuitive type of
+behaviour known as deterministic chaos. A system is called
+deterministic if its present state completely determines its future
+behaviour; if not, the system is called stochastic or random.
+Deterministic chaos – universally shortened to ‘chaos’ – is
+apparently random behaviour in a deterministic dynamical
+system. At first sight, this seems to be a contradiction in terms,
+but the issues are quite subtle, and it turns out that some features
+of deterministic systems can behave randomly.
+    Let me explain why.
+    You may remember the bit in Douglas Adams’s The Hitch
+Hiker’s Guide to the Galaxy that parodies the concept of
+determinism. No, really, you do – remember the supercomputer
+Deep Thought? When asked for the answer to the Great Question
+of Life, the Universe and Everything, it ruminates for five million
+118 // Chaos Theory
+
+
+
+years, and finally delivers the answer as 42. The philosophers
+then realise that they didn’t actually understand the question,
+and an even greater computer is given the task of finding it.
+    Deep Thought is the literary embodiment of a ‘vast intellect’
+envisaged by one of the great French mathematicians of the
+eighteenth century, the Marquis de Laplace. He observed that
+the laws of nature, as expressed mathematically by Isaac Newton
+and his successors, are deterministic, saying that: ‘An intellect
+which at a certain moment knew all forces that set nature in
+motion, and all positions of all items of which nature is
+composed, if this intellect were also vast enough to submit these
+data to analysis, it would embrace in a single formula the
+movements of the greatest bodies of the universe and those of
+the tiniest atom; for such an intellect nothing would be
+uncertain and the future just like the past would be present
+before its eyes.’
+    In effect, Laplace was telling us that any deterministic system
+is inherently predictable – in principle, at least. In practice,
+however, we have no access to a Vast Intellect of the kind he had
+in mind, so we can’t carry out the calculations that are needed to
+predict the system’s future. Well, maybe for a short period, if
+we’re lucky. For example, modern weather forecasts are fairly
+accurate for about two days, but a ten-day forecast is often badly
+wrong. (When it isn’t, they’ve got lucky.)
+    Chaos raises another objection to Laplace’s vision: even if his
+Vast Intellect existed, it would have to know ‘all positions of all
+items’ with perfect accuracy. In a chaotic system, any uncertainty
+about the present state grows very rapidly as time passes. So we
+quickly lose track of what the system will be doing. Even if this
+initial uncertainty first shows up in the millionth decimal place
+of some measurement – with the previous 999,999 decimal
+places absolutely correct – the predicted future based on one
+value for that millionth decimal place will be utterly different
+from a prediction based on some other value.
+    In a non-chaotic system such uncertainties grow fairly
+slowly, and very long-term predictions can be made. In a chaotic
+                                              Chaos Theory // 119
+
+
+
+system, inevitable errors in measuring its state now mean that its
+state a short time ahead may be completely uncertain.
+    A (slightly artificial) example may help to clarify this effect.
+Suppose that the state of some system is represented by a real
+number – an infinite decimal – between 0 and 10. Perhaps its
+current value is 5.430 874, say. To keep the maths simple,
+suppose that time passes in discrete intervals – 1, 2, 3, and so on.
+Let’s call these intervals ‘seconds’ for definiteness. Further,
+suppose that the rule for the future behaviour is this: to find the
+‘next’ state – the state one second into the future – you take the
+current state, multiply by 10, and ignore any initial digit that
+would make the result bigger than 10. So the current value
+5.430 874 becomes 54.308 74, and you ignore the initial digit 5 to
+get the next state, 4.308 74. Then, as time ticks on, successive
+states are:
+
+       5:430 874
+       4:308 74
+       3:0874
+       0:874
+       8:74
+       7:4
+
+and so on.
+     Now suppose that the initial measurement was slightly
+inaccurate, and should have been 5.430 824 – differing in the
+fifth decimal place. In most practical circumstances, this is a very
+tiny error. Now the predicted behaviour would be:
+
+       5:430824
+       4:30824
+       3:0824
+       0:824
+       2:4
+
+See how that 2 moves one step to the left at each step – making
+the error ten times as big each time. After a mere 5 seconds, the
+120 // Chaos Theory
+
+
+
+first prediction of 7.4 has changed to 2.4 – a significant
+difference.
+     If we had started with a million-digit number, and changed
+the final digit, it would have taken a million seconds for the
+change to affect the predicted first digit. But a million seconds is
+only 1112 days. And most mathematical schemes for predicting
+the future behaviour of a system work with much smaller
+intervals of time – thousandths or millionths of seconds.
+     If the rule for moving one time-step into the future is
+different, this kind of error may not grow as quickly. For
+example, if the rule is ‘divide the number by 2’, then the effect of
+such a change dies away as we move further and further into the
+future. So what makes a system chaotic, or not, is the rule for
+forecasting its next state. Some rules exaggerate errors, some
+filter them out.
+     The first person to realise that sometimes the error can grow
+rapidly – that the system may be chaotic, despite being
+deterministic – was Henri Poincaré, in 1887. He was competing
+for a major mathematical prize. King Oscar II of Norway and
+Sweden offered 2,500 crowns to anyone who could calculate
+whether the solar system is stable. If we wait long enough, will
+the planets continue to follow roughly their present orbits, or
+could something dramatic happen – such as two of them
+colliding, or one being flung away into the depths of interstellar
+space?
+     This problem turned out to be far too difficult, but Poincaré
+managed to make progress on a simpler question – a hypothet-
+ical solar system with just three bodies. The mathematics, even
+in this simplified set-up, was still extraordinarily difficult. But
+Poincaré was up to the task, and he convinced himself that this
+‘three-body’ system sometimes behaved in an irregular, unpre-
+dictable manner. The equations were deterministic, but their
+solutions were erratic.
+     He wasn’t sure what to do about that, but he knew it must be
+true. He wrote up his work, and won the prize.
+                                            Chaos Theory // 121
+
+
+
+
+                                                    Complicated
+                                                    orbits for
+                                                    three bodies
+                                                    moving
+                                                    under
+                                                    gravity.
+
+    And that was what everyone thought until recently. But in
+1999 the historian June Barrow-Green discovered a skeleton in
+Poincaré’s closet. The published version of his prizewinning
+paper was not the one he submitted, not the one that won the
+prize. The version he submitted – which was printed in a major
+mathematical journal – claimed that no irregular behaviour
+would occur. Which is the exact opposite of the standard story.
+    Barrow-Green discovered that shortly after winning the prize,
+an embarrassed Poincaré realised he had blundered. He withdrew
+the winning memoir and paid for the entire print run of the
+journal to be destroyed. Then he put his error right, and the
+official published version is the corrected one. No one knew that
+there had been a previous version until Barrow-Green discovered
+a copy tucked away among the archives of the Mittag-Leffler
+Institute in Stockholm.
+    Anyway, Poincaré deserves full credit as the first person to
+appreciate that deterministic mathematical laws do not always
+imply predictable, regular behaviour. Another famous advance
+was made by the meteorologist Edward Lorenz in 1961. He was
+running a mathematical model of convection currents on his
+computer. The machines available in those days were very slow
+and cumbersome compared with what we have now – your
+mobile phone is a far more powerful computer than the top
+research machine of the 1960s. Lorenz had to stop his computer
+in the middle of a long calculation, so he printed out all the
+122 // Chaos Theory
+
+
+
+numbers it had found. Then he went back several steps, input the
+numbers at that point, and restarted the calculation. The reason
+for backtracking was to check that the new calculation agreed
+with the old one, to eliminate errors when he fed the old figures
+back in.
+    It didn’t.
+    At first the new numbers were the same as the old ones, but
+then they started to differ. What was wrong? Eventually Lorenz
+discovered that he hadn’t typed in any wrong numbers. The
+difference arose because the computer stored numbers to a few
+more decimal places than it printed out. So what it stored as
+2.371 45, say, was printed out as 2.371. When he typed that
+number in for the second run, the computer began calculating
+using 2.371 00, not 2.371 45. The difference grew – chaotically –
+and eventually became obvious.
+    When Lorenz published his results, he wrote: ‘One meteor-
+ologist remarked that if the theory were correct, one flap of a
+
+
+
+
+       (Left) Initial conditions for eight weather forecasts, apparently
+       identical but with tiny differences. (Right) The predicted
+       weather a week later – the initial differences have grown
+       enormously. Italian weather is more predictable than British.
+       [Courtesy of the European Medium Range Weather Forecasting
+       Centre, Reading.]
+                                                Chaos Theory // 123
+
+
+
+seagull’s wings could change the course of weather for ever.’ The
+objection was intended as a put-down, but we now know that
+this is exactly what happens. Weather forecasters routinely make
+a whole ‘ensemble’ of predictions, with slightly different initial
+conditions, and then take a majority vote on the future, so to
+speak.
+    Before you rush out with a shotgun, I must add that there are
+billions of seagulls, and we don’t get to run the weather twice.
+What we end up with is a random selection from the range of
+possible weathers that might have happened instead.
+    Lorenz quickly replaced the seagull by a butterfly, because
+that sounded better. In 1972 he gave a lecture with the title ‘Does
+the flap of a butterfly’s wings in Brazil set off a tornado in Texas?’
+The title was invented by Philip Merilees when Lorenz failed to
+provide one. Thanks to this lecture, the mathematical point
+concerned became known as the butterfly effect. It is a
+characteristic feature of chaotic systems, and it is why they are
+unpredictable, despite being deterministic. The slightest change
+to the current state of the system can grow so rapidly that it
+changes the future behaviour. Beyond some relatively small
+‘prediction horizon’, the future must remain mysterious. It may
+be predetermined, but we can’t find out what has been
+predetermined, except by waiting to see what happens. Even a
+big increase in computer speed makes little difference to this
+horizon, because the errors grow so fast.
+    For weather, the prediction horizon is about two days ahead.
+For the solar system as a whole, it is far longer. We can predict
+that in 200 million years’ time, Pluto will still be in much the
+same orbit as it is today; however, we have no idea on which side
+of the Sun it will be by then. So some features are predictable,
+others are not.
+    Although chaos is unpredictable, it is not random. This is the
+whole point. There are hidden ‘patterns’, but you have to know
+how to find them. If you plot the solutions of Lorenz’s model in
+three dimensions, they form a beautiful, complicated shape
+124 // Après-le-Ski
+
+
+
+called a strange attractor. If you plotted random data that way,
+you’d just get a fuzzy mess.
+
+
+
+
+       The Lorenz attractor, a geometric representation of Lorenz’s
+       calculations.
+
+    Chaos may seem a useless phenomenon, on the grounds that
+it prevents practical predictions. Even is this objection were
+correct, chaos would still exist. The real world is not obliged to
+behave in ways that are convenient for humans. As it happens,
+there are ways to make use of chaos. For a time, a Japanese
+company marketed a chaotic dishwasher, with two rotary arms
+spraying water on its contents. The resulting irregular spray
+cleaned the dishes better than the regular spray from a single
+rotating arm would have done.
+    And, of course, a dishwasher based on chaos theory was
+obviously very scientific and advanced. The marketing people
+
+
+...........................................
+must have loved it.
+
+
+
+Après-le-Ski
+The little-known Alpine village of Après-le-Ski is situated in a
+deep mountain valley with vertical cliffs on both sides. The cliffs
+are 600 metres high on one side and 400 metres high on the
+other. A cable car runs from the foot of each cliff to the top of the
+                                             Pick’s Theorem // 125
+
+
+
+other cliff, and the cables are perfectly straight. At what height
+above the ground do the two cables cross?
+
+
+
+
+                                     Find the height
+                                     of the crossing.
+
+
+
+...........................................
+   Answer on page 278
+
+
+
+Pick’s Theorem
+Here is a lattice polygon: a polygon whose vertices lie on the
+points of a square lattice. Assuming that the points are spaced at
+intervals of one unit, what is the area of the polygon?
+
+
+
+
+                                     A lattice polygon.
+
+   There’s a wonderfully simple way to find such areas, however
+complicated the polygon may be – by using Pick’s theorem. It was
+proved by Georg Pick in 1899. For any lattice polygon, the area A
+can be calculated from the number of boundary points B (grey)
+and interior points I (black) by the formula
+
+       A ¼ 12 B þ I  1
+
+Here B ¼ 20 and I ¼ 8, so the area is 12 620 þ 8  1 ¼ 17 square
+units.
+126 // Mathematical Prizes
+
+
+
+   What is the area of the lattice polygon in the second
+diagram?
+
+
+
+
+                                     Find the area.
+
+
+
+
+...........................................
+   Answer on page 279

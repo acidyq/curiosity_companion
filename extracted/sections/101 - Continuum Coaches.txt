@@ -1,0 +1,68 @@
+Continuum Coaches
+You won’t be surprised to hear that the Hilbert’s Hotel eventually
+ran into an accommodation problem that the manager could not
+solve. This time the hotel was completely empty – not that this
+ever seemed to make much difference. Then one of Cantor’s
+Continuum Coaches stopped at the front door.
+    Georg Cantor was the first to sort out the mathematics of
+infinite sets. And he discovered something remarkable about the
+‘continuum’ – the real number system. A real number is one that
+can be written as a decimal, which can either stop after finitely
+many digits, like 1.44, or go on for ever, like p. Here’s what
+Cantor found.
+    The seats of the Continuum Coach were numbered using real
+numbers, not positive integers.
+    ‘Well,’ the manager thought, ‘one infinity is just like any
+other, right?’ So he assigned passengers to rooms, and eventually
+the Hotel was full and the lobby was empty. The manager sighed
+with relief. ‘Everyone has a room,’ he said to himself.
+    Then a forlorn figure came in through the revolving doors.
+    ‘Good evening,’ said the manager.
+    ‘My name is Mr Diagonal. Geddit? Missed-a-diagonal. You’ve
+missed me out, mate.’
+    ‘Well, I can always bump everyone up one room—’
+    ‘No, mate, you said ‘‘Everyone has a room’’ – I heard you. But
+I don’t.’
+    ‘Nonsense! You’ve gone to your room, then nipped out the
+back and come in the front. I know your kind!’
+    ‘No, mate – I can prove I’m not in any of your rooms. Who’s
+in Room 1?’
+    ‘I can’t reveal personal information about guests.’
+    ‘What’s the first decimal place of their coach seat?’
+    ‘I suppose I can reveal that. It’s a 2.’
+    ‘My first digit is 3. So I’m not the person in Room 1, mate.
+Agreed?’
+    ‘Agreed.’
+                                      A Puzzling Dissection // 161
+
+
+
+     ‘What’s the second decimal place of the coach seat of the
+person in Room 2?’
+     ‘It’s a 7.’
+     ‘My second digit is 5. So I’m not the person in Room 2.’
+     ‘That makes sense.’
+     ‘Yeah, mate, and it goes on doing that. What’s the third
+decimal place of the coach seat of the person in Room 3?’
+     ‘It’s a 4.’
+     ‘My third digit is 8. So I’m not the person in Room 3.’
+     ‘Hmm. I think I see where this is headed.’
+     ‘Too right, mate. My nth digit is different from the nth digit
+of the person in Room n, for every n. So I’m not in Room n. Like I
+said, you left me out.’
+     ‘And like I said, I can always bump everyone up one place and
+fit you in.’
+     ‘No use, mate. There’s infinitely many more just like me out
+there, sitting in your car park waiting for a room. However you
+assign passengers to rooms, there’s going to be someone on the
+coach whose nth digit is different from the nth digit of the
+person in Room n, for every n. Hordes of them, in fact. You’ll
+always miss people out.’
+     Now, you understand that Cantor didn’t quite write his proof
+in those terms, but that was the basic idea. He proved that the
+infinite set of real numbers can’t be matched, one for one, with
+the infinite set of whole numbers. Some infinities are bigger than
+
+
+...........................................
+others.

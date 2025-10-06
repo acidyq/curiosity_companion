@@ -1,0 +1,22 @@
+Empty Glasses
+I have five glasses in a row. The first three are full and the other
+two empty. How can I arrange them so that they are alternately
+full and empty, by moving only one glass?
+
+
+
+
+                                                    Start like this
+                                                    ...
+
+
+
+                                                    ... and end up
+                                                    like this,
+                                                    moving only
+                                                    one glass.
+
+
+...........................................
+   Answer on page 258
+                                             Three Quickies // 27

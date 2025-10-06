@@ -1,0 +1,18 @@
+Coin Swap
+The first diagram shows six silver coins, A, C, E, G, I and K,
+and six gold coins, B, D, F, H, J and L. Your job is to move the
+coins into the arrangement shown in the second diagram. Each
+move must swap one silver coin with one adjacent gold coin;
+two coins are adjacent if there is a straight line joining them.
+The smallest number of moves that solves this puzzle is known
+to be 17. Can you find a 17-move solution?
+
+
+
+
+       Move the coins from the first position to the second.
+
+
+
+...........................................
+   Answer on page 273

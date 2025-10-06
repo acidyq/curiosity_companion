@@ -1,0 +1,57 @@
+Rabbits in the Hat
+The Great Whodunni, a stage magician, placed his top hat on the
+table.
+    ‘In this hat are two rabbits,’ he announced. ‘Each of them is
+either black or white, with equal probability. I am now going to
+convince you, with the aid of my lovely assistant Grumpelina,
+that I can deduce their colours without looking inside the hat!’
+                                             Rabbits in the Hat // 19
+
+
+
+   He turned to his assistant, and extracted a black rabbit from
+her costume. ‘Please place this rabbit in the hat.’ She did.
+
+
+
+
+       Pop him in the hat and deduce what’s already there.
+
+     Whodunni now turned to the audience. ‘Before Grumpelina
+added the third rabbit, there were four equally likely combina-
+tions of rabbits.’ He wrote a list on a small blackboard: BB, BW,
+WB and WW. ‘Each combination is equally likely – the
+probability is 14.
+     ‘But then I added a black rabbit. So the possibilities are BBB,
+BWB, BBW and BWW – again, each with probability 14.
+     ‘Suppose – I won’t do it, this is hypothetical – suppose I were
+to pull a rabbit from the hat. What is the probability that it is
+black? If the rabbits are BBB, that probability is 1. If BWB or BBW,
+it is 23. If BWW, it is 13. So the overall probability of pulling out a
+black rabbit is
+       1     1 2 1 2 1 1
+         61 þ 6 þ 6 þ 6
+       4     4 3 4 3 4 3
+which is exactly 23.
+    ‘But – if there are three rabbits in a hat, of which exactly r are
+black and the rest white, the probability of extracting a black
+rabbit is r=3. Therefore r ¼ 2, so there are two black rabbits in the
+hat.’ He reached into the hat and pulled out a black rabbit. ‘Since
+I added this black rabbit, the original pair must have been one
+black and one white!’
+    The Great Whodunni bowed, to tumultuous applause. Then
+20 // River Crossing 1 – Farm Produce
+
+
+
+he pulled two rabbits from the hat – one pale lilac and the other
+shocking pink.
+    It seems evident that you can’t deduce the contents of a hat
+without finding out what’s inside. Adding the extra rabbit and
+then removing it again (was it the same black rabbit? Do we
+care?) is a clever piece of misdirection. But why is the calculation
+wrong?
+
+
+...........................................
+   Answer on page 255

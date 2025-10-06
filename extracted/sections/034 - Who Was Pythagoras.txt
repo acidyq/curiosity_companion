@@ -1,0 +1,48 @@
+Who Was Pythagoras?
+We recognise the name ‘Pythagoras’ because it is attached to a
+theorem, one that most of us have grappled with at school. ‘The
+square on the hypotenuse of a right-angled triangle is equal to
+the sum of the squares on the other two sides.’ That is, if you take
+any right-angled triangle, then the square of the longest side is
+equal to the sum of the squares of the other two sides. Well
+known as his theorem may be, the actual person has proved
+rather elusive, although we know more about him as a historical
+figure than we do for, say, Euclid. What we don’t know is whether
+he proved his eponymous theorem, and there are good reasons
+to suppose that, even if he did, he wasn’t the first to do so.
+    But more of that story later.
+    Pythagoras was Greek, born around 569 BC on the island of
+Samos in the north-eastern Aegean. (The exact date is disputed,
+but this one is wrong by at most 20 years.) His father,
+                                        Proofs of Pythagoras // 47
+
+
+
+Mnesarchus, was a merchant from Tyre; his mother, Pythais, was
+from Samos. They may have met when Mnesarchus brought corn
+to Samos during a famine, and was publicly thanked by being
+made a citizen.
+    Pythagoras studied philosophy under Pherekydes. He prob-
+ably visited another philosopher, Thales of Miletus. He attended
+lectures given by Anaximander, a pupil of Thales, and absorbed
+many of his ideas on cosmology and geometry. He visited Egypt,
+was captured by Cambyses II, the King of Persia, and taken to
+Babylon as a prisoner. There he learned Babylonian mathematics
+and musical theory. Later he founded the school of Pythagoreans
+in the Italian city of Croton (now Crotone), and it is for this that
+he is best remembered. The Pythagoreans were a mystical cult.
+They believed that the universe is mathematical, and that
+various symbols and numbers have a deep spiritual meaning.
+    Various ancient writers attributed various mathematical
+theorems to the Pythagoreans, and by extension to Pythagoras –
+notably his famous theorem about right-angled triangles. But we
+have no idea what mathematics Pythagoras himself originated.
+We don’t know whether the Pythagoreans could prove the
+theorem, or just believed it to be true. And there is evidence from
+the inscribed clay tablet known as Plimpton 322 that the ancient
+Babylonians may have understood the theorem 1200 years
+earlier – though they probably didn’t possess a proof, because
+
+
+...........................................
+Babylonians didn’t go much for proofs anyway.

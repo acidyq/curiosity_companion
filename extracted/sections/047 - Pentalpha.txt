@@ -1,0 +1,30 @@
+Pentalpha
+This ancient geometrical puzzle is easy if you look at it the right
+way, and baffling if you don’t.
+
+
+
+
+                                        Follow the rules to
+                                        place nine counters.
+
+
+     You have nine counters, to be placed on the circles in a five-
+pointed star. Here I’ve numbered the circles to help explain the
+solution. In the real game, there aren’t any numbers. Successive
+counters must be positioned by placing them in an empty circle,
+jumping over an adjacent circle (which may be empty or full) to
+land on an empty circle adjacent to the one jumped over, so that
+all three circles involved in the move are on the same straight
+line. For instance, if circles 7 and 8 are empty, you can place a
+counter on 7 and jump over 1 to land on 8. Here 1 can be empty
+or full – it doesn’t matter. But you are not allowed to jump 7 over
+1 to land on 4 or 5 because now the three circles involved are not
+in a straight line.
+     If you try placing counters at random, you usually run out of
+suitable pairs of empty circles before finishing the puzzle.
+
+
+...........................................
+   Answer on page 270
+70 // Wallpaper Patterns

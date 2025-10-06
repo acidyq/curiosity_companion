@@ -1,0 +1,18 @@
+White-Tailed Cats
+‘I see you’ve got a cat,’ said Ms Jones to Ms Smith. ‘I do like its
+cute white tail! How many cats do you have?’
+     ‘Not a lot,’ said Ms Smith. ‘Ms Brown next door has twenty,
+which is a lot more than I’ve got.’
+     ‘You still haven’t told me how many cats you have!’
+     ‘Well . . . let me put it like this. If you chose two distinct cats
+of mine at random, the probability that both of them have white
+tails is exactly one-half.’
+     ‘That doesn’t tell me how many you’ve got!’
+     ‘Oh yes it does.’
+     How many cats does Ms Smith have – and how many have
+white tails?
+
+
+...........................................
+    Answer on page 259
+32 // To Find Fake Coin

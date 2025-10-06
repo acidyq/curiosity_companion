@@ -1,0 +1,17 @@
+Numerical Spell
+Lee Sallows also applied new merology to magic, inventing the
+following trick. Select any number on the board shown below.
+Spell it out, letter by letter. Add together the corresponding
+numbers (subtracting those on black squares, adding those on
+white squares). The result will always be plus or minus the
+number you chose. For instance, TWENTY-TWO leads to
+       20  25  4  2 þ 20 þ 11 þ 20  25 þ 7 ¼ 22
+
+
+
+
+                                    Board for Lee Sallows’s
+                                    magic trick.
+
+...........................................
+                                           Expanding Universe // 95
