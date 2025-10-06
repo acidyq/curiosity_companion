@@ -57,6 +57,7 @@ interface ProgressState {
   checkAndUpdateStreak: () => void
   unlockAchievement: (achievementId: string) => void
   addXP: (amount: number) => void
+  checkAchievements: () => void
 
   // Getters
   getLevel: () => number

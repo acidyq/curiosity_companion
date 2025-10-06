@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 import { ModuleDefinition } from '../types'
 import { Button } from '@/components/ui/Button'
 import { FeedbackPanel } from '@/components/ui/FeedbackPanel'
@@ -90,8 +90,8 @@ const TapAnAnimalInteractive = () => {
         feedback: {
           summary: `Amazing! The trick worked perfectly! You landed on ${animal.emoji} ${animal.name}!`,
           details: [
-            `${animal.name} has ${animal.length} letters`,
-            `Starting from Rhinoceros (position 0) and tapping ${animal.length} times brings you to position ${finalPosition}`,
+            `${animal.name} has ${animal.name.length} letters`,
+            `Starting from Rhinoceros (position 0) and tapping ${animal.name.length} times brings you to position ${finalPosition}`,
             'The trick works because each animal\'s position matches the number of letters in its name (modulo 10)',
             'This is an example of modular arithmetic - a fundamental concept in number theory!'
           ],
