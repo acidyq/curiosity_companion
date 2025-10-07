@@ -29,7 +29,7 @@ export const ReadingPane = ({ title, content }: ReadingPaneProps) => {
       <CardHeader>
         <h2 className="text-2xl font-bold">📖 Read</h2>
         <p className="text-xs text-slate-400 mt-1">
-          Hover over <span className="text-orange-500 font-medium border-b border-dotted border-orange-500/60">orange terms</span> for definitions
+          Click the <span className="text-cabinet-blue">❔</span> icon next to terms for definitions
         </p>
       </CardHeader>
       <CardContent>

@@ -1,6 +1,7 @@
 import { motion, AnimatePresence } from 'framer-motion'
 import { useProgressStore, Achievement } from '@/store/progressStore'
-import { X } from 'lucide-react'
+import { X, RotateCcw } from 'lucide-react'
+import { useState } from 'react'
 
 interface ProfileModalProps {
   isOpen: boolean
@@ -8,7 +9,14 @@ interface ProfileModalProps {
 }
 
 export const ProfileModal = ({ isOpen, onClose }: ProfileModalProps) => {
-  const { stats, streak, achievements, unlockedAchievements, moduleProgress } = useProgressStore()
+  const { stats, streak, achievements, unlockedAchievements, moduleProgress, resetProgress } = useProgressStore()
+  const [showResetConfirm, setShowResetConfirm] = useState(false)
+
+  const handleReset = () => {
+    resetProgress()
+    setShowResetConfirm(false)
+    onClose()
+  }
 
   const getRarityColor = (rarity: Achievement['rarity']) => {
     switch (rarity) {
@@ -51,12 +59,21 @@ export const ProfileModal = ({ isOpen, onClose }: ProfileModalProps) => {
             <div className="h-full flex flex-col">
               {/* Header */}
               <div className="relative p-8 bg-gradient-to-br from-cabinet-blue/20 to-cabinet-purple/20 border-b border-white/10">
-                <button
-                  onClick={onClose}
-                  className="absolute top-4 right-4 p-2 rounded-lg hover:bg-white/10 transition-colors"
-                >
-                  <X size={24} />
-                </button>
+                <div className="absolute top-4 right-4 flex items-center gap-2">
+                  <button
+                    onClick={() => setShowResetConfirm(true)}
+                    className="p-2 rounded-lg hover:bg-red-500/20 text-red-400 hover:text-red-300 transition-colors"
+                    title="Reset Progress"
+                  >
+                    <RotateCcw size={20} />
+                  </button>
+                  <button
+                    onClick={onClose}
+                    className="p-2 rounded-lg hover:bg-white/10 transition-colors"
+                  >
+                    <X size={24} />
+                  </button>
+                </div>
 
                 <div className="flex items-center gap-6">
                   <div className="w-24 h-24 rounded-full bg-gradient-to-br from-cabinet-blue to-cabinet-purple flex items-center justify-center text-4xl font-bold">
@@ -195,6 +212,51 @@ export const ProfileModal = ({ isOpen, onClose }: ProfileModalProps) => {
               </div>
             </div>
           </motion.div>
+
+          {/* Reset Confirmation Dialog */}
+          <AnimatePresence>
+            {showResetConfirm && (
+              <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                exit={{ opacity: 0, scale: 0.9 }}
+                className="fixed inset-0 z-[60] flex items-center justify-center p-4"
+              >
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  exit={{ opacity: 0 }}
+                  className="absolute inset-0 bg-black/80 backdrop-blur-sm"
+                  onClick={() => setShowResetConfirm(false)}
+                />
+
+                <div className="relative bg-slate-900 border border-red-500/30 rounded-xl p-6 max-w-md w-full shadow-2xl">
+                  <div className="text-center mb-6">
+                    <div className="text-5xl mb-4">⚠️</div>
+                    <h3 className="text-2xl font-bold mb-2">Reset All Progress?</h3>
+                    <p className="text-slate-300">
+                      This will permanently delete all your XP, achievements, streaks, and module progress. This action cannot be undone.
+                    </p>
+                  </div>
+
+                  <div className="flex gap-3">
+                    <button
+                      onClick={() => setShowResetConfirm(false)}
+                      className="flex-1 px-4 py-3 rounded-lg bg-slate-700 hover:bg-slate-600 transition-colors font-semibold"
+                    >
+                      Cancel
+                    </button>
+                    <button
+                      onClick={handleReset}
+                      className="flex-1 px-4 py-3 rounded-lg bg-red-600 hover:bg-red-700 transition-colors font-semibold"
+                    >
+                      Reset Everything
+                    </button>
+                  </div>
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
         </>
       )}
     </AnimatePresence>

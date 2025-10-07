@@ -1,6 +1,8 @@
-import { ReactNode } from 'react'
-import { Tooltip } from './Tooltip'
+import { ReactNode, useState, useRef, useEffect } from 'react'
+import { HelpCircle } from 'lucide-react'
 import { getGlossaryEntry } from '@/utils/glossary'
+import { GlossaryTooltip } from './GlossaryTooltip'
+import { createRoot } from 'react-dom/client'
 
 interface GlossaryTermProps {
   term: string
@@ -10,38 +12,58 @@ interface GlossaryTermProps {
 
 export const GlossaryTerm = ({ term, children, className = '' }: GlossaryTermProps) => {
   const entry = getGlossaryEntry(term)
+  const iconRef = useRef<HTMLSpanElement>(null)
+  const [tooltipRoot, setTooltipRoot] = useState<any>(null)
+
+  useEffect(() => {
+    if (entry && iconRef.current && !tooltipRoot) {
+      const container = document.createElement('div')
+      container.className = 'glossary-tooltip-portal'
+      document.body.appendChild(container)
+
+      const root = createRoot(container)
+      root.render(
+        <GlossaryTooltip
+          entry={entry}
+          targetElement={iconRef.current}
+          onRelatedTermClick={(relatedTerm) => {
+            // Navigate to related term - you could scroll to it or open its tooltip
+            const relatedElements = document.querySelectorAll(`[data-term="${relatedTerm.toLowerCase()}"]`)
+            if (relatedElements.length > 0) {
+              relatedElements[0].scrollIntoView({ behavior: 'smooth', block: 'center' })
+            }
+          }}
+        />
+      )
+
+      setTooltipRoot({ root, container })
+    }
+
+    return () => {
+      if (tooltipRoot) {
+        tooltipRoot.root.unmount()
+        tooltipRoot.container.remove()
+      }
+    }
+  }, [entry])
 
   if (!entry) {
     // If term not found in glossary, render as plain text
     return <span className={className}>{children || term}</span>
   }
 
-  const tooltipContent = (
-    <div className="space-y-1">
-      <div className="font-semibold text-cabinet-blue">{entry.term}</div>
-      <div className="text-slate-200 leading-relaxed">{entry.definition}</div>
-      {entry.relatedTerms && entry.relatedTerms.length > 0 && (
-        <div className="text-xs text-slate-400 pt-1 border-t border-white/10">
-          Related: {entry.relatedTerms.join(', ')}
-        </div>
-      )}
-    </div>
-  )
-
   return (
-    <Tooltip content={tooltipContent} delay={150}>
+    <span className={`inline-flex items-baseline gap-0.5 ${className}`}>
+      <span>{children || term}</span>
       <span
-        className={`
-          inline-block cursor-help
-          border-b-2 border-dotted border-cabinet-blue/50
-          hover:border-cabinet-blue hover:text-cabinet-blue
-          transition-all duration-200
-          ${className}
-        `}
+        ref={iconRef}
+        data-term={term.toLowerCase()}
+        className="inline-flex items-center cursor-pointer group align-baseline"
+        aria-label={`Learn more about ${term}`}
       >
-        {children || term}
+        <HelpCircle className="w-3 h-3 text-cabinet-blue/60 hover:text-cabinet-blue transition-colors" />
       </span>
-    </Tooltip>
+    </span>
   )
 }
 
@@ -74,6 +96,10 @@ export const wrapGlossaryTerms = (html: string): string => {
     'prime',
     'factorial',
     'combinatorics',
+    'palindrome',
+    'cyclic number',
+    'repunit',
+    'number pattern',
     // Logic & CS
     'logical deduction',
     'Boolean logic',
@@ -99,9 +125,9 @@ export const wrapGlossaryTerms = (html: string): string => {
     // Create a regex that matches the term as a whole word
     const regex = new RegExp(`\\b(${term})\\b`, 'gi')
 
-    // Replace with glossary term component marker
+    // Replace with glossary term component marker with question mark icon
     result = result.replace(regex, (match) => {
-      return `<span class="glossary-term" data-term="${term.toLowerCase()}">${match}</span>`
+      return `${match}<span class="glossary-term inline-block cursor-pointer" data-term="${term.toLowerCase()}" aria-label="Learn more about ${match}" style="vertical-align: baseline; margin-left: 2px;"><svg style="display: inline-block; vertical-align: baseline;" class="w-3 h-3 text-cabinet-blue/60 hover:text-cabinet-blue transition-colors" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path><path d="M12 17h.01"></path></svg></span>`
     })
   }
 

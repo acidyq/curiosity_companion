@@ -58,6 +58,7 @@ interface ProgressState {
   unlockAchievement: (achievementId: string) => void
   addXP: (amount: number) => void
   checkAchievements: () => void
+  resetProgress: () => void
 
   // Getters
   getLevel: () => number
@@ -433,6 +434,28 @@ export const useProgressStore = create<ProgressState>()(
         if (state.stats.level >= 10 && !state.unlockedAchievements.includes('level-10')) {
           get().unlockAchievement('level-10')
         }
+      },
+
+      resetProgress: () => {
+        set({
+          stats: {
+            totalXP: 0,
+            level: 0,
+            modulesCompleted: 0,
+            perfectScores: 0,
+            totalTimeSpent: 0,
+            achievementsUnlocked: 0
+          },
+          streak: {
+            currentStreak: 0,
+            longestStreak: 0,
+            lastVisit: new Date(),
+            totalDaysActive: 0
+          },
+          moduleProgress: {},
+          achievements: defaultAchievements,
+          unlockedAchievements: []
+        })
       }
     }),
     {

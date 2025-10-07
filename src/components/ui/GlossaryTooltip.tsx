@@ -1,69 +1,27 @@
 import { useEffect, useRef, useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { GlossaryEntry } from '@/utils/glossary'
+import { GlossaryEntry, getGlossaryEntry } from '@/utils/glossary'
+import { X, ExternalLink } from 'lucide-react'
 
 interface GlossaryTooltipProps {
   entry: GlossaryEntry
   targetElement: HTMLElement
+  onRelatedTermClick?: (term: string) => void
 }
 
-export const GlossaryTooltip = ({ entry, targetElement }: GlossaryTooltipProps) => {
+export const GlossaryTooltip = ({ entry, targetElement, onRelatedTermClick }: GlossaryTooltipProps) => {
   const [isVisible, setIsVisible] = useState(false)
-  const [position, setPosition] = useState({ top: 0, left: 0 })
-  const [placement, setPlacement] = useState<'top' | 'bottom'>('top')
   const tooltipRef = useRef<HTMLDivElement>(null)
 
   useEffect(() => {
-    const handleMouseEnter = () => {
-      setIsVisible(true)
-      updatePosition()
+    const handleClick = () => {
+      setIsVisible(prev => !prev)
     }
 
-    const handleMouseLeave = () => {
-      setIsVisible(false)
-    }
-
-    const updatePosition = () => {
-      const rect = targetElement.getBoundingClientRect()
-      const tooltipHeight = 200 // Estimated max height
-      const viewportHeight = window.innerHeight
-      const spaceAbove = rect.top
-      const spaceBelow = viewportHeight - rect.bottom
-
-      // Determine if tooltip should be above or below
-      const shouldPlaceBelow = spaceAbove < tooltipHeight && spaceBelow > spaceAbove
-
-      setPlacement(shouldPlaceBelow ? 'bottom' : 'top')
-
-      // Calculate horizontal position (centered, but constrained to viewport)
-      const tooltipWidth = 400 // max-w-md in pixels
-      let left = rect.left + rect.width / 2 - tooltipWidth / 2
-
-      // Prevent overflow on left
-      if (left < 16) left = 16
-
-      // Prevent overflow on right
-      if (left + tooltipWidth > window.innerWidth - 16) {
-        left = window.innerWidth - tooltipWidth - 16
-      }
-
-      const top = shouldPlaceBelow
-        ? rect.bottom + 12
-        : rect.top - 12
-
-      setPosition({ top, left })
-    }
-
-    targetElement.addEventListener('mouseenter', handleMouseEnter)
-    targetElement.addEventListener('mouseleave', handleMouseLeave)
-    window.addEventListener('scroll', updatePosition, true)
-    window.addEventListener('resize', updatePosition)
+    targetElement.addEventListener('click', handleClick)
 
     return () => {
-      targetElement.removeEventListener('mouseenter', handleMouseEnter)
-      targetElement.removeEventListener('mouseleave', handleMouseLeave)
-      window.removeEventListener('scroll', updatePosition, true)
-      window.removeEventListener('resize', updatePosition)
+      targetElement.removeEventListener('click', handleClick)
     }
   }, [targetElement])
 
@@ -97,25 +55,36 @@ export const GlossaryTooltip = ({ entry, targetElement }: GlossaryTooltipProps) 
     }
   }
 
+  const handleRelatedClick = (term: string) => {
+    const relatedEntry = getGlossaryEntry(term)
+    if (relatedEntry && onRelatedTermClick) {
+      onRelatedTermClick(term)
+    }
+  }
+
   return (
     <AnimatePresence>
       {isVisible && (
-        <motion.div
-          ref={tooltipRef}
-          initial={{ opacity: 0, scale: 0.92, y: placement === 'top' ? 8 : -8 }}
-          animate={{ opacity: 1, scale: 1, y: 0 }}
-          exit={{ opacity: 0, scale: 0.92, y: placement === 'top' ? 8 : -8 }}
-          transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
-          style={{
-            position: 'fixed',
-            top: placement === 'top' ? position.top : 'auto',
-            bottom: placement === 'bottom' ? `calc(100vh - ${position.top}px)` : 'auto',
-            left: position.left,
-            zIndex: 9999,
-            pointerEvents: 'none',
-          }}
-          className="w-full max-w-md"
-        >
+        <>
+          {/* Backdrop overlay */}
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.2 }}
+            className="fixed inset-0 bg-black/50 backdrop-blur-sm z-[9998]"
+            onClick={() => setIsVisible(false)}
+          />
+
+          {/* Centered tooltip */}
+          <motion.div
+            ref={tooltipRef}
+            initial={{ opacity: 0, scale: 0.9 }}
+            animate={{ opacity: 1, scale: 1 }}
+            exit={{ opacity: 0, scale: 0.9 }}
+            transition={{ duration: 0.2, ease: [0.16, 1, 0.3, 1] }}
+            className="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-[9999] w-full max-w-md px-4"
+          >
           <div className="relative">
             {/* Glossy card with gradient border */}
             <div className="relative bg-gradient-to-br from-slate-800 to-slate-900 rounded-2xl shadow-2xl border border-white/10 overflow-hidden">
@@ -123,7 +92,7 @@ export const GlossaryTooltip = ({ entry, targetElement }: GlossaryTooltipProps) 
               <div className={`h-1 w-full bg-gradient-to-r ${getCategoryColor()}`} />
 
               <div className="p-5">
-                {/* Header with icon and term */}
+                {/* Header with icon, term, and close button */}
                 <div className="flex items-start gap-3 mb-3">
                   <div className="text-3xl flex-shrink-0 mt-0.5">
                     {getCategoryIcon()}
@@ -138,6 +107,13 @@ export const GlossaryTooltip = ({ entry, targetElement }: GlossaryTooltipProps) 
                       </div>
                     )}
                   </div>
+                  <button
+                    onClick={() => setIsVisible(false)}
+                    className="flex-shrink-0 p-1 hover:bg-white/10 rounded-lg transition-colors"
+                    aria-label="Close tooltip"
+                  >
+                    <X className="w-4 h-4 text-slate-400 hover:text-white" />
+                  </button>
                 </div>
 
                 {/* Definition */}
@@ -150,13 +126,43 @@ export const GlossaryTooltip = ({ entry, targetElement }: GlossaryTooltipProps) 
                   <div className="pt-3 border-t border-white/10">
                     <div className="flex items-center gap-2 flex-wrap">
                       <span className="text-xs font-semibold text-slate-400">Related:</span>
-                      {entry.relatedTerms.map((term, idx) => (
-                        <span
+                      {entry.relatedTerms.map((term, idx) => {
+                        const hasEntry = getGlossaryEntry(term)
+                        return (
+                          <button
+                            key={idx}
+                            onClick={() => handleRelatedClick(term)}
+                            disabled={!hasEntry}
+                            className={`inline-flex items-center px-2 py-1 rounded-md bg-white/5 text-xs font-medium border border-white/10 transition-all ${
+                              hasEntry
+                                ? 'text-cabinet-blue hover:bg-cabinet-blue/20 hover:border-cabinet-blue/50 cursor-pointer'
+                                : 'text-slate-500 cursor-not-allowed'
+                            }`}
+                          >
+                            {term}
+                          </button>
+                        )
+                      })}
+                    </div>
+                  </div>
+                )}
+
+                {/* External links */}
+                {entry.relatedLinks && entry.relatedLinks.length > 0 && (
+                  <div className="pt-3 border-t border-white/10">
+                    <div className="space-y-2">
+                      <span className="text-xs font-semibold text-slate-400">Learn More:</span>
+                      {entry.relatedLinks.map((link, idx) => (
+                        <a
                           key={idx}
-                          className="inline-flex items-center px-2 py-1 rounded-md bg-white/5 text-xs font-medium text-cabinet-blue border border-white/10"
+                          href={link.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="flex items-center gap-2 px-2 py-1.5 rounded-md bg-white/5 text-xs font-medium text-blue-400 hover:bg-blue-500/20 hover:text-blue-300 border border-white/10 hover:border-blue-500/50 transition-all group"
                         >
-                          {term}
-                        </span>
+                          <ExternalLink className="w-3 h-3 flex-shrink-0" />
+                          <span className="flex-1 text-left">{link.title}</span>
+                        </a>
                       ))}
                     </div>
                   </div>
@@ -168,23 +174,9 @@ export const GlossaryTooltip = ({ entry, targetElement }: GlossaryTooltipProps) 
                 className={`absolute inset-0 bg-gradient-to-br ${getCategoryColor()} opacity-5 pointer-events-none`}
               />
             </div>
-
-            {/* Arrow indicator */}
-            <div
-              className={`absolute left-1/2 -translate-x-1/2 ${
-                placement === 'top' ? '-bottom-2' : '-top-2'
-              }`}
-            >
-              <div
-                className={`w-4 h-4 bg-slate-800 border-white/10 ${
-                  placement === 'top'
-                    ? 'border-b border-r'
-                    : 'border-t border-l'
-                } transform rotate-45`}
-              />
-            </div>
           </div>
-        </motion.div>
+          </motion.div>
+        </>
       )}
     </AnimatePresence>
   )
@@ -225,6 +217,17 @@ export const attachEnhancedTooltips = (
           React.createElement(GlossaryTooltip, {
             entry,
             targetElement: span as HTMLElement,
+            onRelatedTermClick: (relatedTerm: string) => {
+              // Navigate to related term by scrolling to it
+              const relatedElements = containerElement.querySelectorAll(`[data-term="${relatedTerm.toLowerCase()}"]`)
+              if (relatedElements.length > 0) {
+                relatedElements[0].scrollIntoView({ behavior: 'smooth', block: 'center' })
+                // Trigger click to open the related term's tooltip
+                setTimeout(() => {
+                  (relatedElements[0] as HTMLElement).click()
+                }, 500)
+              }
+            },
           })
         )
 
